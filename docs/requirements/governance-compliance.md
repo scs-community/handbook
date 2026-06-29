@@ -1,9 +1,9 @@
 ---
-title: Governance & Compliance
+title: Requirement & Governance Sources
 sidebar_position: 2
 ---
 
-Compliance and governance references explain why readers may need supply-chain-security guidance. They may define control expectations, shape audit evidence, influence procurement language, or create a need for practical interpretation. They usually do not provide the complete technical evidence mechanism.
+Requirement and governance sources explain why readers may need supply-chain-security guidance. They may define control expectations, shape audit evidence, influence procurement language, or create a need for practical interpretation. They usually do not provide the complete technical evidence mechanism.
 
 ## Mapping Summary
 
@@ -99,6 +99,6 @@ Compliance and governance references explain why readers may need supply-chain-s
 
 ## Related Pages
 
-- [Evidence](../evidence-assurance/index.md)
-- [10 Best Practices](../guidance/10-best-practices.md)
+- [Evidence](../evidence/index.md)
+- [10 Best Practices](../practices-controls/10-best-practices.md)
 - [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)

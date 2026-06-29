@@ -1,26 +1,25 @@
 ---
-title: Standards & Technologies
+title: Technology Options
 sidebar_position: 1
 ---
 
-Standards and technologies are included because they may help produce, protect, exchange, verify, or retain evidence. Their presence in this handbook does not mean they are mandatory for every product, sector, or assurance scenario.
+Technology options are mechanisms, protocols, formats, trust anchors, verifier workflows, tooling, and implementation patterns that may help produce, protect, exchange, verify, or retain evidence. Their presence in this handbook does not mean they are mandatory for every product, sector, or assurance scenario.
 
-This section does not organize the site around standards bodies. It starts from supply-chain-security decisions, evidence needs, lifecycle stages, and verification questions.
+This section does not organize the site around standards bodies. It starts from supply-chain-security decisions, evidence needs, lifecycle stages, and verification questions. Requirement and governance sources belong with [Requirements & Risks](../requirements/governance-compliance.md); assurance and evidence models belong with [Evidence](../evidence/evidence-models.md).
 
-## Standards Roles
+## Technology Option Roles
 
 | Type | Role in the handbook | Examples |
 |---|---|---|
-| Compliance and governance references | Explain why visitors may need guidance | NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
-| Assurance and evidence models | Explain what artifacts, claims, or assurance models may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
-| Technology and implementation standards | Explain how evidence or trust can be implemented | TCG, GlobalPlatform, SPDM, TPM, DICE, TEE, Secure Element |
+| Transparency artifacts | Provide product, software, firmware, component, dependency, or vulnerability transparency | SBOM/xBOM, SPDX, CycloneDX, VEX-like records |
+| Attestation and measurement | Provide current-state, expected-state, or verifier-appraisal evidence | Measured boot, RIMs, TPM, DICE, SPDM, IETF RATS/EAT, CoRIM/CoMID |
+| Trust anchors | Provide identities, keys, credentials, roots of trust, or secure execution context | TCG, GlobalPlatform, TPM, DICE, TEE, Secure Element, OCP SAFE/Caliptra |
+| Protocols and exchange | Move evidence between producers, verifiers, relying parties, repositories, and audit workflows | SPDM, RATS evidence exchange, SBOM distribution, evidence repositories |
 
 ## Section Routes
 
 | Page | Use it to understand... |
 |---|---|
-| [Governance & Compliance](./governance-compliance.md) | Obligations and governance expectations, including NIST, ISO, ENISA, NCSC, CISA, and sector references |
-| [Evidence Models](./evidence-models.md) | Claims, measurements, attestations, certificates, manifests, and evidence packages, including IETF RATS/EAT and CoRIM/CoMID |
 | [Transparency Artifacts](./transparency-artifacts.md) | SBOM, xBOM, vulnerability, and component transparency formats, including SPDX and CycloneDX |
 | [Attestation & Measurement](./attestation-measurement.md) | Current-state evidence, reference measurements, and verifier workflows, including measured boot, RIMs, SPDM, and RATS/EAT |
 | [Trust Anchors](./trust-anchors.md) | Hardware-rooted identity, credentials, keys, and secure environments, including TCG, GlobalPlatform, TPM, DICE, TEE, Secure Element, and OCP SAFE/Caliptra |
@@ -32,13 +31,13 @@ This section does not organize the site around standards bodies. It starts from 
 |---|---|
 | Direct | The standard or specification directly defines a mechanism, artifact, or assurance model for this issue |
 | Supporting | It helps implement, exchange, protect, or verify relevant evidence |
-| Contextual | It explains the need, risk, or governance expectation |
+| Contextual | It explains the requirement, risk, or governance expectation |
 | Adjacent | It may be relevant in some sectors or architectures, but is not central |
 | Gap | The area may need future profiling, interpretation, or implementation guidance |
 
 ## Entry Pattern
 
-For each standard, framework, or technology, explain:
+For each technology option, standard, framework, or mechanism in this section, explain:
 
 - Role: what problem it helps with.
 - Lifecycle fit: where it applies.
@@ -56,7 +55,7 @@ For each standard, framework, or technology, explain:
 
 ### Questions to ask internally
 
-- Are we using this as a need source, evidence model, artifact format, trust anchor, protocol, or implementation option?
+- Are we using this as an artifact format, trust anchor, protocol, verifier workflow, tooling pattern, or implementation option?
 - What mapping confidence applies: direct, supporting, contextual, adjacent, or gap?
 - What additional evidence or interpretation is needed before relying on the mapping?
 

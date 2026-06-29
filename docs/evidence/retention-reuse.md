@@ -40,6 +40,10 @@ Evidence may be re-verified during renewal, audit, update, repair, transfer, inc
 
 Retained evidence is stronger when it preserves origin, integrity, context, product binding, lifecycle stage, freshness, supersession status, and verification instructions.
 
+## Retention
+
+Retention is the subject of this page: evidence should remain available, interpretable, access-controlled, and tied to the decision it supports for as long as later lifecycle, audit, vulnerability, transfer, or decommissioning decisions may rely on it.
+
 ## Practical Questions
 
 ### Questions to ask suppliers
@@ -66,7 +70,7 @@ Retained evidence is stronger when it preserves origin, integrity, context, prod
 - How are signatures, hashes, timestamps, issuers, trust anchors, and access controls protected?
 - How will recipients retrieve, verify, refresh, and correlate the evidence across lifecycle events?
 
-## Standards And Technology Support
+## Technology Options Support
 
 Relevant mappings may include signed artifacts, evidence repositories, CoRIM/CoMID, RATS/EAT, asset management systems, audit evidence stores, certificate lifecycle mechanisms, and policy frameworks.
 
@@ -76,6 +80,6 @@ Retention does not make weak evidence strong. It preserves evidence usefulness o
 
 ## Related Pages
 
-- [Lifecycle Map](../guidance/lifecycle-map.md)
+- [Lifecycle Map](../practices-controls/lifecycle-map.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Lifecycle State & Audit](./lifecycle-state-audit.md)

@@ -9,10 +9,10 @@ Prefer:
 - practices supported by evidence;
 - evidence that can be produced, verified, retained, and reused;
 - supplier assertions strengthened by verifiable artifacts;
-- technology mappings, not technology mandates;
+- technology options, not technology mandates;
 - lifecycle assurance, not one-time acceptance;
 - neutral practices first, implementation options second;
-- lead with the reader's obligation or decision, then translate it into risks, practices, evidence, verification, and implementation options.
+- lead with the reader's requirement, risk, or decision, then translate it into controls, evidence, verification, and technology options.
 
 Avoid:
 
@@ -27,23 +27,24 @@ Avoid:
 
 ## Page Model
 
-Each substantive page should start from the reader's obligation, decision, or supply-chain-security problem, not from a standards body or technology.
+Each substantive page should start from the reader's requirement, risk, decision, or supply-chain-security problem, not from a standards body or technology.
 
 Recommended structure:
 
-1. What obligation or decision brings the reader here?
+1. What requirement, risk, or decision brings the reader here?
 2. What can go wrong?
 3. What stronger practice looks like.
 4. What to ask for.
 5. What evidence matters.
-6. What weak / better / stronger answers look like.
-7. How this maps to lifecycle stages.
-8. Relevant standards and technologies.
-9. Related tools and templates.
+6. What a weak answer looks like.
+7. What a stronger answer looks like.
+8. How this maps to lifecycle stages.
+9. Relevant technology options.
+10. Related resources.
 
 ## Evidence Language
 
-Use evidence broadly: artifact, record, claim, measurement, certificate, attestation, manifest, log, or report.
+Use evidence broadly: artifact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material.
 
 Distinguish:
 
@@ -90,10 +91,10 @@ This style guide governs editorial voice and content structure. The brand guide 
 Each page should pass these tests:
 
 - Can a non-standards specialist understand the practical reason for the page?
-- Does the page start from a real obligation, decision, or risk?
+- Does the page start from a real requirement, decision, or risk?
 - Does it explain what good practice looks like?
 - Does it say what evidence would support the practice?
 - Does it distinguish assertions from verifiable artifacts?
-- Does it map to standards and technologies only where useful?
+- Does it map to technology options, evidence models, or standards only where useful?
 - Does it give the reader practical questions or next actions?
 - Does it link naturally to deeper pages?

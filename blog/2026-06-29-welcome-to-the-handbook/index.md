@@ -16,10 +16,11 @@ This handbook is designed to bridge the gap between requirements and evidence-ba
 
 ### What You'll Find Here
 
-- **[Risks & Practices](/guidance/)**: Risks, practices, lifecycle maps, and the **[10 Best Practices for Supply-Chain Security](/guidance/10-best-practices/)**.
+- **[Requirements & Risks](/requirements/)**: Starting points for requirements, governance expectations, customer requests, procurement needs, audit, product acceptance, and risk decisions.
+- **[Practices & Controls](/practices-controls/)**: Attack and failure modes, lifecycle maps, controls, and the **[10 Best Practices for Supply-Chain Security](/practices-controls/10-best-practices/)**.
 - **[Use Cases](/use-cases/)**: Decision-oriented pages for procurement, supplier assurance, product acceptance, and future assurance scenarios.
-- **[Evidence](/evidence-assurance/)**: Evidence types, maturity levels, verification questions, and lifecycle retention concepts.
-- **[Standards & Technologies](/standards-technologies/)**: Neutral mappings that explain where standards, frameworks, and technologies may help produce, protect, exchange, verify, or retain evidence.
-- **[Tools & Templates](/resources/)**: Glossary entries, supplier questions, evidence checklists, and curated further reading.
+- **[Evidence](/evidence/)**: Evidence types, maturity levels, verification questions, and lifecycle retention concepts.
+- **[Technology Options](/technology-options/)**: Neutral mappings that explain where mechanisms, protocols, formats, trust anchors, verifier workflows, and tooling may help produce, protect, exchange, verify, or retain evidence.
+- **[Resources](/resources/)**: Glossary entries, supplier questions, evidence checklists, templates, and curated further reading.
 
 This is a community-oriented handbook. The site will grow over time as the core guidance, evidence mappings, and practical resources become more complete.

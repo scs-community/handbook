@@ -1,5 +1,5 @@
 ---
-title: Risks & Practices
+title: Attack & Failure Modes
 sidebar_position: 2
 ---
 
@@ -54,7 +54,7 @@ Readers need assurance after acceptance. Practices may include update records, r
 
 ## Example Mapping
 
-| Need | Failure mode | Practice | Evidence |
+| Requirement or risk | Failure mode | Practice or control | Evidence |
 |---|---|---|---|
 | Product acceptance | Counterfeit component | Verify component or platform identity | Platform Certificate, provenance record |
 | Audit or compliance | Reliance on self-attestation | Request verifiable artifacts | Evidence checklist, audit records |
@@ -92,4 +92,4 @@ Readers need assurance after acceptance. Practices may include update records, r
 
 - Use [Lifecycle Map](./lifecycle-map.md) to decide when each risk matters.
 - Use [10 Best Practices](./10-best-practices.md) to connect risk themes to practices.
-- Use [Evidence](../evidence-assurance/index.md) to identify artifacts and verification paths.
+- Use [Evidence](../evidence/index.md) to identify artifacts and verification paths.

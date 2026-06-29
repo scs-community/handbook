@@ -1,6 +1,6 @@
 ---
 title: Trust Anchors
-sidebar_position: 6
+sidebar_position: 4
 ---
 
 Trust anchors and device-security technologies can help bind identity, keys, credentials, measurements, or claims to hardware or controlled environments.
@@ -108,6 +108,6 @@ Trust anchors and device-security technologies can help bind identity, keys, cre
 
 ## Related Pages
 
-- [Evidence](../evidence-assurance/index.md)
-- [10 Best Practices](../guidance/10-best-practices.md)
+- [Evidence](../evidence/index.md)
+- [10 Best Practices](../practices-controls/10-best-practices.md)
 - [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)

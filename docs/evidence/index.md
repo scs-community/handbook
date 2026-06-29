@@ -1,11 +1,11 @@
 ---
-title: Evidence & Assurance
+title: Evidence
 sidebar_position: 1
 ---
 
-Evidence is any artifact, record, claim, measurement, certificate, attestation, manifest, log, or report that can help a buyer, supplier, operator, assessor, or auditor decide whether a supply-chain-security practice is operating.
+Evidence is any artifact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material that demonstrates whether supply-chain-security controls are operating.
 
-Evidence may be human-readable, machine-readable, signed, measured, hardware-rooted, process-based, or audit-derived. This section distinguishes evidence that merely documents a process from evidence that can be independently verified, retained, and reused.
+Evidence may be human-readable, machine-readable, signed, measured, hardware-rooted, process-based, or audit-derived. This section distinguishes evidence that merely asserts or documents a process from evidence that can be produced, verified, retained, and reused across lifecycle decisions.
 
 ## Evidence Pages
 
@@ -17,6 +17,7 @@ Evidence may be human-readable, machine-readable, signed, measured, hardware-roo
 | [Update & Vulnerability](./update-vulnerability.md) | Were updates authorized and are known exposures handled? |
 | [Lifecycle State & Audit](./lifecycle-state-audit.md) | Is the asset active, repaired, transferred, revoked, retired, or decommissioned? |
 | [Retention & Reuse](./retention-reuse.md) | Can evidence remain useful across later lifecycle decisions? |
+| [Evidence Models](./evidence-models.md) | Which claims, measurements, attestations, certificates, manifests, or evidence packages may support assurance decisions? |
 
 ## Evidence Maturity
 
@@ -24,9 +25,13 @@ Evidence may be human-readable, machine-readable, signed, measured, hardware-roo
 |---|---|
 | Assertion | Supplier says a control exists |
 | Documented process | Supplier describes the process, owner, and scope |
-| Produced artifact | Supplier provides a record, manifest, certificate, SBOM, log, or report |
+| Produced artifact | Supplier provides a record, manifest, certificate, SBOM/xBOM, log, measurement, attestation, or report |
 | Verifiable artifact | Recipient can verify integrity, origin, freshness, or consistency |
 | Lifecycle-retained evidence | Evidence is retained and updated across deployment, update, repair, transfer, and decommissioning |
+
+## Evidence Page Pattern
+
+Each evidence page should make six things explicit: who produces it, who consumes it, when it is generated, when it is verified, how long it must be retained, and what decision it supports. This keeps evidence requests tied to controls and decisions rather than collecting artifacts for their own sake.
 
 ## Practical Questions
 
@@ -56,4 +61,4 @@ Evidence may be human-readable, machine-readable, signed, measured, hardware-roo
 
 ## Practical Use
 
-Use this section with the [Evidence Checklist](../resources/evidence-checklist.md), [Supplier Questions](../resources/supplier-questions.md), and the [Lifecycle Map](../guidance/lifecycle-map.md).
+Use this section with the [Evidence Checklist](../resources/evidence-checklist.md), [Supplier Questions](../resources/supplier-questions.md), and the [Lifecycle Map](../practices-controls/lifecycle-map.md).

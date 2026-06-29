@@ -3,7 +3,7 @@ title: Use Cases
 sidebar_position: 1
 ---
 
-Use cases help readers move from guidance to practical decisions. Each page starts with the decision the reader is trying to make, explains what can go wrong, and turns good practice into questions, evidence requests, and verification paths.
+Use cases help readers move from requirements and risks to practical decisions. Each page starts with the decision the reader is trying to make, explains what can go wrong, and turns good practice into questions, evidence requests, verification paths, and technology options.
 
 ## Use-Case Routes
 
@@ -23,12 +23,13 @@ Each use-case page should include:
 1. Decision: What decision is the reader trying to make?
 2. What can go wrong: What risks, failures, or blind spots matter?
 3. Good practice: What does a stronger approach look like?
-4. What To Ask For: What questions or requests should the reader make?
-5. Evidence And Artifacts: What evidence matters?
-6. Weak / Better / Stronger Answers: What would be assertion-only, process-based, or evidence-backed?
-7. Lifecycle Stages: Where does this apply?
-8. Standards And Technologies: Which mappings are useful?
-9. Related Pages: Where should the reader go next?
+4. What to ask for: What questions or requests should the reader make?
+5. Evidence / artifacts: What evidence matters?
+6. Weak answer: What would be assertion-only or insufficient?
+7. Stronger answer: What would be process-based, evidence-backed, verifiable, or lifecycle-retained?
+8. Lifecycle stages: Where does this apply?
+9. Technology options: Which mechanisms, formats, trust anchors, protocols, tools, or mappings are useful?
+10. Related pages: Where should the reader go next?
 
 Use the weak, better, stronger maturity pattern where it helps readers improve without implying that every organization must start with the most advanced mechanism.
 

@@ -1,6 +1,6 @@
 ---
 title: Protocols & Exchange
-sidebar_position: 7
+sidebar_position: 5
 ---
 
 Protocols and exchange mechanisms help move evidence between producers, verifiers, relying parties, and repositories. They matter when evidence must be requested, transmitted, verified, retained, or reused.
@@ -81,6 +81,6 @@ Protocols and exchange mechanisms help move evidence between producers, verifier
 
 ## Related Pages
 
-- [Evidence](../evidence-assurance/index.md)
-- [10 Best Practices](../guidance/10-best-practices.md)
+- [Evidence](../evidence/index.md)
+- [10 Best Practices](../practices-controls/10-best-practices.md)
 - [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)

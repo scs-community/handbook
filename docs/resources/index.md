@@ -1,11 +1,11 @@
 ---
-title: Tools & Templates
+title: Resources
 sidebar_position: 1
 ---
 
-Tools and templates contain reusable material that helps readers act. They are not a catch-all archive. Use them to turn supply-chain-security guidance into questions, checklists, artifact requests, mappings, templates, and review prompts.
+Resources contain reusable material that helps readers act. They are not a catch-all archive. Use them to turn supply-chain-security guidance into questions, checklists, artifact requests, mappings, templates, and review prompts.
 
-## Launch Tools
+## Core Resources
 
 | Tool or template | Use it to... |
 |---|---|
@@ -14,7 +14,7 @@ Tools and templates contain reusable material that helps readers act. They are n
 | [Evidence Checklist](./evidence-checklist.md) | Convert decisions into evidence requests |
 | [Further Reading](./further-reading.md) | Find curated public guidance and specifications |
 
-## Expanded Tools
+## Expanded Resources
 
 | Tool or template | Use it to... |
 |---|---|
@@ -22,9 +22,9 @@ Tools and templates contain reusable material that helps readers act. They are n
 | [Templates](./templates.md) | Draft requests, acceptance criteria, and mapping records |
 | [Sector Notes](./sector-notes.md) | Capture sector-specific interpretation without making sectors the main navigation |
 
-## Tool And Template Rules
+## Resource Rules
 
-- Keep tools and templates reusable and practical.
-- Link tools and templates back to the relevant compliance, risks and practices, and evidence pages.
+- Keep resources reusable and practical.
+- Link resources back to the relevant requirements, practices and controls, evidence, and technology option pages.
 - Keep further reading curated, not exhaustive.
 - Distinguish public source claims from interpretive mappings.

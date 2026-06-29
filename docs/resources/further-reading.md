@@ -65,4 +65,4 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 
 ## Relationship To Existing Guidance
 
-This handbook should acknowledge that extensive supply-chain-security guidance already exists. Its role is to bridge needs, guidance, evidence, lifecycle assurance, and technology mappings.
+This handbook should acknowledge that extensive supply-chain-security guidance already exists. Its role is to bridge requirements, controls, evidence, lifecycle assurance, and technology options.

@@ -1,6 +1,6 @@
 ---
 title: Evidence Models
-sidebar_position: 3
+sidebar_position: 8
 ---
 
 Evidence models help structure claims, measurements, reference values, manifests, certificates, attestations, and other artifacts that support assurance decisions.
@@ -54,7 +54,7 @@ Evidence models help structure claims, measurements, reference values, manifests
 
 ### Questions to ask internally
 
-- Are we treating this source as a requirement, evidence model, artifact format, implementation option, or contextual reference?
+- Are we treating this source as an evidence model, artifact format, implementation option, requirement source, or contextual reference?
 - What decision would this mapping support, and what would remain unresolved without additional evidence?
 - Is the mapping direct, supporting, contextual, adjacent, or a gap?
 
@@ -72,6 +72,6 @@ Evidence models help structure claims, measurements, reference values, manifests
 
 ## Related Pages
 
-- [Evidence](../evidence-assurance/index.md)
-- [10 Best Practices](../guidance/10-best-practices.md)
+- [Evidence](./index.md)
+- [10 Best Practices](../practices-controls/10-best-practices.md)
 - [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)

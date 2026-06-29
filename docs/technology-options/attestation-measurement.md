@@ -1,6 +1,6 @@
 ---
 title: Attestation & Measurement
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 Attestation and measurement technologies can support claims about current or measured state. They are useful when a recipient needs evidence that a device, platform, firmware, or configuration is in an expected state.
@@ -81,6 +81,6 @@ Attestation and measurement technologies can support claims about current or mea
 
 ## Related Pages
 
-- [Evidence](../evidence-assurance/index.md)
-- [10 Best Practices](../guidance/10-best-practices.md)
+- [Evidence](../evidence/index.md)
+- [10 Best Practices](../practices-controls/10-best-practices.md)
 - [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)

@@ -44,29 +44,31 @@ Implementation planning should start from the assurance decision, then define ev
 - What data model, trust anchor, API, or workflow needs to be implemented?
 - How will implementation choices be tested against procurement, acceptance, audit, and monitoring use cases?
 
-## Evidence And Artifacts
+## Evidence / Artifacts
 
 Implementation may need device identity records, provisioning logs, signed manifests, reference measurements, attestation evidence, SBOM/xBOM artifacts, vulnerability records, update records, and lifecycle-state records.
 
-## Weak / Better / Stronger Answers
+## Weak Answer
 
-**Weak answer:** We will implement attestation or SBOMs.
+We will implement attestation or SBOMs.
 
-**Better answer:** We will implement specific evidence artifacts for defined decisions.
+## Stronger Answer
 
-**Stronger answer:** We will implement evidence production, protection, exchange, verification, retention, and lifecycle refresh for defined assurance decisions, with clear limits and gaps.
+A better answer: We will implement specific evidence artifacts for defined decisions.
+
+A stronger answer: We will implement evidence production, protection, exchange, verification, retention, and lifecycle refresh for defined assurance decisions, with clear limits and gaps.
 
 ## Lifecycle Stages
 
 Implementation planning applies during design, sourcing, build, provisioning, acceptance preparation, deployment planning, update planning, operations, repair, transfer, and decommissioning planning. The implementation should identify which lifecycle stages produce evidence and which stages consume or refresh it.
 
-## Standards And Technologies
+## Technology Options
 
 Relevant implementation options may include TCG, GlobalPlatform, IETF RATS/EAT, CoRIM/CoMID, SPDX, CycloneDX, SPDM, OCP SAFE/Caliptra, TPM, DICE, TEE, Secure Element, update frameworks, and vulnerability workflow tooling.
 
 ## Related Pages
 
-- [10 Best Practices](../guidance/10-best-practices.md)
-- [Standards & Technologies](../standards-technologies/index.md)
-- [Evidence Models](../standards-technologies/evidence-models.md)
-- [Protocols & Exchange](../standards-technologies/protocols-exchange.md)
+- [10 Best Practices](../practices-controls/10-best-practices.md)
+- [Technology Options](../technology-options/index.md)
+- [Evidence Models](../evidence/evidence-models.md)
+- [Protocols & Exchange](../technology-options/protocols-exchange.md)

@@ -1,12 +1,12 @@
 ---
 title: 10 Best Practices for Supply-Chain Security
-slug: /guidance/10-best-practices
+slug: /practices-controls/10-best-practices
 sidebar_position: 4
 ---
 
-This page is the practical synthesis for the handbook. It is not the whole site: each practice routes readers into lifecycle, evidence, use-case, and standards pages.
+This page is the practical synthesis for the handbook. It is not the whole site: each practice routes readers into lifecycle, evidence, use-case, and technology-options pages.
 
-Practice titles are action-led and reader-oriented. They avoid making standards names, acronyms, or technology families the organizing principle.
+Each numbered heading is a practice. Practice titles are action-led and reader-oriented, followed by risk addressed, evidence to request or produce, verification question, lifecycle fit, technology options, and gaps.
 
 ## 1. Establish and verify device, component, and platform identity
 
@@ -18,7 +18,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Manufacturing, provisioning, logistics, product acceptance, deployment, repair, transfer, decommissioning.
 
-**Technology mappings:** TPM, DICE, Secure Element, TEE, GlobalPlatform, TCG Platform Certificates, IETF RATS/EAT, CoRIM/CoMID, SPDM.
+**Technology options:** TPM, DICE, Secure Element, TEE, GlobalPlatform, TCG Platform Certificates, IETF RATS/EAT, CoRIM/CoMID, SPDM.
 
 **Gaps:** Sector-specific interpretation may be needed for sufficient identity evidence, trusted issuers, retention, and verification after transfer or repair.
 
@@ -32,7 +32,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Sourcing, manufacturing, logistics, product acceptance, repair, transfer, decommissioning.
 
-**Technology mappings:** Platform Certificates, signed provenance records, CoRIM/CoMID, SBOM/xBOM formats, asset management systems.
+**Technology options:** Platform Certificates, signed provenance records, CoRIM/CoMID, SBOM/xBOM formats, asset management systems.
 
 **Gaps:** Provenance requirements vary widely by sector, product type, and supply-chain depth.
 
@@ -46,7 +46,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Design, sourcing, manufacturing, acceptance, deployment, update, repair, transfer, decommissioning.
 
-**Technology mappings:** Governance frameworks, secure development frameworks, assurance process standards, sector guidance.
+**Technology options:** Governance frameworks, secure development frameworks, assurance process standards, sector guidance.
 
 **Gaps:** Responsibility boundaries often cross organizational and contractual lines.
 
@@ -60,7 +60,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Design, sourcing, build, acceptance, deployment, update, vulnerability response.
 
-**Technology mappings:** SPDX, CycloneDX, VEX-like records, build provenance tooling, package signing, SBOM distribution and exchange mechanisms.
+**Technology options:** SPDX, CycloneDX, VEX-like records, build provenance tooling, package signing, SBOM distribution and exchange mechanisms.
 
 **Gaps:** Transparency artifacts need interpretation, freshness, version binding, and vulnerability workflow integration.
 
@@ -74,7 +74,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Manufacturing, acceptance, deployment, update, operations, repair.
 
-**Technology mappings:** Measured boot, RIMs, attestation, TPM, DICE, SPDM, IETF RATS/EAT, CoRIM/CoMID.
+**Technology options:** Measured boot, RIMs, attestation, TPM, DICE, SPDM, IETF RATS/EAT, CoRIM/CoMID.
 
 **Gaps:** Verification depends on trusted baselines, policy interpretation, freshness, and operational workflow.
 
@@ -88,7 +88,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Manufacturing, provisioning, acceptance, deployment, repair, transfer, decommissioning.
 
-**Technology mappings:** TPM, DICE, Secure Element, TEE, GlobalPlatform, PKI, certificate transparency-style records, revocation mechanisms.
+**Technology options:** TPM, DICE, Secure Element, TEE, GlobalPlatform, PKI, certificate transparency-style records, revocation mechanisms.
 
 **Gaps:** Trust-anchor governance, issuer trust, credential lifecycle, and transfer rules often need product-specific interpretation.
 
@@ -102,7 +102,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Deployment, update, operations, repair, vulnerability response.
 
-**Technology mappings:** Firmware signing, update frameworks, transparency logs, attestation, vulnerability handling records, secure boot and recovery mechanisms.
+**Technology options:** Firmware signing, update frameworks, transparency logs, attestation, vulnerability handling records, secure boot and recovery mechanisms.
 
 **Gaps:** Update assurance must connect engineering, operations, supplier support, and customer assurance workflows.
 
@@ -116,7 +116,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Design, sourcing, acceptance, deployment, update, operations, decommissioning.
 
-**Technology mappings:** SBOM, VEX-like formats, vulnerability databases, disclosure policies, update records, incident response workflows.
+**Technology options:** SBOM, VEX-like formats, vulnerability databases, disclosure policies, update records, incident response workflows.
 
 **Gaps:** Vulnerability evidence depends on timely component transparency and clear responsibility between supplier and product owner.
 
@@ -130,7 +130,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** Acceptance, deployment, update, repair, transfer, audit, decommissioning.
 
-**Technology mappings:** Evidence repositories, signed artifacts, RATS/EAT, CoRIM/CoMID, asset management systems, audit evidence stores.
+**Technology options:** Evidence repositories, signed artifacts, RATS/EAT, CoRIM/CoMID, asset management systems, audit evidence stores.
 
 **Gaps:** Evidence retention requires governance, storage, access, refresh, privacy, and ownership decisions.
 
@@ -144,7 +144,7 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 
 **Lifecycle fit:** All stages, especially requirements translation, procurement, implementation planning, audit, and assurance reporting.
 
-**Technology mappings:** NIST, ISO, ENISA, NCSC, CISA, TCG, GlobalPlatform, IETF RATS/EAT, CoRIM/CoMID, SPDX, CycloneDX, SPDM, OCP SAFE/Caliptra.
+**Technology options:** NIST, ISO, ENISA, NCSC, CISA, TCG, GlobalPlatform, IETF RATS/EAT, CoRIM/CoMID, SPDX, CycloneDX, SPDM, OCP SAFE/Caliptra.
 
 **Gaps:** Future profiling may be needed where standards provide pieces of the assurance model but not a full product-specific interpretation.
 
@@ -177,6 +177,6 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 ## Use This Page With
 
 - [Lifecycle Map](./lifecycle-map.md) to place practices in lifecycle context.
-- [Evidence](../evidence-assurance/index.md) to identify artifacts and verification paths.
-- [Standards & Technologies](../standards-technologies/index.md) to understand mapping roles and limits.
+- [Evidence](../evidence/index.md) to identify artifacts and verification paths.
+- [Technology Options](../technology-options/index.md) to understand mapping roles and limits.
 - [Supplier Questions](../resources/supplier-questions.md) to turn practices into requests.

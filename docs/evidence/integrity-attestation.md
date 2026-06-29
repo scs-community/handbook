@@ -70,7 +70,7 @@ Some attestation evidence is short-lived and decision-specific. Verifier results
 - How are signatures, hashes, timestamps, issuers, trust anchors, and access controls protected?
 - How will recipients retrieve, verify, refresh, and correlate the evidence across lifecycle events?
 
-## Standards And Technology Support
+## Technology Options Support
 
 Relevant mappings may include measured boot, TPM, DICE, SPDM, IETF RATS/EAT, CoRIM/CoMID, TCG reference integrity measurements, secure boot, firmware signing, TEEs, and verifier architectures.
 
@@ -80,6 +80,6 @@ Attestation does not automatically prove the product is free from vulnerabilitie
 
 ## Related Pages
 
-- [Risks & Practices](../guidance/risks-practices.md)
+- [Attack & Failure Modes](../practices-controls/attack-failure-modes.md)
 - [Product Acceptance](../use-cases/product-acceptance.md)
-- [Attestation & Measurement](../standards-technologies/attestation-measurement.md)
+- [Attestation & Measurement](../technology-options/attestation-measurement.md)

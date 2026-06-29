@@ -45,29 +45,31 @@ Lifecycle monitoring keeps evidence alive. It defines which events require new e
 - How will monitoring evidence be correlated with product identity and version state?
 - What alerts or workflow steps trigger review when expected evidence is absent or inconsistent?
 
-## Evidence And Artifacts
+## Evidence / Artifacts
 
 Lifecycle monitoring may use attestation results, update records, vulnerability records, configuration records, lifecycle-state records, repair records, transfer records, revocation records, and verifier logs.
 
-## Weak / Better / Stronger Answers
+## Weak Answer
 
-**Weak answer:** The product was checked at acceptance.
+The product was checked at acceptance.
 
-**Better answer:** The organization records updates, repairs, and vulnerability actions.
+## Stronger Answer
 
-**Stronger answer:** The organization defines lifecycle events, refreshes evidence after those events, verifies current state against policy, and retains evidence for future audit or assurance decisions.
+A better answer: The organization records updates, repairs, and vulnerability actions.
+
+A stronger answer: The organization defines lifecycle events, refreshes evidence after those events, verifies current state against policy, and retains evidence for future audit or assurance decisions.
 
 ## Lifecycle Stages
 
 Lifecycle monitoring applies after acceptance and continues through deployment, operations, update, vulnerability response, repair, transfer, revocation, retirement, and decommissioning. It should define which events trigger evidence refresh or renewed acceptance decisions.
 
-## Standards And Technologies
+## Technology Options
 
 Relevant mappings may include attestation, RATS/EAT, CoRIM/CoMID, update frameworks, vulnerability workflow tools, asset management systems, revocation mechanisms, and audit evidence stores.
 
 ## Related Pages
 
-- [Lifecycle Map](../guidance/lifecycle-map.md)
-- [Integrity & Attestation](../evidence-assurance/integrity-attestation.md)
-- [Update & Vulnerability](../evidence-assurance/update-vulnerability.md)
-- [Retention & Reuse](../evidence-assurance/retention-reuse.md)
+- [Lifecycle Map](../practices-controls/lifecycle-map.md)
+- [Integrity & Attestation](../evidence/integrity-attestation.md)
+- [Update & Vulnerability](../evidence/update-vulnerability.md)
+- [Retention & Reuse](../evidence/retention-reuse.md)

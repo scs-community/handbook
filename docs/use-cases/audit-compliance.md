@@ -45,29 +45,31 @@ Audit and compliance work should connect a need to a control, a control to evide
 - How will evidence be retained with source, date, scope, and verification metadata?
 - What dashboards, repositories, or reports help auditors review evidence efficiently?
 
-## Evidence And Artifacts
+## Evidence / Artifacts
 
 Useful evidence may include supplier records, audit reports, control attestations, SBOM/xBOM artifacts, vulnerability records, update records, attestation results, lifecycle-state logs, repair records, transfer records, and decommissioning records.
 
-## Weak / Better / Stronger Answers
+## Weak Answer
 
-**Weak answer:** The organization says it follows supply-chain-security best practices.
+The organization says it follows supply-chain-security best practices.
 
-**Better answer:** The organization maps practices to policies, owners, and review cadence.
+## Stronger Answer
 
-**Stronger answer:** The organization provides evidence for specific controls, explains how it was verified, identifies lifecycle coverage, and cites sources for standards or framework mappings.
+A better answer: The organization maps practices to policies, owners, and review cadence.
+
+A stronger answer: The organization provides evidence for specific controls, explains how it was verified, identifies lifecycle coverage, and cites sources for standards or framework mappings.
 
 ## Lifecycle Stages
 
 Audit may cover design, sourcing, manufacturing, provisioning, acceptance, operation, update, repair, transfer, or decommissioning. The lifecycle stage should be explicit.
 
-## Standards And Technologies
+## Technology Options
 
 Governance references may explain why a requirement exists. Evidence models may explain what artifact is useful. Technical standards may help produce or verify evidence. Keep these roles separate.
 
 ## Related Pages
 
-- [Risks & Practices](../guidance/index.md)
-- [Evidence](../evidence-assurance/index.md)
-- [Governance & Compliance](../standards-technologies/governance-compliance.md)
+- [Practices & Controls](../practices-controls/index.md)
+- [Evidence](../evidence/index.md)
+- [Governance & Compliance](../requirements/governance-compliance.md)
 - [Further Reading](../resources/further-reading.md)

@@ -7,16 +7,15 @@ This document describes the intended and current public navigation for SupplyCha
 The top navigation should stay restrained:
 
 1. Home
-2. Compliance Guide
-3. Risks & Practices
-4. Use Cases
-5. Evidence
-6. Standards & Technologies
-7. Tools & Templates
+2. Requirements & Risks
+3. Practices & Controls
+4. Evidence
+5. Technology Options
+6. Resources
 
-Do not put the 10 Best Practices page in top navigation. It belongs inside Risks & Practices as the synthesis and anchor page.
+Do not put Use Cases or the 10 Best Practices page in top navigation. Use Cases remains a secondary section available through footer links, section links, and related pages. The 10 Best Practices page belongs inside Practices & Controls as the synthesis and anchor page.
 
-Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside compliance, risks and practices, evidence, use-case, or standards-and-technologies pages.
+Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside requirements and risks, practices and controls, evidence, use-case, resource, or technology-options pages.
 
 ## Route Policy
 
@@ -27,25 +26,25 @@ The public docs routes are served at the site root, not below `/docs/`.
 - `docs.routeBasePath`: `/`
 - `trailingSlash`: `true`
 
-Use public links such as `/compliance-guide/`, `/guidance/`, `/use-cases/`, and `/evidence-assurance/`. Avoid hardcoded `/docs/...` links in public content.
+Use public links such as `/requirements/`, `/practices-controls/`, `/use-cases/`, and `/evidence/`. Avoid hardcoded `/docs/...` links in public content.
 
 ## Site Model
 
 The site should feel like:
 
 ```text
-Obligation -> Risks & Practices -> Use Cases -> Evidence -> Standards & Technologies -> Tools & Templates
+Requirements & Risks -> Practices & Controls -> Evidence -> Technology Options -> Resources
 ```
 
-This mirrors the logic: obligations create the starting point, risks and practices explain what to do, use cases turn guidance into decisions, evidence shows whether practices are operating, and standards or technologies may help implement or verify it.
+This mirrors the logic: requirements and risks create the starting point, practices and controls explain what to do, evidence shows whether controls are operating, and technology options may help implement, produce, protect, exchange, verify, or retain evidence.
 
 The homepage may use a shorter model for clarity:
 
 ```text
-Obligation -> Practice -> Evidence -> Mapping
+Requirements & Risks -> Practices & Controls -> Evidence -> Technology Options
 ```
 
-Use Cases and Tools & Templates support that flow by turning guidance into decisions, evidence requests, templates, and review prompts.
+Use Cases and Resources support that flow by turning guidance into decisions, evidence requests, templates, and review prompts.
 
 ## Launch And Expanded Sitemap
 
@@ -53,13 +52,18 @@ Use Cases and Tools & Templates support that flow by turning guidance into decis
 /
   Home
 
-/guidance/
-  Risks & Practices overview
-/guidance/risks-practices/
-  Risks & Practices
-/guidance/lifecycle-map/
+/requirements/
+  Requirements & Risks
+/requirements/governance-compliance/
+  Requirement & Governance Sources
+
+/practices-controls/
+  Practices & Controls overview
+/practices-controls/attack-failure-modes/
+  Attack & Failure Modes
+/practices-controls/lifecycle-map/
   Lifecycle Map
-/guidance/10-best-practices/
+/practices-controls/10-best-practices/
   10 Best Practices for Supply-Chain Security
 
 /use-cases/
@@ -77,26 +81,25 @@ Use Cases and Tools & Templates support that flow by turning guidance into decis
 /use-cases/standards-gap-analysis/
   Standards Gap Analysis
 
-/evidence-assurance/
+/evidence/
   Evidence overview
-/evidence-assurance/identity-provenance/
-/evidence-assurance/integrity-attestation/
-/evidence-assurance/software-component-transparency/
-/evidence-assurance/update-vulnerability/
-/evidence-assurance/lifecycle-state-audit/
-/evidence-assurance/retention-reuse/
+/evidence/identity-provenance/
+/evidence/integrity-attestation/
+/evidence/software-component-transparency/
+/evidence/update-vulnerability/
+/evidence/lifecycle-state-audit/
+/evidence/retention-reuse/
+/evidence/evidence-models/
 
-/standards-technologies/
-  Standards & Technologies overview
-/standards-technologies/governance-compliance/
-/standards-technologies/evidence-models/
-/standards-technologies/transparency-artifacts/
-/standards-technologies/attestation-measurement/
-/standards-technologies/trust-anchors/
-/standards-technologies/protocols-exchange/
+/technology-options/
+  Technology Options overview
+/technology-options/transparency-artifacts/
+/technology-options/attestation-measurement/
+/technology-options/trust-anchors/
+/technology-options/protocols-exchange/
 
 /resources/
-  Tools & Templates
+  Resources
 /resources/glossary/
 /resources/supplier-questions/
 /resources/evidence-checklist/
@@ -108,34 +111,17 @@ Use Cases and Tools & Templates support that flow by turning guidance into decis
 
 ## Homepage Routing
 
-The homepage should route by intent, not just repeat navigation.
+The homepage should introduce the handbook and point readers to the Requirements & Risks as the single detailed routing surface. Avoid stacking multiple homepage route systems such as obligation tables, persona cards, and intent grids.
 
-| Visitor need | Route |
-|---|---|
-| I need to understand what is expected | `/compliance-guide/` |
-| I need to understand risks and practices | `/guidance/` |
-| I need a practical synthesis | `/guidance/10-best-practices/` |
-| I need to map this across the lifecycle | `/guidance/lifecycle-map/` |
-| I need supplier questions | `/use-cases/procurement-supplier-assurance/` |
-| I need to accept a product, device, platform, or component | `/use-cases/product-acceptance/` |
-| I need to know what evidence matters | `/evidence-assurance/` |
-| I need standards or technology mappings | `/standards-technologies/` |
+Homepage routing should stay limited to:
 
-## Reader-Mode Routing
+- primary CTA: `/requirements/`;
+- secondary CTA: `/practices-controls/10-best-practices/`;
+- top navigation for readers who already know the section they want.
 
-| Reader mode | Starting route |
-|---|---|
-| Compliance owner | `/compliance-guide/` -> `/guidance/` |
-| Assurance requester | `/use-cases/` -> `/resources/evidence-checklist/` |
-| Assurance implementer | `/evidence-assurance/` -> `/standards-technologies/` |
+## Detailed Routing
 
-| Reader role | Useful starting point |
-|---|---|
-| Product-security or supply-chain-security leader | `/compliance-guide/` -> `/guidance/10-best-practices/` |
-| Procurement or supplier-assurance team | `/use-cases/procurement-supplier-assurance/` |
-| Product-acceptance or assurance decision maker | `/use-cases/product-acceptance/` |
-| Auditor or assessor | `/compliance-guide/` -> `/evidence-assurance/` |
-| Implementer or technology owner | `/evidence-assurance/` -> `/standards-technologies/` |
+Detailed routing belongs in `/requirements/`, section landing pages, sidebars, and page-level related links. This keeps the homepage focused while still helping readers who arrive with procurement, audit, product-acceptance, evidence, or implementation questions.
 
 ## Footer And Secondary Navigation
 
@@ -143,9 +129,9 @@ The footer can expose more of the sitemap than the header. It should help reader
 
 Footer links should still avoid making standards-body names the organizing principle. Link to standards roles and evidence needs first, then to specific technologies or standards within those pages.
 
-## Tools And Templates Rule
+## Resources Rule
 
-Tools and templates should not become a catch-all archive. They should contain reusable material that helps readers act:
+Resources should not become a catch-all archive. They should contain reusable material that helps readers act:
 
 - glossary entries;
 - supplier questions;
@@ -165,5 +151,5 @@ New pages should connect to at least one of:
 - a supply-chain-security risk or failure mode;
 - a lifecycle stage;
 - an evidence type;
-- a standards or technology mapping;
+- a technology option, standard, or evidence-model mapping;
 - a reusable tool or template.

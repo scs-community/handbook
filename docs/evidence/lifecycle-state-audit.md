@@ -73,7 +73,7 @@ Retention depends on asset life, support life, contractual obligations, audit ne
 - How are signatures, hashes, timestamps, issuers, trust anchors, and access controls protected?
 - How will recipients retrieve, verify, refresh, and correlate the evidence across lifecycle events?
 
-## Standards And Technology Support
+## Technology Options Support
 
 Relevant mappings may include asset management systems, audit evidence stores, signed logs, revocation mechanisms, certificate lifecycle records, RATS verifier logs, and governance frameworks.
 
@@ -83,6 +83,6 @@ Lifecycle-state records do not prove technical integrity unless connected to int
 
 ## Related Pages
 
-- [Lifecycle Map](../guidance/lifecycle-map.md)
+- [Lifecycle Map](../practices-controls/lifecycle-map.md)
 - [Audit & Compliance](../use-cases/audit-compliance.md)
 - [Retention & Reuse](./retention-reuse.md)

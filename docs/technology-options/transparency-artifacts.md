@@ -1,6 +1,6 @@
 ---
 title: Transparency Artifacts
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 Transparency artifacts describe software, firmware, hardware, components, services, dependencies, vulnerabilities, or product composition. They support vulnerability management, supplier assurance, and product acceptance.
@@ -72,6 +72,6 @@ Transparency artifacts describe software, firmware, hardware, components, servic
 
 ## Related Pages
 
-- [Evidence](../evidence-assurance/index.md)
-- [10 Best Practices](../guidance/10-best-practices.md)
+- [Evidence](../evidence/index.md)
+- [10 Best Practices](../practices-controls/10-best-practices.md)
 - [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)

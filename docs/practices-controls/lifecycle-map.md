@@ -9,17 +9,17 @@ Supply-chain-security assurance is not a single event. It changes as products mo
 
 | Lifecycle stage | Main decision | Common failure modes | Example evidence | Related pages |
 |---|---|---|---|---|
-| Design | What trust assumptions and controls are required? | Missing threat model, unclear trust boundaries, unmanaged supplier assumptions | Threat model, security requirements, component criteria | [Risks & Practices](./risks-practices.md) |
+| Design | What trust assumptions and controls are required? | Missing threat model, unclear trust boundaries, unmanaged supplier assumptions | Threat model, security requirements, component criteria | [Attack & Failure Modes](./attack-failure-modes.md) |
 | Sourcing | Are suppliers and components acceptable? | Opaque sub-tiers, unsupported components, counterfeit risk | Supplier evidence, provenance, certifications, component records | [Procurement & Supplier Assurance](../use-cases/procurement-supplier-assurance.md) |
-| Manufacturing | Was the product built as expected? | Substitution, unauthorized changes, poor build traceability | Manufacturing records, identity injection records, Platform Certificates | [Identity & Provenance](../evidence-assurance/identity-provenance.md) |
-| Provisioning | Was identity or credential material created correctly? | Weak key handling, cloned credentials, unbound identities | Device identity records, credential issuance logs, trust-anchor records | [Trust Anchors](../standards-technologies/trust-anchors.md) |
+| Manufacturing | Was the product built as expected? | Substitution, unauthorized changes, poor build traceability | Manufacturing records, identity injection records, Platform Certificates | [Identity & Provenance](../evidence/identity-provenance.md) |
+| Provisioning | Was identity or credential material created correctly? | Weak key handling, cloned credentials, unbound identities | Device identity records, credential issuance logs, trust-anchor records | [Trust Anchors](../technology-options/trust-anchors.md) |
 | Logistics | Was chain of custody preserved? | Tampering, loss of provenance, uncontrolled reseller path | Provenance records, transfer records, custody logs | [Product Acceptance](../use-cases/product-acceptance.md) |
 | Acceptance | Is the delivered item genuine and in expected state? | Counterfeit device, firmware drift, unverifiable claims | Identity, provenance, integrity, attestation evidence | [Product Acceptance](../use-cases/product-acceptance.md) |
 | Deployment | Is the product connected to approved services and policy? | Wrong service binding, insecure configuration, unmanaged baseline | Onboarding records, policy checks, configuration evidence | [Lifecycle Monitoring](../use-cases/lifecycle-monitoring.md) |
-| Update | Were updates authorized, delivered, installed, and recoverable? | Unauthorized update, failed rollback, missing update history | Update records, version history, rollback evidence | [Update & Vulnerability](../evidence-assurance/update-vulnerability.md) |
-| Repair | Was trust restored or re-established? | Component replacement without new evidence, stale credentials | Repair records, re-provisioning evidence, delta certificates | [Lifecycle State & Audit](../evidence-assurance/lifecycle-state-audit.md) |
-| Transfer | Can trust be reassigned or verified? | Ownership ambiguity, stale access, missing custody records | Ownership records, lifecycle-state records, revocation records | [Retention & Reuse](../evidence-assurance/retention-reuse.md) |
-| Decommissioning | Was the asset retired safely? | Live credentials, recoverable data, unrevoked services | Revocation, wipe, cryptographic erase, retirement logs | [Lifecycle State & Audit](../evidence-assurance/lifecycle-state-audit.md) |
+| Update | Were updates authorized, delivered, installed, and recoverable? | Unauthorized update, failed rollback, missing update history | Update records, version history, rollback evidence | [Update & Vulnerability](../evidence/update-vulnerability.md) |
+| Repair | Was trust restored or re-established? | Component replacement without new evidence, stale credentials | Repair records, re-provisioning evidence, delta certificates | [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md) |
+| Transfer | Can trust be reassigned or verified? | Ownership ambiguity, stale access, missing custody records | Ownership records, lifecycle-state records, revocation records | [Retention & Reuse](../evidence/retention-reuse.md) |
+| Decommissioning | Was the asset retired safely? | Live credentials, recoverable data, unrevoked services | Revocation, wipe, cryptographic erase, retirement logs | [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md) |
 
 ## How To Use The Map
 

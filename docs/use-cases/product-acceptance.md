@@ -48,7 +48,7 @@ A stronger product-acceptance process combines identity checks, provenance check
 - How are evidence artifacts bound to serial numbers, product versions, firmware versions, or asset records?
 - How will acceptance results flow into asset management and lifecycle monitoring systems?
 
-## Evidence And Artifacts
+## Evidence / Artifacts
 
 | Evidence type | Acceptance role |
 |---|---|
@@ -60,25 +60,27 @@ A stronger product-acceptance process combines identity checks, provenance check
 | Vulnerability records | Show known exposures, remediation, mitigations, or accepted risk |
 | Lifecycle-state records | Establish the baseline for deployment, repair, transfer, and decommissioning |
 
-## Weak / Better / Stronger Answers
+## Weak Answer
 
-**Weak answer:** The supplier states the product is authentic and secure.
+The supplier states the product is authentic and secure.
 
-**Better answer:** The supplier provides process documentation for identity, provenance, update, and vulnerability handling.
+## Stronger Answer
 
-**Stronger answer:** The supplier provides identity evidence, provenance records, firmware/version evidence, update history, vulnerability status, integrity measurements or attestation results, and a clear verification workflow.
+A better answer: The supplier provides process documentation for identity, provenance, update, and vulnerability handling.
+
+A stronger answer: The supplier provides identity evidence, provenance records, firmware/version evidence, update history, vulnerability status, integrity measurements or attestation results, and a clear verification workflow.
 
 ## Lifecycle Stages
 
 Acceptance evidence should not be discarded after the product is accepted. It becomes the baseline for deployment, update, monitoring, repair, transfer, audit, and decommissioning.
 
-## Standards And Technologies
+## Technology Options
 
 Relevant mappings may include Platform Certificates, TPM, DICE, Secure Element, TEE, SPDM, measured boot, RATS/EAT, CoRIM/CoMID, SBOM/xBOM formats, and update-signing mechanisms. Use them as candidate implementation and verification options, not as universal requirements.
 
 ## Related Pages
 
-- [Lifecycle Map](../guidance/lifecycle-map.md)
-- [Identity & Provenance](../evidence-assurance/identity-provenance.md)
-- [Integrity & Attestation](../evidence-assurance/integrity-attestation.md)
-- [Update & Vulnerability](../evidence-assurance/update-vulnerability.md)
+- [Lifecycle Map](../practices-controls/lifecycle-map.md)
+- [Identity & Provenance](../evidence/identity-provenance.md)
+- [Integrity & Attestation](../evidence/integrity-attestation.md)
+- [Update & Vulnerability](../evidence/update-vulnerability.md)

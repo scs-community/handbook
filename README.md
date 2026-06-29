@@ -1,6 +1,6 @@
 # SupplyChainSecurityHandbook.com
 
-This repository contains the source for SupplyChainSecurityHandbook.com, a practical, vendor-neutral reference for supply-chain-security guidance across complex technology products and platforms. It helps teams translate compliance, procurement, audit, customer assurance, product-acceptance, governance, and risk obligations into practical practices, evidence expectations, lifecycle controls, and standards-aware implementation options.
+This repository contains the source for SupplyChainSecurityHandbook.com, a practical, vendor-neutral reference for supply-chain-security guidance across complex technology products and platforms. It helps teams translate requirements and risks from compliance, procurement, audit, customer assurance, product acceptance, governance, and resilience concerns into practical controls, evidence expectations, lifecycle assurance, and technology-aware implementation options.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
@@ -10,12 +10,12 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 - [Navigation Structure](navigation-structure.md) - Top-level navigation, sitemap, and homepage routing model
 - [Style Guide](style-guide.md) - Editorial stance, sourcing rules, evidence language, and content quality tests
 - [Brand Guidelines](brand-guidelines.md) - Visual identity, assets, colors, typography, and brand usage
-- [Compliance Guide](docs/compliance-guide/index.md) - Obligation-led routes into practical assurance work
-- [Risks & Practices](docs/guidance/index.md) - Risks, practices, lifecycle assurance, and the 10 best practices synthesis
+- [Requirements & Risks](docs/requirements/index.md) - Requirement and risk routes into practical assurance work
+- [Practices & Controls](docs/practices-controls/index.md) - Attack and failure modes, lifecycle assurance, controls, and the 10 best practices synthesis
 - [Use Cases](docs/use-cases/index.md) - Practical scenarios for procurement, supplier assurance, and product acceptance
-- [Evidence](docs/evidence-assurance/index.md) - Evidence types, maturity levels, and assurance decisions
-- [Standards & Technologies](docs/standards-technologies/index.md) - Neutral mappings to relevant standards, frameworks, and technologies
-- [Tools & Templates](docs/resources/index.md) - Glossary, supplier questions, evidence checklist, templates, and further reading
+- [Evidence](docs/evidence/index.md) - Evidence types, maturity levels, and assurance decisions
+- [Technology Options](docs/technology-options/index.md) - Neutral mappings to implementation mechanisms, protocols, formats, trust anchors, verifier workflows, and tooling
+- [Resources](docs/resources/index.md) - Glossary, supplier questions, evidence checklist, templates, and further reading
 - [Contributing](CONTRIBUTING.md) - Contribution workflow and submission checklist
 
 ## Installation

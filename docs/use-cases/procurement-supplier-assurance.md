@@ -46,7 +46,7 @@ A stronger supplier-assurance approach ties requirements to evidence, acceptance
 - How will evidence requirements be represented in contracts, onboarding workflows, and renewal checks?
 - How will procurement findings feed product acceptance, vulnerability management, and lifecycle monitoring?
 
-## Evidence And Artifacts
+## Evidence / Artifacts
 
 | Evidence area | Useful artifacts |
 |---|---|
@@ -58,25 +58,27 @@ A stronger supplier-assurance approach ties requirements to evidence, acceptance
 | Vulnerability handling | Vulnerability records, affected-product analysis, remediation evidence, risk acceptance |
 | Lifecycle state | Repair records, re-provisioning evidence, transfer records, revocation and retirement logs |
 
-## Weak / Better / Stronger Answers
+## Weak Answer
 
-**Weak answer:** The supplier confirms the device is secure.
+The supplier confirms the device is secure.
 
-**Better answer:** The supplier describes the process, owner, scope, and review cadence for supply-chain-security controls.
+## Stronger Answer
 
-**Stronger answer:** The supplier provides identity evidence, provenance records, transparency artifacts, update history, vulnerability handling records, lifecycle-state evidence, and verification paths for key claims.
+A better answer: The supplier describes the process, owner, scope, and review cadence for supply-chain-security controls.
+
+A stronger answer: The supplier provides identity evidence, provenance records, transparency artifacts, update history, vulnerability handling records, lifecycle-state evidence, and verification paths for key claims.
 
 ## Lifecycle Stages
 
 Procurement and supplier assurance apply before contract award, during sourcing, before product acceptance, during renewal, and when a supplier supports updates, repair, transfer, or decommissioning.
 
-## Standards And Technologies
+## Technology Options
 
 Relevant mappings may include governance frameworks for requirements, SBOM/xBOM formats for transparency, TCG or GlobalPlatform mechanisms for identity and trust anchors, RATS/EAT or CoRIM/CoMID for evidence and attestation models, and SPDX or CycloneDX for software transparency. The mapping should explain what each option supports and what it does not solve.
 
 ## Related Pages
 
-- [Risks & Practices](../guidance/index.md)
+- [Practices & Controls](../practices-controls/index.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
-- [Identity & Provenance](../evidence-assurance/identity-provenance.md)
-- [Standards & Technologies](../standards-technologies/index.md)
+- [Identity & Provenance](../evidence/identity-provenance.md)
+- [Technology Options](../technology-options/index.md)

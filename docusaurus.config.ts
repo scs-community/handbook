@@ -91,21 +91,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'complianceGuideSidebar',
+          sidebarId: 'requirementsSidebar',
           position: 'left',
-          label: 'Compliance Guide',
+          label: 'Requirements & Risks',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'guidanceSidebar',
+          sidebarId: 'practicesControlsSidebar',
           position: 'left',
-          label: 'Risks & Practices',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'useCasesSidebar',
-          position: 'left',
-          label: 'Use Cases',
+          label: 'Practices & Controls',
         },
         {
           type: 'docSidebar',
@@ -115,15 +109,15 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'standardsSidebar',
+          sidebarId: 'technologyOptionsSidebar',
           position: 'left',
-          label: 'Standards & Technologies',
+          label: 'Technology Options',
         },
         {
           type: 'docSidebar',
           sidebarId: 'resourcesSidebar',
           position: 'left',
-          label: 'Tools & Templates',
+          label: 'Resources',
         },
         {
           href: 'https://github.com/scs-community/handbook',
@@ -139,16 +133,16 @@ const config: Config = {
           title: 'Start Here',
           items: [
             {
-              label: 'Compliance Guide',
-              to: '/compliance-guide/',
+              label: 'Requirements & Risks',
+              to: '/requirements/',
             },
             {
-              label: 'Risks & Practices',
-              to: '/guidance/',
+              label: 'Practices & Controls',
+              to: '/practices-controls/',
             },
             {
               label: '10 Best Practices',
-              to: '/guidance/10-best-practices/',
+              to: '/practices-controls/10-best-practices/',
             },
           ],
         },
@@ -178,45 +172,49 @@ const config: Config = {
           items: [
             {
               label: 'Evidence',
-              to: '/evidence-assurance/',
+              to: '/evidence/',
             },
             {
               label: 'Identity & Provenance',
-              to: '/evidence-assurance/identity-provenance/',
+              to: '/evidence/identity-provenance/',
             },
             {
               label: 'Integrity & Attestation',
-              to: '/evidence-assurance/integrity-attestation/',
+              to: '/evidence/integrity-attestation/',
             },
             {
               label: 'Update & Vulnerability',
-              to: '/evidence-assurance/update-vulnerability/',
+              to: '/evidence/update-vulnerability/',
             },
           ],
         },
         {
-          title: 'Standards',
+          title: 'Technology Options',
           items: [
             {
-              label: 'Standards & Technologies',
-              to: '/standards-technologies/',
+              label: 'Technology Options',
+              to: '/technology-options/',
             },
             {
-              label: 'Evidence Models',
-              to: '/standards-technologies/evidence-models/',
+              label: 'Transparency Artifacts',
+              to: '/technology-options/transparency-artifacts/',
+            },
+            {
+              label: 'Attestation & Measurement',
+              to: '/technology-options/attestation-measurement/',
             },
             {
               label: 'Trust Anchors',
-              to: '/standards-technologies/trust-anchors/',
+              to: '/technology-options/trust-anchors/',
             },
             {
               label: 'Protocols & Exchange',
-              to: '/standards-technologies/protocols-exchange/',
+              to: '/technology-options/protocols-exchange/',
             },
           ],
         },
         {
-          title: 'Tools & Templates',
+          title: 'Resources',
           items: [
             {
               label: 'Supplier Questions',
@@ -241,6 +239,10 @@ const config: Config = {
             {
               label: 'Further Reading',
               to: '/resources/further-reading/',
+            },
+            {
+              label: 'Sector Notes',
+              to: '/resources/sector-notes/',
             },
             {
               label: 'GitHub',

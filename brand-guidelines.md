@@ -77,11 +77,9 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 The homepage should keep the sister-site visual pattern while reflecting the supply-chain-security brief:
 
 - Hero proposition and two clear calls to action.
-- Value pillars that move from obligation to practice to evidence.
-- Common obligations: regulation, standards, procurement, customer assurance, audit, product acceptance, and governance.
-- Reader-mode cards for compliance owner, assurance requester, and assurance implementer.
-- A simple model: obligation, practice, evidence, and mapping.
-- Intent routes for common visitor needs.
+- Value pillars that move from requirements and risks to practices and controls to evidence.
+- A simple model: requirements and risks, practices and controls, evidence, and technology options.
+- A clear handoff to the Requirements & Risks for detailed routing.
 - Neutrality and open-source framing.
 
 Do not let the homepage look like a TCG, GlobalPlatform, or 10 best practices microsite.
@@ -99,19 +97,19 @@ Follow `style-guide.md` for editorial voice. Key brand reminders:
 
 - Use "Supply Chain Security Handbook" for the project name.
 - Use "supply-chain security" as a noun phrase when referring to the discipline generally.
-- Prefer "evidence-backed assurance", "lifecycle assurance", "practical guidance", and "standards-aware mappings".
+- Prefer "evidence-backed assurance", "lifecycle assurance", "practical guidance", and "technology-aware mappings".
 - Avoid "evidence hub", "10 best practices microsite", and any phrasing that implies a standards body owns the whole problem.
-- Treat standards and technologies as implementation or verification options, not mandates.
+- Treat technology options as implementation or verification options, not mandates.
 
 ## Linking Guidance
 
 For public site routes, use canonical root routes with trailing slashes, for example:
 
-- Good: `/guidance/`
-- Good: `/compliance-guide/`
-- Good: `/guidance/10-best-practices/`
-- Good: `/standards-technologies/`
-- Avoid: `/docs/guidance/10-best-practices`
+- Good: `/practices-controls/`
+- Good: `/requirements/`
+- Good: `/practices-controls/10-best-practices/`
+- Good: `/technology-options/`
+- Avoid: `/docs/practices-controls/10-best-practices`
 
 For repository documentation, use relative markdown links where possible, for example:
 

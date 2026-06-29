@@ -45,29 +45,31 @@ Separate standards and technologies by role: demand source, assurance or evidenc
 - Which product-specific assumptions, trust anchors, formats, or verifier policies are missing?
 - How will the implementation record mapping decisions for later review?
 
-## Evidence And Artifacts
+## Evidence / Artifacts
 
 Gap analysis may produce mapping matrices, source citations, confidence ratings, assumptions, exclusions, implementation notes, and future profiling needs.
 
-## Weak / Better / Stronger Answers
+## Weak Answer
 
-**Weak answer:** This standard is relevant to supply-chain security.
+This standard is relevant to supply-chain security.
 
-**Better answer:** This standard supports identity evidence or attestation in some contexts.
+## Stronger Answer
 
-**Stronger answer:** This standard directly defines a mechanism for this evidence type at this lifecycle stage, supports these verification decisions, does not solve these adjacent problems, and may require this future profile or interpretation.
+A better answer: This standard supports identity evidence or attestation in some contexts.
+
+A stronger answer: This standard directly defines a mechanism for this evidence type at this lifecycle stage, supports these verification decisions, does not solve these adjacent problems, and may require this future profile or interpretation.
 
 ## Lifecycle Stages
 
 Standards gap analysis can apply during requirements translation, procurement, implementation planning, product acceptance, audit, assurance reporting, update planning, and lifecycle monitoring. The lifecycle stage should be explicit because a standard that supports build-time transparency may not support runtime verification or retention.
 
-## Standards And Technologies
+## Technology Options
 
-Relevant mappings depend on the standard or technology role, the evidence type, and the lifecycle stage being assessed. Use the mapping confidence model in [Standards & Technologies](../standards-technologies/index.md#mapping-confidence) to distinguish direct support, supporting context, adjacent relevance, and gaps.
+Relevant mappings depend on the standard or technology role, the evidence type, and the lifecycle stage being assessed. Use the mapping confidence model in [Technology Options](../technology-options/index.md#mapping-confidence) to distinguish direct support, supporting context, adjacent relevance, and gaps.
 
 ## Related Pages
 
-- [Standards & Technologies](../standards-technologies/index.md)
-- [Evidence Models](../standards-technologies/evidence-models.md)
-- [Mapping Confidence](../standards-technologies/index.md#mapping-confidence)
+- [Technology Options](../technology-options/index.md)
+- [Evidence Models](../evidence/evidence-models.md)
+- [Mapping Confidence](../technology-options/index.md#mapping-confidence)
 - [Further Reading](../resources/further-reading.md)

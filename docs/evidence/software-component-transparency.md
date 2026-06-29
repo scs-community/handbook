@@ -71,7 +71,7 @@ Transparency artifacts should usually be retained for at least the support perio
 - How are signatures, hashes, timestamps, issuers, trust anchors, and access controls protected?
 - How will recipients retrieve, verify, refresh, and correlate the evidence across lifecycle events?
 
-## Standards And Technology Support
+## Technology Options Support
 
 Relevant mappings may include SPDX, CycloneDX, VEX-like records, build provenance systems, package signing, artifact repositories, software composition analysis tools, and vulnerability databases.
 
@@ -83,4 +83,4 @@ An SBOM or xBOM does not by itself prove secure design, safe configuration, curr
 
 - [Procurement & Supplier Assurance](../use-cases/procurement-supplier-assurance.md)
 - [Update & Vulnerability](./update-vulnerability.md)
-- [Transparency Artifacts](../standards-technologies/transparency-artifacts.md)
+- [Transparency Artifacts](../technology-options/transparency-artifacts.md)

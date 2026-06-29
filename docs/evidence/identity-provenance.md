@@ -71,7 +71,7 @@ Identity and provenance evidence should usually be retained beyond acceptance be
 - How are signatures, hashes, timestamps, issuers, trust anchors, and access controls protected?
 - How will recipients retrieve, verify, refresh, and correlate the evidence across lifecycle events?
 
-## Standards And Technology Support
+## Technology Options Support
 
 Relevant mappings may include TCG Platform Certificates, TPM, DICE, Secure Element, TEE, GlobalPlatform, SPDM, CoRIM/CoMID, RATS/EAT, signed provenance records, and asset management systems.
 
@@ -83,4 +83,4 @@ Identity alone does not prove the current integrity, vulnerability status, safe 
 
 - [Product Acceptance](../use-cases/product-acceptance.md)
 - [Procurement & Supplier Assurance](../use-cases/procurement-supplier-assurance.md)
-- [Trust Anchors](../standards-technologies/trust-anchors.md)
+- [Trust Anchors](../technology-options/trust-anchors.md)
