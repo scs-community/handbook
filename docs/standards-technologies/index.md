@@ -1,0 +1,81 @@
+---
+title: Standards & Technologies
+sidebar_position: 1
+---
+
+Standards and technologies are included because they may help produce, protect, exchange, verify, or retain evidence. Their presence in this handbook does not mean they are mandatory for every product, sector, or assurance scenario.
+
+This section does not organize the site around standards bodies. It starts from supply-chain-security decisions, evidence needs, lifecycle stages, and verification questions.
+
+## Standards Roles
+
+| Type | Role in the handbook | Examples |
+|---|---|---|
+| Compliance and governance references | Explain why visitors may need guidance | NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
+| Assurance and evidence models | Explain what artifacts, claims, or assurance models may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
+| Technology and implementation standards | Explain how evidence or trust can be implemented | TCG, GlobalPlatform, SPDM, TPM, DICE, TEE, Secure Element |
+
+## Section Routes
+
+| Page | Use it to understand... |
+|---|---|
+| [Governance & Compliance](./governance-compliance.md) | Drivers, obligations, and governance expectations, including NIST, ISO, ENISA, NCSC, CISA, and sector references |
+| [Evidence Models](./evidence-models.md) | Claims, measurements, attestations, certificates, manifests, and evidence packages, including IETF RATS/EAT and CoRIM/CoMID |
+| [Transparency Artifacts](./transparency-artifacts.md) | SBOM, xBOM, vulnerability, and component transparency formats, including SPDX and CycloneDX |
+| [Attestation & Measurement](./attestation-measurement.md) | Current-state evidence, reference measurements, and verifier workflows, including measured boot, RIMs, SPDM, and RATS/EAT |
+| [Trust Anchors](./trust-anchors.md) | Hardware-rooted identity, credentials, keys, and secure environments, including TCG, GlobalPlatform, TPM, DICE, TEE, Secure Element, and OCP SAFE/Caliptra |
+| [Protocols & Exchange](./protocols-exchange.md) | Exchange, verification, and transport mechanisms for evidence, including SPDM, RATS evidence exchange, SBOM/xBOM distribution, and evidence repositories |
+
+## Mapping Confidence
+
+| Mapping type | Meaning |
+|---|---|
+| Direct | The standard or specification directly defines a mechanism, artifact, or assurance model for this issue |
+| Supporting | It helps implement, exchange, protect, or verify relevant evidence |
+| Contextual | It explains the driver, risk, or governance expectation |
+| Adjacent | It may be relevant in some sectors or architectures, but is not central |
+| Gap | The area may need future profiling, interpretation, or implementation guidance |
+
+## Entry Pattern
+
+For each standard, framework, or technology, explain:
+
+- Role: what problem it helps with.
+- Lifecycle fit: where it applies.
+- Evidence supported: what artifact, assurance model, or verification path it supports.
+- What it does not solve: limits and non-goals.
+- Mapping confidence: direct, supporting, contextual, adjacent, or gap.
+
+## Practical Questions
+
+### Questions to ask suppliers
+
+- Which standard, framework, technology, or specification are you using, and what evidence does it support?
+- What version, profile, implementation scope, or certification claim is relevant?
+- What does the source not prove about the product, supplier, or lifecycle state?
+
+### Questions to ask internally
+
+- Are we using this as a driver, evidence model, artifact format, trust anchor, protocol, or implementation option?
+- What mapping confidence applies: direct, supporting, contextual, adjacent, or gap?
+- What additional evidence or interpretation is needed before relying on the mapping?
+
+### Questions to ask assessors / auditors
+
+- Is the source reference and mapping rationale reviewable?
+- Are advisory mappings clearly labeled as guidance?
+- Are endorsement, compliance, and certification claims avoided unless directly supported?
+
+### Questions to ask implementers
+
+- What technical or process capability is needed to make this standard or technology useful in practice?
+- What verifier policy, trust anchor, evidence format, repository, or exchange path is required?
+- How will mappings be maintained as source versions and product implementations change?
+
+## Editorial Guardrails
+
+- Do not imply endorsement by a standards body unless formally confirmed.
+- Do not say a standard requires something unless the source clearly says so.
+- Prefer "may support", "can be used for", "is commonly associated with", or "is relevant to" for advisory mappings.
+- Label interpretive mappings as guidance.
+- Keep source references and versions visible where relevant.

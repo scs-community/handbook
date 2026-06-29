@@ -1,0 +1,59 @@
+---
+title: Evidence & Assurance
+sidebar_position: 1
+---
+
+Evidence is any artifact, record, claim, measurement, certificate, attestation, manifest, log, or report that can help a buyer, supplier, operator, assessor, or auditor decide whether a supply-chain-security practice is operating.
+
+Evidence may be human-readable, machine-readable, signed, measured, hardware-rooted, process-based, or audit-derived. This section distinguishes evidence that merely documents a process from evidence that can be independently verified, retained, and reused.
+
+## Evidence Pages
+
+| Evidence area | Decision it supports |
+|---|---|
+| [Identity & Provenance](./identity-provenance.md) | Is this the expected device, component, platform, supplier, or service, and where did it come from? |
+| [Integrity & Attestation](./integrity-attestation.md) | Is this in an expected state now? |
+| [Software & Component Transparency](./software-component-transparency.md) | What software, firmware, hardware, or component elements are present? |
+| [Update & Vulnerability](./update-vulnerability.md) | Were updates authorized and are known exposures handled? |
+| [Lifecycle State & Audit](./lifecycle-state-audit.md) | Is the asset active, repaired, transferred, revoked, retired, or decommissioned? |
+| [Retention & Reuse](./retention-reuse.md) | Can evidence remain useful across later lifecycle decisions? |
+
+## Evidence Maturity
+
+| Level | Description |
+|---|---|
+| Assertion | Supplier says a control exists |
+| Documented process | Supplier describes the process, owner, and scope |
+| Produced artifact | Supplier provides a record, manifest, certificate, SBOM, log, or report |
+| Verifiable artifact | Recipient can verify integrity, origin, freshness, or consistency |
+| Lifecycle-retained evidence | Evidence is retained and updated across deployment, update, repair, transfer, and decommissioning |
+
+## Practical Questions
+
+### Questions to ask suppliers
+
+- Who produces each evidence type, when is it generated, and what scope does it cover?
+- What makes the artifact verifiable: signature, issuer, hash, timestamp, measurement, log, or independent record?
+- How long will it remain available, and how will updates or superseded evidence be handled?
+
+### Questions to ask internally
+
+- What decision does the evidence support, and who relies on it?
+- What is the minimum useful evidence for the decision, and what would be stronger?
+- Where will the evidence be retained so it can be reused after acceptance?
+
+### Questions to ask assessors / auditors
+
+- Can each evidence item be tied to a claim, control, lifecycle stage, product scope, and verification path?
+- Are freshness, completeness, exceptions, and retention visible?
+- Does the evidence package distinguish assertion, process description, produced artifact, verifiable artifact, and lifecycle-retained evidence?
+
+### Questions to ask implementers
+
+- What system, workflow, or owner produces each evidence item?
+- What metadata is needed for later verification and correlation?
+- How will evidence be refreshed after update, repair, transfer, vulnerability disclosure, or decommissioning?
+
+## Practical Use
+
+Use this section with the [Evidence Checklist](../resources/evidence-checklist.md), [Supplier Questions](../resources/supplier-questions.md), and the [Lifecycle Map](../guidance/lifecycle-map.md).

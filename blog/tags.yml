@@ -1,0 +1,19 @@
+hello:
+  label: Hello
+  description: Greetings from the team.
+  permalink: /hello
+
+supply-chain-security:
+  label: Supply Chain Security
+  description: Posts about practical supply-chain-security guidance.
+  permalink: /supply-chain-security
+
+assurance:
+  label: Assurance
+  description: Posts about evidence-backed assurance and lifecycle trust.
+  permalink: /assurance
+
+standards:
+  label: Standards
+  description: Posts about standards, technologies, and implementation mappings.
+  permalink: /standards
