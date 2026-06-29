@@ -1,9 +1,9 @@
 ---
-title: Risks & Controls
+title: Risks & Practices
 sidebar_position: 2
 ---
 
-Supply-chain-security guidance is most useful when readers can see what can go wrong and what evidence would help them make a better decision. This page names common attack and failure modes, then connects them to practical controls and evidence.
+Supply-chain-security guidance is most useful when readers can see what can go wrong and what evidence would help them make a better decision. This page names common attack and failure modes, then connects them to practical practices, controls, and evidence.
 
 ## Attack And Failure Modes
 
@@ -20,27 +20,27 @@ Supply-chain-security guidance is most useful when readers can see what can go w
 | Key or credential compromise | Device or supplier credentials are cloned, extracted, reused, or not hardware-bound | Hardware-rooted identity, TPM, DICE, Secure Element evidence, credential issuance logs |
 | Lack of continuous monitoring | Product is accepted once but not checked after updates, repair, or operation | Lifecycle assurance records, attestation cadence, vulnerability and update evidence |
 
-## Risk And Control Themes
+## Risk And Practice Themes
 
 ### Identity and authenticity
 
-Readers need to know whether a delivered device, component, platform, supplier, service, or artifact is the expected one. Controls may include unique identity, manufacturer identity claims, hardware-rooted credentials, certificate issuance records, and acceptance checks.
+Readers need to know whether a delivered device, component, platform, supplier, service, or artifact is the expected one. Practices may include unique identity, manufacturer identity claims, hardware-rooted credentials, certificate issuance records, and acceptance checks.
 
 ### Provenance and chain of custody
 
-Readers need to understand origin, custody, sourcing, logistics, repair, and transfer history. Controls may include provenance records, chain-of-custody records, supplier declarations, reseller records, and lifecycle-state records.
+Readers need to understand origin, custody, sourcing, logistics, repair, and transfer history. Practices may include provenance records, chain-of-custody records, supplier declarations, reseller records, and lifecycle-state records.
 
 ### Integrity and expected state
 
-Readers need to know whether firmware, software, configuration, and platform state match expectations. Controls may include signed firmware, reference measurements, measured boot, attestation, configuration baselines, and tamper-evident update histories.
+Readers need to know whether firmware, software, configuration, and platform state match expectations. Practices may include signed firmware, reference measurements, measured boot, attestation, configuration baselines, and tamper-evident update histories.
 
 ### Transparency and vulnerability handling
 
-Readers need to understand what components are present and whether known exposures are tracked. Controls may include SBOMs, xBOMs, vulnerability records, VEX-like status records, remediation evidence, and update plans.
+Readers need to understand what components are present and whether known exposures are tracked. Practices may include SBOMs, xBOMs, vulnerability records, VEX-like status records, remediation evidence, and update plans.
 
 ### Lifecycle assurance
 
-Readers need assurance after acceptance. Controls may include update records, repair records, re-provisioning evidence, ownership transfer records, revocation logs, decommissioning evidence, and retained audit trails.
+Readers need assurance after acceptance. Practices may include update records, repair records, re-provisioning evidence, ownership transfer records, revocation logs, decommissioning evidence, and retained audit trails.
 
 ## Assertions Vs Artifacts
 
@@ -54,7 +54,7 @@ Readers need assurance after acceptance. Controls may include update records, re
 
 ## Example Mapping
 
-| Driver | Failure mode | Practice | Evidence |
+| Need | Failure mode | Practice | Evidence |
 |---|---|---|---|
 | Product acceptance | Counterfeit component | Verify component or platform identity | Platform Certificate, provenance record |
 | Audit or compliance | Reliance on self-attestation | Request verifiable artifacts | Evidence checklist, audit records |
@@ -67,7 +67,7 @@ Readers need assurance after acceptance. Controls may include update records, re
 ### Questions to ask suppliers
 
 - Which listed risks are relevant to the product, platform, component, service, or supplier relationship?
-- What artifacts show that the relevant controls are operating for the specific scope being assessed?
+- What artifacts show that the relevant practices or controls are operating for the specific scope being assessed?
 - What evidence would change after manufacturing, update, repair, transfer, or decommissioning?
 
 ### Questions to ask internally
@@ -92,4 +92,4 @@ Readers need assurance after acceptance. Controls may include update records, re
 
 - Use [Lifecycle Map](./lifecycle-map.md) to decide when each risk matters.
 - Use [10 Best Practices](./10-best-practices.md) to connect risk themes to practices.
-- Use [Evidence & Assurance](../evidence-assurance/index.md) to identify artifacts and verification paths.
+- Use [Evidence](../evidence-assurance/index.md) to identify artifacts and verification paths.

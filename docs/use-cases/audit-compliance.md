@@ -17,7 +17,7 @@ An auditor, assessor, certification body, customer-assurance team, or internal c
 
 ## Good Practice
 
-Audit and compliance work should connect a driver to a control, a control to evidence, and evidence to a verification method. It should distinguish between compliance drivers, assurance expectations, and technical implementation mechanisms.
+Audit and compliance work should connect a need to a control, a control to evidence, and evidence to a verification method. It should distinguish between compliance needs, assurance expectations, and technical implementation mechanisms.
 
 ## What To Ask For
 
@@ -67,7 +67,7 @@ Governance references may explain why a requirement exists. Evidence models may 
 
 ## Related Pages
 
-- [Requirements](../requirements/index.md)
-- [Evidence & Assurance](../evidence-assurance/index.md)
+- [Risks & Practices](../guidance/index.md)
+- [Evidence](../evidence-assurance/index.md)
 - [Governance & Compliance](../standards-technologies/governance-compliance.md)
 - [Further Reading](../resources/further-reading.md)

@@ -80,6 +80,6 @@ Attestation does not automatically prove the product is free from vulnerabilitie
 
 ## Related Pages
 
-- [Risks & Controls](../guidance/risks-controls.md)
+- [Risks & Practices](../guidance/risks-practices.md)
 - [Product Acceptance](../use-cases/product-acceptance.md)
 - [Attestation & Measurement](../standards-technologies/attestation-measurement.md)

@@ -77,10 +77,10 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 The homepage should keep the sister-site visual pattern while reflecting the supply-chain-security brief:
 
 - Hero proposition and two clear calls to action.
-- Value pillars that move from driver to guidance to evidence.
-- Current pressures: compliance, procurement, customer assurance, audit, product acceptance, and risk.
-- Reader-mode cards for requirement owner, assurance requester, and assurance implementer.
-- A simple model: requirements, guidance, evidence, standards and technologies.
+- Value pillars that move from obligation to practice to evidence.
+- Common obligations: regulation, standards, procurement, customer assurance, audit, product acceptance, and governance.
+- Reader-mode cards for compliance owner, assurance requester, and assurance implementer.
+- A simple model: obligation, practice, evidence, and mapping.
 - Intent routes for common visitor needs.
 - Neutrality and open-source framing.
 
@@ -107,7 +107,8 @@ Follow `style-guide.md` for editorial voice. Key brand reminders:
 
 For public site routes, use canonical root routes with trailing slashes, for example:
 
-- Good: `/requirements/`
+- Good: `/guidance/`
+- Good: `/compliance-guide/`
 - Good: `/guidance/10-best-practices/`
 - Good: `/standards-technologies/`
 - Avoid: `/docs/guidance/10-best-practices`

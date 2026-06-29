@@ -91,15 +91,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'requirementsSidebar',
+          sidebarId: 'complianceGuideSidebar',
           position: 'left',
-          label: 'Requirements',
+          label: 'Compliance Guide',
         },
         {
           type: 'docSidebar',
           sidebarId: 'guidanceSidebar',
           position: 'left',
-          label: 'Guidance',
+          label: 'Risks & Practices',
         },
         {
           type: 'docSidebar',
@@ -111,7 +111,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'evidenceSidebar',
           position: 'left',
-          label: 'Evidence & Assurance',
+          label: 'Evidence',
         },
         {
           type: 'docSidebar',
@@ -123,7 +123,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'resourcesSidebar',
           position: 'left',
-          label: 'Resources',
+          label: 'Tools & Templates',
         },
         {
           href: 'https://github.com/scs-community/handbook',
@@ -139,12 +139,12 @@ const config: Config = {
           title: 'Start Here',
           items: [
             {
-              label: 'Requirements',
-              to: '/requirements/',
+              label: 'Compliance Guide',
+              to: '/compliance-guide/',
             },
             {
-              label: 'Risks & Controls',
-              to: '/guidance/risks-controls/',
+              label: 'Risks & Practices',
+              to: '/guidance/',
             },
             {
               label: '10 Best Practices',
@@ -177,7 +177,7 @@ const config: Config = {
           title: 'Evidence',
           items: [
             {
-              label: 'Evidence & Assurance',
+              label: 'Evidence',
               to: '/evidence-assurance/',
             },
             {
@@ -216,7 +216,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Resources',
+          title: 'Tools & Templates',
           items: [
             {
               label: 'Supplier Questions',
@@ -229,6 +229,18 @@ const config: Config = {
             {
               label: 'Artifact Map',
               to: '/resources/artifact-map/',
+            },
+            {
+              label: 'Templates',
+              to: '/resources/templates/',
+            },
+            {
+              label: 'Glossary',
+              to: '/resources/glossary/',
+            },
+            {
+              label: 'Further Reading',
+              to: '/resources/further-reading/',
             },
             {
               label: 'GitHub',

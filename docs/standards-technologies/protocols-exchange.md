@@ -81,6 +81,6 @@ Protocols and exchange mechanisms help move evidence between producers, verifier
 
 ## Related Pages
 
-- [Evidence & Assurance](../evidence-assurance/index.md)
+- [Evidence](../evidence-assurance/index.md)
 - [10 Best Practices](../guidance/10-best-practices.md)
 - [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)

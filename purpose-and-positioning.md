@@ -10,19 +10,19 @@ Examples include connected devices, embedded systems, mobile platforms, PCs, ser
 
 ## Positioning
 
-The site is driver-led, guidance-first, evidence-backed, and standards-aware.
+The site is obligation-led, practice-focused, evidence-backed, and standards-aware.
 
-Standards, compliance, procurement, customer assurance, and risk create the need. Guidance explains what to do. Evidence shows whether it is being done. Technologies and standards may help implement and verify it.
+The handbook is for teams that need to satisfy supply-chain-security obligations. Those obligations may come from regulation, standards, procurement, customer assurance, audit, certification, product acceptance, or internal governance. The handbook translates those obligations into practical risks, controls, supplier questions, evidence expectations, and standards-aware implementation options.
 
 The site should not be positioned as an evidence hub or as a TCG / GlobalPlatform 10 best practices microsite. Those framings are too narrow. The handbook should feel like a practical guidance site that uses the 10 best practices workplan as one source of material inside a broader reader journey.
 
 ## Visitor Promise
 
-Visitors often arrive because they face a compliance, procurement, customer assurance, audit, product-acceptance, certification, sector-guidance, or risk problem.
+Visitors often arrive because they need to satisfy a supply-chain-security obligation.
 
 They should leave with:
 
-- a clearer understanding of the driver or supply-chain-security decision they are trying to address;
+- a clearer understanding of the obligation or supply-chain-security decision they are trying to address;
 - a practical view of relevant lifecycle controls and best practices;
 - a sense of what evidence can support those practices;
 - a sense of who produces, verifies, retains, and relies on that evidence;
@@ -49,16 +49,16 @@ The site should not primarily be written for standards specialists. Standards sp
 
 | Reader mode | What they need | Natural route |
 |---|---|---|
-| Requirement owner | I have a compliance, customer, procurement, audit, certification, or risk requirement. What does it mean? | Requirements -> Guidance |
+| Compliance owner | I have a regulation, standard, customer request, procurement requirement, audit, certification, product-acceptance, or governance obligation. What does it mean? | Compliance Guide -> Risks & Practices |
 | Assurance requester | I need to ask suppliers or product teams for useful evidence. What should I ask for? | Use Cases -> Evidence Checklist |
-| Assurance implementer | I need to produce, protect, verify, retain, or explain evidence. | Evidence & Assurance -> Standards & Technologies |
+| Assurance implementer | I need to produce, protect, verify, retain, or explain evidence. | Evidence -> Standards & Technologies |
 
 ## Content Model
 
 The site distinguishes four connected layers:
 
-1. **Drivers and obligations**: regulation, compliance, customer requirements, procurement expectations, audit, certification, sector guidance, and risk management.
-2. **Supply-chain-security guidance**: plain-language guidance on risks, lifecycle stages, controls, best practices, responsibilities, and decisions.
+1. **Obligations**: regulation, standards, customer requirements, procurement expectations, audit, certification, product acceptance, internal governance, and risk management.
+2. **Risks and practices**: plain-language guidance on failure modes, lifecycle stages, controls, best practices, responsibilities, and decisions.
 3. **Evidence and assurance**: artifacts, records, claims, measurements, attestations, certificates, SBOMs/xBOMs, update records, vulnerability records, lifecycle-state records, and audit materials that can show whether practices and controls are operating.
 4. **Implementation and technology mappings**: neutral mappings to standards, technologies, and frameworks that may help implement, produce, protect, verify, exchange, or retain evidence.
 
@@ -96,6 +96,6 @@ Supply-chain security becomes more actionable when practices are linked to lifec
 
 The handbook should be transparent about its relationship to the GlobalPlatform / TCG collaboration while remaining organized around reader needs rather than standards liaison activity.
 
-The GlobalPlatform 10 best practices workplan is source material for one theme within the broader site. The 10 best practices page is a navigational and educational anchor inside Guidance. It is not the whole site.
+The GlobalPlatform 10 best practices workplan is source material for one theme within the broader site. The 10 best practices page is a navigational and educational anchor inside Risks & Practices. It is not the whole site.
 
 Standards and technology mappings should be clearly sourced where possible. Interpretive mappings should be presented as guidance, not as formal endorsement, certification advice, or compliance advice.

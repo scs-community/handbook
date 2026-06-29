@@ -50,17 +50,44 @@
   background-color: var(--ifm-color-emphasis-100);
 }
 
-.pressures {
+.needRoutes {
+  padding: 3rem 0;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.routeTableWrapper {
+  overflow-x: auto;
+}
+
+.routeTable {
+  background: var(--ifm-card-background-color);
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.routeTable th,
+.routeTable td {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0.9rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.routeTable th {
+  background: var(--ifm-color-emphasis-200);
+}
+
+.needs {
   padding: 3rem 0;
 }
 
-.pressureList {
+.needList {
   display: grid;
   gap: 0.75rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.pressureItem {
+.needItem {
   border: 1px solid var(--ifm-color-emphasis-200);
   border-radius: var(--ifm-card-border-radius);
   font-weight: 700;
@@ -147,7 +174,7 @@
     gap: 0.5rem;
   }
 
-  .pressureList,
+  .needList,
   .modelSteps {
     grid-template-columns: 1fr;
   }

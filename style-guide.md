@@ -12,7 +12,7 @@ Prefer:
 - technology mappings, not technology mandates;
 - lifecycle assurance, not one-time acceptance;
 - neutral practices first, implementation options second;
-- lead with the reader's driver, then translate it into guidance, evidence, and implementation options.
+- lead with the reader's obligation or decision, then translate it into risks, practices, evidence, verification, and implementation options.
 
 Avoid:
 
@@ -27,19 +27,19 @@ Avoid:
 
 ## Page Model
 
-Each substantive page should start from the reader's driver or supply-chain-security problem, not from a standards body or technology.
+Each substantive page should start from the reader's obligation, decision, or supply-chain-security problem, not from a standards body or technology.
 
 Recommended structure:
 
-1. Driver or problem.
-2. Why existing approaches are insufficient.
-3. Practices and controls.
-4. Evidence needed.
-5. How it can be verified.
-6. Relevant lifecycle stages.
-7. Relevant standards and technologies.
-8. Practical questions to ask.
-9. Links to related pages.
+1. What obligation or decision brings the reader here?
+2. What can go wrong?
+3. What stronger practice looks like.
+4. What to ask for.
+5. What evidence matters.
+6. What weak / better / stronger answers look like.
+7. How this maps to lifecycle stages.
+8. Relevant standards and technologies.
+9. Related tools and templates.
 
 ## Evidence Language
 
@@ -90,7 +90,7 @@ This style guide governs editorial voice and content structure. The brand guide 
 Each page should pass these tests:
 
 - Can a non-standards specialist understand the practical reason for the page?
-- Does the page start from a real driver, decision, or risk?
+- Does the page start from a real obligation, decision, or risk?
 - Does it explain what good practice looks like?
 - Does it say what evidence would support the practice?
 - Does it distinguish assertions from verifiable artifacts?

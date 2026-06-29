@@ -3,13 +3,13 @@ title: Governance & Compliance
 sidebar_position: 2
 ---
 
-Compliance and governance references explain why readers may need supply-chain-security guidance. They may create pressure, define control expectations, shape audit evidence, or influence procurement language. They usually do not provide the complete technical evidence mechanism.
+Compliance and governance references explain why readers may need supply-chain-security guidance. They may define control expectations, shape audit evidence, influence procurement language, or create a need for practical interpretation. They usually do not provide the complete technical evidence mechanism.
 
 ## Mapping Summary
 
 | Field | Guidance |
 |---|---|
-| Role | Contextual driver for requirements, governance, risk management, audit, procurement, or customer assurance. |
+| Role | Contextual source for requirements, governance, risk management, audit, procurement, or customer assurance needs. |
 | Lifecycle fit | Design, sourcing, procurement, acceptance, operation, audit, renewal, and risk review. |
 | Evidence supported | Policies, control mappings, risk assessments, audit evidence, supplier requirements, acceptance criteria. |
 | What it does not solve | Usually does not define product-specific identity evidence, attestation formats, lifecycle-state records, or implementation profiles. |
@@ -99,6 +99,6 @@ Compliance and governance references explain why readers may need supply-chain-s
 
 ## Related Pages
 
-- [Evidence & Assurance](../evidence-assurance/index.md)
+- [Evidence](../evidence-assurance/index.md)
 - [10 Best Practices](../guidance/10-best-practices.md)
 - [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)

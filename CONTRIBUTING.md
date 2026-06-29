@@ -6,8 +6,8 @@ Thank you for your interest in contributing to the Supply Chain Security Handboo
 
 We welcome contributions in areas such as:
 
-- requirements translation;
-- supply-chain-security risks and controls;
+- obligation translation;
+- supply-chain-security risks and practices;
 - lifecycle assurance;
 - procurement and supplier assurance;
 - product acceptance;
@@ -26,7 +26,7 @@ Before contributing, review:
 
 Key principles:
 
-- Start from a reader driver, decision, or risk.
+- Start from a reader obligation, decision, or risk.
 - Keep the site neutral and standards-aware.
 - Link practices to evidence and lifecycle stages.
 - Distinguish assertions from verifiable artifacts.
@@ -54,10 +54,10 @@ npm run build
 - [ ] Content follows the style guide.
 - [ ] Claims about standards or guidance are sourced where needed.
 - [ ] Links resolve.
-- [ ] Page starts from a driver, decision, or risk.
+- [ ] Page starts from an obligation, decision, or risk.
 - [ ] Page identifies relevant evidence and verification questions.
 - [ ] Page avoids legal or compliance-authority claims.
-- [ ] Page links to related guidance, evidence, standards, or resources.
+- [ ] Page links to related compliance guidance, risks and practices, evidence, standards, or tools and templates.
 
 ## License
 

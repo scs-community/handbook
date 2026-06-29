@@ -1,17 +1,17 @@
 ---
-title: Guidance overview
+title: Risks & Practices overview
 sidebar_position: 1
 ---
 
-This section explains the supply-chain-security problem space, maps risks and evidence across the lifecycle, and summarizes the core practices for products and platforms where hardware, firmware, software, suppliers, credentials, updates, and lifecycle services all affect trust.
+This section explains the supply-chain-security failure modes that matter, the practices that reduce them, and the evidence that makes those practices reviewable across the lifecycle.
 
 The guidance is written for decision makers first: product-security leaders, supply-chain-security leaders, procurement and supplier-assurance teams, product-acceptance decision makers, auditors, assessors, and implementers who need to understand what support they must provide.
 
-## Guidance Pages
+## Risks & Practices Pages
 
 | Page | Use it when you need to... |
 |---|---|
-| [Risks & Controls](./risks-controls.md) | Understand attack and failure modes, and why evidence-backed assurance matters |
+| [Risks & Practices](./risks-practices.md) | Understand attack and failure modes, and why evidence-backed assurance matters |
 | [Lifecycle Map](./lifecycle-map.md) | Map practices and evidence from design through decommissioning |
 | [10 Best Practices](./10-best-practices.md) | Read a practical synthesis of the main supply-chain-security practices |
 
@@ -20,10 +20,24 @@ The guidance is written for decision makers first: product-security leaders, sup
 Serious guidance pages should follow this model:
 
 ```text
-Drivers -> attack and failure modes -> practices -> evidence -> verification -> standards and technologies
+Obligation -> risk or failure mode -> practice -> evidence -> verification -> standards and technology mapping
 ```
 
-This keeps the site practical and neutral. It starts with the reader's driver or decision, not a standards body or technology.
+This keeps the site practical and neutral. It starts with the reader's need or decision, not a standards body or technology.
+
+## How To Translate A Need Into Action
+
+Use this pattern when translating a regulation, customer request, procurement expectation, audit task, certification activity, product-acceptance decision, or risk review into practical work.
+
+| Step | Translation question |
+|---|---|
+| Obligation | What regulation, standard, customer request, procurement expectation, audit need, product-acceptance decision, or governance concern brings the reader here? |
+| Decision | What decision must the reader make? |
+| Failure mode | What could go wrong if the claim is wrong or unverifiable? |
+| Practice | What practical control or behavior should operate? |
+| Evidence | What artifact, record, claim, measurement, certificate, attestation, manifest, log, or report would support the practice? |
+| Verification | How can the recipient test origin, integrity, freshness, consistency, or lifecycle relevance? |
+| Mapping | Which standards or technologies may help produce, protect, exchange, verify, or retain the evidence? |
 
 ## What Stronger Assurance Looks Like
 
@@ -31,7 +45,7 @@ This keeps the site practical and neutral. It starts with the reader's driver or
 |---|---|---|
 | A supplier says a control exists | The supplier describes the process, owner, scope, and review cadence | The supplier provides evidence, a verification path, lifecycle retention, and a remediation process |
 | A product is accepted once | Acceptance checks are documented | Acceptance evidence is retained and updated after deployment, update, repair, transfer, and decommissioning |
-| Standards are listed as references | Standards are grouped by role | Standards are mapped to drivers, evidence models, technical mechanisms, and gaps |
+| Standards are listed as references | Standards are grouped by role | Standards are mapped to needs, evidence models, technical mechanisms, and gaps |
 
 ## Practical Questions
 
@@ -43,7 +57,7 @@ This keeps the site practical and neutral. It starts with the reader's driver or
 
 ### Questions to ask internally
 
-- What driver or decision brought us to this guidance page?
+- What need or decision brought us to this guidance page?
 - What would go wrong if we relied only on a policy statement or supplier assertion?
 - What evidence would make the decision reviewable later?
 
@@ -61,6 +75,6 @@ This keeps the site practical and neutral. It starts with the reader's driver or
 
 ## Next Actions
 
-- Use [Risks & Controls](./risks-controls.md) to understand what can go wrong.
+- Use [Risks & Practices](./risks-practices.md) to understand what can go wrong.
 - Use [Lifecycle Map](./lifecycle-map.md) to decide when evidence is needed.
 - Use [10 Best Practices](./10-best-practices.md) to connect practices, evidence, verification, and mappings.

@@ -19,7 +19,7 @@ This section does not organize the site around standards bodies. It starts from 
 
 | Page | Use it to understand... |
 |---|---|
-| [Governance & Compliance](./governance-compliance.md) | Drivers, obligations, and governance expectations, including NIST, ISO, ENISA, NCSC, CISA, and sector references |
+| [Governance & Compliance](./governance-compliance.md) | Obligations and governance expectations, including NIST, ISO, ENISA, NCSC, CISA, and sector references |
 | [Evidence Models](./evidence-models.md) | Claims, measurements, attestations, certificates, manifests, and evidence packages, including IETF RATS/EAT and CoRIM/CoMID |
 | [Transparency Artifacts](./transparency-artifacts.md) | SBOM, xBOM, vulnerability, and component transparency formats, including SPDX and CycloneDX |
 | [Attestation & Measurement](./attestation-measurement.md) | Current-state evidence, reference measurements, and verifier workflows, including measured boot, RIMs, SPDM, and RATS/EAT |
@@ -32,7 +32,7 @@ This section does not organize the site around standards bodies. It starts from 
 |---|---|
 | Direct | The standard or specification directly defines a mechanism, artifact, or assurance model for this issue |
 | Supporting | It helps implement, exchange, protect, or verify relevant evidence |
-| Contextual | It explains the driver, risk, or governance expectation |
+| Contextual | It explains the need, risk, or governance expectation |
 | Adjacent | It may be relevant in some sectors or architectures, but is not central |
 | Gap | The area may need future profiling, interpretation, or implementation guidance |
 
@@ -56,7 +56,7 @@ For each standard, framework, or technology, explain:
 
 ### Questions to ask internally
 
-- Are we using this as a driver, evidence model, artifact format, trust anchor, protocol, or implementation option?
+- Are we using this as a need source, evidence model, artifact format, trust anchor, protocol, or implementation option?
 - What mapping confidence applies: direct, supporting, contextual, adjacent, or gap?
 - What additional evidence or interpretation is needed before relying on the mapping?
 

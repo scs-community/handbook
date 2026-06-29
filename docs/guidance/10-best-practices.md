@@ -177,6 +177,6 @@ Practice titles are action-led and reader-oriented. They avoid making standards 
 ## Use This Page With
 
 - [Lifecycle Map](./lifecycle-map.md) to place practices in lifecycle context.
-- [Evidence & Assurance](../evidence-assurance/index.md) to identify artifacts and verification paths.
+- [Evidence](../evidence-assurance/index.md) to identify artifacts and verification paths.
 - [Standards & Technologies](../standards-technologies/index.md) to understand mapping roles and limits.
 - [Supplier Questions](../resources/supplier-questions.md) to turn practices into requests.

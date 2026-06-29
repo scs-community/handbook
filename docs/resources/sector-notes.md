@@ -10,7 +10,7 @@ Sector notes capture sector-specific interpretation without making sectors the o
 | Field | Prompt |
 |---|---|
 | Sector | Which sector or domain is being considered? |
-| Driver | What regulation, procurement expectation, customer assurance demand, audit, certification, or risk driver matters? |
+| Need | What regulation, procurement expectation, customer assurance demand, audit, certification, or risk need matters? |
 | Decision | What decision is the reader trying to make? |
 | Evidence | Which artifacts matter most in this sector? |
 | Lifecycle emphasis | Which lifecycle stages are especially important? |

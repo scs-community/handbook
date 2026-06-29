@@ -9,7 +9,7 @@ Supply-chain-security assurance is not a single event. It changes as products mo
 
 | Lifecycle stage | Main decision | Common failure modes | Example evidence | Related pages |
 |---|---|---|---|---|
-| Design | What trust assumptions and controls are required? | Missing threat model, unclear trust boundaries, unmanaged supplier assumptions | Threat model, security requirements, component criteria | [Risks & Controls](./risks-controls.md) |
+| Design | What trust assumptions and controls are required? | Missing threat model, unclear trust boundaries, unmanaged supplier assumptions | Threat model, security requirements, component criteria | [Risks & Practices](./risks-practices.md) |
 | Sourcing | Are suppliers and components acceptable? | Opaque sub-tiers, unsupported components, counterfeit risk | Supplier evidence, provenance, certifications, component records | [Procurement & Supplier Assurance](../use-cases/procurement-supplier-assurance.md) |
 | Manufacturing | Was the product built as expected? | Substitution, unauthorized changes, poor build traceability | Manufacturing records, identity injection records, Platform Certificates | [Identity & Provenance](../evidence-assurance/identity-provenance.md) |
 | Provisioning | Was identity or credential material created correctly? | Weak key handling, cloned credentials, unbound identities | Device identity records, credential issuance logs, trust-anchor records | [Trust Anchors](../standards-technologies/trust-anchors.md) |

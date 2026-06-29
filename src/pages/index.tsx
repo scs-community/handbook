@@ -19,8 +19,8 @@ function HomepageHeader() {
           Practical supply-chain-security guidance for products and platforms where hardware, firmware, software, suppliers, credentials, updates, and lifecycle services all affect trust.
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/requirements/">
-            Start with your requirement
+          <Link className="button button--secondary button--lg" to="/compliance-guide/">
+            Start with your obligation
           </Link>
           <Link className="button button--secondary button--lg" to="/guidance/10-best-practices/">
             Read the 10 best practices
@@ -34,15 +34,15 @@ function HomepageHeader() {
 function ValuePillars(): ReactNode {
   const pillars = [
     {
-      title: 'Understand the driver',
+      title: 'Understand the obligation',
       description:
-        'Start from compliance, procurement, customer assurance, audit, certification, product acceptance, or risk pressure.',
+        'Start with a regulation, standard, procurement expectation, customer request, audit, certification, product acceptance, or governance obligation.',
       icon: '01',
     },
     {
-      title: 'Apply practical guidance',
+      title: 'Apply practical practices',
       description:
-        'Translate the driver into supply-chain-security practices, lifecycle controls, responsibilities, and decisions.',
+        'Translate the obligation into supply-chain-security practices, lifecycle controls, responsibilities, and decisions.',
       icon: '02',
     },
     {
@@ -57,9 +57,9 @@ function ValuePillars(): ReactNode {
     <section className={styles.features}>
       <div className="container">
         <div className="text--center margin-bottom--lg">
-          <Heading as="h2">From requirements to evidence-backed assurance</Heading>
+          <Heading as="h2">From obligations to evidence-backed assurance</Heading>
           <p>
-            Standards, compliance, procurement, customer assurance, and risk create the need. Guidance explains what to do. Evidence shows whether it is being done. Standards and technologies may help implement or verify it.
+            Supply-chain-security obligations create the need. They may come from regulation, standards, procurement, customer assurance, audit, certification, product acceptance, or internal governance. This handbook helps translate those obligations into practical practices, supplier questions, evidence expectations, and standards-aware implementation options.
           </p>
         </div>
         <div className="row">
@@ -78,8 +78,8 @@ function ValuePillars(): ReactNode {
   );
 }
 
-function CurrentPressures(): ReactNode {
-  const pressures = [
+function CommonObligations(): ReactNode {
+  const obligations = [
     'Regulation and compliance obligations',
     'Customer assurance demands',
     'Procurement and acquisition expectations',
@@ -89,22 +89,22 @@ function CurrentPressures(): ReactNode {
   ];
 
   return (
-    <section className={styles.pressures}>
+    <section className={styles.needs}>
       <div className="container">
         <div className="row">
           <div className="col col--5">
-            <Heading as="h2">Current pressures</Heading>
+            <Heading as="h2">Common obligations</Heading>
             <p>
-              Visitors often arrive with a specific external pressure or internal decision.
-              The handbook starts there, then translates that pressure into practical guidance,
-              evidence expectations, and implementation options.
+              Supply-chain-security obligations usually arrive through one of these routes.
+              Start with the route that matches the obligation you are facing, then move
+              from obligation to practice, evidence, and verification.
             </p>
           </div>
           <div className="col col--7">
-            <div className={styles.pressureList}>
-              {pressures.map((pressure) => (
-                <div key={pressure} className={styles.pressureItem}>
-                  {pressure}
+            <div className={styles.needList}>
+              {obligations.map((obligation) => (
+                <div key={obligation} className={styles.needItem}>
+                  {obligation}
                 </div>
               ))}
             </div>
@@ -115,14 +115,123 @@ function CurrentPressures(): ReactNode {
   );
 }
 
+function ObligationRoutes(): ReactNode {
+  const routes = [
+    {
+      obligation: 'Regulation, standard, or compliance expectation',
+      question: 'What does this mean for supply-chain security?',
+      route: (
+        <>
+          <Link to="/guidance/risks-practices/">Risks & Practices</Link>
+          {' -> '}
+          <Link to="/guidance/10-best-practices/">10 Best Practices</Link>
+          {' -> '}
+          <Link to="/evidence-assurance/">Evidence</Link>
+        </>
+      ),
+    },
+    {
+      obligation: 'Customer assurance request',
+      question: 'What should we provide?',
+      route: (
+        <>
+          <Link to="/use-cases/">Use Cases</Link>
+          {' -> '}
+          <Link to="/evidence-assurance/">Evidence</Link>
+        </>
+      ),
+    },
+    {
+      obligation: 'Procurement or acquisition requirement',
+      question: 'What should we ask suppliers for?',
+      route: (
+        <>
+          <Link to="/use-cases/procurement-supplier-assurance/">Procurement & Supplier Assurance</Link>
+          {' -> '}
+          <Link to="/resources/evidence-checklist/">Evidence Checklist</Link>
+        </>
+      ),
+    },
+    {
+      obligation: 'Audit, assessment, or certification activity',
+      question: 'What artifacts show controls are operating?',
+      route: (
+        <>
+          <Link to="/evidence-assurance/">Evidence</Link>
+          {' -> '}
+          <Link to="/guidance/lifecycle-map/">Lifecycle Map</Link>
+        </>
+      ),
+    },
+    {
+      obligation: 'Product acceptance decision',
+      question: 'How do we know this product is trustworthy?',
+      route: (
+        <>
+          <Link to="/use-cases/product-acceptance/">Product Acceptance</Link>
+          {' -> '}
+          <Link to="/evidence-assurance/identity-provenance/">Identity & Provenance</Link>
+        </>
+      ),
+    },
+    {
+      obligation: 'Internal governance or risk review',
+      question: 'Where are we exposed?',
+      route: (
+        <>
+          <Link to="/guidance/risks-practices/">Risks & Practices</Link>
+          {' -> '}
+          <Link to="/guidance/lifecycle-map/">Lifecycle Map</Link>
+        </>
+      ),
+    },
+  ];
+
+  return (
+    <section className={styles.needRoutes}>
+      <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <Heading as="h2" id="start-with-your-obligation">
+            Start with your obligation
+          </Heading>
+          <p>
+            Arrive with an obligation, customer request, procurement question, audit task,
+            product-acceptance decision, or governance concern, then choose the next useful route.
+          </p>
+        </div>
+        <div className={styles.routeTableWrapper}>
+          <table className={styles.routeTable}>
+            <thead>
+              <tr>
+                <th>Obligation</th>
+                <th>Reader question</th>
+                <th>Best starting route</th>
+              </tr>
+            </thead>
+            <tbody>
+              {routes.map((route) => (
+                <tr key={route.obligation}>
+                  <td>{route.obligation}</td>
+                  <td>{route.question}</td>
+                  <td>{route.route}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function RoleBasedCards(): ReactNode {
   const roles = [
     {
-      title: 'Requirement owner',
-      description: 'I have a compliance, customer, procurement, audit, certification, or risk requirement. What does it mean?',
-      cta: 'Start with Requirements',
-      link: '/requirements/',
-      icon: 'R',
+      title: 'Compliance owner',
+      description: 'I need to understand what a regulation, standard, customer request, procurement requirement, audit, or internal governance obligation means for supply-chain security.',
+      cta: 'Start with the Compliance Guide',
+      link: '/compliance-guide/',
+      icon: 'C',
     },
     {
       title: 'Assurance requester',
@@ -175,20 +284,20 @@ function RoleBasedCards(): ReactNode {
 function HandbookModel(): ReactNode {
   const steps = [
     {
-      title: 'Requirements',
-      description: 'Identify the driver, obligation, decision, or risk.',
+      title: 'Obligation',
+      description: 'Identify the regulation, standard, customer request, procurement expectation, audit need, product-acceptance decision, or internal governance concern.',
     },
     {
-      title: 'Guidance',
-      description: 'Translate the driver into practices and lifecycle controls.',
+      title: 'Practice',
+      description: 'Translate the obligation into risks, controls, lifecycle responsibilities, supplier questions, and operating decisions.',
     },
     {
       title: 'Evidence',
-      description: 'Ask what artifacts show whether practices are operating.',
+      description: 'Ask what artifacts show whether the practice is operating, whether the claim can be verified, and whether the evidence remains useful after acceptance.',
     },
     {
-      title: 'Standards & Technologies',
-      description: 'Map evidence needs to neutral implementation and verification options.',
+      title: 'Mapping',
+      description: 'Map evidence needs to relevant standards, frameworks, technologies, and verification mechanisms without making any single option the organizing principle.',
     },
   ];
 
@@ -198,7 +307,7 @@ function HandbookModel(): ReactNode {
         <div className="text--center margin-bottom--lg">
           <Heading as="h2">The handbook model</Heading>
           <p>
-            Pressures create the need; guidance explains what to do; evidence shows whether it is being done; standards and technologies may help implement or verify it.
+            Obligations create the starting point; practices explain what to do; evidence shows whether work is operating; mappings explain where standards and technologies may help.
           </p>
         </div>
         <div className={styles.modelSteps}>
@@ -216,8 +325,8 @@ function HandbookModel(): ReactNode {
 
 function IntentRoutes(): ReactNode {
   const routes = [
-    {need: 'Understand what is expected', to: '/requirements/'},
-    {need: 'Understand risks and controls', to: '/guidance/risks-controls/'},
+    {need: 'Understand what is expected', to: '/compliance-guide/'},
+    {need: 'Understand risks and practices', to: '/guidance/risks-practices/'},
     {need: 'Read a practical synthesis', to: '/guidance/10-best-practices/'},
     {need: 'Map assurance across the lifecycle', to: '/guidance/lifecycle-map/'},
     {need: 'Ask better supplier questions', to: '/use-cases/procurement-supplier-assurance/'},
@@ -231,7 +340,7 @@ function IntentRoutes(): ReactNode {
       <div className="container">
         <div className="text--center margin-bottom--lg">
           <Heading as="h2">Find the next useful page</Heading>
-          <p>Use these routes when you arrive with a specific pressure, decision, or assurance task.</p>
+          <p>Use these routes when you arrive with a specific obligation, decision, or assurance task.</p>
         </div>
         <div className="row">
           {routes.map((route) => (
@@ -290,7 +399,8 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <ValuePillars />
-        <CurrentPressures />
+        <CommonObligations />
+        <ObligationRoutes />
         <RoleBasedCards />
         <HandbookModel />
         <IntentRoutes />

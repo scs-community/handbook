@@ -76,7 +76,7 @@ Relevant mappings may include governance frameworks for requirements, SBOM/xBOM 
 
 ## Related Pages
 
-- [Requirements](../requirements/index.md)
+- [Risks & Practices](../guidance/index.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Identity & Provenance](../evidence-assurance/identity-provenance.md)
 - [Standards & Technologies](../standards-technologies/index.md)

@@ -17,7 +17,7 @@ A standards participant, product-security leader, assurance team, or implementat
 
 ## Good Practice
 
-Separate standards and technologies by role: demand driver, assurance or evidence model, artifact format, attestation or measurement mechanism, trust anchor, protocol, exchange mechanism, or implementation technology.
+Separate standards and technologies by role: demand source, assurance or evidence model, artifact format, attestation or measurement mechanism, trust anchor, protocol, exchange mechanism, or implementation technology.
 
 ## What To Ask For
 
@@ -29,7 +29,7 @@ Separate standards and technologies by role: demand driver, assurance or evidenc
 
 ### Questions to ask internally
 
-- Are we using this source as a driver, evidence model, artifact format, technical mechanism, trust anchor, or protocol?
+- Are we using this source as a need source, evidence model, artifact format, technical mechanism, trust anchor, or protocol?
 - What decision would be unsafe if we treated this mapping as stronger than it is?
 - What additional guidance, profile, or implementation decision is needed to close the gap?
 
