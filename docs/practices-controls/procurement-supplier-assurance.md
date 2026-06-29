@@ -1,6 +1,6 @@
 ---
 title: Procurement & Supplier Assurance
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 ## Decision
@@ -19,6 +19,8 @@ A procurement or supplier-assurance team needs to decide whether a supplier, com
 ## Good Practice
 
 A stronger supplier-assurance approach ties requirements to evidence, acceptance criteria, retention expectations, and remediation paths. It distinguishes between process descriptions and artifacts that a buyer or assessor can verify.
+
+Use this page for the decision context. Use [Supplier Questions](../resources/supplier-questions.md) for request wording, and use the [Evidence Checklist](../resources/evidence-checklist.md) to turn responses into review criteria.
 
 ## What To Ask For
 
@@ -78,7 +80,10 @@ Relevant mappings may include governance frameworks for requirements, SBOM/xBOM 
 
 ## Related Pages
 
-- [Practices & Controls](../practices-controls/index.md)
+- [Requirements & Risks](../requirements/index.md)
+- [Practices & Controls](./index.md)
+- [Supplier Questions](../resources/supplier-questions.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
+- [Product Acceptance](./product-acceptance.md)
 - [Identity & Provenance](../evidence/identity-provenance.md)
 - [Technology Options](../technology-options/index.md)

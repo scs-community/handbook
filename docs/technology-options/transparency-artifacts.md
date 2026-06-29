@@ -73,5 +73,7 @@ Transparency artifacts describe software, firmware, hardware, components, servic
 ## Related Pages
 
 - [Evidence](../evidence/index.md)
+- [Software & Component Transparency](../evidence/software-component-transparency.md)
+- [Update & Vulnerability](../evidence/update-vulnerability.md)
 - [10 Best Practices](../practices-controls/10-best-practices.md)
-- [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)
+- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)

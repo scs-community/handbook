@@ -1,6 +1,6 @@
 ---
 title: Implementation Planning
-sidebar_position: 6
+sidebar_position: 9
 ---
 
 ## Decision
@@ -42,7 +42,7 @@ Implementation planning should start from the assurance decision, then define ev
 
 - Which systems produce, sign, store, verify, and refresh each evidence type?
 - What data model, trust anchor, API, or workflow needs to be implemented?
-- How will implementation choices be tested against procurement, acceptance, audit, and monitoring use cases?
+- How will implementation choices be tested against procurement, acceptance, audit, and monitoring decision guides?
 
 ## Evidence / Artifacts
 
@@ -68,7 +68,7 @@ Relevant implementation options may include TCG, GlobalPlatform, IETF RATS/EAT, 
 
 ## Related Pages
 
-- [10 Best Practices](../practices-controls/10-best-practices.md)
+- [10 Best Practices](./10-best-practices.md)
 - [Technology Options](../technology-options/index.md)
-- [Evidence Models](../evidence/evidence-models.md)
+- [Assurance & Evidence Models](../evidence/evidence-models.md)
 - [Protocols & Exchange](../technology-options/protocols-exchange.md)

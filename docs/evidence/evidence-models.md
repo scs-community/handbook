@@ -1,9 +1,9 @@
 ---
-title: Evidence Models
+title: Assurance & Evidence Models
 sidebar_position: 8
 ---
 
-Evidence models help structure claims, measurements, reference values, manifests, certificates, attestations, and other artifacts that support assurance decisions.
+Assurance and evidence models help structure claims, measurements, reference values, manifests, certificates, attestations, and other artifacts that support assurance decisions. They belong in Evidence because they define how artifacts can be shaped and interpreted, not because they are always implementation mechanisms.
 
 ## Mapping Summary
 
@@ -16,6 +16,8 @@ Evidence models help structure claims, measurements, reference values, manifests
 | Mapping confidence | Direct when the specification defines the evidence model; supporting when it helps package or interpret evidence. |
 
 ## Entries
+
+This page is the canonical place for evidence-model and assurance-model roles. Technology pages may mention the same sources where they act as implementation, protocol, or verifier-workflow options.
 
 ### IETF RATS / EAT
 
@@ -73,5 +75,8 @@ Evidence models help structure claims, measurements, reference values, manifests
 ## Related Pages
 
 - [Evidence](./index.md)
+- [Integrity & Attestation](./integrity-attestation.md)
+- [Attestation & Measurement](../technology-options/attestation-measurement.md)
+- [Protocols & Exchange](../technology-options/protocols-exchange.md)
 - [10 Best Practices](../practices-controls/10-best-practices.md)
-- [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)
+- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)

@@ -1,24 +1,25 @@
 ---
-title: Use Cases
-sidebar_position: 1
+title: Decision Guides
+sidebar_position: 4
 ---
 
-Use cases help readers move from requirements and risks to practical decisions. Each page starts with the decision the reader is trying to make, explains what can go wrong, and turns good practice into questions, evidence requests, verification paths, and technology options.
+Decision guides help readers move from requirements and risks to practical decisions. Each page starts with the decision the reader is trying to make, explains what can go wrong, and turns good practice into questions, evidence requests, verification paths, and technology options.
 
-## Use-Case Routes
+## Decision Guide Routes
 
-| Use case | Reader question | Status |
+| Decision guide | Reader question | Maturity |
 |---|---|---|
-| [Procurement & Supplier Assurance](./procurement-supplier-assurance.md) | What should we ask suppliers for? | Launch |
-| [Product Acceptance](./product-acceptance.md) | How do we know this delivered product is trustworthy? | Launch |
-| [Audit & Compliance](./audit-compliance.md) | What artifacts show controls are operating? | Expanded |
-| [Lifecycle Monitoring](./lifecycle-monitoring.md) | How do we maintain assurance after acceptance? | Expanded |
-| [Implementation Planning](./implementation-planning.md) | What should engineering teams implement to support assurance? | Expanded |
-| [Standards Gap Analysis](./standards-gap-analysis.md) | Where do standards help, and where are the gaps? | Expanded |
+| [Procurement & Supplier Assurance](./procurement-supplier-assurance.md) | What should we ask suppliers for? | Core |
+| [Product Acceptance](./product-acceptance.md) | How do we know this delivered product is trustworthy? | Core |
+| [Audit & Compliance](./audit-compliance.md) | What artifacts show controls are operating? | Expansion |
+| [Lifecycle Monitoring](./lifecycle-monitoring.md) | How do we maintain assurance after acceptance? | Expansion |
+| [Implementation Planning](./implementation-planning.md) | What should engineering teams implement to support assurance? | Expansion |
 
-## Use-Case Page Pattern
+Use [Standards Mapping Workflow](../resources/standards-mapping-workflow.md) when the decision is to map requirement sources, evidence models, technology options, confidence, and gaps.
 
-Each use-case page should include:
+## Decision Guide Page Pattern
+
+Each decision-guide page should include:
 
 1. Decision: What decision is the reader trying to make?
 2. What can go wrong: What risks, failures, or blind spots matter?
@@ -37,7 +38,7 @@ Use the weak, better, stronger maturity pattern where it helps readers improve w
 
 ### Questions to ask suppliers
 
-- What evidence can you provide for the decision this use case supports?
+- What evidence can you provide for the decision this guide supports?
 - What scope, lifecycle stage, product version, or service boundary does the evidence cover?
 - What cannot currently be evidenced, and what remediation or maturity plan exists?
 
@@ -49,12 +50,12 @@ Use the weak, better, stronger maturity pattern where it helps readers improve w
 
 ### Questions to ask assessors / auditors
 
-- Is the use-case evidence tied to a control, requirement, lifecycle event, and acceptance criterion?
+- Is the decision evidence tied to a control, requirement, lifecycle event, and acceptance criterion?
 - Are exceptions, assumptions, and gaps visible?
 - Can the evidence package be reviewed later without reconstructing context from memory?
 
 ### Questions to ask implementers
 
-- What systems, processes, and owners produce the evidence needed by this use case?
+- What systems, processes, and owners produce the evidence needed by this decision?
 - How will the evidence be bound to the right product, component, supplier, service, or lifecycle event?
 - How will verification, retention, and refresh happen in normal operations?

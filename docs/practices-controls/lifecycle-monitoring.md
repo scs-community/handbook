@@ -1,6 +1,6 @@
 ---
 title: Lifecycle Monitoring
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 ## Decision
@@ -69,7 +69,7 @@ Relevant mappings may include attestation, RATS/EAT, CoRIM/CoMID, update framewo
 
 ## Related Pages
 
-- [Lifecycle Map](../practices-controls/lifecycle-map.md)
+- [Lifecycle Map](./lifecycle-map.md)
 - [Integrity & Attestation](../evidence/integrity-attestation.md)
 - [Update & Vulnerability](../evidence/update-vulnerability.md)
 - [Retention & Reuse](../evidence/retention-reuse.md)

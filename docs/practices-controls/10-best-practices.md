@@ -1,10 +1,10 @@
 ---
 title: 10 Best Practices for Supply-Chain Security
 slug: /practices-controls/10-best-practices
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-This page is the practical synthesis for the handbook. It is not the whole site: each practice routes readers into lifecycle, evidence, use-case, and technology-options pages.
+This page is the practical synthesis for the handbook. It is not the whole site: each practice routes readers into lifecycle, evidence, decision-guide, and technology-options pages.
 
 Each numbered heading is a practice. Practice titles are action-led and reader-oriented, followed by risk addressed, evidence to request or produce, verification question, lifecycle fit, technology options, and gaps.
 

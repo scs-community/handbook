@@ -99,6 +99,9 @@ Requirement and governance sources explain why readers may need supply-chain-sec
 
 ## Related Pages
 
+- [Requirements & Risks](./index.md)
+- [Practices & Controls](../practices-controls/index.md)
 - [Evidence](../evidence/index.md)
 - [10 Best Practices](../practices-controls/10-best-practices.md)
-- [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)
+- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)
+- [Further Reading](../resources/further-reading.md)

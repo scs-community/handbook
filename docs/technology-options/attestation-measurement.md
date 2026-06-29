@@ -17,6 +17,8 @@ Attestation and measurement technologies can support claims about current or mea
 
 ## Entries
 
+This page treats overlapping sources as measurement, attestation, or verifier-workflow options. For their evidence-model role, use [Assurance & Evidence Models](../evidence/evidence-models.md).
+
 ### Measured boot
 
 - **Role:** Measures boot components or state so a verifier can compare reported values against expected reference values.
@@ -82,5 +84,7 @@ Attestation and measurement technologies can support claims about current or mea
 ## Related Pages
 
 - [Evidence](../evidence/index.md)
+- [Integrity & Attestation](../evidence/integrity-attestation.md)
+- [Assurance & Evidence Models](../evidence/evidence-models.md)
 - [10 Best Practices](../practices-controls/10-best-practices.md)
-- [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)
+- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)

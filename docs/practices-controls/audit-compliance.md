@@ -1,6 +1,6 @@
 ---
 title: Audit & Compliance
-sidebar_position: 4
+sidebar_position: 7
 ---
 
 ## Decision
@@ -69,7 +69,7 @@ Governance references may explain why a requirement exists. Evidence models may 
 
 ## Related Pages
 
-- [Practices & Controls](../practices-controls/index.md)
+- [Practices & Controls](./index.md)
 - [Evidence](../evidence/index.md)
 - [Governance & Compliance](../requirements/governance-compliance.md)
 - [Further Reading](../resources/further-reading.md)

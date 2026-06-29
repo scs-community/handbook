@@ -144,26 +144,29 @@ const config: Config = {
               label: '10 Best Practices',
               to: '/practices-controls/10-best-practices/',
             },
-          ],
-        },
-        {
-          title: 'Use Cases',
-          items: [
+            {
+              label: 'Decision Guides',
+              to: '/practices-controls/decision-guides/',
+            },
             {
               label: 'Procurement & Supplier Assurance',
-              to: '/use-cases/procurement-supplier-assurance/',
+              to: '/practices-controls/procurement-supplier-assurance/',
             },
             {
               label: 'Product Acceptance',
-              to: '/use-cases/product-acceptance/',
+              to: '/practices-controls/product-acceptance/',
             },
             {
               label: 'Audit & Compliance',
-              to: '/use-cases/audit-compliance/',
+              to: '/practices-controls/audit-compliance/',
             },
             {
               label: 'Lifecycle Monitoring',
-              to: '/use-cases/lifecycle-monitoring/',
+              to: '/practices-controls/lifecycle-monitoring/',
+            },
+            {
+              label: 'Implementation Planning',
+              to: '/practices-controls/implementation-planning/',
             },
           ],
         },
@@ -183,8 +186,24 @@ const config: Config = {
               to: '/evidence/integrity-attestation/',
             },
             {
+              label: 'Software & Component Transparency',
+              to: '/evidence/software-component-transparency/',
+            },
+            {
               label: 'Update & Vulnerability',
               to: '/evidence/update-vulnerability/',
+            },
+            {
+              label: 'Lifecycle State & Audit',
+              to: '/evidence/lifecycle-state-audit/',
+            },
+            {
+              label: 'Retention & Reuse',
+              to: '/evidence/retention-reuse/',
+            },
+            {
+              label: 'Assurance & Evidence Models',
+              to: '/evidence/evidence-models/',
             },
           ],
         },
@@ -217,6 +236,14 @@ const config: Config = {
           title: 'Resources',
           items: [
             {
+              label: 'Resources',
+              to: '/resources/',
+            },
+            {
+              label: 'Glossary',
+              to: '/resources/glossary/',
+            },
+            {
               label: 'Supplier Questions',
               to: '/resources/supplier-questions/',
             },
@@ -225,24 +252,20 @@ const config: Config = {
               to: '/resources/evidence-checklist/',
             },
             {
-              label: 'Artifact Map',
-              to: '/resources/artifact-map/',
-            },
-            {
-              label: 'Templates',
-              to: '/resources/templates/',
-            },
-            {
-              label: 'Glossary',
-              to: '/resources/glossary/',
-            },
-            {
               label: 'Further Reading',
               to: '/resources/further-reading/',
             },
             {
-              label: 'Sector Notes',
-              to: '/resources/sector-notes/',
+              label: 'Artifact Map',
+              to: '/resources/artifact-map/',
+            },
+            {
+              label: 'Standards Mapping Workflow',
+              to: '/resources/standards-mapping-workflow/',
+            },
+            {
+              label: 'Templates',
+              to: '/resources/templates/',
             },
             {
               label: 'GitHub',

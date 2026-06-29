@@ -17,6 +17,8 @@ Protocols and exchange mechanisms help move evidence between producers, verifier
 
 ## Entries
 
+This page treats overlapping sources as exchange, transport, repository, or verifier-workflow options. For the evidence-model role of RATS/EAT, CoRIM, or CoMID, use [Assurance & Evidence Models](../evidence/evidence-models.md).
+
 ### SPDM
 
 - **Role:** Supports secure device/component communication, authentication, and measurement access in applicable platform architectures.
@@ -82,5 +84,8 @@ Protocols and exchange mechanisms help move evidence between producers, verifier
 ## Related Pages
 
 - [Evidence](../evidence/index.md)
+- [Retention & Reuse](../evidence/retention-reuse.md)
+- [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md)
+- [Assurance & Evidence Models](../evidence/evidence-models.md)
 - [10 Best Practices](../practices-controls/10-best-practices.md)
-- [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)
+- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)

@@ -81,6 +81,7 @@ Identity alone does not prove the current integrity, vulnerability status, safe 
 
 ## Related Pages
 
-- [Product Acceptance](../use-cases/product-acceptance.md)
-- [Procurement & Supplier Assurance](../use-cases/procurement-supplier-assurance.md)
+- [Product Acceptance](../practices-controls/product-acceptance.md)
+- [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md)
 - [Trust Anchors](../technology-options/trust-anchors.md)
+- [Assurance & Evidence Models](./evidence-models.md)

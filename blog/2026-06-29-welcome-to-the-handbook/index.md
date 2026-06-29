@@ -17,8 +17,8 @@ This handbook is designed to bridge the gap between requirements and evidence-ba
 ### What You'll Find Here
 
 - **[Requirements & Risks](/requirements/)**: Starting points for requirements, governance expectations, customer requests, procurement needs, audit, product acceptance, and risk decisions.
-- **[Practices & Controls](/practices-controls/)**: Attack and failure modes, lifecycle maps, controls, and the **[10 Best Practices for Supply-Chain Security](/practices-controls/10-best-practices/)**.
-- **[Use Cases](/use-cases/)**: Decision-oriented pages for procurement, supplier assurance, product acceptance, and future assurance scenarios.
+- **[Practices & Controls](/practices-controls/)**: Controls, lifecycle maps, the **[10 Best Practices for Supply-Chain Security](/practices-controls/10-best-practices/)**, and decision guides.
+- **[Decision Guides](/practices-controls/decision-guides/)**: Decision-oriented guidance for procurement, supplier assurance, product acceptance, audit, lifecycle monitoring, and implementation planning.
 - **[Evidence](/evidence/)**: Evidence types, maturity levels, verification questions, and lifecycle retention concepts.
 - **[Technology Options](/technology-options/)**: Neutral mappings that explain where mechanisms, protocols, formats, trust anchors, verifier workflows, and tooling may help produce, protect, exchange, verify, or retain evidence.
 - **[Resources](/resources/)**: Glossary entries, supplier questions, evidence checklists, templates, and curated further reading.

@@ -13,9 +13,11 @@ The top navigation should stay restrained:
 5. Technology Options
 6. Resources
 
-Do not put Use Cases or the 10 Best Practices page in top navigation. Use Cases remains a secondary section available through footer links, section links, and related pages. The 10 Best Practices page belongs inside Practices & Controls as the synthesis and anchor page.
+Do not put Decision Guides or the 10 Best Practices page in top navigation. Decision Guides live inside Practices & Controls because they apply controls to concrete decisions. The 10 Best Practices page also belongs inside Practices & Controls as the synthesis and anchor page.
 
-Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside requirements and risks, practices and controls, evidence, use-case, resource, or technology-options pages.
+Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside requirements and risks, practices and controls, evidence, resources, or technology-options pages.
+
+The Requirements & Risks sidebar may link directly to [Attack & Failure Modes](/requirements/attack-failure-modes/) because that page is the canonical risk-detail page. This is a cross-section route, not a duplicate Requirements page.
 
 ## Route Policy
 
@@ -26,7 +28,7 @@ The public docs routes are served at the site root, not below `/docs/`.
 - `docs.routeBasePath`: `/`
 - `trailingSlash`: `true`
 
-Use public links such as `/requirements/`, `/practices-controls/`, `/use-cases/`, and `/evidence/`. Avoid hardcoded `/docs/...` links in public content.
+Use public links such as `/requirements/`, `/practices-controls/`, `/practices-controls/decision-guides/`, and `/evidence/`. Avoid hardcoded `/docs/...` links in public content.
 
 ## Site Model
 
@@ -44,7 +46,7 @@ The homepage may use a shorter model for clarity:
 Requirements & Risks -> Practices & Controls -> Evidence -> Technology Options
 ```
 
-Use Cases and Resources support that flow by turning guidance into decisions, evidence requests, templates, and review prompts.
+Decision Guides are part of Practices & Controls. Resources support the flow by turning guidance into evidence requests, templates, mappings, and review prompts.
 
 ## Launch And Expanded Sitemap
 
@@ -59,27 +61,25 @@ Use Cases and Resources support that flow by turning guidance into decisions, ev
 
 /practices-controls/
   Practices & Controls overview
-/practices-controls/attack-failure-modes/
+/requirements/attack-failure-modes/
   Attack & Failure Modes
 /practices-controls/lifecycle-map/
   Lifecycle Map
 /practices-controls/10-best-practices/
   10 Best Practices for Supply-Chain Security
 
-/use-cases/
-  Use Cases overview
-/use-cases/procurement-supplier-assurance/
+/practices-controls/decision-guides/
+  Decision Guides overview
+/practices-controls/procurement-supplier-assurance/
   Procurement & Supplier Assurance
-/use-cases/product-acceptance/
+/practices-controls/product-acceptance/
   Product Acceptance
-/use-cases/audit-compliance/
+/practices-controls/audit-compliance/
   Audit & Compliance
-/use-cases/lifecycle-monitoring/
+/practices-controls/lifecycle-monitoring/
   Lifecycle Monitoring
-/use-cases/implementation-planning/
+/practices-controls/implementation-planning/
   Implementation Planning
-/use-cases/standards-gap-analysis/
-  Standards Gap Analysis
 
 /evidence/
   Evidence overview
@@ -105,8 +105,9 @@ Use Cases and Resources support that flow by turning guidance into decisions, ev
 /resources/evidence-checklist/
 /resources/further-reading/
 /resources/artifact-map/
+/resources/standards-mapping-workflow/
+  Standards Mapping Workflow
 /resources/templates/
-/resources/sector-notes/
 ```
 
 ## Homepage Routing
@@ -125,7 +126,7 @@ Detailed routing belongs in `/requirements/`, section landing pages, sidebars, a
 
 ## Footer And Secondary Navigation
 
-The footer can expose more of the sitemap than the header. It should help readers jump into common use cases, evidence pages, standards mappings, and reusable tools and templates.
+The footer can expose more of the sitemap than the header. It should help readers jump into common decision guides, evidence pages, standards mappings, and reusable tools and templates.
 
 Footer links should still avoid making standards-body names the organizing principle. Link to standards roles and evidence needs first, then to specific technologies or standards within those pages.
 
@@ -137,8 +138,9 @@ Resources should not become a catch-all archive. They should contain reusable ma
 - supplier questions;
 - evidence checklists;
 - artifact maps;
+- standards mapping workflows;
 - templates;
-- sector notes;
+- sector-note templates should remain outside public navigation until there is enough sector content;
 - curated further reading.
 
 ## Expansion Rules

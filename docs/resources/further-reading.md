@@ -66,3 +66,12 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 ## Relationship To Existing Guidance
 
 This handbook should acknowledge that extensive supply-chain-security guidance already exists. Its role is to bridge requirements, controls, evidence, lifecycle assurance, and technology options.
+
+Use [Requirement & Governance Sources](../requirements/governance-compliance.md) for how governance references shape requirements, [Assurance & Evidence Models](../evidence/evidence-models.md) for evidence-model sources, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
+
+## Related Pages
+
+- [Requirements & Risks](../requirements/index.md)
+- [Practices & Controls](../practices-controls/index.md)
+- [Evidence](../evidence/index.md)
+- [Technology Options](../technology-options/index.md)

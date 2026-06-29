@@ -1,5 +1,5 @@
 ---
-title: Standards Gap Analysis
+title: Standards Mapping Workflow
 sidebar_position: 7
 ---
 
@@ -29,7 +29,7 @@ Separate standards and technologies by role: demand source, assurance or evidenc
 
 ### Questions to ask internally
 
-- Are we using this source as a need source, evidence model, artifact format, technical mechanism, trust anchor, or protocol?
+- Are we using this source as a requirement source, evidence model, artifact format, technical mechanism, trust anchor, or protocol?
 - What decision would be unsafe if we treated this mapping as stronger than it is?
 - What additional guidance, profile, or implementation decision is needed to close the gap?
 
@@ -70,6 +70,6 @@ Relevant mappings depend on the standard or technology role, the evidence type, 
 ## Related Pages
 
 - [Technology Options](../technology-options/index.md)
-- [Evidence Models](../evidence/evidence-models.md)
+- [Assurance & Evidence Models](../evidence/evidence-models.md)
 - [Mapping Confidence](../technology-options/index.md#mapping-confidence)
-- [Further Reading](../resources/further-reading.md)
+- [Further Reading](./further-reading.md)

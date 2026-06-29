@@ -109,5 +109,7 @@ Trust anchors and device-security technologies can help bind identity, keys, cre
 ## Related Pages
 
 - [Evidence](../evidence/index.md)
+- [Identity & Provenance](../evidence/identity-provenance.md)
+- [Integrity & Attestation](../evidence/integrity-attestation.md)
 - [10 Best Practices](../practices-controls/10-best-practices.md)
-- [Standards Gap Analysis](../use-cases/standards-gap-analysis.md)
+- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)

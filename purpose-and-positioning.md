@@ -49,14 +49,14 @@ The site should not primarily be written for standards specialists. Standards sp
 
 The primary reader is responsible for satisfying a supply-chain-security requirement or reducing a supply-chain-security risk and turning it into practical assurance work. That reader may sit in product security, supply-chain security, procurement, supplier assurance, audit, compliance, product acceptance, or governance.
 
-Secondary readers include assurance requesters and implementers who need to ask for, produce, verify, retain, or explain evidence. Serve them through use cases, evidence pages, tools, and page-level related links rather than separate homepage routing systems.
+Secondary readers include assurance requesters and implementers who need to ask for, produce, verify, retain, or explain evidence. Serve them through decision guides inside Practices & Controls, evidence pages, tools, and page-level related links rather than separate homepage routing systems.
 
 ## Content Model
 
 The site distinguishes four connected layers:
 
 1. **Requirements & Risks**: regulation, standards, customer requirements, procurement expectations, audit, certification, product acceptance, internal governance, resilience concerns, and risk management.
-2. **Practices & Controls**: plain-language guidance on failure modes, lifecycle stages, controls, best practices, responsibilities, and decisions.
+2. **Practices & Controls**: plain-language guidance on controls, best practices, lifecycle stages, responsibilities, and decision guides for applying them.
 3. **Evidence**: artifacts, records, claims, measurements, attestations, certificates, SBOMs/xBOMs, update records, vulnerability records, lifecycle-state records, and audit materials that can show whether practices and controls are operating.
 4. **Technology Options**: neutral mappings to mechanisms, protocols, formats, trust anchors, verifier workflows, tooling, and implementation options that may help implement, produce, protect, verify, exchange, or retain evidence.
 

@@ -1,6 +1,6 @@
 ---
 title: Product Acceptance
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 ## Decision
@@ -21,6 +21,8 @@ Delivery is a decision point, not the end of assurance. A product can arrive wit
 ## Good Practice
 
 A stronger product-acceptance process combines identity checks, provenance checks, transparency artifacts, integrity evidence, update history, vulnerability handling, and lifecycle-state records. It defines who verifies each artifact and what happens if evidence is missing or inconsistent.
+
+Use this page for the acceptance decision context. Use [Supplier Questions](../resources/supplier-questions.md) to request missing evidence and the [Evidence Checklist](../resources/evidence-checklist.md) to document acceptance criteria.
 
 ## What To Ask For
 
@@ -78,9 +80,17 @@ Acceptance evidence should not be discarded after the product is accepted. It be
 
 Relevant mappings may include Platform Certificates, TPM, DICE, Secure Element, TEE, SPDM, measured boot, RATS/EAT, CoRIM/CoMID, SBOM/xBOM formats, and update-signing mechanisms. Use them as candidate implementation and verification options, not as universal requirements.
 
+## Verification
+
+Acceptance evidence is stronger when reviewers can verify issuer, product binding, integrity, freshness, lifecycle stage, and consistency across artifacts. When evidence is missing or inconsistent, record whether the decision is reject, quarantine, accept with conditions, or remediate before acceptance.
+
 ## Related Pages
 
-- [Lifecycle Map](../practices-controls/lifecycle-map.md)
+- [Requirements & Risks](../requirements/index.md)
+- [Attack & Failure Modes](../requirements/attack-failure-modes.md)
+- [Lifecycle Map](./lifecycle-map.md)
+- [Supplier Questions](../resources/supplier-questions.md)
+- [Evidence Checklist](../resources/evidence-checklist.md)
 - [Identity & Provenance](../evidence/identity-provenance.md)
 - [Integrity & Attestation](../evidence/integrity-attestation.md)
 - [Update & Vulnerability](../evidence/update-vulnerability.md)

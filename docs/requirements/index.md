@@ -12,11 +12,11 @@ This page translates requirements and risks into practical controls, supplier qu
 | Starting point | Reader question | Route next |
 |---|---|---|
 | Regulation or compliance | What does this expectation mean for supply-chain security? | [Practices & Controls](../practices-controls/index.md) -> [10 Best Practices](../practices-controls/10-best-practices.md) -> [Evidence](../evidence/index.md) |
-| Customer requirement | What should we provide, and what should we avoid over-claiming? | [Use Cases](../use-cases/index.md) -> [Evidence](../evidence/index.md) -> [Technology Options](../technology-options/index.md) |
-| Procurement or acquisition | What should we ask suppliers for before purchase or award? | [Procurement & Supplier Assurance](../use-cases/procurement-supplier-assurance.md) -> [Supplier Questions](../resources/supplier-questions.md) -> [Evidence Checklist](../resources/evidence-checklist.md) |
-| Audit or certification | What artifacts show that controls are operating? | [Audit & Compliance](../use-cases/audit-compliance.md) -> [Evidence](../evidence/index.md) -> [Lifecycle Map](../practices-controls/lifecycle-map.md) |
-| Product acceptance | How do we know this device, platform, component, or service is trustworthy enough to accept? | [Product Acceptance](../use-cases/product-acceptance.md) -> [Identity & Provenance](../evidence/identity-provenance.md) -> [Integrity & Attestation](../evidence/integrity-attestation.md) |
-| Risk and resilience | Where are we exposed to substitution, tampering, opaque suppliers, credential compromise, or lifecycle drift? | [Attack & Failure Modes](../practices-controls/attack-failure-modes.md) -> [Lifecycle Map](../practices-controls/lifecycle-map.md) -> [10 Best Practices](../practices-controls/10-best-practices.md) |
+| Customer requirement | What should we provide, and what should we avoid over-claiming? | [Practices & Controls](../practices-controls/index.md) -> [Decision Guides](../practices-controls/decision-guides.md) -> [Evidence](../evidence/index.md) -> [Technology Options](../technology-options/index.md) |
+| Procurement or acquisition | What should we ask suppliers for before purchase or award? | [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md) -> [Supplier Questions](../resources/supplier-questions.md) -> [Evidence Checklist](../resources/evidence-checklist.md) -> [Product Acceptance](../practices-controls/product-acceptance.md) |
+| Audit or certification | What artifacts show that controls are operating? | [Audit & Compliance](../practices-controls/audit-compliance.md) -> [Evidence](../evidence/index.md) -> [Lifecycle Map](../practices-controls/lifecycle-map.md) -> [Evidence Checklist](../resources/evidence-checklist.md) |
+| Product acceptance | How do we know this device, platform, component, or service is trustworthy enough to accept? | [Product Acceptance](../practices-controls/product-acceptance.md) -> [Attack & Failure Modes](./attack-failure-modes.md) -> [Identity & Provenance](../evidence/identity-provenance.md) -> [Integrity & Attestation](../evidence/integrity-attestation.md) |
+| Risk and resilience | Where are we exposed to substitution, tampering, opaque suppliers, credential compromise, or lifecycle drift? | [Attack & Failure Modes](./attack-failure-modes.md) -> [Lifecycle Map](../practices-controls/lifecycle-map.md) -> [Evidence](../evidence/index.md) -> [Evidence Checklist](../resources/evidence-checklist.md) |
 
 ## Standards By Function
 
@@ -32,9 +32,9 @@ This classification keeps the site neutral. A standard may drive a requirement, 
 
 Use [Requirement & Governance Sources](./governance-compliance.md) when the question is why an expectation exists or how governance, procurement, risk management, audit, or customer assurance sources shape control expectations.
 
-## Attack And Failure Orientation
+## Attack & Failure Orientation
 
-Requirements are easier to implement when they are connected to concrete failure modes. Start with [Attack & Failure Modes](../practices-controls/attack-failure-modes.md) when you need to understand whether the relevant concern is substitution, firmware tampering, compromised dependencies, supplier self-attestation, lost provenance, unauthorized update drift, insecure repair or transfer, poor end-of-life, key compromise, or lack of continuous monitoring.
+Requirements are easier to implement when they are connected to concrete failure modes. Start with [Attack & Failure Modes](./attack-failure-modes.md) when you need to understand whether the relevant concern is substitution, firmware tampering, compromised dependencies, supplier self-attestation, lost provenance, unauthorized update drift, insecure repair or transfer, poor end-of-life, key compromise, or lack of continuous monitoring.
 
 ## Translation Pattern
 
@@ -82,7 +82,7 @@ Use this pattern when turning a requirement or risk into practical work.
 
 ## Next Actions
 
-- If you need the conceptual starting point, read [Attack & Failure Modes](../practices-controls/attack-failure-modes.md).
+- If you need the conceptual starting point, read [Attack & Failure Modes](./attack-failure-modes.md).
 - If you need control themes, read [Practices & Controls](../practices-controls/index.md).
 - If you need supplier-facing wording, use [Supplier Questions](../resources/supplier-questions.md).
 - If you need artifacts, use the [Evidence Checklist](../resources/evidence-checklist.md).

@@ -11,8 +11,8 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 - [Style Guide](style-guide.md) - Editorial stance, sourcing rules, evidence language, and content quality tests
 - [Brand Guidelines](brand-guidelines.md) - Visual identity, assets, colors, typography, and brand usage
 - [Requirements & Risks](docs/requirements/index.md) - Requirement and risk routes into practical assurance work
-- [Practices & Controls](docs/practices-controls/index.md) - Attack and failure modes, lifecycle assurance, controls, and the 10 best practices synthesis
-- [Use Cases](docs/use-cases/index.md) - Practical scenarios for procurement, supplier assurance, and product acceptance
+- [Practices & Controls](docs/practices-controls/index.md) - Controls, lifecycle assurance, the 10 best practices synthesis, and decision guides
+- [Decision Guides](docs/practices-controls/decision-guides.md) - Practical guidance for procurement, supplier assurance, product acceptance, audit, monitoring, and implementation planning
 - [Evidence](docs/evidence/index.md) - Evidence types, maturity levels, and assurance decisions
 - [Technology Options](docs/technology-options/index.md) - Neutral mappings to implementation mechanisms, protocols, formats, trust anchors, verifier workflows, and tooling
 - [Resources](docs/resources/index.md) - Glossary, supplier questions, evidence checklist, templates, and further reading

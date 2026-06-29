@@ -3,17 +3,22 @@ title: Practices & Controls
 sidebar_position: 1
 ---
 
-This section explains the supply-chain-security controls and practices that reduce practical risk. It starts with attack and failure modes, maps them across the lifecycle, and turns them into evidence-backed actions.
+This section explains what to do. It turns requirements and risks into practical controls, lifecycle responsibilities, decision workflows, supplier questions, evidence requests, and verification paths.
 
-The guidance is written for decision makers first: product-security leaders, supply-chain-security leaders, procurement and supplier-assurance teams, product-acceptance decision makers, auditors, assessors, and implementers who need to understand what controls must operate and what evidence those controls should produce.
+The guidance is written for decision makers first: product-security leaders, supply-chain-security leaders, procurement and supplier-assurance teams, product-acceptance decision makers, auditors, assessors, operators, and implementers who need to understand what controls must operate and what evidence those controls should produce.
 
 ## Practices & Controls Pages
 
 | Page | Use it when you need to... |
 |---|---|
-| [Attack & Failure Modes](./attack-failure-modes.md) | Understand what can go wrong and which controls or evidence reduce the risk |
-| [Lifecycle Map](./lifecycle-map.md) | Map controls and evidence from design through decommissioning |
 | [10 Best Practices](./10-best-practices.md) | Read a practical synthesis of core supply-chain-security practices |
+| [Lifecycle Map](./lifecycle-map.md) | Map controls and evidence from design through decommissioning |
+| [Decision Guides](./decision-guides.md) | Apply the practices to procurement, product acceptance, audit, monitoring, and implementation planning |
+| [Procurement & Supplier Assurance](./procurement-supplier-assurance.md) | Decide what to ask suppliers for |
+| [Product Acceptance](./product-acceptance.md) | Decide whether a delivered product is trustworthy enough to accept |
+| [Audit & Compliance](./audit-compliance.md) | Decide what artifacts show controls are operating |
+| [Lifecycle Monitoring](./lifecycle-monitoring.md) | Decide how to maintain assurance after acceptance |
+| [Implementation Planning](./implementation-planning.md) | Decide what capabilities engineering teams need to implement |
 
 ## Editorial Model
 
@@ -75,6 +80,7 @@ Use this pattern when translating a regulation, customer request, procurement ex
 
 ## Next Actions
 
-- Use [Attack & Failure Modes](./attack-failure-modes.md) to understand what can go wrong.
+- Use [Attack & Failure Modes](../requirements/attack-failure-modes.md) to understand what can go wrong.
 - Use [Lifecycle Map](./lifecycle-map.md) to decide when evidence is needed.
 - Use [10 Best Practices](./10-best-practices.md) to connect practices, evidence, verification, and technology options.
+- Use [Decision Guides](./decision-guides.md) to apply the practices to concrete decisions.

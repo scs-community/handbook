@@ -17,7 +17,10 @@ Evidence may be human-readable, machine-readable, signed, measured, hardware-roo
 | [Update & Vulnerability](./update-vulnerability.md) | Were updates authorized and are known exposures handled? |
 | [Lifecycle State & Audit](./lifecycle-state-audit.md) | Is the asset active, repaired, transferred, revoked, retired, or decommissioned? |
 | [Retention & Reuse](./retention-reuse.md) | Can evidence remain useful across later lifecycle decisions? |
-| [Evidence Models](./evidence-models.md) | Which claims, measurements, attestations, certificates, manifests, or evidence packages may support assurance decisions? |
+
+## Assurance & Evidence Models
+
+Evidence models are not another evidence type. They help define the shape, semantics, or verification path for claims, measurements, attestations, certificates, manifests, and evidence packages. Use [Assurance & Evidence Models](./evidence-models.md) when the question is how evidence should be structured or interpreted.
 
 ## Evidence Maturity
 
@@ -61,4 +64,4 @@ Each evidence page should make six things explicit: who produces it, who consume
 
 ## Practical Use
 
-Use this section with the [Evidence Checklist](../resources/evidence-checklist.md), [Supplier Questions](../resources/supplier-questions.md), and the [Lifecycle Map](../practices-controls/lifecycle-map.md).
+Use this section with the [Evidence Checklist](../resources/evidence-checklist.md), [Supplier Questions](../resources/supplier-questions.md), and the [Lifecycle Map](../practices-controls/lifecycle-map.md). When an evidence need requires a format, trust anchor, verifier workflow, protocol, repository, or tool, continue to [Technology Options](../technology-options/index.md).

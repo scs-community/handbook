@@ -9,16 +9,16 @@ Supply-chain-security guidance is most useful when readers can see what can go w
 
 | Attack or failure mode | What can go wrong | Relevant evidence or controls |
 |---|---|---|
-| Counterfeit or substituted components | A delivered product contains unauthorized, lower-grade, reused, or malicious components | Platform Certificates, component identity, provenance records, acceptance checks |
-| Firmware tampering or reprogramming | Boot firmware, device firmware, or low-level code is modified before or after delivery | Measured boot, reference integrity measurements, attestation, firmware signing, update records |
-| Compromised software dependencies | Vulnerable or malicious dependencies enter through open source or supplier software | SBOM, vulnerability records, build provenance, update and remediation evidence |
-| Supplier self-attestation only | A supplier claims controls exist but provides no verifiable evidence | Supplier questions, artifact requests, audit records, verification paths |
-| Loss of provenance through the chain | Resellers, integrators, repairers, or logistics actors change the product without clear records | Chain-of-custody records, delta certificates, lifecycle-state records |
-| Unauthorized update or configuration drift | A device changes after acceptance and no longer matches the expected baseline | Update records, configuration records, attestation, lifecycle monitoring |
-| Insecure repair, resale, or transfer | Trust state changes after repair or ownership transfer without being re-established | Repair records, re-provisioning evidence, revocation, transfer records |
-| Poor end-of-life handling | Devices, credentials, keys, or sensitive data remain usable after retirement | Decommissioning records, revocation logs, cryptographic erase evidence |
-| Key or credential compromise | Device or supplier credentials are cloned, extracted, reused, or not hardware-bound | Hardware-rooted identity, TPM, DICE, Secure Element evidence, credential issuance logs |
-| Lack of continuous monitoring | Product is accepted once but not checked after updates, repair, or operation | Lifecycle assurance records, attestation cadence, vulnerability and update evidence |
+| Counterfeit or substituted components | A delivered product contains unauthorized, lower-grade, reused, or malicious components | [Identity & Provenance](../evidence/identity-provenance.md), acceptance checks, lifecycle-state records |
+| Firmware tampering or reprogramming | Boot firmware, device firmware, or low-level code is modified before or after delivery | [Integrity & Attestation](../evidence/integrity-attestation.md), reference measurements, firmware signing, update records |
+| Compromised software dependencies | Vulnerable or malicious dependencies enter through open source or supplier software | [Software & Component Transparency](../evidence/software-component-transparency.md), [Update & Vulnerability](../evidence/update-vulnerability.md), build provenance |
+| Supplier self-attestation only | A supplier claims controls exist but provides no verifiable evidence | [Evidence Checklist](../resources/evidence-checklist.md), artifact requests, [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md), verification paths |
+| Loss of provenance through the chain | Resellers, integrators, repairers, or logistics actors change the product without clear records | [Identity & Provenance](../evidence/identity-provenance.md), chain-of-custody records, [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md) |
+| Unauthorized update or configuration drift | A device changes after acceptance and no longer matches the expected baseline | [Update & Vulnerability](../evidence/update-vulnerability.md), configuration records, [Integrity & Attestation](../evidence/integrity-attestation.md), lifecycle monitoring |
+| Insecure repair, resale, or transfer | Trust state changes after repair or ownership transfer without being re-established | [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md), repair records, re-provisioning evidence, transfer records |
+| Poor end-of-life handling | Devices, credentials, keys, or sensitive data remain usable after retirement | [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md), decommissioning records, revocation logs |
+| Key or credential compromise | Device or supplier credentials are cloned, extracted, reused, or not hardware-bound | [Identity & Provenance](../evidence/identity-provenance.md), [Trust Anchors](../technology-options/trust-anchors.md), credential issuance logs |
+| Lack of continuous monitoring | Product is accepted once but not checked after updates, repair, or operation | [Retention & Reuse](../evidence/retention-reuse.md), [Integrity & Attestation](../evidence/integrity-attestation.md), vulnerability and update evidence |
 
 ## Risk And Practice Themes
 
@@ -51,6 +51,20 @@ Readers need assurance after acceptance. Practices may include update records, r
 | Produced artifact | Manifest, record, certificate, log, report, or measurement | May still need origin, integrity, freshness, and consistency checks |
 | Verifiable artifact | Evidence with a verification path | Requires trust anchors, tooling, retention, and interpretation |
 | Lifecycle-retained evidence | Evidence remains available across lifecycle events | Requires governance, storage, refresh, and access decisions |
+
+Use [Evidence](../evidence/index.md) for the full maturity model and evidence page pattern.
+
+## Roles And Responsibilities
+
+Failure modes usually cross organizational boundaries. Procurement may ask the question, engineering may implement the control, suppliers may produce the artifact, product acceptance may verify it, and audit or operations may need to reuse it later. Pages should make those handoffs explicit rather than assuming one team owns the whole assurance chain.
+
+## Questionnaires Vs Artifacts
+
+Questionnaires help discover what a supplier claims and what evidence may exist. They are not a substitute for artifacts. Use [Supplier Questions](../resources/supplier-questions.md) to ask consistently, then use the [Evidence Checklist](../resources/evidence-checklist.md) to decide which artifacts, records, logs, measurements, or attestations are needed for the decision.
+
+## Compliance Controls Vs Operational Assurance
+
+Compliance controls may show that a process exists. Operational assurance asks whether the relevant product, component, firmware, service, update, repair, or lifecycle event actually followed the process and whether the evidence remains useful after acceptance.
 
 ## Example Mapping
 
@@ -90,6 +104,9 @@ Readers need assurance after acceptance. Practices may include update records, r
 
 ## Next Actions
 
-- Use [Lifecycle Map](./lifecycle-map.md) to decide when each risk matters.
-- Use [10 Best Practices](./10-best-practices.md) to connect risk themes to practices.
+- Use [Lifecycle Map](../practices-controls/lifecycle-map.md) to decide when each risk matters.
+- Use [10 Best Practices](../practices-controls/10-best-practices.md) to connect risk themes to practices.
 - Use [Evidence](../evidence/index.md) to identify artifacts and verification paths.
+- Use [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md) when the failure mode needs supplier-facing requests.
+- Use [Product Acceptance](../practices-controls/product-acceptance.md) when the failure mode affects an acceptance decision.
+- Use [Evidence Checklist](../resources/evidence-checklist.md) to turn a failure mode into artifact requests.

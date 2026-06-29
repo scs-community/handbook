@@ -5,6 +5,8 @@ sidebar_position: 4
 
 Use this checklist to turn a supply-chain-security question into evidence requests and acceptance criteria.
 
+Use this page for review criteria: what evidence would make a decision defensible. Use [Supplier Questions](./supplier-questions.md) for request wording, and use the relevant decision guide for decision context.
+
 | Evidence area | Questions to ask | Acceptance signal |
 |---|---|---|
 | Identity | What identity is being claimed, who issued it, and how is it bound to the device, component, platform, supplier, or service? | Identity can be verified against an expected issuer, product, component, or trust anchor |
@@ -26,3 +28,11 @@ Use this checklist to turn a supply-chain-security question into evidence reques
 5. Request artifacts and verification paths.
 6. Record weak, better, and stronger answers.
 7. Decide whether evidence must be retained or refreshed.
+
+## Related Pages
+
+- [Evidence](../evidence/index.md)
+- [Supplier Questions](./supplier-questions.md)
+- [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md)
+- [Product Acceptance](../practices-controls/product-acceptance.md)
+- [Attack & Failure Modes](../requirements/attack-failure-modes.md)

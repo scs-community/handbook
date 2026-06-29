@@ -81,6 +81,6 @@ An SBOM or xBOM does not by itself prove secure design, safe configuration, curr
 
 ## Related Pages
 
-- [Procurement & Supplier Assurance](../use-cases/procurement-supplier-assurance.md)
+- [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md)
 - [Update & Vulnerability](./update-vulnerability.md)
 - [Transparency Artifacts](../technology-options/transparency-artifacts.md)
