@@ -130,12 +130,25 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Start Here',
+          title: 'Requirements & Risks',
           items: [
             {
               label: 'Requirements & Risks',
               to: '/requirements/',
             },
+            {
+              label: 'Attack & Failure Modes',
+              to: '/requirements/attack-failure-modes/',
+            },
+            {
+              label: 'Requirement & Governance Sources',
+              to: '/requirements/governance-compliance/',
+            },
+          ],
+        },
+        {
+          title: 'Practices & Controls',
+          items: [
             {
               label: 'Practices & Controls',
               to: '/practices-controls/',
