@@ -87,7 +87,7 @@ Acceptance evidence is stronger when reviewers can verify issuer, product bindin
 ## Related Pages
 
 - [Standards & Threats](../standards-threats/index.md)
-- [Attack & Failure Modes](../standards-threats/attack-failure-modes.md)
+- [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md)
 - [Lifecycle Map](./lifecycle-map.md)
 - [Supplier Questions](../resources/supplier-questions.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)

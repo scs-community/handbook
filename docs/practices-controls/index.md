@@ -81,7 +81,7 @@ Use this pattern when translating a regulation, customer request, procurement ex
 
 ## Next Actions
 
-- Use [Attack & Failure Modes](../standards-threats/attack-failure-modes.md) to understand what can go wrong.
+- Use [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md) to understand what can go wrong.
 - Use [Lifecycle Map](./lifecycle-map.md) to decide when evidence is needed.
 - Use [10 Best Practices](./10-best-practices.md) to connect practices, evidence, verification, and technology options.
 - Use [Decision Guides](./decision-guides.md) to apply the practices to concrete decisions.

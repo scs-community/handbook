@@ -25,7 +25,7 @@ Current driver pages include:
 
 ## Start with a threat pattern
 
-Use [Attack & Failure Modes](./attack-failure-modes.md) when the starting question is what could go wrong: substituted components, compromised dependencies, unclear provenance, insecure update paths, weak supplier evidence, credential compromise, or lifecycle drift.
+Use [Threats and Failure Modes](./threats-failure-modes/index.md) when the starting question is what could go wrong: substituted components, compromised dependencies, unclear provenance, insecure update paths, weak supplier evidence, credential compromise, or lifecycle drift.
 
 ## How the handbook connects the pieces
 
@@ -43,11 +43,14 @@ The handbook uses the same translation pattern across standards and threats:
 - [Standards and Regulations](./standards-regulatory-drivers/index.md)
 - [EU Cyber Resilience Act](./standards-regulatory-drivers/eu-cyber-resilience-act.md)
 - [NIS2](./standards-regulatory-drivers/nis2.md)
-- [Attack & Failure Modes](./attack-failure-modes.md)
+- [Threats and Failure Modes](./threats-failure-modes/index.md)
+- [Product and Component Trust Failures](./threats-failure-modes/product-component-trust-failures.md)
+- [Software and Update-Chain Compromise](./threats-failure-modes/software-update-chain-compromise.md)
+- [Supplier Assurance Failures](./threats-failure-modes/supplier-assurance-failures.md)
 
 ## Next actions
 
-- If you need the conceptual starting point for concrete threats, read [Attack & Failure Modes](./attack-failure-modes.md).
+- If you need the conceptual starting point for concrete threats, read [Threats and Failure Modes](./threats-failure-modes/index.md).
 - If you need standards and governance context, read [Standards and Regulations](./standards-regulatory-drivers/index.md).
 - If you need control themes, read [Practices & Controls](../practices-controls/index.md).
 - If you need supplier-facing wording, use [Supplier Questions](../resources/supplier-questions.md).

@@ -83,7 +83,7 @@ function CommonStartingPoints(): ReactNode {
     {
       title: 'I need to understand what could go wrong',
       description: 'Look at supply chain threat patterns, lifecycle failure modes, and the controls used to mitigate them.',
-      to: '/standards-threats/attack-failure-modes/',
+      to: '/standards-threats/threats-failure-modes/',
     },
     {
       title: 'I need practices and controls',

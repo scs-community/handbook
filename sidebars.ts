@@ -24,7 +24,16 @@ const sidebars: SidebarsConfig = {
         'standards-threats/standards-regulatory-drivers/nis2',
       ],
     },
-    'standards-threats/attack-failure-modes',
+    {
+      type: 'category',
+      label: 'Threats and Failure Modes',
+      link: {type: 'doc', id: 'standards-threats/threats-failure-modes/index'},
+      items: [
+        'standards-threats/threats-failure-modes/product-component-trust-failures',
+        'standards-threats/threats-failure-modes/software-update-chain-compromise',
+        'standards-threats/threats-failure-modes/supplier-assurance-failures',
+      ],
+    },
   ],
   practicesControlsSidebar: [
     'practices-controls/index',

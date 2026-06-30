@@ -26,7 +26,7 @@ Both can drive supply chain security work, but they create different control and
 
 Start with a driver page when a regulation, standard, customer assurance request, procurement expectation, audit, or framework is the reason for action. Then follow the links to:
 
-- [Attack & Failure Modes](../attack-failure-modes.md) to understand what the driver is trying to reduce.
+- [Threats and Failure Modes](../threats-failure-modes/index.md) to understand what the driver is trying to reduce.
 - [Practices & Controls](../../practices-controls/index.md) to identify practical control themes.
 - [Evidence](../../evidence/index.md) to decide which records, claims, logs, attestations, and audit materials matter.
 - [Technology Options](../../technology-options/index.md) to compare mechanisms that may support implementation and verification.

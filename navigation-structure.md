@@ -17,7 +17,7 @@ Do not put Decision Guides or the 10 Best Practices page in top navigation. Deci
 
 Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside standards and threats, practices and controls, evidence, resources, or technology-options pages.
 
-The Standards & Threats section contains [Attack & Failure Modes](/standards-threats/attack-failure-modes/) because that page is the canonical threat-detail page.
+The Standards & Threats section contains [Threats and Failure Modes](/standards-threats/threats-failure-modes/) because that subsection is the canonical threat-pattern entry point.
 
 ## Route Policy
 
@@ -62,8 +62,14 @@ Decision Guides are part of Practices & Controls. Resources support the flow by 
   EU Cyber Resilience Act
 /standards-threats/standards-regulatory-drivers/nis2/
   NIS2
-/standards-threats/attack-failure-modes/
-  Attack & Failure Modes
+/standards-threats/threats-failure-modes/
+  Threats and Failure Modes
+/standards-threats/threats-failure-modes/product-component-trust-failures/
+  Product and Component Trust Failures
+/standards-threats/threats-failure-modes/software-update-chain-compromise/
+  Software and Update-Chain Compromise
+/standards-threats/threats-failure-modes/supplier-assurance-failures/
+  Supplier Assurance Failures
 
 /practices-controls/
   Practices & Controls overview

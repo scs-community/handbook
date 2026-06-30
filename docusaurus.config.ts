@@ -137,10 +137,6 @@ const config: Config = {
               to: '/standards-threats/',
             },
             {
-              label: 'Attack & Failure Modes',
-              to: '/standards-threats/attack-failure-modes/',
-            },
-            {
               label: 'Standards and Regulations',
               to: '/standards-threats/standards-regulatory-drivers/',
             },
@@ -151,6 +147,22 @@ const config: Config = {
             {
               label: 'NIS2',
               to: '/standards-threats/standards-regulatory-drivers/nis2/',
+            },
+            {
+              label: 'Threats and Failure Modes',
+              to: '/standards-threats/threats-failure-modes/',
+            },
+            {
+              label: 'Product and Component Trust Failures',
+              to: '/standards-threats/threats-failure-modes/product-component-trust-failures/',
+            },
+            {
+              label: 'Software and Update-Chain Compromise',
+              to: '/standards-threats/threats-failure-modes/software-update-chain-compromise/',
+            },
+            {
+              label: 'Supplier Assurance Failures',
+              to: '/standards-threats/threats-failure-modes/supplier-assurance-failures/',
             },
           ],
         },
