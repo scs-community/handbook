@@ -103,12 +103,6 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'evidenceSidebar',
-          position: 'left',
-          label: 'Evidence',
-        },
-        {
-          type: 'docSidebar',
           sidebarId: 'technologyOptionsSidebar',
           position: 'left',
           label: 'Technology Options',
@@ -212,43 +206,6 @@ const config: Config = {
           ],
         },
         {
-          title: 'Evidence',
-          items: [
-            {
-              label: 'Evidence',
-              to: '/evidence/',
-            },
-            {
-              label: 'Identity & Provenance',
-              to: '/evidence/identity-provenance/',
-            },
-            {
-              label: 'Integrity & Attestation',
-              to: '/evidence/integrity-attestation/',
-            },
-            {
-              label: 'Software & Component Transparency',
-              to: '/evidence/software-component-transparency/',
-            },
-            {
-              label: 'Update & Vulnerability',
-              to: '/evidence/update-vulnerability/',
-            },
-            {
-              label: 'Lifecycle State & Audit',
-              to: '/evidence/lifecycle-state-audit/',
-            },
-            {
-              label: 'Retention & Reuse',
-              to: '/evidence/retention-reuse/',
-            },
-            {
-              label: 'Assurance & Evidence Models',
-              to: '/evidence/evidence-models/',
-            },
-          ],
-        },
-        {
           title: 'Technology Options',
           items: [
             {
@@ -307,6 +264,18 @@ const config: Config = {
             {
               label: 'Evidence Checklist',
               to: '/resources/evidence-checklist/',
+            },
+            {
+              label: 'Evidence Maturity Model',
+              to: '/resources/evidence-maturity-model/',
+            },
+            {
+              label: 'Evidence Glossary',
+              to: '/resources/evidence-glossary/',
+            },
+            {
+              label: 'Evidence Package Template',
+              to: '/resources/evidence-package-template/',
             },
             {
               label: 'Further Reading',

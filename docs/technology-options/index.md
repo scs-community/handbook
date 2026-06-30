@@ -14,7 +14,7 @@ This section is the handbook's technology interpretation layer. It does not make
 Practice/control need -> evidence need -> technology option -> verification and limits
 ```
 
-Standards and regulations belong with [Standards & Threats](../standards-threats/index.md). Control operation belongs with [Practices & Controls](../practices-controls/index.md). Evidence meaning and assurance models belong with [Evidence](../evidence/index.md).
+Standards and regulations belong with [Standards & Threats](../standards-threats/index.md). Control operation and evidence requirements belong with [Practices & Controls](../practices-controls/index.md). Reusable evidence definitions, checklists, and templates belong with [Resources](../resources/index.md).
 
 ## How to use this section
 
@@ -68,6 +68,7 @@ Where this section lists individual standards, specifications, mechanisms, or to
 
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Practices & Controls](../practices-controls/index.md)
-- [Evidence](../evidence/index.md)
-- [Assurance & Evidence Models](../evidence/evidence-models.md)
+- [Evidence Checklist](../resources/evidence-checklist.md)
+- [Evidence Glossary](../resources/evidence-glossary.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
 - [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)

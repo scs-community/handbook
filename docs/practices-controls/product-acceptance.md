@@ -43,6 +43,10 @@ This practice makes delivery a controlled assurance step before deployment or us
 
 A stronger product-acceptance process combines identity checks, provenance checks, transparency artefacts, integrity evidence, update history, vulnerability handling, and lifecycle-state records. It defines who verifies each artefact and what happens if evidence is missing or inconsistent.
 
+Identity alone does not prove current integrity, vulnerability status, safe configuration, or update history. Provenance records may not reveal hidden sub-tier risk unless the chain and evidence requirements are defined.
+
+Attestation does not automatically prove that the product is free from vulnerabilities, came through an acceptable supply chain, or meets a compliance requirement. It needs baselines, policies, trust anchors, and interpretation.
+
 When acceptance evidence is missing, stale, incomplete, inconsistent, or unverifiable, the practice should produce a reject, quarantine, accept-with-conditions, remediation, or risk-acceptance decision rather than silently proceeding to deployment.
 
 Use [Supplier Questions](../resources/supplier-questions.md) to request missing evidence and the [Evidence Checklist](../resources/evidence-checklist.md) to document acceptance criteria.
@@ -116,6 +120,9 @@ Relevant mappings may include Platform Certificates, TPM, DICE, Secure Element, 
 - [Supplier & Procurement Assurance](./supplier-procurement-assurance.md)
 - [Supplier Questions](../resources/supplier-questions.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
-- [Identity & Provenance](../evidence/identity-provenance.md)
-- [Integrity & Attestation](../evidence/integrity-attestation.md)
-- [Update & Vulnerability](../evidence/update-vulnerability.md)
+- [Evidence Maturity Model](../resources/evidence-maturity-model.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
+- [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md)
+- [Attestation & Measured State](../technology-options/attestation-measured-state.md)
+- [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)
+- [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)

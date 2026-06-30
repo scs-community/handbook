@@ -9,13 +9,12 @@ The top navigation should stay restrained:
 1. Home
 2. Standards & Threats
 3. Practices & Controls
-4. Evidence
-5. Technology Options
-6. Resources
+4. Technology Options
+5. Resources
 
 Do not put the 10 Best Practices page or individual practice pages in top navigation. Practices live inside Practices & Controls because they describe recurring operating activities. The 10 Best Practices page belongs inside Practices & Controls as the synthesis and anchor page.
 
-Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside standards and threats, practices and controls, evidence, resources, or technology-options pages.
+Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside standards and threats, practices and controls, technology-options, or resources pages.
 
 The Standards & Threats section contains [Threats and Failure Modes](/standards-threats/threats-failure-modes/) because that subsection is the canonical threat-pattern entry point.
 
@@ -28,22 +27,22 @@ The public docs routes are served at the site root, not below `/docs/`.
 - `docs.routeBasePath`: `/`
 - `trailingSlash`: `true`
 
-Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/supplier-procurement-assurance/`, and `/evidence/`. Avoid hardcoded `/docs/...` links in public content.
+Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/supplier-procurement-assurance/`, and `/technology-options/`. Avoid hardcoded `/docs/...` links in public content.
 
 ## Site Model
 
 The site should feel like:
 
 ```text
-Standards & Threats -> Practices & Controls -> Evidence -> Technology Options -> Resources
+Standards & Threats -> Practices & Controls -> Technology Options -> Resources
 ```
 
-This mirrors the logic: standards and threats create the starting point, practices and controls explain what to do, evidence shows whether controls are operating, and technology options may help implement, produce, protect, exchange, verify, or retain evidence.
+This mirrors the logic: standards and threats create the starting point, practices and controls explain what should operate and what evidence makes it reviewable, technology options may help implement or verify controls, and resources provide reusable questions, checklists, templates, glossaries, and workflows.
 
 The homepage may use a shorter model for clarity:
 
 ```text
-Standards & Threats -> Practices & Controls -> Evidence -> Technology Options
+Standards & Threats -> Practices & Controls -> Technology Options
 ```
 
 Applied practice pages are part of Practices & Controls. Resources support the flow by turning guidance into evidence requests, templates, mappings, and review prompts.
@@ -93,16 +92,6 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /practices-controls/assurance-implementation-planning/
   Assurance Implementation Planning
 
-/evidence/
-  Evidence overview
-/evidence/identity-provenance/
-/evidence/integrity-attestation/
-/evidence/software-component-transparency/
-/evidence/update-vulnerability/
-/evidence/lifecycle-state-audit/
-/evidence/retention-reuse/
-/evidence/evidence-models/
-
 /technology-options/
   Technology Options overview
 /technology-options/choosing-technology-options/
@@ -127,6 +116,9 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /resources/glossary/
 /resources/supplier-questions/
 /resources/evidence-checklist/
+/resources/evidence-maturity-model/
+/resources/evidence-glossary/
+/resources/evidence-package-template/
 /resources/further-reading/
 /resources/artifact-map/
 /resources/standards-mapping-workflow/
@@ -150,9 +142,9 @@ Detailed routing belongs in `/standards-threats/`, section landing pages, sideba
 
 ## Footer And Secondary Navigation
 
-The footer can expose more of the sitemap than the header. It should help readers jump into common decision guides, evidence pages, standards mappings, and reusable tools and templates.
+The footer can expose more of the sitemap than the header. It should help readers jump into common practices, technology-option pages, standards mappings, and reusable tools and templates.
 
-Footer links should still avoid making standards-body names the organizing principle. Link to standards roles and evidence needs first, then to specific technologies or standards within those pages.
+Footer links should still avoid making standards-body names the organising principle. Link to standards roles, practices, evidence needs, and technology-option roles first, then to specific technologies or standards within those pages.
 
 ## Resources Rule
 
@@ -161,6 +153,8 @@ Resources should not become a catch-all archive. They should contain reusable ma
 - glossary entries;
 - supplier questions;
 - evidence checklists;
+- evidence maturity models;
+- evidence package templates;
 - artifact maps;
 - standards mapping workflows;
 - templates;

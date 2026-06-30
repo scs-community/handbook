@@ -102,5 +102,7 @@ Technology options may include source and artefact repositories, build provenanc
 - [Lifecycle Map](./lifecycle-map.md)
 - [Software, Component & Vulnerability Management](./software-component-vulnerability-management.md)
 - [Secure Update & Lifecycle Monitoring](./secure-update-lifecycle-monitoring.md)
-- [Software & Component Transparency](../evidence/software-component-transparency.md)
+- [Evidence Checklist](../resources/evidence-checklist.md)
 - [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)
+- [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credential-mechanisms.md)
+- [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)

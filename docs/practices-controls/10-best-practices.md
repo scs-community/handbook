@@ -4,11 +4,11 @@ slug: /practices-controls/10-best-practices
 sidebar_position: 2
 ---
 
-This page is the practical synthesis for the handbook. It is not the whole site: each practice routes readers into lifecycle, evidence, applied-practice, and technology-options pages.
+This page is the practical synthesis for the handbook. It is not the whole site: each practice routes readers into lifecycle context, applied-practice pages, resource checklists and templates, and technology-options pages.
 
 Each numbered heading is a practice. Practice titles are action-led and reader-oriented, followed by threat or failure mode addressed, core controls, evidence to request or produce, verification question, lifecycle fit, technology options, and gaps.
 
-Use this page as the quick route into the section. Each practice summarises a recurring control area, then points readers toward lifecycle context, applied practice pages, evidence models, and technology options.
+Use this page as the quick route into the section. Each practice summarises a recurring control area, then points readers toward lifecycle context, evidence to request or produce, verification questions, resources, and technology options.
 
 ## 1. Establish and verify device, component, and platform identity
 
@@ -168,7 +168,7 @@ Use this page as the quick route into the section. Each practice summarises a re
 
 **Technology options:** NIST, ISO, ENISA, NCSC, CISA, TCG, GlobalPlatform, IETF RATS/EAT, CoRIM/CoMID, SPDX, CycloneDX, SPDM, OCP SAFE/Caliptra.
 
-**Gaps and limits:** Future profiling may be needed where standards provide pieces of the assurance model but not a full product-specific interpretation.
+**Gaps and limits:** Future profiling may be needed where standards provide pieces of the evidence requirements or evidence structures but not a full product-specific interpretation.
 
 ## Practical Questions
 
@@ -199,6 +199,6 @@ Use this page as the quick route into the section. Each practice summarises a re
 ## Use this page with
 
 - [Lifecycle Map](./lifecycle-map.md) to place practices in lifecycle context.
-- [Evidence](../evidence/index.md) to identify artefacts and verification paths.
+- [Evidence Checklist](../resources/evidence-checklist.md) to identify artefacts and verification paths.
 - [Technology Options](../technology-options/index.md) to understand mapping roles and limits.
 - [Supplier Questions](../resources/supplier-questions.md) to turn practices into requests.

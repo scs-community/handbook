@@ -43,6 +43,10 @@ When update or lifecycle evidence is missing, stale, incomplete, inconsistent, o
 
 Good lifecycle monitoring defines which events require new evidence, who reviews that evidence, what happens when expected evidence is absent, and how long records must be retained. It connects update workflows, vulnerability response, asset management, supplier support, and audit readiness.
 
+Update evidence does not prove provenance or identity by itself. Vulnerability records do not prove remediation unless connected to product versions, update records, and verification.
+
+Lifecycle-state records do not prove technical integrity unless connected to integrity evidence. Retention does not make weak evidence strong; it preserves evidence usefulness only if the original artefact, context, and verification path are meaningful.
+
 ## Questions to ask
 
 ### Suppliers
@@ -100,6 +104,8 @@ Technology options may include update frameworks, signing systems, transparency 
 - [10 Best Practices](./10-best-practices.md)
 - [Lifecycle Map](./lifecycle-map.md)
 - [Product Acceptance](./product-acceptance.md)
-- [Update & Vulnerability](../evidence/update-vulnerability.md)
-- [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md)
-- [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md)
+- [Evidence Checklist](../resources/evidence-checklist.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
+- [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)
+- [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credential-mechanisms.md)
+- [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

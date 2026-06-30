@@ -70,4 +70,4 @@ The decision is defensible when supplier evidence is specific enough to review f
 - [Audit & Compliance Readiness](../../practices-controls/audit-compliance-readiness.md)
 - [Supplier Questions](../../resources/supplier-questions.md)
 - [Evidence Checklist](../../resources/evidence-checklist.md)
-- [Software & Component Transparency](../../evidence/software-component-transparency.md)
+- [Evidence Maturity Model](../../resources/evidence-maturity-model.md)

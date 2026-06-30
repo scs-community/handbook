@@ -31,7 +31,7 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 | [CISA SBOM topic page](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security/sbom) | SBOM policy, adoption, and operationalization context | Use page and resource dates where available |
 | [CISA 2025 Minimum Elements for SBOM](https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom) | SBOM minimum elements and software transparency expectations | Draft guidance, published 2025-08-22 |
 
-## Evidence Models And Attestation
+## Evidence Structures And Attestation
 
 | Source | Use it for | Version or date note |
 |---|---|---|
@@ -67,11 +67,11 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 
 This handbook should acknowledge that extensive supply-chain-security guidance already exists. Its role is to bridge requirements, controls, evidence, lifecycle assurance, and technology options.
 
-Use [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md) for how governance references shape requirements, [Assurance & Evidence Models](../evidence/evidence-models.md) for evidence-model sources, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
+Use [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md) for how governance references shape requirements, [Evidence Glossary](./evidence-glossary.md) for evidence terminology, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
 
 ## Related Pages
 
 - [Standards & Threats](../standards-threats/index.md)
 - [Practices & Controls](../practices-controls/index.md)
-- [Evidence](../evidence/index.md)
+- [Evidence Checklist](./evidence-checklist.md)
 - [Technology Options](../technology-options/index.md)

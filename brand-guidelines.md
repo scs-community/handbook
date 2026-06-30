@@ -77,8 +77,8 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 The homepage should keep the sister-site visual pattern while reflecting the supply-chain-security brief:
 
 - Hero proposition and two clear calls to action.
-- Value pillars that move from standards and threats to practices and controls to evidence.
-- A simple model: standards and threats, practices and controls, evidence, and technology options.
+- Value pillars that move from standards and threats to practices and controls to technology options and resources.
+- A simple model: standards and threats, practices and controls, technology options, and resources.
 - A clear handoff to the Standards & Threats for detailed routing.
 - Neutrality and open-source framing.
 

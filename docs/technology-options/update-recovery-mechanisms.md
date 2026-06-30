@@ -130,7 +130,6 @@ Verification should check whether the update came from an authorised source, whe
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Signing, Keys & Credential Mechanisms](./signing-keys-credential-mechanisms.md)
 - [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md)
-- [Update & Vulnerability](../evidence/update-vulnerability.md)
-- [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
 - [Secure Update & Lifecycle Monitoring](../practices-controls/secure-update-lifecycle-monitoring.md)
 - [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)

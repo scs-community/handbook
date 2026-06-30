@@ -42,6 +42,10 @@ Good control evidence readiness is evidence-led. It connects a need to a control
 
 When evidence is missing, stale, incomplete, inconsistent, or unverifiable, the practice should produce a visible gap, exception, remediation plan, or risk-acceptance decision rather than hiding the issue in narrative audit responses.
 
+Lifecycle-state records do not prove technical integrity unless connected to integrity evidence. Audit records do not prove security by themselves unless they connect controls, evidence, verification, and decisions.
+
+Use the [Evidence Package Template](../resources/evidence-package-template.md) when assembling evidence for customer assurance, audit, certification preparation, or internal review.
+
 ## Questions to ask
 
 ### Suppliers
@@ -98,7 +102,9 @@ Technology options may include evidence repositories, GRC tooling, artefact regi
 - [Supplier Assurance Failures](../standards-threats/threats-failure-modes/supplier-assurance-failures.md)
 - [10 Best Practices](./10-best-practices.md)
 - [Lifecycle Map](./lifecycle-map.md)
-- [Evidence](../evidence/index.md)
-- [Assurance & Evidence Models](../evidence/evidence-models.md)
+- [Evidence Checklist](../resources/evidence-checklist.md)
+- [Evidence Maturity Model](../resources/evidence-maturity-model.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
 - [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)
-- [Technology Options](../technology-options/index.md)
+- [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
+- [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

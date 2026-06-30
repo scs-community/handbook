@@ -70,6 +70,6 @@ Relevant mappings depend on the standard or technology role, the evidence type, 
 ## Related Pages
 
 - [Technology Options](../technology-options/index.md)
-- [Assurance & Evidence Models](../evidence/evidence-models.md)
+- [Evidence Glossary](./evidence-glossary.md)
 - [Mapping Confidence](../technology-options/index.md#mapping-confidence)
 - [Further Reading](./further-reading.md)

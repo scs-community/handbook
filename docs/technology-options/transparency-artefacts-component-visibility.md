@@ -123,7 +123,7 @@ Verification should check whether the artefact is bound to the right product and
 ## Related pages
 
 - [Choosing Technology Options](./choosing-technology-options.md)
-- [Software & Component Transparency](../evidence/software-component-transparency.md)
-- [Update & Vulnerability](../evidence/update-vulnerability.md)
+- [Evidence Glossary](../resources/evidence-glossary.md)
+- [Software, Component & Vulnerability Management](../practices-controls/software-component-vulnerability-management.md)
 - [Software, Component & Vulnerability Management](../practices-controls/software-component-vulnerability-management.md)
 - [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)

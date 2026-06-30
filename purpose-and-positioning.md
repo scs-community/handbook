@@ -26,7 +26,7 @@ They should leave with:
 - a practical view of relevant lifecycle controls and best practices;
 - a sense of what evidence can support those practices;
 - a sense of who produces, verifies, retains, and relies on that evidence;
-- a neutral view of which standards, evidence models, or technology options may help.
+- a neutral view of which standards, evidence structures, or technology options may help.
 
 ## Audience
 
@@ -49,7 +49,7 @@ The site should not primarily be written for standards specialists. Standards sp
 
 The primary reader is responsible for translating a standard, expectation, threat, or failure mode into practical assurance work. That reader may sit in product security, supply-chain security, procurement, supplier assurance, audit, compliance, product acceptance, or governance.
 
-Secondary readers include assurance requesters and implementers who need to ask for, produce, verify, retain, or explain evidence. Serve them through decision guides inside Practices & Controls, evidence pages, tools, and page-level related links rather than separate homepage routing systems.
+Secondary readers include assurance requesters and implementers who need to ask for, produce, verify, retain, or explain evidence. Serve them through practice pages, reusable resources, technology-option pages, and page-level related links rather than separate homepage routing systems.
 
 ## Content Model
 
@@ -57,15 +57,15 @@ The site distinguishes four connected layers:
 
 1. **Standards & Threats**: standards, regulations, frameworks, guidance, sector expectations, procurement expectations, audit, certification, product acceptance, cyber threats, and supply-chain attack or failure modes.
 2. **Practices & Controls**: plain-language guidance on controls, best practices, lifecycle stages, responsibilities, and decision guides for applying them.
-3. **Evidence**: artifacts, records, claims, measurements, attestations, certificates, SBOMs/xBOMs, update records, vulnerability records, lifecycle-state records, and audit materials that can show whether practices and controls are operating.
-4. **Technology Options**: role-based interpretation of technology mechanisms that may help implement controls or generate, protect, exchange, verify, and retain evidence without making any single mechanism mandatory.
+3. **Technology Options**: role-based interpretation of technology mechanisms that may help implement controls or generate, protect, exchange, verify, and retain evidence without making any single mechanism mandatory.
+4. **Resources**: reusable questions, checklists, templates, glossaries, and workflows, including evidence maturity and evidence package aids.
 
-Standards should not be treated as one category. Some standards and frameworks explain why a reader has a requirement. Some describe assurance expectations or evidence models. Others provide technical mechanisms.
+Standards should not be treated as one category. Some standards and frameworks explain why a reader has a requirement. Some describe assurance expectations or evidence structures. Others provide technical mechanisms.
 
 | Type | Role in the site | Examples |
 |---|---|---|
 | Standards and regulations | Explain why visitors may need guidance | CRA, NIS2, NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
-| Assurance and evidence models | Explain what artifacts or assurance models may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
+| Assurance and evidence structures | Explain what artefacts or assurance structures may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
 | Technology and implementation mechanisms | Explain how evidence or trust can be implemented | TCG, GlobalPlatform, SPDM, TPM, DICE, TEE, Secure Element |
 
 ## Lifecycle Thesis

@@ -42,12 +42,12 @@ function HandbookModel(): ReactNode {
       description: 'Translate the standard or threat into control expectations, lifecycle responsibilities, supplier questions, and operating decisions.',
     },
     {
-      title: 'Evidence',
-      description: 'Identify the records, claims, measurements, attestations, logs, and audit materials that demonstrate whether controls are in place and operating.',
-    },
-    {
       title: 'Technology Options',
       description: 'Compare mechanisms, formats, protocols, trust anchors, verifier workflows, and tools that can implement controls or generate, protect, exchange, verify, and retain evidence.',
+    },
+    {
+      title: 'Resources',
+      description: 'Use checklists, templates, glossaries, and workflows to turn practices into evidence requests, review criteria, and reusable assurance packages.',
     },
   ];
 
@@ -92,8 +92,8 @@ function CommonStartingPoints(): ReactNode {
     },
     {
       title: 'I need evidence for audit or customer review',
-      description: 'Identify records, claims, logs, attestations, and assurance materials.',
-      to: '/evidence/',
+      description: 'Use checklists and templates to assemble scoped, verifiable, and retained evidence packages.',
+      to: '/resources/evidence-package-template/',
     },
     {
       title: 'I need implementation options',
@@ -144,7 +144,7 @@ function CommunitySection(): ReactNode {
           <div className="col col--6">
             <Heading as="h2">Open source and evolving</Heading>
             <p>
-              The handbook is developed in the open and will grow with deeper evidence pages, standards mappings, tools, supplier guidance, and lifecycle-specific examples.
+              The handbook is developed in the open and will grow with deeper practice guidance, evidence resources, standards mappings, tools, supplier guidance, and lifecycle-specific examples.
             </p>
             <Link className="button button--primary" to="/blog/">
               Handbook updates

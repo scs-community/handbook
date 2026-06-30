@@ -28,7 +28,7 @@ Start with a driver page when a regulation, standard, customer assurance request
 
 - [Threats and Failure Modes](../threats-failure-modes/index.md) to understand what the driver is trying to reduce.
 - [Practices & Controls](../../practices-controls/index.md) to identify practical control themes.
-- [Evidence](../../evidence/index.md) to decide which records, claims, logs, attestations, and audit materials matter.
+- [Evidence Checklist](../../resources/evidence-checklist.md) to decide which records, claims, logs, attestations, and audit materials matter.
 - [Technology Options](../../technology-options/index.md) to compare mechanisms that may support implementation and verification.
 
 ## Planned pages

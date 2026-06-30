@@ -44,6 +44,8 @@ When evidence is missing, stale, incomplete, inconsistent, or unverifiable, the 
 
 Supplier claims should be treated as discovery inputs. The practice becomes stronger when those claims are supported by records, artefacts, and review paths tied to the specific product, service, supplier relationship, and lifecycle stage.
 
+Identity evidence helps identify a supplier, product, component, platform, or service, but identity alone does not prove current integrity, vulnerability status, safe configuration, or update history. Provenance records may not reveal hidden sub-tier risk unless the chain and evidence requirements are defined.
+
 ## Questions to ask
 
 ### Suppliers
@@ -103,6 +105,10 @@ Technology options may include supplier portals, evidence repositories, SBOM/xBO
 - [10 Best Practices](./10-best-practices.md)
 - [Lifecycle Map](./lifecycle-map.md)
 - [Product Acceptance](./product-acceptance.md)
-- [Identity & Provenance](../evidence/identity-provenance.md)
-- [Software & Component Transparency](../evidence/software-component-transparency.md)
-- [Technology Options](../technology-options/index.md)
+- [Supplier Questions](../resources/supplier-questions.md)
+- [Evidence Checklist](../resources/evidence-checklist.md)
+- [Evidence Maturity Model](../resources/evidence-maturity-model.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
+- [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)
+- [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
+- [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

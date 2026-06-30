@@ -136,5 +136,7 @@ Verification should check whether the evidence came from the expected product or
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Trust Anchors & Device Identity](./trust-anchors-device-identity.md)
 - [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md)
-- [Integrity & Attestation](../evidence/integrity-attestation.md)
+- [Evidence Glossary](../resources/evidence-glossary.md)
+- [Product Acceptance](../practices-controls/product-acceptance.md)
+- [Secure Update & Lifecycle Monitoring](../practices-controls/secure-update-lifecycle-monitoring.md)
 - [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)

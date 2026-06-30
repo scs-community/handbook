@@ -8,6 +8,10 @@ Practices & Controls is the operating layer of the handbook. Use it when a stand
 
 A practice is a recurring operating activity. A control is a safeguard, check, workflow, approval, or requirement inside that practice. Evidence is what the control produces or retains so the practice can be reviewed.
 
+Evidence may be an artefact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material.
+
+Good evidence is bound to a decision, product or supplier scope, lifecycle stage, and verification path.
+
 Use this section to move from standards and threats to practical behaviours, core controls, evidence, verification, and implementation choices.
 
 ## Pages in this section
@@ -34,13 +38,25 @@ Practice -> control -> evidence -> verification -> technology option
 
 This keeps the site practical and neutral. Standards and threats explain why action is needed; practice pages explain what should operate, what evidence should be retained, how it can be reviewed, and which technology options may help.
 
+## Evidence maturity
+
+| Level | Description |
+|---|---|
+| Assertion | A supplier or team says a control exists |
+| Documented process | The process, owner, scope, and review cadence are described |
+| Produced artefact | A record, manifest, certificate, SBOM/xBOM, log, measurement, attestation, or report is provided |
+| Verifiable artefact | The recipient can verify origin, integrity, freshness, scope, or consistency |
+| Lifecycle-retained evidence | Evidence is retained, refreshed, and reused across deployment, update, repair, transfer, audit, and decommissioning |
+
+Use [Evidence Maturity Model](../resources/evidence-maturity-model.md), [Evidence Checklist](../resources/evidence-checklist.md), [Evidence Glossary](../resources/evidence-glossary.md), and [Evidence Package Template](../resources/evidence-package-template.md) when turning practice evidence into reusable requests, review criteria, or audit packages.
+
 ## What stronger assurance looks like
 
 | Weak | Better | Stronger |
 |---|---|---|
 | A supplier says a control exists | The supplier describes the process, owner, scope, and review cadence | The supplier provides evidence, a verification path, lifecycle retention, and a remediation process |
 | A product is accepted once | Acceptance checks are documented | Acceptance evidence is retained and updated after deployment, update, repair, transfer, and decommissioning |
-| Standards are listed as references | Standards are grouped by function | Standards are mapped to requirements, evidence models, technical mechanisms, and gaps |
+| Standards are listed as references | Standards are grouped by function | Standards are mapped to requirements, evidence structures, technical mechanisms, and gaps |
 
 ## How to translate a driver into action
 
@@ -88,5 +104,5 @@ Use this pattern when translating a regulation, customer request, procurement ex
 - Use [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md) to understand what can go wrong.
 - Use [Lifecycle Map](./lifecycle-map.md) to decide when practices, controls, and evidence matter.
 - Use [10 Best Practices](./10-best-practices.md) to connect practices, evidence, verification, and technology options.
-- Use [Evidence](../evidence/index.md) to identify artefacts and verification paths.
+- Use [Resources](../resources/index.md) for evidence definitions, checklists, maturity models, and package templates.
 - Use [Technology Options](../technology-options/index.md) to compare implementation and verification mechanisms.

@@ -95,6 +95,6 @@ Each page should pass these tests:
 - Does it explain what good practice looks like?
 - Does it say what evidence would support the practice?
 - Does it distinguish assertions from verifiable artifacts?
-- Does it map to technology options, evidence models, or standards only where useful?
+- Does it map to technology options, resource aids, or standards only where useful?
 - Does it give the reader practical questions or next actions?
 - Does it link naturally to deeper pages?

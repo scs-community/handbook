@@ -127,6 +127,6 @@ Verification should check whether evidence origin is preserved, whether integrit
 
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md)
-- [Retention & Reuse](../evidence/retention-reuse.md)
-- [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md)
+- [Evidence Maturity Model](../resources/evidence-maturity-model.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
 - [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)

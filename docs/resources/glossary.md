@@ -28,6 +28,6 @@ This glossary defines terms used across the handbook. It is intentionally practi
 ## Related Pages
 
 - [Standards & Threats](../standards-threats/index.md)
-- [Evidence](../evidence/index.md)
+- [Evidence Glossary](./evidence-glossary.md)
 - [Technology Options](../technology-options/index.md)
 - [Supplier Questions](./supplier-questions.md)

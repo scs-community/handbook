@@ -12,9 +12,8 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 - [Brand Guidelines](brand-guidelines.md) - Visual identity, assets, colors, typography, and brand usage
 - [Standards & Threats](docs/standards-threats/index.md) - Standards, regulatory drivers, threat patterns, and failure modes that route into practical assurance work
 - [Practices & Controls](docs/practices-controls/index.md) - Applied supply-chain-security practices, controls, lifecycle assurance, and the 10 best practices synthesis
-- [Evidence](docs/evidence/index.md) - Evidence types, maturity levels, and assurance decisions
 - [Technology Options](docs/technology-options/index.md) - Role-based technology interpretation for trust anchors, attestation, transparency artefacts, signing, updates, exchange, repositories, logs, and retention
-- [Resources](docs/resources/index.md) - Glossary, supplier questions, evidence checklist, templates, and further reading
+- [Resources](docs/resources/index.md) - Glossary, supplier questions, evidence checklist, evidence maturity model, evidence package template, standards mapping workflow, templates, and further reading
 - [Contributing](CONTRIBUTING.md) - Contribution workflow and submission checklist
 
 ## Installation

@@ -57,7 +57,7 @@ npm run build
 - [ ] Page starts from a requirement, decision, or risk.
 - [ ] Page identifies relevant evidence and verification questions.
 - [ ] Page avoids legal or compliance-authority claims.
-- [ ] Page links to related requirements, practices and controls, evidence, technology options, or resources.
+- [ ] Page links to related standards and threats, practices and controls, technology options, or resources.
 
 ## License
 

@@ -31,11 +31,11 @@ When sector content is added, start from the same reader problems and evidence n
 
 ## Guardrail
 
-Do not create sector-specific pages unless there is enough real content to help the reader make decisions. Otherwise, keep sector notes short and link back to the general requirements, practices, evidence, resources, and technology option pages.
+Do not create sector-specific pages unless there is enough real content to help the reader make decisions. Otherwise, keep sector notes short and link back to the general standards and threats, practices, resources, and technology option pages.
 
 ## Related Pages
 
 - [Standards & Threats](docs/standards-threats/index.md)
 - [Practices & Controls](docs/practices-controls/index.md)
-- [Evidence](docs/evidence/index.md)
+- [Evidence Checklist](docs/resources/evidence-checklist.md)
 - [Further Reading](docs/resources/further-reading.md)

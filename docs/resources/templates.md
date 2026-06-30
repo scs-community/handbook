@@ -27,7 +27,7 @@ Open gaps:
 
 ## Product Acceptance Record
 
-Use with [Product Acceptance](../practices-controls/product-acceptance.md), [Identity & Provenance](../evidence/identity-provenance.md), and [Integrity & Attestation](../evidence/integrity-attestation.md).
+Use with [Product Acceptance](../practices-controls/product-acceptance.md), [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md), and [Attestation & Measured State](../technology-options/attestation-measured-state.md).
 
 ```text
 Product or platform:
@@ -47,7 +47,7 @@ Evidence retention location:
 
 ## Standards Mapping Record
 
-Use with [Standards Mapping Workflow](./standards-mapping-workflow.md), [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md), [Assurance & Evidence Models](../evidence/evidence-models.md), and [Technology Options](../technology-options/index.md).
+Use with [Standards Mapping Workflow](./standards-mapping-workflow.md), [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md), [Evidence Glossary](./evidence-glossary.md), and [Technology Options](../technology-options/index.md).
 
 ```text
 Practice or evidence need:

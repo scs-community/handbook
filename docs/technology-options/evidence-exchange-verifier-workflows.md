@@ -129,5 +129,5 @@ Verification should check who produced the evidence, whether the exchange path p
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Attestation & Measured State](./attestation-measured-state.md)
 - [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md)
-- [Assurance & Evidence Models](../evidence/evidence-models.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
 - [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
