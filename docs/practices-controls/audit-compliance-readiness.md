@@ -105,6 +105,6 @@ Technology options may include evidence repositories, GRC tooling, artefact regi
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)
 - [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
 - [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

@@ -113,17 +113,14 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 
 /resources/
   Resources
-/resources/glossary/
 /resources/supplier-questions/
 /resources/evidence-checklist/
 /resources/evidence-maturity-model/
-/resources/evidence-glossary/
 /resources/evidence-package-template/
-/resources/further-reading/
-/resources/artifact-map/
-/resources/standards-mapping-workflow/
-  Standards Mapping Workflow
-/resources/templates/
+/resources/standards-technology-mapping-workflow/
+  Standards & Technology Mapping Workflow
+/resources/glossary/
+/resources/curated-references/
 ```
 
 ## Homepage Routing
@@ -155,11 +152,9 @@ Resources should not become a catch-all archive. They should contain reusable ma
 - evidence checklists;
 - evidence maturity models;
 - evidence package templates;
-- artifact maps;
-- standards mapping workflows;
-- templates;
+- standards and technology mapping workflows;
 - sector-note templates should remain outside public navigation until there is enough sector content;
-- curated further reading.
+- curated references.
 
 ## Expansion Rules
 

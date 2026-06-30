@@ -1,6 +1,6 @@
 ---
 title: Evidence Package Template
-sidebar_position: 7
+sidebar_position: 5
 ---
 
 Use this template when assembling evidence for supplier assurance, product acceptance, customer assurance, audit readiness, update review, vulnerability response, or lifecycle monitoring.
@@ -93,6 +93,6 @@ Use this template with [Evidence Repositories, Logs & Retention](../technology-o
 
 - [Evidence Checklist](./evidence-checklist.md)
 - [Evidence Maturity Model](./evidence-maturity-model.md)
-- [Evidence Glossary](./evidence-glossary.md)
+- [Glossary](./glossary.md)
 - [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
 - [Assurance Implementation Planning](../practices-controls/assurance-implementation-planning.md)

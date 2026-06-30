@@ -60,16 +60,13 @@ const sidebars: SidebarsConfig = {
   ],
   resourcesSidebar: [
     'resources/index',
-    'resources/glossary',
     'resources/supplier-questions',
     'resources/evidence-checklist',
     'resources/evidence-maturity-model',
-    'resources/evidence-glossary',
     'resources/evidence-package-template',
-    'resources/further-reading',
-    'resources/artifact-map',
-    'resources/standards-mapping-workflow',
-    'resources/templates',
+    'resources/standards-technology-mapping-workflow',
+    'resources/glossary',
+    'resources/curated-references',
   ],
 };
 

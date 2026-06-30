@@ -254,10 +254,6 @@ const config: Config = {
               to: '/resources/',
             },
             {
-              label: 'Glossary',
-              to: '/resources/glossary/',
-            },
-            {
               label: 'Supplier Questions',
               to: '/resources/supplier-questions/',
             },
@@ -270,28 +266,20 @@ const config: Config = {
               to: '/resources/evidence-maturity-model/',
             },
             {
-              label: 'Evidence Glossary',
-              to: '/resources/evidence-glossary/',
-            },
-            {
               label: 'Evidence Package Template',
               to: '/resources/evidence-package-template/',
             },
             {
-              label: 'Further Reading',
-              to: '/resources/further-reading/',
+              label: 'Standards & Technology Mapping Workflow',
+              to: '/resources/standards-technology-mapping-workflow/',
             },
             {
-              label: 'Artifact Map',
-              to: '/resources/artifact-map/',
+              label: 'Glossary',
+              to: '/resources/glossary/',
             },
             {
-              label: 'Standards Mapping Workflow',
-              to: '/resources/standards-mapping-workflow/',
-            },
-            {
-              label: 'Templates',
-              to: '/resources/templates/',
+              label: 'Curated References',
+              to: '/resources/curated-references/',
             },
             {
               label: 'GitHub',

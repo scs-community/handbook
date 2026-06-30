@@ -1,11 +1,13 @@
 ---
-title: Further Reading
-sidebar_position: 5
+title: Curated References
+sidebar_position: 8
 ---
 
-Further reading should be curated, sourced, and version-aware where relevant. Use this page to organize public guidance, standards, and specifications that support the handbook's mappings.
+Curated references should be sourced, version-aware, and deliberately non-exhaustive. Use this page to find public guidance, standards, and specifications that support the handbook's mappings.
 
-## Source Discipline
+This page is not a live standards catalogue. Keep it stable, useful, and maintainable.
+
+## Source discipline
 
 - Cite public guidance, standards, or specifications when making factual claims about them.
 - Distinguish direct quotation, paraphrase, and interpretation.
@@ -14,9 +16,9 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 - Avoid saying a standard requires something unless the source clearly says so.
 - Prefer "may support", "can be used for", "is commonly associated with", or "is relevant to" where the relationship is advisory.
 - Include publication date or version where relevant.
-- Keep further reading curated, not exhaustive.
+- Keep references curated, not exhaustive.
 
-## Governance, Risk, And Supply-Chain Guidance
+## Governance, risk, and supply-chain guidance
 
 | Source | Use it for | Version or date note |
 |---|---|---|
@@ -31,7 +33,7 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 | [CISA SBOM topic page](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security/sbom) | SBOM policy, adoption, and operationalization context | Use page and resource dates where available |
 | [CISA 2025 Minimum Elements for SBOM](https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom) | SBOM minimum elements and software transparency expectations | Draft guidance, published 2025-08-22 |
 
-## Evidence Structures And Attestation
+## Evidence structures and attestation
 
 | Source | Use it for | Version or date note |
 |---|---|---|
@@ -42,15 +44,15 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 | [TCG DICE Certificate Profiles v1.1](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Certificate-Profiles-v1.1_pub.pdf) | DICE certificate profiles and identity/attestation certificates | Version 1.1, 2025-04-24 |
 | [TCG DICE Attestation Architecture v1.2](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Attestation-Architecture-v1.2_pub.pdf) | DICE attestation architecture and certificate extensions | Version 1.2 |
 
-## Transparency Artefacts
+## Transparency artefacts
 
 | Source | Use it for | Version or date note |
 |---|---|---|
-| [SPDX](https://spdx.dev/) | SPDX SBOM and systems/package data exchange references | SPDX is identified by the project as ISO/IEC 5962:2021; cite artifact version used |
+| [SPDX](https://spdx.dev/) | SPDX SBOM and systems/package data exchange references | SPDX is identified by the project as ISO/IEC 5962:2021; cite artefact version used |
 | [CycloneDX](https://cyclonedx.org/) | CycloneDX BOM capabilities, including SBOM, HBOM, CBOM, VEX, and other BOM types | Cite exact CycloneDX version used |
 | [ECMA-424 CycloneDX specification](https://ecma-tc54.github.io/ECMA-424/) | Formal CycloneDX Bill of Materials specification | Cite edition/version used |
 
-## Trust Anchors, Device Security, And Protocols
+## Trust anchors, device security, and protocols
 
 | Source | Use it for | Version or date note |
 |---|---|---|
@@ -63,13 +65,13 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 | [OCP S.A.F.E. GitHub repository](https://github.com/opencomputeproject/OCP-Security-SAFE) | OCP S.A.F.E. framework, reports, and process documents | Cite commit, file, or release where appropriate |
 | [Caliptra project documentation](https://chipsalliance.github.io/Caliptra/) | Open silicon root-of-trust project context | Cite exact project documentation or specification referenced |
 
-## Relationship To Existing Guidance
+## Relationship to existing guidance
 
-This handbook should acknowledge that extensive supply-chain-security guidance already exists. Its role is to bridge requirements, controls, evidence, lifecycle assurance, and technology options.
+This handbook should acknowledge that extensive supply-chain-security guidance already exists. Its role is to bridge standards and threats, practices and controls, evidence expectations, lifecycle assurance, and technology options.
 
-Use [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md) for how governance references shape requirements, [Evidence Glossary](./evidence-glossary.md) for evidence terminology, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
+Use [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md) for how governance references shape requirements, [Glossary](./glossary.md) for terminology, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
 
-## Related Pages
+## Related pages
 
 - [Standards & Threats](../standards-threats/index.md)
 - [Practices & Controls](../practices-controls/index.md)

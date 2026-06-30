@@ -8,25 +8,17 @@ Resources contains reusable checklists, templates, questions, glossaries, and wo
 
 Resources are practical aids, not the conceptual home of the handbook. Use [Practices & Controls](../practices-controls/index.md) to understand what should operate, and use [Technology Options](../technology-options/index.md) when a mechanism may help produce, protect, exchange, verify, or retain evidence.
 
-## Core Resources
+## Toolkit
 
 | Tool or template | Use it to... |
 |---|---|
-| [Glossary](./glossary.md) | Align on shared terminology |
 | [Supplier Questions](./supplier-questions.md) | Ask for useful assurance evidence |
-| [Evidence Checklist](./evidence-checklist.md) | Convert decisions into evidence requests |
+| [Evidence Checklist](./evidence-checklist.md) | Review whether evidence is scoped, verifiable, retained, and decision-ready |
 | [Evidence Maturity Model](./evidence-maturity-model.md) | Distinguish assertions from produced, verifiable, and lifecycle-retained evidence |
-| [Evidence Glossary](./evidence-glossary.md) | Define recurring evidence terms used across the handbook |
 | [Evidence Package Template](./evidence-package-template.md) | Assemble evidence for supplier assurance, product acceptance, audit, update review, vulnerability response, and lifecycle monitoring |
-| [Further Reading](./further-reading.md) | Find curated public guidance and specifications |
-
-## Expanded Resources
-
-| Tool or template | Use it to... |
-|---|---|
-| [Artifact Map](./artifact-map.md) | Connect artifact types to decisions and lifecycle stages |
-| [Standards Mapping Workflow](./standards-mapping-workflow.md) | Record how requirement sources, evidence requirements, and technology options support a decision |
-| [Templates](./templates.md) | Draft requests, acceptance criteria, and mapping records |
+| [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md) | Record how standards, evidence requirements, technology options, and mapping confidence support a decision |
+| [Glossary](./glossary.md) | Align on assurance, evidence, lifecycle, verification, and technology-option terminology |
+| [Curated References](./curated-references.md) | Find curated public guidance and specifications |
 
 Sector-note content should stay outside the public site until there is enough real sector material to help readers make decisions.
 
@@ -34,5 +26,5 @@ Sector-note content should stay outside the public site until there is enough re
 
 - Keep resources reusable and practical.
 - Link resources back to the relevant standards and threats, practices and controls, and technology option pages.
-- Keep further reading curated, not exhaustive.
+- Keep references curated, version-aware, and non-exhaustive.
 - Distinguish public source claims from interpretive mappings.

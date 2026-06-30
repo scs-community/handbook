@@ -48,7 +48,7 @@ This keeps the site practical and neutral. Standards and threats explain why act
 | Verifiable artefact | The recipient can verify origin, integrity, freshness, scope, or consistency |
 | Lifecycle-retained evidence | Evidence is retained, refreshed, and reused across deployment, update, repair, transfer, audit, and decommissioning |
 
-Use [Evidence Maturity Model](../resources/evidence-maturity-model.md), [Evidence Checklist](../resources/evidence-checklist.md), [Evidence Glossary](../resources/evidence-glossary.md), and [Evidence Package Template](../resources/evidence-package-template.md) when turning practice evidence into reusable requests, review criteria, or audit packages.
+Use [Evidence Maturity Model](../resources/evidence-maturity-model.md), [Evidence Checklist](../resources/evidence-checklist.md), [Glossary](../resources/glossary.md), and [Evidence Package Template](../resources/evidence-package-template.md) when turning practice evidence into reusable requests, review criteria, or audit packages.
 
 ## What stronger assurance looks like
 

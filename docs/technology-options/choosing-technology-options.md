@@ -84,4 +84,4 @@ Use this pattern when choosing or documenting a technology option:
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)

@@ -1,6 +1,6 @@
 ---
 title: Evidence Checklist
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 Use this checklist to turn a supply-chain-security question into evidence requests and acceptance criteria.
@@ -33,7 +33,7 @@ Use this page for review criteria: what evidence would make a decision defensibl
 
 - [Supplier Questions](./supplier-questions.md)
 - [Evidence Maturity Model](./evidence-maturity-model.md)
-- [Evidence Glossary](./evidence-glossary.md)
+- [Glossary](./glossary.md)
 - [Evidence Package Template](./evidence-package-template.md)
 - [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md)
 - [Product Acceptance](../practices-controls/product-acceptance.md)

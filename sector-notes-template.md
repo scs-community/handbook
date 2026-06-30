@@ -38,4 +38,4 @@ Do not create sector-specific pages unless there is enough real content to help 
 - [Standards & Threats](docs/standards-threats/index.md)
 - [Practices & Controls](docs/practices-controls/index.md)
 - [Evidence Checklist](docs/resources/evidence-checklist.md)
-- [Further Reading](docs/resources/further-reading.md)
+- [Curated References](docs/resources/curated-references.md)

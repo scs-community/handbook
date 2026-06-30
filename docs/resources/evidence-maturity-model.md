@@ -1,6 +1,6 @@
 ---
 title: Evidence Maturity Model
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 This page helps readers distinguish weak evidence from stronger assurance. It explains the progression from supplier assertion, to documented process, to produced artefact, to verifiable artefact, to lifecycle-retained evidence.
@@ -47,6 +47,6 @@ Good retained evidence stays bound to a decision, product or supplier scope, lif
 ## Related pages
 
 - [Evidence Checklist](./evidence-checklist.md)
-- [Evidence Glossary](./evidence-glossary.md)
+- [Glossary](./glossary.md)
 - [Evidence Package Template](./evidence-package-template.md)
 - [Practices & Controls](../practices-controls/index.md)

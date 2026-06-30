@@ -136,8 +136,8 @@ function CommunitySection(): ReactNode {
               <Link className="button button--outline button--primary" to="/technology-options/">
                 Explore technology options
               </Link>
-              <Link className="button button--outline button--secondary" to="/resources/further-reading/">
-                Further reading
+              <Link className="button button--outline button--secondary" to="/resources/curated-references/">
+                Curated references
               </Link>
             </div>
           </div>

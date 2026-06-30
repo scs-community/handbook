@@ -69,6 +69,6 @@ Where this section lists individual standards, specifications, mechanisms, or to
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Practices & Controls](../practices-controls/index.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
-- [Evidence Glossary](../resources/evidence-glossary.md)
+- [Glossary](../resources/glossary.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)

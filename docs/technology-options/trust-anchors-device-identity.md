@@ -155,7 +155,7 @@ Verification should check whether the identity evidence is bound to the right pr
 ## Related pages
 
 - [Choosing Technology Options](./choosing-technology-options.md)
-- [Evidence Glossary](../resources/evidence-glossary.md)
+- [Glossary](../resources/glossary.md)
 - [Product Acceptance](../practices-controls/product-acceptance.md)
 - [Product and Component Trust Failures](../standards-threats/threats-failure-modes/product-component-trust-failures.md)
 - [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md)

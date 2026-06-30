@@ -129,7 +129,7 @@ Verification should check signature validity, certificate path, key authorisatio
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Trust Anchors & Device Identity](./trust-anchors-device-identity.md)
 - [Update & Recovery Mechanisms](./update-recovery-mechanisms.md)
-- [Evidence Glossary](../resources/evidence-glossary.md)
+- [Glossary](../resources/glossary.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
 - [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md)
 - [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)
