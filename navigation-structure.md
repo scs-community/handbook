@@ -105,10 +105,22 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 
 /technology-options/
   Technology Options overview
-/technology-options/transparency-artifacts/
-/technology-options/attestation-measurement/
-/technology-options/trust-anchors/
-/technology-options/protocols-exchange/
+/technology-options/choosing-technology-options/
+  Choosing Technology Options
+/technology-options/trust-anchors-device-identity/
+  Trust Anchors & Device Identity
+/technology-options/attestation-measured-state/
+  Attestation & Measured State
+/technology-options/transparency-artefacts-component-visibility/
+  Transparency Artefacts & Component Visibility
+/technology-options/signing-keys-credential-mechanisms/
+  Signing, Keys & Credential Mechanisms
+/technology-options/update-recovery-mechanisms/
+  Update & Recovery Mechanisms
+/technology-options/evidence-exchange-verifier-workflows/
+  Evidence Exchange & Verifier Workflows
+/technology-options/evidence-repositories-logs-retention/
+  Evidence Repositories, Logs & Retention
 
 /resources/
   Resources

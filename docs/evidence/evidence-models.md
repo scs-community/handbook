@@ -76,7 +76,7 @@ This page is the canonical place for evidence-model and assurance-model roles. T
 
 - [Evidence](./index.md)
 - [Integrity & Attestation](./integrity-attestation.md)
-- [Attestation & Measurement](../technology-options/attestation-measurement.md)
-- [Protocols & Exchange](../technology-options/protocols-exchange.md)
+- [Attestation & Measured State](../technology-options/attestation-measured-state.md)
+- [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
 - [10 Best Practices](../practices-controls/10-best-practices.md)
 - [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)

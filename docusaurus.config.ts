@@ -256,20 +256,36 @@ const config: Config = {
               to: '/technology-options/',
             },
             {
-              label: 'Transparency Artefacts',
-              to: '/technology-options/transparency-artifacts/',
+              label: 'Choosing Technology Options',
+              to: '/technology-options/choosing-technology-options/',
             },
             {
-              label: 'Attestation & Measurement',
-              to: '/technology-options/attestation-measurement/',
+              label: 'Trust Anchors & Device Identity',
+              to: '/technology-options/trust-anchors-device-identity/',
             },
             {
-              label: 'Trust Anchors',
-              to: '/technology-options/trust-anchors/',
+              label: 'Attestation & Measured State',
+              to: '/technology-options/attestation-measured-state/',
             },
             {
-              label: 'Protocols & Exchange',
-              to: '/technology-options/protocols-exchange/',
+              label: 'Transparency Artefacts & Component Visibility',
+              to: '/technology-options/transparency-artefacts-component-visibility/',
+            },
+            {
+              label: 'Signing, Keys & Credential Mechanisms',
+              to: '/technology-options/signing-keys-credential-mechanisms/',
+            },
+            {
+              label: 'Update & Recovery Mechanisms',
+              to: '/technology-options/update-recovery-mechanisms/',
+            },
+            {
+              label: 'Evidence Exchange & Verifier Workflows',
+              to: '/technology-options/evidence-exchange-verifier-workflows/',
+            },
+            {
+              label: 'Evidence Repositories, Logs & Retention',
+              to: '/technology-options/evidence-repositories-logs-retention/',
             },
           ],
         },

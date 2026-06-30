@@ -4,78 +4,70 @@ sidebar_label: Overview
 sidebar_position: 1
 ---
 
-Technology options are mechanisms, protocols, formats, trust anchors, verifier workflows, tooling, and implementation patterns that may help produce, protect, exchange, verify, or retain evidence. Their presence in this handbook does not mean they are mandatory for every product, sector, or assurance scenario.
+Technology options are mechanisms, formats, protocols, trust anchors, verifier workflows, repositories, and tools that may help implement controls or generate, protect, exchange, verify, and retain evidence.
 
-This section does not organize the site around standards bodies. It starts from supply-chain-security decisions, evidence needs, lifecycle stages, and verification questions. Standards and regulations belong with [Standards & Threats](../standards-threats/standards-regulatory-drivers/index.md); assurance and evidence models belong with [Evidence](../evidence/evidence-models.md).
+Tooling categories are included where they help readers understand implementation choices, but this section is not a vendor directory or product comparison.
 
-## Technology Option Roles
+This section is the handbook's technology interpretation layer. It does not make any technology mandatory, and it is not organised as a standards-body catalogue. Start with the practice or control you need to operate, identify the evidence needed to support the assurance decision, then decide which technology options may help.
 
-| Type | Role in the handbook | Examples |
-|---|---|---|
-| Transparency artifacts | Provide product, software, firmware, component, dependency, or vulnerability transparency | SBOM/xBOM, SPDX, CycloneDX, VEX-like records |
-| Attestation and measurement | Provide current-state, expected-state, or verifier-appraisal evidence | Measured boot, RIMs, TPM, DICE, SPDM, IETF RATS/EAT, CoRIM/CoMID |
-| Trust anchors | Provide identities, keys, credentials, roots of trust, or secure execution context | TCG, GlobalPlatform, TPM, DICE, TEE, Secure Element, OCP SAFE/Caliptra |
-| Protocols and exchange | Move evidence between producers, verifiers, relying parties, repositories, and audit workflows | SPDM, RATS evidence exchange, SBOM distribution, evidence repositories |
+```text
+Practice/control need -> evidence need -> technology option -> verification and limits
+```
 
-## Section Routes
+Standards and regulations belong with [Standards & Threats](../standards-threats/index.md). Control operation belongs with [Practices & Controls](../practices-controls/index.md). Evidence meaning and assurance models belong with [Evidence](../evidence/index.md).
 
-| Page | Use it to understand... |
+## How to use this section
+
+| If you need to... | Start with... |
 |---|---|
-| [Transparency Artefacts](./transparency-artifacts.md) | SBOM, xBOM, vulnerability, and component transparency formats, including SPDX and CycloneDX |
-| [Attestation & Measurement](./attestation-measurement.md) | Current-state evidence, reference measurements, and verifier workflows, including measured boot, RIMs, SPDM, and RATS/EAT |
-| [Trust Anchors](./trust-anchors.md) | Hardware-rooted identity, credentials, keys, and secure environments, including TCG, GlobalPlatform, TPM, DICE, TEE, Secure Element, and OCP SAFE/Caliptra |
-| [Protocols & Exchange](./protocols-exchange.md) | Exchange, verification, and transport mechanisms for evidence, including SPDM, RATS evidence exchange, SBOM/xBOM distribution, and evidence repositories |
+| Decide whether a mechanism is useful for an assurance workflow | [Choosing Technology Options](./choosing-technology-options.md) |
+| Bind product, component, device, or platform identity to a trustable root | [Trust Anchors & Device Identity](./trust-anchors-device-identity.md) |
+| Check measured or current state against expected state | [Attestation & Measured State](./attestation-measured-state.md) |
+| Understand product composition, dependencies, and vulnerability status | [Transparency Artefacts & Component Visibility](./transparency-artefacts-component-visibility.md) |
+| Protect releases, evidence, credentials, keys, or authorisation decisions | [Signing, Keys & Credential Mechanisms](./signing-keys-credential-mechanisms.md) |
+| Support authorised updates, recovery, rollback control, or post-release assurance | [Update & Recovery Mechanisms](./update-recovery-mechanisms.md) |
+| Move evidence between producers, verifiers, relying parties, and tools | [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md) |
+| Retain evidence so it remains usable for audit, renewal, incident review, and lifecycle decisions | [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md) |
 
-## Mapping Confidence
+## What technology options can and cannot do
+
+Technology options can help make controls more repeatable, evidence more structured, and verification more scalable. They may provide product identity, signed artefacts, transparency records, measured-state evidence, verifier results, repository records, and audit logs.
+
+They do not replace governance, supplier accountability, acceptance criteria, risk acceptance, or review. A technology option is useful only when the surrounding practice explains what decision the evidence supports, who verifies it, how exceptions are handled, and how stale or conflicting evidence is treated.
+
+## Mapping confidence
 
 | Mapping type | Meaning |
 |---|---|
-| Direct | The standard or specification directly defines a mechanism, artifact, or assurance model for this issue |
-| Supporting | It helps implement, exchange, protect, or verify relevant evidence |
-| Contextual | It explains the standard, threat, or governance expectation |
-| Adjacent | It may be relevant in some sectors or architectures, but is not central |
-| Gap | The area may need future profiling, interpretation, or implementation guidance |
+| Direct | The standard or specification directly defines a mechanism, artefact, protocol, or evidence model for the issue |
+| Supporting | It can help implement, exchange, protect, verify, or retain relevant evidence |
+| Contextual | It explains a standard, threat, assurance model, or governance expectation |
+| Adjacent | It may be relevant in some sectors or architectures, but is not central to the control |
+| Gap | The area needs future profiling, interpretation, or implementation guidance |
 
-## Entry Pattern
+## Entry pattern
 
-For each technology option, standard, framework, or mechanism in this section, explain:
+Where this section lists individual standards, specifications, mechanisms, or tooling patterns, use the same compact pattern:
 
-- Role: what problem it helps with.
-- Lifecycle fit: where it applies.
-- Evidence supported: what artifact, assurance model, or verification path it supports.
-- What it does not solve: limits and non-goals.
+- Assurance role: what problem it helps with.
+- Evidence supported: what artefact, record, claim, or verification result it may support.
+- Lifecycle fit: where it is commonly relevant.
+- Dependencies: what trust anchors, policies, repositories, verifier workflows, or operational practices must exist around it.
+- What it does not prove: limits and non-goals.
 - Mapping confidence: direct, supporting, contextual, adjacent, or gap.
+- Source/version note: the specific source, version, profile, or implementation scope that should be cited.
 
-## Practical Questions
+## Editorial guardrails
 
-### Questions to ask suppliers
+- Do not imply that a technology is mandatory unless a cited source clearly requires it.
+- Do not imply standards-body endorsement, certification, or compliance unless directly supported.
+- Prefer "may support", "can help", or "is commonly used for".
+- Explain what the option does not prove by itself.
 
-- Which standard, framework, technology, or specification are you using, and what evidence does it support?
-- What version, profile, implementation scope, or certification claim is relevant?
-- What does the source not prove about the product, supplier, or lifecycle state?
+## Related starting points
 
-### Questions to ask internally
-
-- Are we using this as an artifact format, trust anchor, protocol, verifier workflow, tooling pattern, or implementation option?
-- What mapping confidence applies: direct, supporting, contextual, adjacent, or gap?
-- What additional evidence or interpretation is needed before relying on the mapping?
-
-### Questions to ask assessors / auditors
-
-- Is the source reference and mapping rationale reviewable?
-- Are advisory mappings clearly labeled as guidance?
-- Are endorsement, compliance, and certification claims avoided unless directly supported?
-
-### Questions to ask implementers
-
-- What technical or process capability is needed to make this standard or technology useful in practice?
-- What verifier policy, trust anchor, evidence format, repository, or exchange path is required?
-- How will mappings be maintained as source versions and product implementations change?
-
-## Editorial Guardrails
-
-- Do not imply endorsement by a standards body unless formally confirmed.
-- Do not say a standard requires something unless the source clearly says so.
-- Prefer "may support", "can be used for", "is commonly associated with", or "is relevant to" for advisory mappings.
-- Label interpretive mappings as guidance.
-- Keep source references and versions visible where relevant.
+- [Choosing Technology Options](./choosing-technology-options.md)
+- [Practices & Controls](../practices-controls/index.md)
+- [Evidence](../evidence/index.md)
+- [Assurance & Evidence Models](../evidence/evidence-models.md)
+- [Standards Mapping Workflow](../resources/standards-mapping-workflow.md)

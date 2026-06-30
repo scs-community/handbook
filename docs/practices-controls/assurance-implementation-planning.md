@@ -101,4 +101,5 @@ Technology options may include TCG, GlobalPlatform, IETF RATS/EAT, CoRIM/CoMID, 
 - [Evidence](../evidence/index.md)
 - [Assurance & Evidence Models](../evidence/evidence-models.md)
 - [Technology Options](../technology-options/index.md)
-- [Protocols & Exchange](../technology-options/protocols-exchange.md)
+- [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
+- [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

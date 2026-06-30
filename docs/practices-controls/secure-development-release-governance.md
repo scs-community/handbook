@@ -103,4 +103,4 @@ Technology options may include source and artefact repositories, build provenanc
 - [Software, Component & Vulnerability Management](./software-component-vulnerability-management.md)
 - [Secure Update & Lifecycle Monitoring](./secure-update-lifecycle-monitoring.md)
 - [Software & Component Transparency](../evidence/software-component-transparency.md)
-- [Transparency Artefacts](../technology-options/transparency-artifacts.md)
+- [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)

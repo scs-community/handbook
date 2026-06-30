@@ -83,4 +83,4 @@ Retention does not make weak evidence strong. It preserves evidence usefulness o
 - [Lifecycle Map](../practices-controls/lifecycle-map.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Lifecycle State & Audit](./lifecycle-state-audit.md)
-- [Protocols & Exchange](../technology-options/protocols-exchange.md)
+- [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

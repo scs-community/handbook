@@ -102,4 +102,4 @@ Technology options may include update frameworks, signing systems, transparency 
 - [Product Acceptance](./product-acceptance.md)
 - [Update & Vulnerability](../evidence/update-vulnerability.md)
 - [Lifecycle State & Audit](../evidence/lifecycle-state-audit.md)
-- [Trust Anchors](../technology-options/trust-anchors.md)
+- [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md)

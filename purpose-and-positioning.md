@@ -58,7 +58,7 @@ The site distinguishes four connected layers:
 1. **Standards & Threats**: standards, regulations, frameworks, guidance, sector expectations, procurement expectations, audit, certification, product acceptance, cyber threats, and supply-chain attack or failure modes.
 2. **Practices & Controls**: plain-language guidance on controls, best practices, lifecycle stages, responsibilities, and decision guides for applying them.
 3. **Evidence**: artifacts, records, claims, measurements, attestations, certificates, SBOMs/xBOMs, update records, vulnerability records, lifecycle-state records, and audit materials that can show whether practices and controls are operating.
-4. **Technology Options**: neutral mappings to mechanisms, protocols, formats, trust anchors, verifier workflows, tooling, and implementation options that may help implement, produce, protect, verify, exchange, or retain evidence.
+4. **Technology Options**: role-based interpretation of technology mechanisms that may help implement controls or generate, protect, exchange, verify, and retain evidence without making any single mechanism mandatory.
 
 Standards should not be treated as one category. Some standards and frameworks explain why a reader has a requirement. Some describe assurance expectations or evidence models. Others provide technical mechanisms.
 
