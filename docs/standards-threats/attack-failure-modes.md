@@ -5,9 +5,9 @@ sidebar_position: 2
 
 Supply-chain-security standards and requirements are easier to interpret when readers can see what they are trying to mitigate. This page names common attack and failure modes, then connects them to practical practices, controls, and evidence.
 
-## Attack And Failure Modes
+## Attack and failure modes
 
-| Attack or failure mode | What can go wrong | Relevant evidence or controls |
+| Attack or failure mode | What can go wrong | Useful controls and evidence |
 |---|---|---|
 | Counterfeit or substituted components | A delivered product contains unauthorized, lower-grade, reused, or malicious components | [Identity & Provenance](../evidence/identity-provenance.md), acceptance checks, lifecycle-state records |
 | Firmware tampering or reprogramming | Boot firmware, device firmware, or low-level code is modified before or after delivery | [Integrity & Attestation](../evidence/integrity-attestation.md), reference measurements, firmware signing, update records |
@@ -20,7 +20,7 @@ Supply-chain-security standards and requirements are easier to interpret when re
 | Key or credential compromise | Device or supplier credentials are cloned, extracted, reused, or not hardware-bound | [Identity & Provenance](../evidence/identity-provenance.md), [Trust Anchors](../technology-options/trust-anchors.md), credential issuance logs |
 | Lack of continuous monitoring | Product is accepted once but not checked after updates, repair, or operation | [Retention & Reuse](../evidence/retention-reuse.md), [Integrity & Attestation](../evidence/integrity-attestation.md), vulnerability and update evidence |
 
-## Risk And Practice Themes
+## Threat and practice themes
 
 ### Identity and authenticity
 
@@ -42,7 +42,7 @@ Readers need to understand what components are present and whether known exposur
 
 Readers need assurance after acceptance. Practices may include update records, repair records, re-provisioning evidence, ownership transfer records, revocation logs, decommissioning evidence, and retained audit trails.
 
-## Assertions Vs Artifacts
+## Assertions vs artifacts
 
 | Assurance level | What it gives the recipient | Common limitation |
 |---|---|---|
@@ -54,21 +54,21 @@ Readers need assurance after acceptance. Practices may include update records, r
 
 Use [Evidence](../evidence/index.md) for the full maturity model and evidence page pattern.
 
-## Roles And Responsibilities
+## Roles and responsibilities
 
 Failure modes usually cross organizational boundaries. Procurement may ask the question, engineering may implement the control, suppliers may produce the artifact, product acceptance may verify it, and audit or operations may need to reuse it later. Pages should make those handoffs explicit rather than assuming one team owns the whole assurance chain.
 
-## Questionnaires Vs Artifacts
+## Questionnaires vs artifacts
 
 Questionnaires help discover what a supplier claims and what evidence may exist. They are not a substitute for artifacts. Use [Supplier Questions](../resources/supplier-questions.md) to ask consistently, then use the [Evidence Checklist](../resources/evidence-checklist.md) to decide which artifacts, records, logs, measurements, or attestations are needed for the decision.
 
-## Compliance Controls Vs Operational Assurance
+## Compliance controls vs operational assurance
 
 Compliance controls may show that a process exists. Operational assurance asks whether the relevant product, component, firmware, service, update, repair, or lifecycle event actually followed the process and whether the evidence remains useful after acceptance.
 
-## Example Mapping
+## Example mapping
 
-| Requirement or risk | Failure mode | Practice or control | Evidence |
+| Driver or threat | Failure mode | Practice or control | Evidence |
 |---|---|---|---|
 | Product acceptance | Counterfeit component | Verify component or platform identity | Platform Certificate, provenance record |
 | Audit or compliance | Reliance on self-attestation | Request verifiable artifacts | Evidence checklist, audit records |
@@ -76,18 +76,18 @@ Compliance controls may show that a process exists. Operational assurance asks w
 | Procurement | Opaque supplier chain | Ask for provenance and transparency | Supplier evidence, SBOM/xBOM, chain-of-custody records |
 | Operations | Post-deployment compromise | Monitor integrity and vulnerabilities | Attestation results, update records, vulnerability records |
 
-## Practical Questions
+## Practical questions
 
 ### Questions to ask suppliers
 
-- Which listed risks are relevant to the product, platform, component, service, or supplier relationship?
+- Which listed threats or failure modes are relevant to the product, platform, component, service, or supplier relationship?
 - What artifacts show that the relevant practices or controls are operating for the specific scope being assessed?
 - What evidence would change after manufacturing, update, repair, transfer, or decommissioning?
 
 ### Questions to ask internally
 
 - Which failure mode would make our decision unsafe or hard to defend later?
-- What is our minimum acceptable evidence for this risk, and what would be stronger?
+- What is our minimum acceptable evidence for this threat or failure mode, and what would be stronger?
 - Who owns remediation when evidence is missing, stale, or inconsistent?
 
 ### Questions to ask assessors / auditors
@@ -102,10 +102,10 @@ Compliance controls may show that a process exists. Operational assurance asks w
 - What verification path will recipients use?
 - How will the control and evidence survive update, repair, transfer, and retirement events?
 
-## Next Actions
+## Next actions
 
-- Use [Lifecycle Map](../practices-controls/lifecycle-map.md) to decide when each risk matters.
-- Use [10 Best Practices](../practices-controls/10-best-practices.md) to connect risk themes to practices.
+- Use [Lifecycle Map](../practices-controls/lifecycle-map.md) to decide when each threat or failure mode matters.
+- Use [10 Best Practices](../practices-controls/10-best-practices.md) to connect threat themes to practices.
 - Use [Evidence](../evidence/index.md) to identify artifacts and verification paths.
 - Use [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md) when the failure mode needs supplier-facing requests.
 - Use [Product Acceptance](../practices-controls/product-acceptance.md) when the failure mode affects an acceptance decision.

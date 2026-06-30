@@ -47,7 +47,7 @@ Evidence retention location:
 
 ## Standards Mapping Record
 
-Use with [Standards Mapping Workflow](./standards-mapping-workflow.md), [Standards & Regulatory Drivers](../standards-threats/standards-regulatory-drivers.md), [Assurance & Evidence Models](../evidence/evidence-models.md), and [Technology Options](../technology-options/index.md).
+Use with [Standards Mapping Workflow](./standards-mapping-workflow.md), [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md), [Assurance & Evidence Models](../evidence/evidence-models.md), and [Technology Options](../technology-options/index.md).
 
 ```text
 Practice or evidence need:

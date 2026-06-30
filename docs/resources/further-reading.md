@@ -67,7 +67,7 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 
 This handbook should acknowledge that extensive supply-chain-security guidance already exists. Its role is to bridge requirements, controls, evidence, lifecycle assurance, and technology options.
 
-Use [Standards & Regulatory Drivers](../standards-threats/standards-regulatory-drivers.md) for how governance references shape requirements, [Assurance & Evidence Models](../evidence/evidence-models.md) for evidence-model sources, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
+Use [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md) for how governance references shape requirements, [Assurance & Evidence Models](../evidence/evidence-models.md) for evidence-model sources, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
 
 ## Related Pages
 

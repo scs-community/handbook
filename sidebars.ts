@@ -15,8 +15,16 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   standardsThreatsSidebar: [
     'standards-threats/index',
+    {
+      type: 'category',
+      label: 'Standards and Regulations',
+      link: {type: 'doc', id: 'standards-threats/standards-regulatory-drivers/index'},
+      items: [
+        'standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act',
+        'standards-threats/standards-regulatory-drivers/nis2',
+      ],
+    },
     'standards-threats/attack-failure-modes',
-    'standards-threats/standards-regulatory-drivers',
   ],
   practicesControlsSidebar: [
     'practices-controls/index',

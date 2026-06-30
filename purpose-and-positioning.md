@@ -64,7 +64,7 @@ Standards should not be treated as one category. Some standards and frameworks e
 
 | Type | Role in the site | Examples |
 |---|---|---|
-| Standards and regulatory drivers | Explain why visitors may need guidance | NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
+| Standards and regulations | Explain why visitors may need guidance | CRA, NIS2, NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
 | Assurance and evidence models | Explain what artifacts or assurance models may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
 | Technology and implementation mechanisms | Explain how evidence or trust can be implemented | TCG, GlobalPlatform, SPDM, TPM, DICE, TEE, Secure Element |
 

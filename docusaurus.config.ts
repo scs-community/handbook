@@ -141,8 +141,16 @@ const config: Config = {
               to: '/standards-threats/attack-failure-modes/',
             },
             {
-              label: 'Standards & Regulatory Drivers',
+              label: 'Standards and Regulations',
               to: '/standards-threats/standards-regulatory-drivers/',
+            },
+            {
+              label: 'EU Cyber Resilience Act',
+              to: '/standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act/',
+            },
+            {
+              label: 'NIS2',
+              to: '/standards-threats/standards-regulatory-drivers/nis2/',
             },
           ],
         },

@@ -56,10 +56,14 @@ Decision Guides are part of Practices & Controls. Resources support the flow by 
 
 /standards-threats/
   Standards & Threats
+/standards-threats/standards-regulatory-drivers/
+  Standards and Regulations
+/standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act/
+  EU Cyber Resilience Act
+/standards-threats/standards-regulatory-drivers/nis2/
+  NIS2
 /standards-threats/attack-failure-modes/
   Attack & Failure Modes
-/standards-threats/standards-regulatory-drivers/
-  Standards & Regulatory Drivers
 
 /practices-controls/
   Practices & Controls overview

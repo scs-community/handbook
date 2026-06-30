@@ -71,5 +71,5 @@ Governance references may explain why a requirement exists. Evidence models may 
 
 - [Practices & Controls](./index.md)
 - [Evidence](../evidence/index.md)
-- [Standards & Regulatory Drivers](../standards-threats/standards-regulatory-drivers.md)
+- [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md)
 - [Further Reading](../resources/further-reading.md)
