@@ -1,5 +1,5 @@
 ---
-title: Transparency Artifacts
+title: Transparency Artefacts
 sidebar_position: 2
 ---
 

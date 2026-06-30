@@ -5,7 +5,7 @@ sidebar_position: 3
 
 Supplier questions should help move from assertions to evidence-backed assurance. Use them in procurement, supplier assurance, product acceptance, audit, and lifecycle monitoring.
 
-Use this page for wording: what to ask a supplier. Use [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md) for the decision context, and use the [Evidence Checklist](./evidence-checklist.md) to turn answers into review criteria.
+Use this page for wording: what to ask a supplier. Use [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md) for the practice context, and use the [Evidence Checklist](./evidence-checklist.md) to turn answers into review criteria.
 
 ## Identity And Provenance
 
@@ -47,7 +47,7 @@ Ask for the artifact, owner, lifecycle stage, retention expectation, and verific
 
 ## Related Pages
 
-- [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md)
+- [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md)
 - [Product Acceptance](../practices-controls/product-acceptance.md)
 - [Evidence Checklist](./evidence-checklist.md)
 - [Standards & Threats](../standards-threats/index.md)

@@ -97,8 +97,8 @@ Supplier evidence may include questionnaires, security addenda, SBOMs or compone
 
 ## What to do next
 
-- Use [Procurement & Supplier Assurance](../../practices-controls/procurement-supplier-assurance.md) to turn NIS2-driven needs into supplier-facing assurance work.
-- Use [Audit & Compliance](../../practices-controls/audit-compliance.md) and [Lifecycle Monitoring](../../practices-controls/lifecycle-monitoring.md) for review and operating models.
+- Use [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md) to turn NIS2-driven needs into supplier-facing assurance work.
+- Use [Audit & Compliance Readiness](../../practices-controls/audit-compliance-readiness.md) and [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-update-lifecycle-monitoring.md) for review and operating models.
 - Use [Software & Component Transparency](../../evidence/software-component-transparency.md), [Update & Vulnerability](../../evidence/update-vulnerability.md), and [Lifecycle State & Audit](../../evidence/lifecycle-state-audit.md) to identify useful evidence.
-- Use [Transparency Artifacts](../../technology-options/transparency-artifacts.md) and [Protocols & Exchange](../../technology-options/protocols-exchange.md) where machine-readable evidence or exchange workflows may help.
+- Use [Transparency Artefacts](../../technology-options/transparency-artifacts.md) and [Protocols & Exchange](../../technology-options/protocols-exchange.md) where machine-readable evidence or exchange workflows may help.
 - Use [Supplier Questions](../../resources/supplier-questions.md) and the [Evidence Checklist](../../resources/evidence-checklist.md) to keep customer and supplier requests consistent.

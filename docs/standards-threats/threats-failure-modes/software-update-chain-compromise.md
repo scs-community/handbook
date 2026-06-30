@@ -66,5 +66,5 @@ The decision is defensible when evidence shows what software or firmware was inc
 - [Software & Component Transparency](../../evidence/software-component-transparency.md)
 - [Update & Vulnerability](../../evidence/update-vulnerability.md)
 - [Integrity & Attestation](../../evidence/integrity-attestation.md)
-- [Transparency Artifacts](../../technology-options/transparency-artifacts.md)
+- [Transparency Artefacts](../../technology-options/transparency-artifacts.md)
 - [Trust Anchors](../../technology-options/trust-anchors.md)

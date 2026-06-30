@@ -103,5 +103,5 @@ CRA-relevant practices can help reduce supply chain failures such as:
 - Use [Threats and Failure Modes](../threats-failure-modes/index.md) to connect CRA-driven work to concrete supply chain failures.
 - Use [10 Best Practices](../../practices-controls/10-best-practices.md) and [Lifecycle Map](../../practices-controls/lifecycle-map.md) to turn expectations into practical controls.
 - Use [Software & Component Transparency](../../evidence/software-component-transparency.md) and [Update & Vulnerability](../../evidence/update-vulnerability.md) to identify evidence for SBOM, dependency, update, and vulnerability work.
-- Use [Transparency Artifacts](../../technology-options/transparency-artifacts.md), [Trust Anchors](../../technology-options/trust-anchors.md), and [Protocols & Exchange](../../technology-options/protocols-exchange.md) for implementation mechanisms.
+- Use [Transparency Artefacts](../../technology-options/transparency-artifacts.md), [Trust Anchors](../../technology-options/trust-anchors.md), and [Protocols & Exchange](../../technology-options/protocols-exchange.md) for implementation mechanisms.
 - Use [Supplier Questions](../../resources/supplier-questions.md) and the [Evidence Checklist](../../resources/evidence-checklist.md) when turning CRA-driven needs into supplier or audit requests.

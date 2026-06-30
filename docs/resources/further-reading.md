@@ -42,7 +42,7 @@ Further reading should be curated, sourced, and version-aware where relevant. Us
 | [TCG DICE Certificate Profiles v1.1](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Certificate-Profiles-v1.1_pub.pdf) | DICE certificate profiles and identity/attestation certificates | Version 1.1, 2025-04-24 |
 | [TCG DICE Attestation Architecture v1.2](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Attestation-Architecture-v1.2_pub.pdf) | DICE attestation architecture and certificate extensions | Version 1.2 |
 
-## Transparency Artifacts
+## Transparency Artefacts
 
 | Source | Use it for | Version or date note |
 |---|---|---|

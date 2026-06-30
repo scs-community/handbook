@@ -84,6 +84,6 @@ Lifecycle-state records do not prove technical integrity unless connected to int
 ## Related Pages
 
 - [Lifecycle Map](../practices-controls/lifecycle-map.md)
-- [Audit & Compliance](../practices-controls/audit-compliance.md)
+- [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
 - [Retention & Reuse](./retention-reuse.md)
 - [Protocols & Exchange](../technology-options/protocols-exchange.md)

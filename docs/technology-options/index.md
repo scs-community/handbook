@@ -21,7 +21,7 @@ This section does not organize the site around standards bodies. It starts from 
 
 | Page | Use it to understand... |
 |---|---|
-| [Transparency Artifacts](./transparency-artifacts.md) | SBOM, xBOM, vulnerability, and component transparency formats, including SPDX and CycloneDX |
+| [Transparency Artefacts](./transparency-artifacts.md) | SBOM, xBOM, vulnerability, and component transparency formats, including SPDX and CycloneDX |
 | [Attestation & Measurement](./attestation-measurement.md) | Current-state evidence, reference measurements, and verifier workflows, including measured boot, RIMs, SPDM, and RATS/EAT |
 | [Trust Anchors](./trust-anchors.md) | Hardware-rooted identity, credentials, keys, and secure environments, including TCG, GlobalPlatform, TPM, DICE, TEE, Secure Element, and OCP SAFE/Caliptra |
 | [Protocols & Exchange](./protocols-exchange.md) | Exchange, verification, and transport mechanisms for evidence, including SPDM, RATS evidence exchange, SBOM/xBOM distribution, and evidence repositories |

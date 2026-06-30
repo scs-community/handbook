@@ -17,8 +17,7 @@ This handbook is designed to bridge the gap between standards, threats, and evid
 ### What You'll Find Here
 
 - **[Standards & Threats](/standards-threats/)**: Starting points for standards, regulations, assurance expectations, threat patterns, lifecycle failure modes, and product trust decisions.
-- **[Practices & Controls](/practices-controls/)**: Controls, lifecycle maps, the **[10 Best Practices for Supply-Chain Security](/practices-controls/10-best-practices/)**, and decision guides.
-- **[Decision Guides](/practices-controls/decision-guides/)**: Decision-oriented guidance for procurement, supplier assurance, product acceptance, audit, lifecycle monitoring, and implementation planning.
+- **[Practices & Controls](/practices-controls/)**: Applied supply-chain-security practices, lifecycle maps, the **[10 Best Practices for Supply-Chain Security](/practices-controls/10-best-practices/)**, and operating guidance for supplier assurance, product acceptance, release governance, updates, audit readiness, and implementation planning.
 - **[Evidence](/evidence/)**: Evidence types, maturity levels, verification questions, and lifecycle retention concepts.
 - **[Technology Options](/technology-options/)**: Neutral mappings that explain where mechanisms, protocols, formats, trust anchors, verifier workflows, and tooling may help produce, protect, exchange, verify, or retain evidence.
 - **[Resources](/resources/)**: Glossary entries, supplier questions, evidence checklists, templates, and curated further reading.

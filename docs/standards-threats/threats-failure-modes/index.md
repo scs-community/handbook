@@ -94,6 +94,6 @@ Compliance controls may show that a process exists. Operational assurance asks w
 - Use [Lifecycle Map](../../practices-controls/lifecycle-map.md) to decide when each threat or failure mode matters.
 - Use [10 Best Practices](../../practices-controls/10-best-practices.md) to connect threat themes to practices.
 - Use [Evidence](../../evidence/index.md) to identify artifacts and verification paths.
-- Use [Procurement & Supplier Assurance](../../practices-controls/procurement-supplier-assurance.md) when the failure mode needs supplier-facing requests.
+- Use [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md) when the failure mode needs supplier-facing requests.
 - Use [Product Acceptance](../../practices-controls/product-acceptance.md) when the failure mode affects an acceptance decision.
 - Use [Evidence Checklist](../../resources/evidence-checklist.md) to turn a failure mode into artifact requests.

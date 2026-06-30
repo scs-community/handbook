@@ -178,28 +178,36 @@ const config: Config = {
               to: '/practices-controls/10-best-practices/',
             },
             {
-              label: 'Decision Guides',
-              to: '/practices-controls/decision-guides/',
+              label: 'Lifecycle Map',
+              to: '/practices-controls/lifecycle-map/',
             },
             {
-              label: 'Procurement & Supplier Assurance',
-              to: '/practices-controls/procurement-supplier-assurance/',
+              label: 'Supplier & Procurement Assurance',
+              to: '/practices-controls/supplier-procurement-assurance/',
             },
             {
               label: 'Product Acceptance',
               to: '/practices-controls/product-acceptance/',
             },
             {
-              label: 'Audit & Compliance',
-              to: '/practices-controls/audit-compliance/',
+              label: 'Secure Development & Release Governance',
+              to: '/practices-controls/secure-development-release-governance/',
             },
             {
-              label: 'Lifecycle Monitoring',
-              to: '/practices-controls/lifecycle-monitoring/',
+              label: 'Software, Component & Vulnerability Management',
+              to: '/practices-controls/software-component-vulnerability-management/',
             },
             {
-              label: 'Implementation Planning',
-              to: '/practices-controls/implementation-planning/',
+              label: 'Secure Update & Lifecycle Monitoring',
+              to: '/practices-controls/secure-update-lifecycle-monitoring/',
+            },
+            {
+              label: 'Audit & Compliance Readiness',
+              to: '/practices-controls/audit-compliance-readiness/',
+            },
+            {
+              label: 'Assurance Implementation Planning',
+              to: '/practices-controls/assurance-implementation-planning/',
             },
           ],
         },
@@ -248,7 +256,7 @@ const config: Config = {
               to: '/technology-options/',
             },
             {
-              label: 'Transparency Artifacts',
+              label: 'Transparency Artefacts',
               to: '/technology-options/transparency-artifacts/',
             },
             {

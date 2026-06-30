@@ -13,7 +13,7 @@ The top navigation should stay restrained:
 5. Technology Options
 6. Resources
 
-Do not put Decision Guides or the 10 Best Practices page in top navigation. Decision Guides live inside Practices & Controls because they apply controls to concrete decisions. The 10 Best Practices page also belongs inside Practices & Controls as the synthesis and anchor page.
+Do not put the 10 Best Practices page or individual practice pages in top navigation. Practices live inside Practices & Controls because they describe recurring operating activities. The 10 Best Practices page belongs inside Practices & Controls as the synthesis and anchor page.
 
 Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside standards and threats, practices and controls, evidence, resources, or technology-options pages.
 
@@ -28,7 +28,7 @@ The public docs routes are served at the site root, not below `/docs/`.
 - `docs.routeBasePath`: `/`
 - `trailingSlash`: `true`
 
-Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/decision-guides/`, and `/evidence/`. Avoid hardcoded `/docs/...` links in public content.
+Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/supplier-procurement-assurance/`, and `/evidence/`. Avoid hardcoded `/docs/...` links in public content.
 
 ## Site Model
 
@@ -46,7 +46,7 @@ The homepage may use a shorter model for clarity:
 Standards & Threats -> Practices & Controls -> Evidence -> Technology Options
 ```
 
-Decision Guides are part of Practices & Controls. Resources support the flow by turning guidance into evidence requests, templates, mappings, and review prompts.
+Applied practice pages are part of Practices & Controls. Resources support the flow by turning guidance into evidence requests, templates, mappings, and review prompts.
 
 ## Launch And Expanded Sitemap
 
@@ -78,18 +78,20 @@ Decision Guides are part of Practices & Controls. Resources support the flow by 
 /practices-controls/10-best-practices/
   10 Best Practices for Supply-Chain Security
 
-/practices-controls/decision-guides/
-  Decision Guides overview
-/practices-controls/procurement-supplier-assurance/
-  Procurement & Supplier Assurance
+/practices-controls/supplier-procurement-assurance/
+  Supplier & Procurement Assurance
 /practices-controls/product-acceptance/
   Product Acceptance
-/practices-controls/audit-compliance/
-  Audit & Compliance
-/practices-controls/lifecycle-monitoring/
-  Lifecycle Monitoring
-/practices-controls/implementation-planning/
-  Implementation Planning
+/practices-controls/secure-development-release-governance/
+  Secure Development & Release Governance
+/practices-controls/software-component-vulnerability-management/
+  Software, Component & Vulnerability Management
+/practices-controls/secure-update-lifecycle-monitoring/
+  Secure Update & Lifecycle Monitoring
+/practices-controls/audit-compliance-readiness/
+  Audit & Compliance Readiness
+/practices-controls/assurance-implementation-planning/
+  Assurance Implementation Planning
 
 /evidence/
   Evidence overview

@@ -7,7 +7,7 @@ These starter templates help teams turn guidance into reusable requests and reco
 
 ## Supplier Evidence Request
 
-Use with [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md), [Supplier Questions](./supplier-questions.md), and the [Evidence Checklist](./evidence-checklist.md).
+Use with [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md), [Supplier Questions](./supplier-questions.md), and the [Evidence Checklist](./evidence-checklist.md).
 
 ```text
 Decision:
@@ -66,5 +66,5 @@ Gaps or future profile needs:
 
 - [Artifact Map](./artifact-map.md)
 - [Evidence Checklist](./evidence-checklist.md)
-- [Decision Guides](../practices-controls/decision-guides.md)
+- [Practices & Controls](../practices-controls/index.md)
 - [Technology Options](../technology-options/index.md)
