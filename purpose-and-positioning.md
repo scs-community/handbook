@@ -14,7 +14,7 @@ The site is standards-and-threats-led, control-focused, evidence-backed, and tec
 
 The handbook is for teams that need to understand the standards they must satisfy and the real supply-chain threats they need to mitigate. Those standards and threats may come from regulation, frameworks, procurement, customer assurance, audit, certification, product acceptance, internal governance, cyber threat patterns, or lifecycle failure modes. The handbook translates them into practical controls, supplier questions, evidence expectations, and technology-aware implementation options.
 
-The site should not be positioned as an evidence hub or as a TCG / GlobalPlatform 10 best practices microsite. Those framings are too narrow. The handbook should feel like a practical guidance site that uses the 10 best practices workplan as one source of material inside a broader reader journey.
+The site should not be positioned as an evidence hub, a generic resource library, or a TCG / GlobalPlatform 10 best practices microsite. Those framings are too narrow. The handbook should feel like a practical guidance site that uses the 10 best practices workplan as one source of material inside a broader reader journey.
 
 ## Visitor Promise
 
@@ -55,10 +55,10 @@ Secondary readers include assurance requesters and implementers who need to ask 
 
 The site distinguishes four connected layers:
 
-1. **Standards & Threats**: standards, regulations, frameworks, guidance, sector expectations, procurement expectations, audit, certification, product acceptance, cyber threats, and supply-chain attack or failure modes.
-2. **Practices & Controls**: plain-language guidance on controls, best practices, lifecycle stages, responsibilities, and decision guides for applying them.
-3. **Technology Options**: role-based interpretation of technology mechanisms that may help implement controls or generate, protect, exchange, verify, and retain evidence without making any single mechanism mandatory.
-4. **Resources**: reusable questions, checklists, templates, glossaries, and workflows, including evidence maturity and evidence package aids.
+1. **Standards & Threats**: standards, regulations, procurement expectations, assurance frameworks, cyber threats, and supply-chain attack or failure modes that explain why action is needed and what is being mitigated.
+2. **Practices & Controls**: the operating layer of the handbook. Practice pages explain what should operate, which controls sit inside the practice, what evidence those controls should produce or retain, and how reviewers can verify it.
+3. **Technology Options**: the technology interpretation layer. These pages explain mechanisms that may help implement controls or generate, protect, exchange, verify, or retain evidence without making any single mechanism mandatory.
+4. **Resources**: a small practical toolkit: [Supplier Questions](docs/resources/supplier-questions.md), [Evidence Checklist](docs/resources/evidence-checklist.md), [Evidence Maturity Model](docs/resources/evidence-maturity-model.md), [Evidence Package Template](docs/resources/evidence-package-template.md), [Standards & Technology Mapping Workflow](docs/resources/standards-technology-mapping-workflow.md), [Glossary](docs/resources/glossary.md), and [Curated References](docs/resources/curated-references.md).
 
 Standards should not be treated as one category. Some standards and frameworks explain why a reader has a requirement. Some describe assurance expectations or evidence structures. Others provide technical mechanisms.
 
@@ -67,6 +67,8 @@ Standards should not be treated as one category. Some standards and frameworks e
 | Standards and regulations | Explain why visitors may need guidance | CRA, NIS2, NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
 | Assurance and evidence structures | Explain what artefacts or assurance structures may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
 | Technology and implementation mechanisms | Explain how evidence or trust can be implemented | TCG, GlobalPlatform, SPDM, TPM, DICE, TEE, Secure Element |
+
+Evidence is a cross-cutting concept rather than a top-level section. It belongs inside practice pages, review checklists, evidence packages, and technology-option explanations. Evidence should be scoped to a decision, product or supplier boundary, lifecycle stage, and verification path.
 
 ## Lifecycle Thesis
 

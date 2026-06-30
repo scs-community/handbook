@@ -37,7 +37,7 @@ The site should feel like:
 Standards & Threats -> Practices & Controls -> Technology Options -> Resources
 ```
 
-This mirrors the logic: standards and threats create the starting point, practices and controls explain what should operate and what evidence makes it reviewable, technology options may help implement or verify controls, and resources provide reusable questions, checklists, templates, glossaries, and workflows.
+This mirrors the logic: standards and threats create the starting point, practices and controls explain what should operate and what evidence makes it reviewable, technology options may help implement or verify controls, and resources provide a small practical toolkit for applying the guidance.
 
 The homepage may use a shorter model for clarity:
 
@@ -45,7 +45,7 @@ The homepage may use a shorter model for clarity:
 Standards & Threats -> Practices & Controls -> Technology Options
 ```
 
-Applied practice pages are part of Practices & Controls. Resources support the flow by turning guidance into evidence requests, templates, mappings, and review prompts.
+Applied practice pages are part of Practices & Controls. Resources support the flow with supplier questions, evidence review criteria, evidence maturity examples, evidence package templates, standards and technology mapping workflow, glossary definitions, and curated source references.
 
 ## Launch And Expanded Sitemap
 
@@ -114,13 +114,19 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /resources/
   Resources
 /resources/supplier-questions/
+  Supplier Questions
 /resources/evidence-checklist/
+  Evidence Checklist
 /resources/evidence-maturity-model/
+  Evidence Maturity Model
 /resources/evidence-package-template/
+  Evidence Package Template
 /resources/standards-technology-mapping-workflow/
   Standards & Technology Mapping Workflow
 /resources/glossary/
+  Glossary
 /resources/curated-references/
+  Curated References
 ```
 
 ## Homepage Routing
@@ -145,7 +151,7 @@ Footer links should still avoid making standards-body names the organising princ
 
 ## Resources Rule
 
-Resources should not become a catch-all archive. They should contain reusable material that helps readers act:
+Resources should not become a catch-all archive. They should remain the small practical toolkit that helps readers act:
 
 - glossary entries;
 - supplier questions;
@@ -156,6 +162,8 @@ Resources should not become a catch-all archive. They should contain reusable ma
 - sector-note templates should remain outside public navigation until there is enough sector content;
 - curated references.
 
+Do not reintroduce standalone `Artifact Map`, generic `Templates`, or separate `Evidence Glossary` pages unless there is a specific reader job that cannot be served by the current toolkit.
+
 ## Expansion Rules
 
 Add new pages when there is enough real content to help the reader make a decision. Do not create pages only to reserve a topic.
@@ -165,6 +173,6 @@ New pages should connect to at least one of:
 - a real obligation or decision;
 - a supply-chain-security risk or failure mode;
 - a lifecycle stage;
-- an evidence type;
-- a technology option, standard, or evidence-model mapping;
+- an evidence type or evidence package need;
+- a technology option, standard, or evidence requirement mapping;
 - a reusable tool or template.

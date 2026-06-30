@@ -68,7 +68,7 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 | Navbar | Deep Teal background with light text. Keep top navigation restrained. |
 | Footer | Dark style, practical links into the handbook journey. |
 | Primary buttons | Use the Docusaurus primary/secondary button system with the site palette. |
-| Cards | Use cards for reader routes, decisions, and evidence groupings. Keep copy short. |
+| Cards | Use cards for reader routes, decisions, practice areas, technology-option roles, and resource tools. Keep copy short. |
 | Code blocks | Use Source Code Pro and the configured Docusaurus code styling. |
 | Tables | Use for mappings and comparisons. Keep columns readable on mobile. |
 
@@ -77,7 +77,7 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 The homepage should keep the sister-site visual pattern while reflecting the supply-chain-security brief:
 
 - Hero proposition and two clear calls to action.
-- Value pillars that move from standards and threats to practices and controls to technology options and resources.
+- Value pillars that move from standards and threats to practices and controls to technology options and resource tools.
 - A simple model: standards and threats, practices and controls, technology options, and resources.
 - A clear handoff to the Standards & Threats for detailed routing.
 - Neutrality and open-source framing.
@@ -100,6 +100,7 @@ Follow `style-guide.md` for editorial voice. Key brand reminders:
 - Prefer "evidence-backed assurance", "lifecycle assurance", "practical guidance", and "technology-aware mappings".
 - Avoid "evidence hub", "10 best practices microsite", and any phrasing that implies a standards body owns the whole problem.
 - Treat technology options as implementation or verification options, not mandates.
+- Treat resources as a small toolkit, not a library. The public Resources set is Supplier Questions, Evidence Checklist, Evidence Maturity Model, Evidence Package Template, Standards & Technology Mapping Workflow, Glossary, and Curated References.
 
 ## Linking Guidance
 
@@ -109,12 +110,17 @@ For public site routes, use canonical root routes with trailing slashes, for exa
 - Good: `/standards-threats/`
 - Good: `/practices-controls/10-best-practices/`
 - Good: `/technology-options/`
+- Good: `/resources/standards-technology-mapping-workflow/`
+- Good: `/resources/curated-references/`
+- Avoid: `/resources/further-reading/`
+- Avoid: `/resources/templates/`
 - Avoid: `/docs/practices-controls/10-best-practices`
 
 For repository documentation, use relative markdown links where possible, for example:
 
 - Good: `[Style Guide](style-guide.md)`
 - Good: `[Evidence Checklist](docs/resources/evidence-checklist.md)`
+- Good: `[Curated References](docs/resources/curated-references.md)`
 
 ## Asset Export Notes
 
