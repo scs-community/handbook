@@ -16,11 +16,11 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">
-          Practical supply-chain-security guidance for products and platforms where hardware, firmware, software, suppliers, credentials, updates, and lifecycle services all affect trust.
+          A practical handbook for turning supply chain security requirements into controls, evidence, and implementation choices across connected products and platforms.
         </p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/requirements/">
-            Start with requirements and risks
+            Start from a requirement or risk
           </Link>
           <Link className="button button--secondary button--lg" to="/practices-controls/10-best-practices/">
             Read the 10 best practices
@@ -35,19 +35,19 @@ function HandbookModel(): ReactNode {
   const steps = [
     {
       title: 'Requirements & Risks',
-      description: 'Start from the regulation, standard, procurement expectation, customer assurance request, audit need, product-acceptance decision, or risk concern that brought you here.',
+      description: 'Start with the regulation, standard, procurement request, audit question, customer assurance need, or risk concern that brought you here.',
     },
     {
       title: 'Practices & Controls',
-      description: 'Translate the requirement or risk into controls, lifecycle responsibilities, supplier questions, and operating decisions.',
+      description: 'Translate the requirement or risk into control expectations, lifecycle responsibilities, supplier questions, and operating decisions.',
     },
     {
       title: 'Evidence',
-      description: 'Ask what artifacts, records, claims, measurements, attestations, logs, or audit materials show whether controls are operating.',
+      description: 'Identify the records, claims, measurements, attestations, logs, and audit materials that demonstrate whether controls are in place and operating.',
     },
     {
       title: 'Technology Options',
-      description: 'Use mechanisms, formats, protocols, trust anchors, verifier workflows, and tooling where they help implement, produce, protect, exchange, verify, or retain evidence.',
+      description: 'Compare mechanisms, formats, protocols, trust anchors, verifier workflows, and tools that can implement controls or generate, protect, exchange, verify, and retain evidence.',
     },
   ];
 
@@ -57,7 +57,7 @@ function HandbookModel(): ReactNode {
         <div className="text--center margin-bottom--lg">
           <Heading as="h2">How the handbook helps</Heading>
           <p>
-            Standards, compliance, procurement, customer assurance, and risk create the need. Controls explain what to do, evidence shows whether controls are operating, and technologies help implement, produce, protect, exchange, verify, or retain evidence.
+            Use the handbook to move from compliance pressure, procurement expectations, customer assurance, or supply chain risk to practical controls, evidence expectations, and implementation choices.
           </p>
         </div>
         <div className={styles.modelSteps}>
@@ -73,6 +73,50 @@ function HandbookModel(): ReactNode {
   );
 }
 
+function CommonStartingPoints(): ReactNode {
+  const routes = [
+    {
+      title: 'I have a compliance requirement',
+      description: 'Start with regulations, standards, procurement expectations, and assurance obligations.',
+      to: '/requirements/',
+    },
+    {
+      title: 'I need to assess supplier or product risk',
+      description: 'Look at threat patterns, lifecycle responsibilities, and control expectations.',
+      to: '/requirements/attack-failure-modes/',
+    },
+    {
+      title: 'I need evidence for audit or customer review',
+      description: 'Identify records, claims, logs, attestations, and assurance materials.',
+      to: '/evidence/',
+    },
+    {
+      title: 'I need implementation options',
+      description: 'Compare technologies, trust anchors, protocols, formats, and tooling.',
+      to: '/technology-options/',
+    },
+  ];
+
+  return (
+    <section className={styles.startingPoints}>
+      <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <Heading as="h2">Common starting points</Heading>
+          <p>Choose the route that best matches why you arrived.</p>
+        </div>
+        <div className={styles.startingPointGrid}>
+          {routes.map((route) => (
+            <Link key={route.title} className={styles.startingPointCard} to={route.to}>
+              <Heading as="h3">{route.title}</Heading>
+              <p>{route.description}</p>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function CommunitySection(): ReactNode {
   return (
     <section className={styles.community}>
@@ -81,11 +125,11 @@ function CommunitySection(): ReactNode {
           <div className="col col--6">
             <Heading as="h2">Neutral, standards-aware guidance</Heading>
             <p>
-              Standards appear by function: some explain requirements and governance expectations, some define evidence and assurance models, and some provide technology or implementation mechanisms. They are options and mappings, not the organizing principle.
+              The handbook uses standards where they help explain requirements, controls, evidence, assurance models, or implementation mechanisms. Standards are mapped into the guidance, but they are not the main organizing principle.
             </p>
             <div className={styles.communityLinks}>
               <Link className="button button--outline button--primary" to="/technology-options/">
-                Explore mappings
+                Explore technology options
               </Link>
               <Link className="button button--outline button--secondary" to="/resources/further-reading/">
                 Further reading
@@ -95,10 +139,10 @@ function CommunitySection(): ReactNode {
           <div className="col col--6">
             <Heading as="h2">Open source and evolving</Heading>
             <p>
-              The handbook is developed in the open and will grow with deeper evidence pages, standards mappings, tools, and lifecycle-specific guidance.
+              The handbook is developed in the open and will grow with deeper evidence pages, standards mappings, tools, supplier guidance, and lifecycle-specific examples.
             </p>
             <Link className="button button--primary" to="/blog/">
-              Latest News
+              Handbook updates
             </Link>
           </div>
         </div>
@@ -111,10 +155,11 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Supply Chain Security Handbook"
-      description="Practical supply-chain-security guidance for products and platforms where hardware, firmware, software, suppliers, credentials, updates, and lifecycle services all affect trust.">
+      description="A practical handbook for turning supply chain security requirements into controls, evidence, and implementation choices across connected products and platforms.">
       <HomepageHeader />
       <main>
         <HandbookModel />
+        <CommonStartingPoints />
         <CommunitySection />
       </main>
     </Layout>
