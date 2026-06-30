@@ -6,7 +6,7 @@ Thank you for your interest in contributing to the Supply Chain Security Handboo
 
 We welcome contributions in areas such as:
 
-- requirement and risk translation;
+- standard and threat translation;
 - supply-chain-security practices and controls;
 - lifecycle assurance;
 - procurement and supplier assurance;

@@ -13,10 +13,10 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  requirementsSidebar: [
-    'requirements/index',
-    'requirements/attack-failure-modes',
-    'requirements/governance-compliance',
+  standardsThreatsSidebar: [
+    'standards-threats/index',
+    'standards-threats/attack-failure-modes',
+    'standards-threats/standards-regulatory-drivers',
   ],
   practicesControlsSidebar: [
     'practices-controls/index',

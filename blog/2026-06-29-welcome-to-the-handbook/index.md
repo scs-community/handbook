@@ -12,11 +12,11 @@ Our mission is to build a practical, vendor-neutral reference for teams that nee
 
 Supply-chain-security expectations are moving beyond supplier assertions and one-time questionnaires. Buyers, suppliers, manufacturers, operators, auditors, and ecosystem participants increasingly need evidence that identity, provenance, integrity, updates, vulnerability handling, and lifecycle controls are operating.
 
-This handbook is designed to bridge the gap between requirements and evidence-backed assurance. We aim to help teams move from asking "What does this compliance, procurement, audit, customer, or risk requirement mean?" to knowing "What practices, evidence, lifecycle controls, and implementation options should we consider?"
+This handbook is designed to bridge the gap between standards, threats, and evidence-backed assurance. We aim to help teams move from asking "What does this standard, procurement expectation, audit need, customer assurance request, or threat pattern mean?" to knowing "What practices, evidence, lifecycle controls, and implementation options should we consider?"
 
 ### What You'll Find Here
 
-- **[Requirements & Risks](/requirements/)**: Starting points for requirements, governance expectations, customer requests, procurement needs, audit, product acceptance, and risk decisions.
+- **[Standards & Threats](/standards-threats/)**: Starting points for standards, regulations, assurance expectations, threat patterns, lifecycle failure modes, and product trust decisions.
 - **[Practices & Controls](/practices-controls/)**: Controls, lifecycle maps, the **[10 Best Practices for Supply-Chain Security](/practices-controls/10-best-practices/)**, and decision guides.
 - **[Decision Guides](/practices-controls/decision-guides/)**: Decision-oriented guidance for procurement, supplier assurance, product acceptance, audit, lifecycle monitoring, and implementation planning.
 - **[Evidence](/evidence/)**: Evidence types, maturity levels, verification questions, and lifecycle retention concepts.

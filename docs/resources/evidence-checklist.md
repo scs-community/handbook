@@ -35,4 +35,4 @@ Use this page for review criteria: what evidence would make a decision defensibl
 - [Supplier Questions](./supplier-questions.md)
 - [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md)
 - [Product Acceptance](../practices-controls/product-acceptance.md)
-- [Attack & Failure Modes](../requirements/attack-failure-modes.md)
+- [Attack & Failure Modes](../standards-threats/attack-failure-modes.md)

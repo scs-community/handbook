@@ -10,19 +10,19 @@ Examples include connected devices, embedded systems, mobile platforms, PCs, ser
 
 ## Positioning
 
-The site is requirements-and-risk-led, control-focused, evidence-backed, and technology-aware.
+The site is standards-and-threats-led, control-focused, evidence-backed, and technology-aware.
 
-The handbook is for teams that need to satisfy supply-chain-security requirements or reduce supply-chain-security risk. Those requirements and risks may come from regulation, standards, procurement, customer assurance, audit, certification, product acceptance, internal governance, or resilience concerns. The handbook translates them into practical controls, supplier questions, evidence expectations, and technology-aware implementation options.
+The handbook is for teams that need to understand the standards they must satisfy and the real supply-chain threats they need to mitigate. Those standards and threats may come from regulation, frameworks, procurement, customer assurance, audit, certification, product acceptance, internal governance, cyber threat patterns, or lifecycle failure modes. The handbook translates them into practical controls, supplier questions, evidence expectations, and technology-aware implementation options.
 
 The site should not be positioned as an evidence hub or as a TCG / GlobalPlatform 10 best practices microsite. Those framings are too narrow. The handbook should feel like a practical guidance site that uses the 10 best practices workplan as one source of material inside a broader reader journey.
 
 ## Visitor Promise
 
-Visitors often arrive because they need to satisfy a supply-chain-security requirement or make a risk decision.
+Visitors often arrive because they face a standard, regulation, procurement expectation, audit need, customer assurance request, cyber threat, or supply-chain failure mode.
 
 They should leave with:
 
-- a clearer understanding of the requirement, risk, or supply-chain-security decision they are trying to address;
+- a clearer understanding of the standard, threat, expectation, or supply-chain-security decision they are trying to address;
 - a practical view of relevant lifecycle controls and best practices;
 - a sense of what evidence can support those practices;
 - a sense of who produces, verifies, retains, and relies on that evidence;
@@ -47,7 +47,7 @@ The site should not primarily be written for standards specialists. Standards sp
 
 ## Primary Reader
 
-The primary reader is responsible for satisfying a supply-chain-security requirement or reducing a supply-chain-security risk and turning it into practical assurance work. That reader may sit in product security, supply-chain security, procurement, supplier assurance, audit, compliance, product acceptance, or governance.
+The primary reader is responsible for translating a standard, expectation, threat, or failure mode into practical assurance work. That reader may sit in product security, supply-chain security, procurement, supplier assurance, audit, compliance, product acceptance, or governance.
 
 Secondary readers include assurance requesters and implementers who need to ask for, produce, verify, retain, or explain evidence. Serve them through decision guides inside Practices & Controls, evidence pages, tools, and page-level related links rather than separate homepage routing systems.
 
@@ -55,7 +55,7 @@ Secondary readers include assurance requesters and implementers who need to ask 
 
 The site distinguishes four connected layers:
 
-1. **Requirements & Risks**: regulation, standards, customer requirements, procurement expectations, audit, certification, product acceptance, internal governance, resilience concerns, and risk management.
+1. **Standards & Threats**: standards, regulations, frameworks, guidance, sector expectations, procurement expectations, audit, certification, product acceptance, cyber threats, and supply-chain attack or failure modes.
 2. **Practices & Controls**: plain-language guidance on controls, best practices, lifecycle stages, responsibilities, and decision guides for applying them.
 3. **Evidence**: artifacts, records, claims, measurements, attestations, certificates, SBOMs/xBOMs, update records, vulnerability records, lifecycle-state records, and audit materials that can show whether practices and controls are operating.
 4. **Technology Options**: neutral mappings to mechanisms, protocols, formats, trust anchors, verifier workflows, tooling, and implementation options that may help implement, produce, protect, verify, exchange, or retain evidence.
@@ -64,7 +64,7 @@ Standards should not be treated as one category. Some standards and frameworks e
 
 | Type | Role in the site | Examples |
 |---|---|---|
-| Requirement and governance sources | Explain why visitors may need guidance | NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
+| Standards and regulatory drivers | Explain why visitors may need guidance | NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
 | Assurance and evidence models | Explain what artifacts or assurance models may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
 | Technology and implementation mechanisms | Explain how evidence or trust can be implemented | TCG, GlobalPlatform, SPDM, TPM, DICE, TEE, Secure Element |
 

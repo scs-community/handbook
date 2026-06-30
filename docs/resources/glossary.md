@@ -27,7 +27,7 @@ This glossary defines terms used across the handbook. It is intentionally practi
 
 ## Related Pages
 
-- [Requirements & Risks](../requirements/index.md)
+- [Standards & Threats](../standards-threats/index.md)
 - [Evidence](../evidence/index.md)
 - [Technology Options](../technology-options/index.md)
 - [Supplier Questions](./supplier-questions.md)

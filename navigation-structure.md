@@ -7,7 +7,7 @@ This document describes the intended and current public navigation for SupplyCha
 The top navigation should stay restrained:
 
 1. Home
-2. Requirements & Risks
+2. Standards & Threats
 3. Practices & Controls
 4. Evidence
 5. Technology Options
@@ -15,9 +15,9 @@ The top navigation should stay restrained:
 
 Do not put Decision Guides or the 10 Best Practices page in top navigation. Decision Guides live inside Practices & Controls because they apply controls to concrete decisions. The 10 Best Practices page also belongs inside Practices & Controls as the synthesis and anchor page.
 
-Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside requirements and risks, practices and controls, evidence, resources, or technology-options pages.
+Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside standards and threats, practices and controls, evidence, resources, or technology-options pages.
 
-The Requirements & Risks sidebar may link directly to [Attack & Failure Modes](/requirements/attack-failure-modes/) because that page is the canonical risk-detail page. This is a cross-section route, not a duplicate Requirements page.
+The Standards & Threats section contains [Attack & Failure Modes](/standards-threats/attack-failure-modes/) because that page is the canonical threat-detail page.
 
 ## Route Policy
 
@@ -28,22 +28,22 @@ The public docs routes are served at the site root, not below `/docs/`.
 - `docs.routeBasePath`: `/`
 - `trailingSlash`: `true`
 
-Use public links such as `/requirements/`, `/practices-controls/`, `/practices-controls/decision-guides/`, and `/evidence/`. Avoid hardcoded `/docs/...` links in public content.
+Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/decision-guides/`, and `/evidence/`. Avoid hardcoded `/docs/...` links in public content.
 
 ## Site Model
 
 The site should feel like:
 
 ```text
-Requirements & Risks -> Practices & Controls -> Evidence -> Technology Options -> Resources
+Standards & Threats -> Practices & Controls -> Evidence -> Technology Options -> Resources
 ```
 
-This mirrors the logic: requirements and risks create the starting point, practices and controls explain what to do, evidence shows whether controls are operating, and technology options may help implement, produce, protect, exchange, verify, or retain evidence.
+This mirrors the logic: standards and threats create the starting point, practices and controls explain what to do, evidence shows whether controls are operating, and technology options may help implement, produce, protect, exchange, verify, or retain evidence.
 
 The homepage may use a shorter model for clarity:
 
 ```text
-Requirements & Risks -> Practices & Controls -> Evidence -> Technology Options
+Standards & Threats -> Practices & Controls -> Evidence -> Technology Options
 ```
 
 Decision Guides are part of Practices & Controls. Resources support the flow by turning guidance into evidence requests, templates, mappings, and review prompts.
@@ -54,15 +54,15 @@ Decision Guides are part of Practices & Controls. Resources support the flow by 
 /
   Home
 
-/requirements/
-  Requirements & Risks
-/requirements/governance-compliance/
-  Requirement & Governance Sources
+/standards-threats/
+  Standards & Threats
+/standards-threats/attack-failure-modes/
+  Attack & Failure Modes
+/standards-threats/standards-regulatory-drivers/
+  Standards & Regulatory Drivers
 
 /practices-controls/
   Practices & Controls overview
-/requirements/attack-failure-modes/
-  Attack & Failure Modes
 /practices-controls/lifecycle-map/
   Lifecycle Map
 /practices-controls/10-best-practices/
@@ -112,17 +112,17 @@ Decision Guides are part of Practices & Controls. Resources support the flow by 
 
 ## Homepage Routing
 
-The homepage should introduce the handbook and point readers to the Requirements & Risks as the single detailed routing surface. Avoid stacking multiple homepage route systems such as obligation tables, persona cards, and intent grids.
+The homepage should introduce the handbook and point readers to the Standards & Threats as the single detailed routing surface. Avoid stacking multiple homepage route systems such as obligation tables, persona cards, and intent grids.
 
 Homepage routing should stay limited to:
 
-- primary CTA: `/requirements/`;
+- primary CTA: `/standards-threats/`;
 - secondary CTA: `/practices-controls/10-best-practices/`;
 - top navigation for readers who already know the section they want.
 
 ## Detailed Routing
 
-Detailed routing belongs in `/requirements/`, section landing pages, sidebars, and page-level related links. This keeps the homepage focused while still helping readers who arrive with procurement, audit, product-acceptance, evidence, or implementation questions.
+Detailed routing belongs in `/standards-threats/`, section landing pages, sidebars, and page-level related links. This keeps the homepage focused while still helping readers who arrive with procurement, audit, product-acceptance, evidence, or implementation questions.
 
 ## Footer And Secondary Navigation
 

@@ -1,6 +1,6 @@
 # SupplyChainSecurityHandbook.com
 
-This repository contains the source for SupplyChainSecurityHandbook.com, a practical, vendor-neutral reference for supply-chain-security guidance across complex technology products and platforms. It helps teams translate requirements and risks from compliance, procurement, audit, customer assurance, product acceptance, governance, and resilience concerns into practical controls, evidence expectations, lifecycle assurance, and technology-aware implementation options.
+This repository contains the source for SupplyChainSecurityHandbook.com, a practical, vendor-neutral reference for supply-chain-security guidance across complex technology products and platforms. It helps teams translate standards, regulations, procurement expectations, assurance frameworks, cyber threats, and lifecycle failure modes into practical controls, evidence expectations, lifecycle assurance, and technology-aware implementation options.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
@@ -10,7 +10,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 - [Navigation Structure](navigation-structure.md) - Top-level navigation, sitemap, and homepage routing model
 - [Style Guide](style-guide.md) - Editorial stance, sourcing rules, evidence language, and content quality tests
 - [Brand Guidelines](brand-guidelines.md) - Visual identity, assets, colors, typography, and brand usage
-- [Requirements & Risks](docs/requirements/index.md) - Requirement and risk routes into practical assurance work
+- [Standards & Threats](docs/standards-threats/index.md) - Standards, regulatory drivers, threat patterns, and failure modes that route into practical assurance work
 - [Practices & Controls](docs/practices-controls/index.md) - Controls, lifecycle assurance, the 10 best practices synthesis, and decision guides
 - [Decision Guides](docs/practices-controls/decision-guides.md) - Practical guidance for procurement, supplier assurance, product acceptance, audit, monitoring, and implementation planning
 - [Evidence](docs/evidence/index.md) - Evidence types, maturity levels, and assurance decisions

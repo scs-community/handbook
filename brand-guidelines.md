@@ -77,9 +77,9 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 The homepage should keep the sister-site visual pattern while reflecting the supply-chain-security brief:
 
 - Hero proposition and two clear calls to action.
-- Value pillars that move from requirements and risks to practices and controls to evidence.
-- A simple model: requirements and risks, practices and controls, evidence, and technology options.
-- A clear handoff to the Requirements & Risks for detailed routing.
+- Value pillars that move from standards and threats to practices and controls to evidence.
+- A simple model: standards and threats, practices and controls, evidence, and technology options.
+- A clear handoff to the Standards & Threats for detailed routing.
 - Neutrality and open-source framing.
 
 Do not let the homepage look like a TCG, GlobalPlatform, or 10 best practices microsite.
@@ -106,7 +106,7 @@ Follow `style-guide.md` for editorial voice. Key brand reminders:
 For public site routes, use canonical root routes with trailing slashes, for example:
 
 - Good: `/practices-controls/`
-- Good: `/requirements/`
+- Good: `/standards-threats/`
 - Good: `/practices-controls/10-best-practices/`
 - Good: `/technology-options/`
 - Avoid: `/docs/practices-controls/10-best-practices`

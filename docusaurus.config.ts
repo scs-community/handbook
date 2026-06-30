@@ -91,9 +91,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'requirementsSidebar',
+          sidebarId: 'standardsThreatsSidebar',
           position: 'left',
-          label: 'Requirements & Risks',
+          label: 'Standards & Threats',
         },
         {
           type: 'docSidebar',
@@ -130,19 +130,19 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Requirements & Risks',
+          title: 'Standards & Threats',
           items: [
             {
-              label: 'Requirements & Risks',
-              to: '/requirements/',
+              label: 'Standards & Threats',
+              to: '/standards-threats/',
             },
             {
               label: 'Attack & Failure Modes',
-              to: '/requirements/attack-failure-modes/',
+              to: '/standards-threats/attack-failure-modes/',
             },
             {
-              label: 'Requirement & Governance Sources',
-              to: '/requirements/governance-compliance/',
+              label: 'Standards & Regulatory Drivers',
+              to: '/standards-threats/standards-regulatory-drivers/',
             },
           ],
         },

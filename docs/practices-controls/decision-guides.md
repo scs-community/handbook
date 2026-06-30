@@ -3,7 +3,7 @@ title: Decision Guides
 sidebar_position: 4
 ---
 
-Decision guides help readers move from requirements and risks to practical decisions. Each page starts with the decision the reader is trying to make, explains what can go wrong, and turns good practice into questions, evidence requests, verification paths, and technology options.
+Decision guides help readers move from standards and threats to practical decisions. Each page starts with the decision the reader is trying to make, explains what can go wrong, and turns good practice into questions, evidence requests, verification paths, and technology options.
 
 ## Decision Guide Routes
 

@@ -3,7 +3,7 @@ title: Attack & Failure Modes
 sidebar_position: 2
 ---
 
-Supply-chain-security guidance is most useful when readers can see what can go wrong and what evidence would help them make a better decision. This page names common attack and failure modes, then connects them to practical practices, controls, and evidence.
+Supply-chain-security standards and requirements are easier to interpret when readers can see what they are trying to mitigate. This page names common attack and failure modes, then connects them to practical practices, controls, and evidence.
 
 ## Attack And Failure Modes
 

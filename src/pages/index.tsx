@@ -16,11 +16,11 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">
-          A practical handbook for turning supply chain security requirements into controls, evidence, and implementation choices across connected products and platforms.
+          A practical handbook for turning supply chain security standards and real-world threats into controls, evidence, and implementation choices across connected products and platforms.
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/requirements/">
-            Start from a requirement or risk
+          <Link className="button button--secondary button--lg" to="/standards-threats/">
+            Start with standards and threats
           </Link>
           <Link className="button button--secondary button--lg" to="/practices-controls/10-best-practices/">
             Read the 10 best practices
@@ -34,12 +34,12 @@ function HomepageHeader() {
 function HandbookModel(): ReactNode {
   const steps = [
     {
-      title: 'Requirements & Risks',
-      description: 'Start with the regulation, standard, procurement request, audit question, customer assurance need, or risk concern that brought you here.',
+      title: 'Standards & Threats',
+      description: 'Start with the standard, regulation, procurement expectation, audit question, customer assurance need, threat pattern, or failure mode that brought you here.',
     },
     {
       title: 'Practices & Controls',
-      description: 'Translate the requirement or risk into control expectations, lifecycle responsibilities, supplier questions, and operating decisions.',
+      description: 'Translate the standard or threat into control expectations, lifecycle responsibilities, supplier questions, and operating decisions.',
     },
     {
       title: 'Evidence',
@@ -57,7 +57,7 @@ function HandbookModel(): ReactNode {
         <div className="text--center margin-bottom--lg">
           <Heading as="h2">How the handbook helps</Heading>
           <p>
-            Use the handbook to move from compliance pressure, procurement expectations, customer assurance, or supply chain risk to practical controls, evidence expectations, and implementation choices.
+            Use the handbook to move from standards, compliance pressure, procurement expectations, customer assurance, or real supply chain threats to practical controls, evidence expectations, and implementation choices.
           </p>
         </div>
         <div className={styles.modelSteps}>
@@ -76,14 +76,19 @@ function HandbookModel(): ReactNode {
 function CommonStartingPoints(): ReactNode {
   const routes = [
     {
-      title: 'I have a compliance requirement',
-      description: 'Start with regulations, standards, procurement expectations, and assurance obligations.',
-      to: '/requirements/',
+      title: 'I need to understand a standard or regulation',
+      description: 'Start with standards, regulations, procurement expectations, and assurance obligations.',
+      to: '/standards-threats/',
     },
     {
-      title: 'I need to assess supplier or product risk',
-      description: 'Look at threat patterns, lifecycle responsibilities, and control expectations.',
-      to: '/requirements/attack-failure-modes/',
+      title: 'I need to understand what could go wrong',
+      description: 'Look at supply chain threat patterns, lifecycle failure modes, and the controls used to mitigate them.',
+      to: '/standards-threats/attack-failure-modes/',
+    },
+    {
+      title: 'I need practices and controls',
+      description: 'Translate standards and threats into control expectations, supplier questions, and lifecycle decisions.',
+      to: '/practices-controls/',
     },
     {
       title: 'I need evidence for audit or customer review',
@@ -155,7 +160,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Supply Chain Security Handbook"
-      description="A practical handbook for turning supply chain security requirements into controls, evidence, and implementation choices across connected products and platforms.">
+      description="A practical handbook for turning supply chain security standards and real-world threats into controls, evidence, and implementation choices across connected products and platforms.">
       <HomepageHeader />
       <main>
         <HandbookModel />

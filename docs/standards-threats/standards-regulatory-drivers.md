@@ -1,15 +1,15 @@
 ---
-title: Requirement & Governance Sources
-sidebar_position: 2
+title: Standards & Regulatory Drivers
+sidebar_position: 3
 ---
 
-Requirement and governance sources explain why readers may need supply-chain-security guidance. They may define control expectations, shape audit evidence, influence procurement language, or create a need for practical interpretation. They usually do not provide the complete technical evidence mechanism.
+Standards and regulatory drivers explain why readers may need supply-chain-security guidance. They may define control expectations, shape audit evidence, influence procurement language, describe assurance obligations, or create a need for practical interpretation. They usually do not provide the complete technical evidence mechanism.
 
 ## Mapping Summary
 
 | Field | Guidance |
 |---|---|
-| Role | Contextual source for requirements, governance, risk management, audit, procurement, or customer assurance needs. |
+| Role | Contextual source for standards, regulatory expectations, governance, risk management, audit, procurement, or customer assurance needs. |
 | Lifecycle fit | Design, sourcing, procurement, acceptance, operation, audit, renewal, and risk review. |
 | Evidence supported | Policies, control mappings, risk assessments, audit evidence, supplier requirements, acceptance criteria. |
 | What it does not solve | Usually does not define product-specific identity evidence, attestation formats, lifecycle-state records, or implementation profiles. |
@@ -81,7 +81,7 @@ Requirement and governance sources explain why readers may need supply-chain-sec
 
 ### Questions to ask internally
 
-- Are we treating this source as a requirement, evidence model, artifact format, implementation option, or contextual reference?
+- Are we treating this source as a standards driver, regulatory expectation, evidence model, artifact format, implementation option, or contextual reference?
 - What decision would this mapping support, and what would remain unresolved without additional evidence?
 - Is the mapping direct, supporting, contextual, adjacent, or a gap?
 
@@ -99,7 +99,7 @@ Requirement and governance sources explain why readers may need supply-chain-sec
 
 ## Related Pages
 
-- [Requirements & Risks](./index.md)
+- [Standards & Threats](./index.md)
 - [Practices & Controls](../practices-controls/index.md)
 - [Evidence](../evidence/index.md)
 - [10 Best Practices](../practices-controls/10-best-practices.md)

@@ -80,6 +80,6 @@ Attestation does not automatically prove the product is free from vulnerabilitie
 
 ## Related Pages
 
-- [Attack & Failure Modes](../requirements/attack-failure-modes.md)
+- [Attack & Failure Modes](../standards-threats/attack-failure-modes.md)
 - [Product Acceptance](../practices-controls/product-acceptance.md)
 - [Attestation & Measurement](../technology-options/attestation-measurement.md)

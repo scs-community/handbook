@@ -80,7 +80,7 @@ Relevant mappings may include governance frameworks for requirements, SBOM/xBOM 
 
 ## Related Pages
 
-- [Requirements & Risks](../requirements/index.md)
+- [Standards & Threats](../standards-threats/index.md)
 - [Practices & Controls](./index.md)
 - [Supplier Questions](../resources/supplier-questions.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)

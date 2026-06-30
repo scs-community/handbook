@@ -35,7 +35,7 @@ Do not create sector-specific pages unless there is enough real content to help 
 
 ## Related Pages
 
-- [Requirements & Risks](docs/requirements/index.md)
+- [Standards & Threats](docs/standards-threats/index.md)
 - [Practices & Controls](docs/practices-controls/index.md)
 - [Evidence](docs/evidence/index.md)
 - [Further Reading](docs/resources/further-reading.md)

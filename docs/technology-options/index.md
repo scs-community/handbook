@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Technology options are mechanisms, protocols, formats, trust anchors, verifier workflows, tooling, and implementation patterns that may help produce, protect, exchange, verify, or retain evidence. Their presence in this handbook does not mean they are mandatory for every product, sector, or assurance scenario.
 
-This section does not organize the site around standards bodies. It starts from supply-chain-security decisions, evidence needs, lifecycle stages, and verification questions. Requirement and governance sources belong with [Requirements & Risks](../requirements/governance-compliance.md); assurance and evidence models belong with [Evidence](../evidence/evidence-models.md).
+This section does not organize the site around standards bodies. It starts from supply-chain-security decisions, evidence needs, lifecycle stages, and verification questions. Standards and regulatory drivers belong with [Standards & Threats](../standards-threats/standards-regulatory-drivers.md); assurance and evidence models belong with [Evidence](../evidence/evidence-models.md).
 
 ## Technology Option Roles
 
@@ -31,7 +31,7 @@ This section does not organize the site around standards bodies. It starts from 
 |---|---|
 | Direct | The standard or specification directly defines a mechanism, artifact, or assurance model for this issue |
 | Supporting | It helps implement, exchange, protect, or verify relevant evidence |
-| Contextual | It explains the requirement, risk, or governance expectation |
+| Contextual | It explains the standard, threat, or governance expectation |
 | Adjacent | It may be relevant in some sectors or architectures, but is not central |
 | Gap | The area may need future profiling, interpretation, or implementation guidance |
 

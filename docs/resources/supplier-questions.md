@@ -50,4 +50,4 @@ Ask for the artifact, owner, lifecycle stage, retention expectation, and verific
 - [Procurement & Supplier Assurance](../practices-controls/procurement-supplier-assurance.md)
 - [Product Acceptance](../practices-controls/product-acceptance.md)
 - [Evidence Checklist](./evidence-checklist.md)
-- [Requirements & Risks](../requirements/index.md)
+- [Standards & Threats](../standards-threats/index.md)

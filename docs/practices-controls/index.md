@@ -3,7 +3,7 @@ title: Practices & Controls
 sidebar_position: 1
 ---
 
-This section explains what to do. It turns requirements and risks into practical controls, lifecycle responsibilities, decision workflows, supplier questions, evidence requests, and verification paths.
+This section explains what to do. It turns standards and threats into practical controls, lifecycle responsibilities, decision workflows, supplier questions, evidence requests, and verification paths.
 
 The guidance is written for decision makers first: product-security leaders, supply-chain-security leaders, procurement and supplier-assurance teams, product-acceptance decision makers, auditors, assessors, operators, and implementers who need to understand what controls must operate and what evidence those controls should produce.
 
@@ -28,7 +28,7 @@ Practice pages should follow this model:
 Requirement or risk -> control -> evidence -> verification -> technology options
 ```
 
-This keeps the site practical and neutral. It starts with the reader's requirement, risk, or decision, not a standards body or technology.
+This keeps the site practical and neutral. It starts with the reader's standard, threat, expectation, or decision, not a standards body or technology.
 
 ## How To Translate A Requirement Into Action
 
@@ -62,7 +62,7 @@ Use this pattern when translating a regulation, customer request, procurement ex
 
 ### Questions to ask internally
 
-- What requirement, risk, or decision brought us to this page?
+- What standard, threat, expectation, or decision brought us to this page?
 - What would go wrong if we relied only on a policy statement or supplier assertion?
 - What evidence would make the decision reviewable later?
 
@@ -80,7 +80,7 @@ Use this pattern when translating a regulation, customer request, procurement ex
 
 ## Next Actions
 
-- Use [Attack & Failure Modes](../requirements/attack-failure-modes.md) to understand what can go wrong.
+- Use [Attack & Failure Modes](../standards-threats/attack-failure-modes.md) to understand what can go wrong.
 - Use [Lifecycle Map](./lifecycle-map.md) to decide when evidence is needed.
 - Use [10 Best Practices](./10-best-practices.md) to connect practices, evidence, verification, and technology options.
 - Use [Decision Guides](./decision-guides.md) to apply the practices to concrete decisions.
