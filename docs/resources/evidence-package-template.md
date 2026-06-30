@@ -93,6 +93,7 @@ Use this template with [Evidence Repositories, Logs & Retention](../technology-o
 
 - [Evidence Checklist](./evidence-checklist.md)
 - [Evidence Maturity Model](./evidence-maturity-model.md)
+- [Worked Examples](./worked-examples/index.md)
 - [Glossary](./glossary.md)
 - [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
 - [Assurance Implementation Planning](../practices-controls/assurance-implementation-planning.md)

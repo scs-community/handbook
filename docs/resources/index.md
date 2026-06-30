@@ -16,9 +16,14 @@ Resources are practical aids, not the conceptual home of the handbook. Use [Prac
 | [Evidence Checklist](./evidence-checklist.md) | Review whether evidence is scoped, verifiable, retained, and decision-ready |
 | [Evidence Maturity Model](./evidence-maturity-model.md) | Distinguish assertions from produced, verifiable, and lifecycle-retained evidence |
 | [Evidence Package Template](./evidence-package-template.md) | Assemble evidence for supplier assurance, product acceptance, audit, update review, vulnerability response, and lifecycle monitoring |
+| [Worked Examples](./worked-examples/index.md) | See realistic fictional examples of weak, better, and stronger evidence packages |
 | [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md) | Record how standards, evidence requirements, technology options, and mapping confidence support a decision |
 | [Glossary](./glossary.md) | Align on assurance, evidence, lifecycle, verification, and technology-option terminology |
 | [Curated References](./curated-references.md) | Find curated public guidance and specifications |
+
+## Worked Examples
+
+Worked examples show the handbook's evidence model in realistic scenarios. Use them when a checklist or template is too abstract and you need to see what good evidence looks like for supplier onboarding, product acceptance, update approval, vulnerability response, component provenance, or supplier-answer scoring.
 
 Sector-note content should stay outside the public site until there is enough real sector material to help readers make decisions.
 

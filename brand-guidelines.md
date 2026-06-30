@@ -100,7 +100,7 @@ Follow `style-guide.md` for editorial voice. Key brand reminders:
 - Prefer "evidence-backed assurance", "lifecycle assurance", "practical guidance", and "technology-aware mappings".
 - Avoid "evidence hub", "10 best practices microsite", and any phrasing that implies a standards body owns the whole problem.
 - Treat technology options as implementation or verification options, not mandates.
-- Treat resources as a small toolkit, not a library. The public Resources set is Supplier Questions, Evidence Checklist, Evidence Maturity Model, Evidence Package Template, Standards & Technology Mapping Workflow, Glossary, and Curated References.
+- Treat resources as a small toolkit, not a library. The public Resources set is Supplier Questions, Evidence Checklist, Evidence Maturity Model, Evidence Package Template, Worked Examples, Standards & Technology Mapping Workflow, Glossary, and Curated References.
 
 ## Linking Guidance
 
@@ -110,6 +110,7 @@ For public site routes, use canonical root routes with trailing slashes, for exa
 - Good: `/standards-threats/`
 - Good: `/practices-controls/10-best-practices/`
 - Good: `/technology-options/`
+- Good: `/resources/worked-examples/`
 - Good: `/resources/standards-technology-mapping-workflow/`
 - Good: `/resources/curated-references/`
 - Avoid: `/resources/further-reading/`

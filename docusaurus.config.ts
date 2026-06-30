@@ -270,6 +270,10 @@ const config: Config = {
               to: '/resources/evidence-package-template/',
             },
             {
+              label: 'Worked Examples',
+              to: '/resources/worked-examples/',
+            },
+            {
               label: 'Standards & Technology Mapping Workflow',
               to: '/resources/standards-technology-mapping-workflow/',
             },

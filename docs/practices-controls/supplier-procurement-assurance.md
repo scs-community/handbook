@@ -109,6 +109,8 @@ Technology options may include supplier portals, evidence repositories, SBOM/xBO
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
+- [Supplier Onboarding Evidence Package](../resources/worked-examples/supplier-onboarding-evidence-package.md)
+- [Weak vs Strong Supplier Answers](../resources/worked-examples/weak-vs-strong-supplier-answers.md)
 - [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)
 - [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
 - [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

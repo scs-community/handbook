@@ -122,6 +122,8 @@ Relevant mappings may include Platform Certificates, TPM, DICE, Secure Element, 
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
+- [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md)
+- [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)
 - [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md)
 - [Attestation & Measured State](../technology-options/attestation-measured-state.md)
 - [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)

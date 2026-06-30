@@ -106,6 +106,7 @@ Technology options may include update frameworks, signing systems, transparency 
 - [Product Acceptance](./product-acceptance.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
+- [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
 - [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)
 - [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credential-mechanisms.md)
 - [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

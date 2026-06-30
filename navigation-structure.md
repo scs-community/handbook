@@ -121,6 +121,20 @@ Applied practice pages are part of Practices & Controls. Resources support the f
   Evidence Maturity Model
 /resources/evidence-package-template/
   Evidence Package Template
+/resources/worked-examples/
+  Worked Examples
+/resources/worked-examples/supplier-onboarding-evidence-package/
+  Supplier Onboarding Evidence Package
+/resources/worked-examples/product-acceptance-package/
+  Product Acceptance Package
+/resources/worked-examples/secure-update-approval/
+  Secure Update Approval
+/resources/worked-examples/vulnerability-response-evidence/
+  Vulnerability Response Evidence
+/resources/worked-examples/component-provenance-example/
+  Component Provenance Example
+/resources/worked-examples/weak-vs-strong-supplier-answers/
+  Weak vs Strong Supplier Answers
 /resources/standards-technology-mapping-workflow/
   Standards & Technology Mapping Workflow
 /resources/glossary/
@@ -158,11 +172,12 @@ Resources should not become a catch-all archive. They should remain the small pr
 - evidence checklists;
 - evidence maturity models;
 - evidence package templates;
+- worked examples;
 - standards and technology mapping workflows;
 - sector-note templates should remain outside public navigation until there is enough sector content;
 - curated references.
 
-Do not reintroduce standalone `Artifact Map`, generic `Templates`, or separate `Evidence Glossary` pages unless there is a specific reader job that cannot be served by the current toolkit.
+Do not reintroduce standalone `Artifact Map`, generic `Templates`, or separate `Evidence Glossary` pages unless there is a specific reader job that cannot be served by the current toolkit. Keep Worked Examples under Resources rather than making examples a top-level navigation item.
 
 ## Expansion Rules
 
