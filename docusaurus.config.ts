@@ -176,6 +176,18 @@ const config: Config = {
               to: '/standards-threats/standards-regulatory-drivers/nis2/',
             },
             {
+              label: 'NIST SP 800-161',
+              to: '/standards-threats/standards-regulatory-drivers/nist-sp-800-161/',
+            },
+            {
+              label: 'IEC 62443',
+              to: '/standards-threats/standards-regulatory-drivers/iec-62443/',
+            },
+            {
+              label: 'NIST SSDF',
+              to: '/standards-threats/standards-regulatory-drivers/nist-ssdf/',
+            },
+            {
               label: 'Threats and Failure Modes',
               to: '/standards-threats/threats-failure-modes/',
             },

@@ -22,15 +22,21 @@ Use this path when you need to translate a regulation, standard, procurement exp
    See how a major product-security regulation can be interpreted into lifecycle assurance work.
 4. [NIS2](../standards-threats/standards-regulatory-drivers/nis2.md)  
    See how organisational and supplier-assurance expectations can flow into supply-chain-security practices.
-5. [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md)  
+5. [NIST SP 800-161](../standards-threats/standards-regulatory-drivers/nist-sp-800-161.md)  
+   See how C-SCRM guidance can become supplier, acquisition, dependency, and risk-response evidence.
+6. [IEC 62443](../standards-threats/standards-regulatory-drivers/iec-62443.md)  
+   See how industrial product and component security expectations can shape lifecycle assurance.
+7. [NIST SSDF](../standards-threats/standards-regulatory-drivers/nist-ssdf.md)  
+   See how secure software and firmware development practices can become supplier and release evidence.
+8. [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md)  
    Connect external drivers to the failures they are trying to prevent.
-6. [10 Best Practices](../practices-controls/10-best-practices.md)  
+9. [10 Best Practices](../practices-controls/10-best-practices.md)  
    Translate drivers and threats into practical supply-chain-security practices.
-7. [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)  
+10. [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)  
    Record source roles, evidence requirements, technology options, mapping confidence, and gaps.
-8. [Evidence Checklist](../resources/evidence-checklist.md)  
+11. [Evidence Checklist](../resources/evidence-checklist.md)  
    Check whether the mapped evidence is scoped, verifiable, retained, and decision-ready.
-9. [Curated References](../resources/curated-references.md)  
+12. [Curated References](../resources/curated-references.md)  
    Use curated public sources without treating citations as proof by themselves.
 
 ## What you should leave with

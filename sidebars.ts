@@ -31,6 +31,9 @@ const sidebars: SidebarsConfig = {
       items: [
         'standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act',
         'standards-threats/standards-regulatory-drivers/nis2',
+        'standards-threats/standards-regulatory-drivers/nist-sp-800-161',
+        'standards-threats/standards-regulatory-drivers/iec-62443',
+        'standards-threats/standards-regulatory-drivers/nist-ssdf',
       ],
     },
     {
