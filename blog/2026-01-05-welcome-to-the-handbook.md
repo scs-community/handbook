@@ -14,6 +14,8 @@ Supply-chain-security expectations are moving beyond supplier assertions and one
 
 This handbook is designed to bridge the gap between standards, threats, and evidence-backed assurance. We aim to help teams move from asking "What does this standard, procurement expectation, audit need, customer assurance request, or threat pattern mean?" to knowing "What practices, evidence, lifecycle controls, and implementation options should we consider?"
 
+If you are new to the handbook, start with **[Start Here](/start-here/)** and choose the reader journey that best matches your role.
+
 ### What You'll Find Here
 
 - **[Standards & Threats](/standards-threats/)**: Starting points for standards, regulations, assurance expectations, threat patterns, lifecycle failure modes, and product trust decisions.

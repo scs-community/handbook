@@ -183,12 +183,12 @@ function CommunitySection(): ReactNode {
             </div>
           </div>
           <div className="col col--6">
-            <Heading as="h2">Open source and evolving</Heading>
+            <Heading as="h2">Stay updated</Heading>
             <p>
-              The handbook is developed in the open and will grow with deeper practice guidance, evidence resources, standards mappings, tools, supplier guidance, and lifecycle-specific examples.
+              Supply-chain-security expectations are changing quickly. Read short updates on incidents, policy changes, standards activity, and evidence practices.
             </p>
             <Link className="button button--primary" to="/blog/">
-              Handbook updates
+              Latest analysis
             </Link>
           </div>
         </div>

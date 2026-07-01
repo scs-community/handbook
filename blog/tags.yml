@@ -17,3 +17,73 @@ standards:
   label: Standards
   description: Posts about standards, technologies, and implementation mappings.
   permalink: /standards
+
+ai:
+  label: AI
+  description: Posts about AI supply-chain visibility and evidence.
+  permalink: /ai
+
+component-visibility:
+  label: Component Visibility
+  description: Posts about component, dependency, and transparency artefact visibility.
+  permalink: /component-visibility
+
+cscrm:
+  label: C-SCRM
+  description: Posts about cybersecurity supply chain risk management.
+  permalink: /cscrm
+
+dependency-risk:
+  label: Dependency Risk
+  description: Posts about dependency assurance and supply-chain failure modes.
+  permalink: /dependency-risk
+
+evidence:
+  label: Evidence
+  description: Posts about evidence-backed supply-chain-security decisions.
+  permalink: /evidence
+
+nis2:
+  label: NIS2
+  description: Posts about NIS2-driven supply-chain-security expectations.
+  permalink: /nis2
+
+npm:
+  label: npm
+  description: Posts about npm and JavaScript package supply-chain risk.
+  permalink: /npm
+
+procurement:
+  label: Procurement
+  description: Posts about procurement, supplier assurance, and evidence requests.
+  permalink: /procurement
+
+release-integrity:
+  label: Release Integrity
+  description: Posts about release, update, and artefact integrity.
+  permalink: /release-integrity
+
+sbom:
+  label: SBOM
+  description: Posts about software bills of materials and transparency artefacts.
+  permalink: /sbom
+
+software-supply-chain:
+  label: Software Supply Chain
+  description: Posts about software supply-chain compromise and assurance.
+  permalink: /software-supply-chain
+
+supplier-assurance:
+  label: Supplier Assurance
+  description: Posts about supplier risk, assurance, and retained evidence.
+  permalink: /supplier-assurance
+
+transparency:
+  label: Transparency
+  description: Posts about transparency artefacts and evidence visibility.
+  permalink: /transparency
+
+vulnerability-response:
+  label: Vulnerability Response
+  description: Posts about vulnerability handling, remediation, and response evidence.
+  permalink: /vulnerability-response

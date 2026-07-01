@@ -331,6 +331,10 @@ const config: Config = {
               to: '/resources/curated-references/',
             },
             {
+              label: 'News and Analysis',
+              to: '/blog/',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/scs-community/handbook',
             },
