@@ -59,7 +59,7 @@ That means the assurance question changes. Buyers and reviewers need to know not
 
 For example, an AI gateway used to triage support tickets might include ordinary application dependencies, a hosted large-language-model service, prompt templates, retrieval indexes, evaluation datasets, cloud inference infrastructure, monitoring services, and policy rules that shape outputs. A useful AI SBOM would not turn that into a single magic assurance artefact. It would identify what changed, what is excluded, which version or service is being relied on, and how the buyer can verify freshness before acceptance or renewal.
 
-➡️ **Handbook resource:** [Transparency Artefacts & Component Visibility](/technology-options/transparency-artefacts-component-visibility/)
+➡️ **Handbook resource:** [Transparency Artefacts & Component Visibility](/technology-options/sbom-vex-component-visibility/)
 
 ---
 
@@ -116,7 +116,7 @@ A weak answer says: "We can provide an AI SBOM."
 
 A stronger answer provides a product-scoped AI SBOM with model, dataset, infrastructure, and software-component scope; names exclusions and limitations; records producer, timestamp, format, repository location, and refresh triggers; and explains how the buyer can verify freshness before acceptance, renewal, or major change.
 
-➡️ **Handbook resource:** [Supplier Questions](/resources/supplier-questions/)
+➡️ **Handbook resource:** [Supplier Questions](/resources/supplier-security-questions/)
 
 ---
 
@@ -134,6 +134,6 @@ A useful AI SBOM should support a decision such as supplier onboarding, product 
 
 Recommended reading:
 
-- **[Standards & Technology Mapping Workflow](/resources/standards-technology-mapping-workflow/)** for mapping artefact roles and confidence.
+- **[Standards & Technology Mapping Workflow](/resources/standards-evidence-technology-mapping/)** for mapping artefact roles and confidence.
 - **[Component Provenance Example](/resources/worked-examples/component-provenance-example/)** for a worked example of moving from a component list to usable assurance evidence.
 - **[Evidence Repositories, Logs & Retention](/technology-options/evidence-repositories-logs-retention/)** for keeping transparency evidence usable after acceptance, update, repair, transfer, or audit.

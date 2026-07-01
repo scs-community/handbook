@@ -1,12 +1,12 @@
 ---
-title: Secure Development & Release Governance
+title: Secure Development and Release Governance
 sidebar_position: 6
 description: "Connect secure development and release governance to supplier inputs, build integrity, approvals, provenance, and retained release evidence."
 ---
 
 Secure development and release governance is the recurring practice of controlling supplier inputs, dependencies, build outputs, reviews, approvals, signing readiness, and release evidence before product, software, or firmware release.
 
-This practice is commonly driven by CRA, secure development expectations, release assurance, customer assurance requests, and [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md).
+This practice is commonly driven by CRA, secure development expectations, release assurance, customer assurance requests, and [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md).
 
 ## What this practice is for
 
@@ -97,13 +97,13 @@ Technology options may include source and artefact repositories, build provenanc
 
 ## Related pages
 
-- [EU Cyber Resilience Act](../standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act.md)
-- [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)
-- [10 Best Practices](./10-best-practices.md)
-- [Lifecycle Map](./lifecycle-map.md)
-- [Software, Component & Vulnerability Management](./software-component-vulnerability-management.md)
-- [Secure Update & Lifecycle Monitoring](./secure-update-lifecycle-monitoring.md)
+- [EU Cyber Resilience Act](../standards-threats/standards-regulations/eu-cyber-resilience-act.md)
+- [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)
+- [10 Best Practices](/practices-controls/10-best-practices/)
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
+- [Software, Component & Vulnerability Management](./software-components-vulnerability-management.md)
+- [Secure Update & Lifecycle Monitoring](./secure-updates-lifecycle-monitoring.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
-- [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)
-- [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credential-mechanisms.md)
-- [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)
+- [Transparency Artefacts & Component Visibility](../technology-options/sbom-vex-component-visibility.md)
+- [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credentials.md)
+- [Update & Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)

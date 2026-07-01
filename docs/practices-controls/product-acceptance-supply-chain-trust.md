@@ -1,12 +1,13 @@
 ---
-title: Product Acceptance
+title: Product Acceptance and Supply Chain Trust
 sidebar_position: 5
+sidebar_label: Product Acceptance
 description: "Plan product acceptance decisions using evidence for identity, provenance, component state, vulnerabilities, updates, supportability, and residual risk."
 ---
 
 Product acceptance is where supply chain assurance becomes operational. Before a product, component, platform, firmware load, or supplier-provided service is deployed or integrated, the recipient needs enough evidence to decide whether it is genuine, expected, supportable, and in an acceptable trust state.
 
-This practice is commonly driven by procurement assurance, customer assurance, lifecycle governance, [Product and Component Trust Failures](../standards-threats/threats-failure-modes/product-component-trust-failures.md), and [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md).
+This practice is commonly driven by procurement assurance, customer assurance, lifecycle governance, [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md), and [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md).
 
 ## What this practice is for
 
@@ -50,7 +51,7 @@ Attestation does not automatically prove that the product is free from vulnerabi
 
 When acceptance evidence is missing, stale, incomplete, inconsistent, or unverifiable, the practice should produce a reject, quarantine, accept-with-conditions, remediation, or risk-acceptance decision rather than silently proceeding to deployment.
 
-Use [Supplier Questions](../resources/supplier-questions.md) to request missing evidence and the [Evidence Checklist](../resources/evidence-checklist.md) to document acceptance criteria.
+Use [Supplier Questions](../resources/supplier-security-questions.md) to request missing evidence and the [Evidence Checklist](../resources/evidence-checklist.md) to document acceptance criteria.
 
 ## Questions to ask
 
@@ -115,11 +116,11 @@ Relevant mappings may include Platform Certificates, TPM, DICE, Secure Element, 
 ## Related pages
 
 - [Standards & Threats](../standards-threats/index.md)
-- [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md)
-- [Product and Component Trust Failures](../standards-threats/threats-failure-modes/product-component-trust-failures.md)
-- [Lifecycle Map](./lifecycle-map.md)
-- [Supplier & Procurement Assurance](./supplier-procurement-assurance.md)
-- [Supplier Questions](../resources/supplier-questions.md)
+- [Threats and Failure Modes](../standards-threats/threats/index.md)
+- [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
+- [Supplier & Procurement Assurance](./supplier-assurance-procurement.md)
+- [Supplier Questions](../resources/supplier-security-questions.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
@@ -127,5 +128,5 @@ Relevant mappings may include Platform Certificates, TPM, DICE, Secure Element, 
 - [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)
 - [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md)
 - [Attestation & Measured State](../technology-options/attestation-measured-state.md)
-- [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)
-- [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)
+- [Transparency Artefacts & Component Visibility](../technology-options/sbom-vex-component-visibility.md)
+- [Update & Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)

@@ -1,6 +1,7 @@
 ---
-title: Transparency Artefacts & Component Visibility
+title: "SBOM, VEX, and Component Visibility"
 sidebar_position: 5
+sidebar_label: "SBOM, VEX, and Component Visibility"
 description: "Use SBOMs, VEX, xBOMs, inventories, and component transparency artefacts to support supply chain security decisions and vulnerability response."
 ---
 
@@ -18,7 +19,7 @@ Transparency artefacts may support:
 - vulnerability status and impact analysis;
 - product acceptance, audit, and update planning.
 
-They are commonly relevant to [Software, Component & Vulnerability Management](../practices-controls/software-component-vulnerability-management.md), [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md), [Product Acceptance](../practices-controls/product-acceptance.md), and [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md).
+They are commonly relevant to [Software, Component & Vulnerability Management](../practices-controls/software-components-vulnerability-management.md), [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md), [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), and [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md).
 
 ## Where it fits
 
@@ -125,6 +126,6 @@ Verification should check whether the artefact is bound to the right product and
 
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Glossary](../resources/glossary.md)
-- [Software, Component & Vulnerability Management](../practices-controls/software-component-vulnerability-management.md)
+- [Software, Component & Vulnerability Management](../practices-controls/software-components-vulnerability-management.md)
 - [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)
-- [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)
+- [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)

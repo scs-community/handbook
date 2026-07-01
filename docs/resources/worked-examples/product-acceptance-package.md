@@ -1,6 +1,7 @@
 ---
-title: Product Acceptance Package
+title: Product Acceptance Evidence Package Example
 sidebar_position: 3
+sidebar_label: Product Acceptance Package
 description: "See a product acceptance package example for reviewing product identity, component provenance, vulnerability status, update support, and residual risk."
 ---
 
@@ -107,10 +108,10 @@ The acceptance package is retained as the baseline for future update approval, v
 
 ## Related pages
 
-- [Product Acceptance](../../practices-controls/product-acceptance.md)
-- [Lifecycle Map](../../practices-controls/lifecycle-map.md)
+- [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
+- [Lifecycle Map](../../practices-controls/supply-chain-security-lifecycle-map.md)
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Package Template](../evidence-package-template.md)
 - [Trust Anchors & Device Identity](../../technology-options/trust-anchors-device-identity.md)
 - [Attestation & Measured State](../../technology-options/attestation-measured-state.md)
-- [Transparency Artefacts & Component Visibility](../../technology-options/transparency-artefacts-component-visibility.md)
+- [Transparency Artefacts & Component Visibility](../../technology-options/sbom-vex-component-visibility.md)

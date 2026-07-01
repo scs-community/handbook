@@ -1,6 +1,7 @@
 ---
-title: Choosing Technology Options
+title: Choosing Supply Chain Security Technology Options
 sidebar_position: 2
+sidebar_label: Choosing Technology Options
 description: "Choose supply chain security technology options by starting with assurance decisions, evidence needs, verification paths, constraints, and operating maturity."
 ---
 
@@ -12,10 +13,10 @@ This page helps teams decide which option areas are relevant without turning any
 
 | Assurance need | Useful option areas | Evidence or workflow supported |
 |---|---|---|
-| Identify a device, product, component, platform, or supplier-provided service | [Trust Anchors & Device Identity](./trust-anchors-device-identity.md), [Signing, Keys & Credential Mechanisms](./signing-keys-credential-mechanisms.md) | Device identity, platform identity, certificate chains, key lifecycle records, credential issuance records |
-| Show what software, firmware, component, dependency, or vulnerability information is present | [Transparency Artefacts & Component Visibility](./transparency-artefacts-component-visibility.md) | SBOM/xBOM records, component inventories, vulnerability status records, dependency metadata |
+| Identify a device, product, component, platform, or supplier-provided service | [Trust Anchors & Device Identity](./trust-anchors-device-identity.md), [Signing, Keys & Credential Mechanisms](./signing-keys-credentials.md) | Device identity, platform identity, certificate chains, key lifecycle records, credential issuance records |
+| Show what software, firmware, component, dependency, or vulnerability information is present | [Transparency Artefacts & Component Visibility](./sbom-vex-component-visibility.md) | SBOM/xBOM records, component inventories, vulnerability status records, dependency metadata |
 | Compare measured or reported state against expected state | [Attestation & Measured State](./attestation-measured-state.md), [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md) | Measurements, reference values, attestation evidence, verifier appraisal results |
-| Protect release, update, recovery, or evidence artefacts from unauthorised change | [Signing, Keys & Credential Mechanisms](./signing-keys-credential-mechanisms.md), [Update & Recovery Mechanisms](./update-recovery-mechanisms.md) | Signed releases, update authorisation records, recovery artefacts, key-use logs |
+| Protect release, update, recovery, or evidence artefacts from unauthorised change | [Signing, Keys & Credential Mechanisms](./signing-keys-credentials.md), [Update & Recovery Mechanisms](./secure-update-recovery-mechanisms.md) | Signed releases, update authorisation records, recovery artefacts, key-use logs |
 | Exchange evidence between suppliers, product teams, operators, assessors, and customers | [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md) | Evidence requests, attestation exchange, SBOM distribution, verifier policies, APIs |
 | Retain evidence for acceptance, audit, renewal, vulnerability response, or incident review | [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md) | Evidence packages, repository metadata, verifier logs, access records, retention records |
 
@@ -85,4 +86,4 @@ Use this pattern when choosing or documenting a technology option:
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)

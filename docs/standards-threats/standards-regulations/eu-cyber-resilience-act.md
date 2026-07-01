@@ -108,8 +108,8 @@ CRA-relevant practices can help reduce supply chain failures such as:
 
 ## What to do next
 
-- Use [Threats and Failure Modes](../threats-failure-modes/index.md) to connect CRA-driven work to concrete supply chain failures.
-- Use [10 Best Practices](../../practices-controls/10-best-practices.md) and [Lifecycle Map](../../practices-controls/lifecycle-map.md) to turn expectations into practical controls.
-- Use [Software, Component & Vulnerability Management](../../practices-controls/software-component-vulnerability-management.md) and [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-update-lifecycle-monitoring.md) to identify evidence for SBOM, dependency, update, and vulnerability work.
-- Use [Transparency Artefacts & Component Visibility](../../technology-options/transparency-artefacts-component-visibility.md), [Signing, Keys & Credential Mechanisms](../../technology-options/signing-keys-credential-mechanisms.md), [Update & Recovery Mechanisms](../../technology-options/update-recovery-mechanisms.md), and [Evidence Exchange & Verifier Workflows](../../technology-options/evidence-exchange-verifier-workflows.md) for implementation mechanisms.
-- Use [Supplier Questions](../../resources/supplier-questions.md) and the [Evidence Checklist](../../resources/evidence-checklist.md) when turning CRA-driven needs into supplier or audit requests.
+- Use [Threats and Failure Modes](../threats/index.md) to connect CRA-driven work to concrete supply chain failures.
+- Use [10 Best Practices](/practices-controls/10-best-practices/) and [Lifecycle Map](../../practices-controls/supply-chain-security-lifecycle-map.md) to turn expectations into practical controls.
+- Use [Software, Component & Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md) and [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md) to identify evidence for SBOM, dependency, update, and vulnerability work.
+- Use [Transparency Artefacts & Component Visibility](../../technology-options/sbom-vex-component-visibility.md), [Signing, Keys & Credential Mechanisms](../../technology-options/signing-keys-credentials.md), [Update & Recovery Mechanisms](../../technology-options/secure-update-recovery-mechanisms.md), and [Evidence Exchange & Verifier Workflows](../../technology-options/evidence-exchange-verifier-workflows.md) for implementation mechanisms.
+- Use [Supplier Questions](../../resources/supplier-security-questions.md) and the [Evidence Checklist](../../resources/evidence-checklist.md) when turning CRA-driven needs into supplier or audit requests.

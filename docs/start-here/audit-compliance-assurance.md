@@ -1,5 +1,6 @@
 ---
-title: For Audit, Compliance, and Customer Assurance Teams
+title: "Audit, Compliance, and Customer Assurance Reader Path"
+sidebar_label: Audit and Customer Assurance
 description: "A reader journey for audit, compliance, and customer assurance teams building traceable mappings, evidence packages, exceptions, and retention records."
 ---
 
@@ -23,7 +24,7 @@ Use this path when you need to prepare, review, or explain evidence for audit, c
    Separate unsupported claims from produced, verifiable, and lifecycle-retained evidence.
 4. [Evidence Package Template](../resources/evidence-package-template.md)  
    Assemble decision-ready evidence packages with gaps, exceptions, and retention owners.
-5. [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)  
+5. [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)  
    Record how standards, evidence requirements, technology options, and mapping confidence support the decision.
 6. [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)  
    Understand repository, retention, access, and audit-log considerations.
@@ -58,5 +59,5 @@ A stronger answer links the control, decision, artefact, source reference, revie
 - [Supplier Onboarding Evidence Package](../resources/worked-examples/supplier-onboarding-evidence-package.md)
 - [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md)
 - [Weak vs Strong Supplier Answers](../resources/worked-examples/weak-vs-strong-supplier-answers.md)
-- [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md)
+- [Standards and Regulations](../standards-threats/standards-regulations/index.md)
 - [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)

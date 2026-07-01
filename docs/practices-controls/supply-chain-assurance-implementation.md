@@ -1,6 +1,7 @@
 ---
-title: Assurance Implementation Planning
+title: Supply Chain Assurance Implementation Planning
 sidebar_position: 10
+sidebar_label: Assurance Implementation Planning
 description: "Plan supply chain assurance implementation by sequencing practices, controls, technology options, evidence repositories, workflows, and maturity improvements."
 ---
 
@@ -96,8 +97,8 @@ Technology options may include TCG, GlobalPlatform, IETF RATS/EAT, CoRIM/CoMID, 
 
 ## Related pages
 
-- [10 Best Practices](./10-best-practices.md)
-- [Lifecycle Map](./lifecycle-map.md)
+- [10 Best Practices](/practices-controls/10-best-practices/)
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
 - [Audit & Compliance Readiness](./audit-compliance-readiness.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)

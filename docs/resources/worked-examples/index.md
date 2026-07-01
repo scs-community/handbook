@@ -1,5 +1,5 @@
 ---
-title: Worked Examples
+title: Supply Chain Security Worked Examples
 sidebar_label: Overview
 sidebar_position: 1
 description: "Learn from worked examples that show weak, better, and stronger supply chain security evidence for supplier, product, update, and vulnerability decisions."
@@ -43,7 +43,7 @@ The examples also label weak, better, and stronger answers using the [Evidence M
 
 Use the examples alongside:
 
-- [Supplier Questions](../supplier-questions.md) for request wording;
+- [Supplier Questions](../supplier-security-questions.md) for request wording;
 - [Evidence Checklist](../evidence-checklist.md) for review criteria;
 - [Evidence Maturity Model](../evidence-maturity-model.md) for weak, better, stronger, and lifecycle-retained evidence;
 - [Evidence Package Template](../evidence-package-template.md) for packaging evidence for review;

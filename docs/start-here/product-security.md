@@ -1,5 +1,6 @@
 ---
-title: For Product Security Leads
+title: Product Security Reader Path
+sidebar_label: Product Security
 description: "A reader journey for product security leads planning acceptance, release governance, vulnerability response, updates, and lifecycle assurance evidence."
 ---
 
@@ -15,17 +16,17 @@ Use this path when you own product-security assurance across design, sourcing, a
 
 ## Read these pages in order
 
-1. [10 Best Practices](../practices-controls/10-best-practices.md)  
+1. [10 Best Practices](/practices-controls/10-best-practices/)  
    Understand the core practices and how they connect to evidence, lifecycle, verification, and technology options.
-2. [Lifecycle Map](../practices-controls/lifecycle-map.md)  
+2. [Lifecycle Map](../practices-controls/supply-chain-security-lifecycle-map.md)  
    Place practices, controls, and evidence across design, sourcing, manufacturing, acceptance, deployment, update, repair, transfer, and decommissioning.
-3. [Product Acceptance](../practices-controls/product-acceptance.md)  
+3. [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)  
    Decide whether delivered products, components, firmware loads, or services are genuine, expected, supportable, and in an acceptable trust state.
 4. [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md)  
    Govern supplier inputs, dependencies, build outputs, reviews, approvals, signing readiness, and release evidence.
-5. [Software, Component & Vulnerability Management](../practices-controls/software-component-vulnerability-management.md)  
+5. [Software, Component & Vulnerability Management](../practices-controls/software-components-vulnerability-management.md)  
    Maintain visibility of components, affected products, vulnerabilities, remediation, and status communication.
-6. [Secure Update & Lifecycle Monitoring](../practices-controls/secure-update-lifecycle-monitoring.md)  
+6. [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md)  
    Govern update approval, authorisation, signing, delivery, recovery, evidence refresh, and continued lifecycle assurance.
 7. [Evidence Checklist](../resources/evidence-checklist.md)  
    Review whether evidence is scoped, verifiable, retained, and tied to the decision.
@@ -63,5 +64,5 @@ Stronger answers bind evidence to the product, component, firmware version, rele
 - [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
 - [Vulnerability Response Evidence](../resources/worked-examples/vulnerability-response-evidence.md)
 - [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)
-- [Product and Component Trust Failures](../standards-threats/threats-failure-modes/product-component-trust-failures.md)
-- [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)
+- [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
+- [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)

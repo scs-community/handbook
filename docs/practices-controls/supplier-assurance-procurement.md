@@ -1,12 +1,13 @@
 ---
-title: Supplier & Procurement Assurance
+title: Supplier Assurance and Procurement Security
 sidebar_position: 4
+sidebar_label: Supplier and Procurement Assurance
 description: "Build supplier and procurement assurance around scoped supplier risk, evidence requests, contractual commitments, renewal triggers, and exceptions."
 ---
 
 Supplier and procurement assurance is the recurring practice of selecting, contracting with, reviewing, renewing, and continuing to use suppliers based on evidence rather than unsupported claims.
 
-This practice is commonly driven by NIS2 customer flow-down, procurement requirements, supplier assurance reviews, customer assurance requests, audit needs, and [Supplier Assurance Failures](../standards-threats/threats-failure-modes/supplier-assurance-failures.md).
+This practice is commonly driven by NIS2 customer flow-down, procurement requirements, supplier assurance reviews, customer assurance requests, audit needs, and [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md).
 
 This page does not provide general procurement policy; it focuses on supply chain security evidence and assurance expectations.
 
@@ -77,7 +78,7 @@ Identity evidence helps identify a supplier, product, component, platform, or se
 
 This practice should produce supplier evidence requirements, supplier questionnaires with supporting artefacts, security addenda, supplier declarations, supplier risk reviews, sub-tier declarations, dependency records, supplier responsibility matrices, SBOM/xBOM or component records, vulnerability and incident commitments, remediation plans, exception approvals, and renewal records.
 
-Use [Supplier Questions](../resources/supplier-questions.md) for wording and the [Evidence Checklist](../resources/evidence-checklist.md) for review criteria.
+Use [Supplier Questions](../resources/supplier-security-questions.md) for wording and the [Evidence Checklist](../resources/evidence-checklist.md) for review criteria.
 
 ## Weak answer
 
@@ -101,17 +102,17 @@ Technology options may include supplier portals, evidence repositories, SBOM/xBO
 
 ## Related pages
 
-- [NIS2](../standards-threats/standards-regulatory-drivers/nis2.md)
-- [Supplier Assurance Failures](../standards-threats/threats-failure-modes/supplier-assurance-failures.md)
-- [10 Best Practices](./10-best-practices.md)
-- [Lifecycle Map](./lifecycle-map.md)
-- [Product Acceptance](./product-acceptance.md)
-- [Supplier Questions](../resources/supplier-questions.md)
+- [NIS2](../standards-threats/standards-regulations/nis2.md)
+- [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md)
+- [10 Best Practices](/practices-controls/10-best-practices/)
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
+- [Product Acceptance](./product-acceptance-supply-chain-trust.md)
+- [Supplier Questions](../resources/supplier-security-questions.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
 - [Supplier Onboarding Evidence Package](../resources/worked-examples/supplier-onboarding-evidence-package.md)
 - [Weak vs Strong Supplier Answers](../resources/worked-examples/weak-vs-strong-supplier-answers.md)
-- [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)
+- [Transparency Artefacts & Component Visibility](../technology-options/sbom-vex-component-visibility.md)
 - [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
 - [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

@@ -1,12 +1,12 @@
 ---
-title: Audit & Compliance Readiness
+title: Audit and Compliance Readiness
 sidebar_position: 9
 description: "Prepare audit and compliance readiness with mapped requirements, evidence packages, owners, exceptions, verification records, and retention plans."
 ---
 
 Audit and compliance readiness is the recurring practice of maintaining traceable control evidence so supply chain security claims can be reviewed for scope, lifecycle stage, source, verification method, gaps, and retention.
 
-This practice is commonly driven by customer assurance requests, audit needs, certification preparation, standards mapping, internal governance, and [Supplier Assurance Failures](../standards-threats/threats-failure-modes/supplier-assurance-failures.md).
+This practice is commonly driven by customer assurance requests, audit needs, certification preparation, standards mapping, internal governance, and [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md).
 
 This page is not legal advice or a compliance checklist; it focuses on making supply chain security control evidence reviewable.
 
@@ -99,16 +99,16 @@ Technology options may include evidence repositories, GRC tooling, artefact regi
 
 ## Related pages
 
-- [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md)
-- [Supplier Assurance Failures](../standards-threats/threats-failure-modes/supplier-assurance-failures.md)
-- [10 Best Practices](./10-best-practices.md)
-- [Lifecycle Map](./lifecycle-map.md)
+- [Standards and Regulations](../standards-threats/standards-regulations/index.md)
+- [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md)
+- [10 Best Practices](/practices-controls/10-best-practices/)
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
 - [Supplier Onboarding Evidence Package](../resources/worked-examples/supplier-onboarding-evidence-package.md)
 - [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md)
 - [Weak vs Strong Supplier Answers](../resources/worked-examples/weak-vs-strong-supplier-answers.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
 - [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
 - [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)

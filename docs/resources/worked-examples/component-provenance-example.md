@@ -1,6 +1,7 @@
 ---
-title: Component Provenance Example
+title: Component Provenance Evidence Example
 sidebar_position: 6
+sidebar_label: Component Provenance Example
 description: "See a component provenance example that moves from a component list to useful evidence about source, integrity, supplier, and verification."
 ---
 
@@ -107,10 +108,10 @@ Component provenance evidence is retained with acceptance evidence and refreshed
 
 ## Related pages
 
-- [Product and Component Trust Failures](../../standards-threats/threats-failure-modes/product-component-trust-failures.md)
-- [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md)
-- [Product Acceptance](../../practices-controls/product-acceptance.md)
-- [Transparency Artefacts & Component Visibility](../../technology-options/transparency-artefacts-component-visibility.md)
+- [Product and Component Trust Failures](../../standards-threats/threats/product-component-trust-failures.md)
+- [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
+- [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
+- [Transparency Artefacts & Component Visibility](../../technology-options/sbom-vex-component-visibility.md)
 - [Trust Anchors & Device Identity](../../technology-options/trust-anchors-device-identity.md)
 - [Evidence Package Template](../evidence-package-template.md)
 - [Glossary](../glossary.md)

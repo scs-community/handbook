@@ -1,6 +1,7 @@
 ---
-title: Supplier Onboarding Evidence Package
+title: Supplier Onboarding Evidence Package Example
 sidebar_position: 2
+sidebar_label: Supplier Onboarding Package
 description: "See a supplier onboarding evidence package example that turns procurement risk into scoped controls, evidence, verification, and acceptance decisions."
 ---
 
@@ -105,8 +106,8 @@ Supplier onboarding evidence is retained with the contract file and refreshed at
 
 ## Related pages
 
-- [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md)
-- [Supplier Questions](../supplier-questions.md)
+- [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
+- [Supplier Questions](../supplier-security-questions.md)
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)

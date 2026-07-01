@@ -1,12 +1,13 @@
 ---
-title: Evidence Checklist
+title: Supply Chain Security Evidence Checklist
 sidebar_position: 3
+sidebar_label: Evidence Checklist
 description: "Use an evidence checklist to test whether supply chain security evidence is scoped, current, verifiable, retained, and tied to a decision."
 ---
 
 Use this checklist to turn a supply chain security question into evidence requests and acceptance criteria.
 
-Use this page for review criteria: what evidence would make a decision defensible. Evidence should be scoped, source-attributed, version-bound, lifecycle-aware, verifiable, retained, and tied to a decision. Use [Supplier Questions](./supplier-questions.md) for request wording, and use the relevant practice page for decision context.
+Use this page for review criteria: what evidence would make a decision defensible. Evidence should be scoped, source-attributed, version-bound, lifecycle-aware, verifiable, retained, and tied to a decision. Use [Supplier Questions](./supplier-security-questions.md) for request wording, and use the relevant practice page for decision context.
 
 | Evidence area | Questions to ask | Acceptance signal |
 |---|---|---|
@@ -32,10 +33,10 @@ Use this page for review criteria: what evidence would make a decision defensibl
 
 ## Related Pages
 
-- [Supplier Questions](./supplier-questions.md)
+- [Supplier Questions](./supplier-security-questions.md)
 - [Evidence Maturity Model](./evidence-maturity-model.md)
 - [Glossary](./glossary.md)
 - [Evidence Package Template](./evidence-package-template.md)
-- [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md)
-- [Product Acceptance](../practices-controls/product-acceptance.md)
-- [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md)
+- [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)
+- [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
+- [Threats and Failure Modes](../standards-threats/threats/index.md)

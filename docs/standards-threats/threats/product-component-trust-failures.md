@@ -61,8 +61,8 @@ The decision is defensible when the evidence is tied to the specific product, co
 ## Related pages
 
 - [Threats and Failure Modes](./index.md)
-- [Product Acceptance](../../practices-controls/product-acceptance.md)
-- [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md)
+- [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
+- [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
 - [Trust Anchors & Device Identity](../../technology-options/trust-anchors-device-identity.md)
 - [Evidence Repositories, Logs & Retention](../../technology-options/evidence-repositories-logs-retention.md)
 - [Evidence Checklist](../../resources/evidence-checklist.md)

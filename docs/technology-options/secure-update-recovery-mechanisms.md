@@ -1,6 +1,7 @@
 ---
-title: Update & Recovery Mechanisms
+title: Secure Update and Recovery Mechanisms
 sidebar_position: 7
+sidebar_label: Update and Recovery Mechanisms
 description: "Evaluate update and recovery mechanisms for secure delivery, rollback, repair, lifecycle monitoring, update evidence, and operational resilience."
 ---
 
@@ -18,7 +19,7 @@ Update and recovery mechanisms may support:
 - rollback, recovery, and failsafe behaviour;
 - update eligibility, monitoring, and evidence refresh.
 
-They are commonly relevant to [Secure Update & Lifecycle Monitoring](../practices-controls/secure-update-lifecycle-monitoring.md), [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md), [Software, Component & Vulnerability Management](../practices-controls/software-component-vulnerability-management.md), and [Product Acceptance](../practices-controls/product-acceptance.md).
+They are commonly relevant to [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md), [Software, Component & Vulnerability Management](../practices-controls/software-components-vulnerability-management.md), and [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md).
 
 ## Where it fits
 
@@ -129,8 +130,8 @@ Verification should check whether the update came from an authorised source, whe
 ## Related pages
 
 - [Choosing Technology Options](./choosing-technology-options.md)
-- [Signing, Keys & Credential Mechanisms](./signing-keys-credential-mechanisms.md)
+- [Signing, Keys & Credential Mechanisms](./signing-keys-credentials.md)
 - [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Secure Update & Lifecycle Monitoring](../practices-controls/secure-update-lifecycle-monitoring.md)
-- [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)
+- [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md)
+- [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)

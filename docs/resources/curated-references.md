@@ -1,6 +1,7 @@
 ---
-title: Curated References
+title: Supply Chain Security Curated References
 sidebar_position: 8
+sidebar_label: Curated References
 description: "Find curated references for supply chain security standards, guidance, threat analysis, secure development, component transparency, and assurance evidence."
 ---
 
@@ -70,7 +71,7 @@ This page is not a live standards catalogue. Keep it stable, useful, and maintai
 
 This handbook should acknowledge that extensive supply chain security guidance already exists. Its role is to bridge standards and threats, practices and controls, evidence expectations, lifecycle assurance, and technology options.
 
-Use [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md) for how governance references shape requirements, [Glossary](./glossary.md) for terminology, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
+Use [Standards and Regulations](../standards-threats/standards-regulations/index.md) for how governance references shape requirements, [Glossary](./glossary.md) for terminology, and [Technology Options](../technology-options/index.md) for implementation mechanisms.
 
 ## Related pages
 

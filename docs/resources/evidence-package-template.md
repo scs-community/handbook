@@ -1,6 +1,7 @@
 ---
-title: Evidence Package Template
+title: Supply Chain Security Evidence Package Template
 sidebar_position: 5
+sidebar_label: Evidence Package Template
 description: "Use an evidence package template to capture decisions, scope, controls, artefacts, verification, gaps, exceptions, owners, and retention records."
 ---
 
@@ -97,4 +98,4 @@ Use this template with [Evidence Repositories, Logs & Retention](../technology-o
 - [Worked Examples](./worked-examples/index.md)
 - [Glossary](./glossary.md)
 - [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
-- [Assurance Implementation Planning](../practices-controls/assurance-implementation-planning.md)
+- [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md)

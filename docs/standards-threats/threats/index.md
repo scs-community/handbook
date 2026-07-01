@@ -1,5 +1,5 @@
 ---
-title: Threats and Failure Modes
+title: Supply Chain Security Threats and Failure Modes
 sidebar_label: Overview
 sidebar_position: 1
 description: "Explore supply chain security threats and failure modes that should drive controls, evidence requirements, verification, and lifecycle decisions."
@@ -35,14 +35,14 @@ Use this table when you already know the failure mode and need a fast route to t
 
 | Attack or failure mode | What can go wrong | Useful controls and evidence |
 |---|---|---|
-| Counterfeit or substituted components | A delivered product contains unauthorized, lower-grade, reused, or malicious components. | [Product and component trust failures](./product-component-trust-failures.md), [Product Acceptance](../../practices-controls/product-acceptance.md), acceptance checks, lifecycle-state records. |
+| Counterfeit or substituted components | A delivered product contains unauthorized, lower-grade, reused, or malicious components. | [Product and component trust failures](./product-component-trust-failures.md), [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md), acceptance checks, lifecycle-state records. |
 | Firmware tampering or reprogramming | Boot firmware, device firmware, or low-level code is modified before or after delivery. | [Software and update-chain compromise](./software-update-chain-compromise.md), [Attestation & Measured State](../../technology-options/attestation-measured-state.md), reference measurements, firmware signing, update records. |
-| Compromised software dependencies | Vulnerable or malicious dependencies enter through open source or supplier software. | [Software, Component & Vulnerability Management](../../practices-controls/software-component-vulnerability-management.md), [Transparency Artefacts & Component Visibility](../../technology-options/transparency-artefacts-component-visibility.md), build provenance. |
+| Compromised software dependencies | Vulnerable or malicious dependencies enter through open source or supplier software. | [Software, Component & Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md), [Transparency Artefacts & Component Visibility](../../technology-options/sbom-vex-component-visibility.md), build provenance. |
 | Supplier self-attestation only | A supplier claims controls exist but provides no verifiable evidence. | [Supplier assurance failures](./supplier-assurance-failures.md), [Evidence Checklist](../../resources/evidence-checklist.md), artifact requests, verification paths. |
 | Loss of provenance through the chain | Resellers, integrators, repairers, or logistics actors change the product without clear records. | [Product and component trust failures](./product-component-trust-failures.md), provenance records, chain-of-custody records, [Evidence Repositories, Logs & Retention](../../technology-options/evidence-repositories-logs-retention.md). |
 | Unauthorized update or configuration drift | A device changes after acceptance and no longer matches the expected baseline. | [Software and update-chain compromise](./software-update-chain-compromise.md), update records, configuration records, [Attestation & Measured State](../../technology-options/attestation-measured-state.md), lifecycle monitoring. |
 | Insecure repair, resale, or transfer | Trust state changes after repair or ownership transfer without being re-established. | [Product and component trust failures](./product-component-trust-failures.md), repair records, re-provisioning evidence, transfer records. |
-| Poor end-of-life handling | Devices, credentials, keys, or sensitive data remain usable after retirement. | [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-update-lifecycle-monitoring.md), decommissioning records, revocation logs. |
+| Poor end-of-life handling | Devices, credentials, keys, or sensitive data remain usable after retirement. | [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md), decommissioning records, revocation logs. |
 | Key or credential compromise | Device or supplier credentials are cloned, extracted, reused, or not hardware-bound. | [Glossary](../../resources/glossary.md), [Trust Anchors & Device Identity](../../technology-options/trust-anchors-device-identity.md), credential issuance logs. |
 | Lack of continuous monitoring | Product is accepted once but not checked after updates, repair, or operation. | [Evidence Maturity Model](../../resources/evidence-maturity-model.md), [Attestation & Measured State](../../technology-options/attestation-measured-state.md), vulnerability and update evidence. |
 
@@ -70,7 +70,7 @@ Pages should make those handoffs explicit rather than assuming one team owns the
 
 ### Questionnaires vs artifacts
 
-Questionnaires help discover what a supplier claims and what evidence may exist. They are not a substitute for artifacts. Use [Supplier Questions](../../resources/supplier-questions.md) to ask consistently, then use the [Evidence Checklist](../../resources/evidence-checklist.md) to decide which artifacts, records, logs, measurements, or attestations are needed for the decision.
+Questionnaires help discover what a supplier claims and what evidence may exist. They are not a substitute for artifacts. Use [Supplier Questions](../../resources/supplier-security-questions.md) to ask consistently, then use the [Evidence Checklist](../../resources/evidence-checklist.md) to decide which artifacts, records, logs, measurements, or attestations are needed for the decision.
 
 ### Compliance controls vs operational assurance
 
@@ -92,9 +92,9 @@ Compliance controls may show that a process exists. Operational assurance asks w
 
 ## Next actions
 
-- Use [Lifecycle Map](../../practices-controls/lifecycle-map.md) to decide when each threat or failure mode matters.
-- Use [10 Best Practices](../../practices-controls/10-best-practices.md) to connect threat themes to practices.
+- Use [Lifecycle Map](../../practices-controls/supply-chain-security-lifecycle-map.md) to decide when each threat or failure mode matters.
+- Use [10 Best Practices](/practices-controls/10-best-practices/) to connect threat themes to practices.
 - Use [Practices & Controls](../../practices-controls/index.md) to identify evidence requirements and verification paths.
-- Use [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md) when the failure mode needs supplier-facing requests.
-- Use [Product Acceptance](../../practices-controls/product-acceptance.md) when the failure mode affects an acceptance decision.
+- Use [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md) when the failure mode needs supplier-facing requests.
+- Use [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md) when the failure mode affects an acceptance decision.
 - Use [Evidence Checklist](../../resources/evidence-checklist.md) to turn a failure mode into artifact requests.

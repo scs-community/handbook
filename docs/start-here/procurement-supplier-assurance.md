@@ -1,5 +1,6 @@
 ---
-title: For Procurement and Supplier Assurance Teams
+title: Procurement and Supplier Assurance Reader Path
+sidebar_label: Procurement and Supplier Assurance
 description: "A reader journey for procurement and supplier assurance teams that need supplier questions, evidence expectations, and risk-based acceptance paths."
 ---
 
@@ -15,9 +16,9 @@ Use this path when you need to select, contract with, review, renew, or continue
 
 ## Read these pages in order
 
-1. [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md)  
+1. [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)  
    Understand the recurring supplier-selection, contracting, review, renewal, and continued-use practice.
-2. [Supplier Questions](../resources/supplier-questions.md)  
+2. [Supplier Questions](../resources/supplier-security-questions.md)  
    Turn assurance needs into concrete supplier requests.
 3. [Evidence Checklist](../resources/evidence-checklist.md)  
    Decide whether the supplier's evidence is scoped, verifiable, retained, and decision-ready.
@@ -57,7 +58,7 @@ A stronger answer identifies the artefact, owner, product or service scope, life
 
 ## Related pages
 
-- [Supplier Assurance Failures](../standards-threats/threats-failure-modes/supplier-assurance-failures.md)
-- [Product Acceptance](../practices-controls/product-acceptance.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)
+- [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md)
+- [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
 - [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)

@@ -63,10 +63,10 @@ The decision is defensible when evidence shows what software or firmware was inc
 ## Related pages
 
 - [Threats and Failure Modes](./index.md)
-- [EU Cyber Resilience Act](../standards-regulatory-drivers/eu-cyber-resilience-act.md)
-- [Software, Component & Vulnerability Management](../../practices-controls/software-component-vulnerability-management.md)
-- [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-update-lifecycle-monitoring.md)
+- [EU Cyber Resilience Act](../standards-regulations/eu-cyber-resilience-act.md)
+- [Software, Component & Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md)
+- [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md)
 - [Attestation & Measured State](../../technology-options/attestation-measured-state.md)
-- [Transparency Artefacts & Component Visibility](../../technology-options/transparency-artefacts-component-visibility.md)
-- [Signing, Keys & Credential Mechanisms](../../technology-options/signing-keys-credential-mechanisms.md)
-- [Update & Recovery Mechanisms](../../technology-options/update-recovery-mechanisms.md)
+- [Transparency Artefacts & Component Visibility](../../technology-options/sbom-vex-component-visibility.md)
+- [Signing, Keys & Credential Mechanisms](../../technology-options/signing-keys-credentials.md)
+- [Update & Recovery Mechanisms](../../technology-options/secure-update-recovery-mechanisms.md)

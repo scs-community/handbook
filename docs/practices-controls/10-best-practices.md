@@ -1,7 +1,8 @@
 ---
 title: 10 Best Practices for Supply Chain Security
-slug: /practices-controls/10-best-practices
+id: 10-best-practices
 sidebar_position: 2
+slug: /practices-controls/10-best-practices
 description: "Review ten practical supply chain security practices for supplier assurance, product trust, component visibility, updates, audit readiness, and lifecycle evidence."
 ---
 
@@ -199,7 +200,7 @@ Use this page as the quick route into the section. Each practice summarises a re
 
 ## Use this page with
 
-- [Lifecycle Map](./lifecycle-map.md) to place practices in lifecycle context.
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md) to place practices in lifecycle context.
 - [Evidence Checklist](../resources/evidence-checklist.md) to identify artefacts and verification paths.
 - [Technology Options](../technology-options/index.md) to understand mapping roles and limits.
-- [Supplier Questions](../resources/supplier-questions.md) to turn practices into requests.
+- [Supplier Questions](../resources/supplier-security-questions.md) to turn practices into requests.

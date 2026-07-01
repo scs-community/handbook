@@ -1,6 +1,7 @@
 ---
-title: Weak vs Strong Supplier Answers
+title: Weak vs Strong Supplier Security Answers
 sidebar_position: 7
+sidebar_label: Weak vs Strong Supplier Answers
 description: "Compare weak and stronger supplier assurance answers to see how scope, evidence, verification, ownership, and retention improve confidence."
 ---
 
@@ -40,10 +41,10 @@ Use the [Evidence Maturity Model](../evidence-maturity-model.md) to score whethe
 
 ## Related pages
 
-- [Supplier Questions](../supplier-questions.md)
+- [Supplier Questions](../supplier-security-questions.md)
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)
-- [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md)
-- [Product Acceptance](../../practices-controls/product-acceptance.md)
+- [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
+- [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
 - [Audit & Compliance Readiness](../../practices-controls/audit-compliance-readiness.md)

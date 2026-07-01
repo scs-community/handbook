@@ -66,9 +66,9 @@ The decision is defensible when supplier evidence is specific enough to review f
 ## Related pages
 
 - [Threats and Failure Modes](./index.md)
-- [NIS2](../standards-regulatory-drivers/nis2.md)
-- [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md)
+- [NIS2](../standards-regulations/nis2.md)
+- [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
 - [Audit & Compliance Readiness](../../practices-controls/audit-compliance-readiness.md)
-- [Supplier Questions](../../resources/supplier-questions.md)
+- [Supplier Questions](../../resources/supplier-security-questions.md)
 - [Evidence Checklist](../../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../../resources/evidence-maturity-model.md)

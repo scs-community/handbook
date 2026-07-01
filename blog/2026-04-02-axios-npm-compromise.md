@@ -54,7 +54,7 @@ The incident abused several kinds of trust at once:
 
 For handbook purposes, the most important point is that these are not only technical failures. They are evidence failures. A product or supplier consuming the compromised releases needed to know which versions were used, where they were installed, which secrets may have been exposed, what remediation happened, and which records were retained.
 
-➡️ **Handbook resource:** [Software and Update-Chain Compromise](/standards-threats/threats-failure-modes/software-update-chain-compromise/)
+➡️ **Handbook resource:** [Software and Update-Chain Compromise](/standards-threats/threats/software-update-chain-compromise/)
 
 ---
 
@@ -72,7 +72,7 @@ Dependency lists and lockfiles matter, but they are not enough by themselves. Us
 | Secret-rotation and host-remediation records | Show what happened after potential credential exposure. |
 | Retained incident evidence | Supports later customer assurance, audit, and lessons learned. |
 
-➡️ **Handbook resource:** [NIST SSDF: Secure Software Development and Supplier Evidence](/standards-threats/standards-regulatory-drivers/nist-ssdf/)
+➡️ **Handbook resource:** [NIST SSDF: Secure Software Development and Supplier Evidence](/standards-threats/standards-regulations/nist-ssdf/)
 
 ---
 
@@ -123,6 +123,6 @@ threat/failure mode -> decision -> control -> evidence -> verification -> gaps -
 Recommended reading:
 
 - **[Secure Development & Release Governance](/practices-controls/secure-development-release-governance/)** for release approval, supplier inputs, and build-output evidence.
-- **[Software, Component & Vulnerability Management](/practices-controls/software-component-vulnerability-management/)** for affected-product analysis and dependency visibility.
-- **[Secure Update & Lifecycle Monitoring](/practices-controls/secure-update-lifecycle-monitoring/)** for update approval and post-release assurance.
-- **[Transparency Artefacts & Component Visibility](/technology-options/transparency-artefacts-component-visibility/)** for SBOM/xBOM, dependency, and vulnerability-status artefacts.
+- **[Software, Component & Vulnerability Management](/practices-controls/software-components-vulnerability-management/)** for affected-product analysis and dependency visibility.
+- **[Secure Update & Lifecycle Monitoring](/practices-controls/secure-updates-lifecycle-monitoring/)** for update approval and post-release assurance.
+- **[Transparency Artefacts & Component Visibility](/technology-options/sbom-vex-component-visibility/)** for SBOM/xBOM, dependency, and vulnerability-status artefacts.

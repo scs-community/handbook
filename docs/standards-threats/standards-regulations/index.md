@@ -1,6 +1,7 @@
 ---
-title: Standards and Regulations
+title: Supply Chain Security Standards and Regulations
 sidebar_position: 1
+sidebar_label: Overview
 description: "Compare supply chain security standards and regulatory drivers, including CRA, NIS2, NIST SSDF, NIST SP 800-161, and IEC 62443."
 ---
 
@@ -46,7 +47,7 @@ These drivers can all support supply chain security work, but they create differ
 
 Start with a driver page when a regulation, standard, customer assurance request, procurement expectation, audit, or framework is the reason for action. Then follow the links to:
 
-- [Threats and Failure Modes](../threats-failure-modes/index.md) to understand what the driver is trying to reduce.
+- [Threats and Failure Modes](../threats/index.md) to understand what the driver is trying to reduce.
 - [Practices & Controls](../../practices-controls/index.md) to identify practical control themes.
 - [Evidence Checklist](../../resources/evidence-checklist.md) to decide which records, claims, logs, attestations, and audit materials matter.
 - [Technology Options](../../technology-options/index.md) to compare mechanisms that may support implementation and verification.

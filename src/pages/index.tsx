@@ -33,7 +33,7 @@ function ChooseYourPath(): ReactNode {
     {
       title: 'I buy or assess suppliers',
       description: 'Review supplier assurance, evidence requests, maturity, and worked examples.',
-      to: '/start-here/procurement/',
+      to: '/start-here/procurement-supplier-assurance/',
     },
     {
       title: 'I own product security',
@@ -43,22 +43,22 @@ function ChooseYourPath(): ReactNode {
     {
       title: 'I am a supplier or manufacturer',
       description: 'Prepare evidence-backed answers for customers, auditors, buyers, and assessors.',
-      to: '/start-here/supplier/',
+      to: '/start-here/supplier-manufacturer/',
     },
     {
       title: 'I prepare for audit or customer assurance',
       description: 'Build traceable evidence packages, mappings, exceptions, and retention records.',
-      to: '/start-here/audit-assurance/',
+      to: '/start-here/audit-compliance-assurance/',
     },
     {
       title: 'I implement technical mechanisms',
       description: 'Start from evidence needs, then compare mechanisms, trust anchors, workflows, and repositories.',
-      to: '/start-here/implementer/',
+      to: '/start-here/technical-implementation/',
     },
     {
       title: 'I map standards to controls',
       description: 'Translate standards, regulations, policy drivers, and customer requirements into controls and evidence.',
-      to: '/start-here/standards-policy/',
+      to: '/start-here/standards-compliance-mapping/',
     },
   ];
 
@@ -139,7 +139,7 @@ function FeaturedResources(): ReactNode {
     {
       title: 'Standards & Technology Mapping Workflow',
       description: 'Map requirements, controls, evidence, technologies, and confidence.',
-      to: '/resources/standards-technology-mapping-workflow/',
+      to: '/resources/standards-evidence-technology-mapping/',
     },
   ];
 

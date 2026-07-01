@@ -54,9 +54,9 @@ It pushes buyers and operators to ask:
 - Which risks are being mitigated, accepted, transferred, or monitored?
 - Which evidence will be retained for audit, renewal, incident response, and customer assurance?
 
-That is the same direction as [NIS2](/standards-threats/standards-regulatory-drivers/nis2/) and [NIST SP 800-161](/standards-threats/standards-regulatory-drivers/nist-sp-800-161/): supplier risk should become governed, scoped, reviewable, and retained.
+That is the same direction as [NIS2](/standards-threats/standards-regulations/nis2/) and [NIST SP 800-161](/standards-threats/standards-regulations/nist-sp-800-161/): supplier risk should become governed, scoped, reviewable, and retained.
 
-➡️ **Handbook resource:** [Supplier & Procurement Assurance](/practices-controls/supplier-procurement-assurance/)
+➡️ **Handbook resource:** [Supplier & Procurement Assurance](/practices-controls/supplier-assurance-procurement/)
 
 ---
 
@@ -90,7 +90,7 @@ Useful questions include:
 - What incident-notification, vulnerability-response, and customer-communication commitments are contractual?
 - Who owns review, renewal, exception, and risk-acceptance decisions?
 
-➡️ **Handbook resource:** [Supplier Questions](/resources/supplier-questions/)
+➡️ **Handbook resource:** [Supplier Questions](/resources/supplier-security-questions/)
 
 ---
 
@@ -114,8 +114,8 @@ The stronger answer is not stronger because it uses more words. It is stronger b
 
 Use the toolbox as an external driver for evidence-backed supplier assurance:
 
-- **[NIS2: Supplier Risk Governance and Customer Assurance](/standards-threats/standards-regulatory-drivers/nis2/)** for regulated-customer supplier-risk pressure.
-- **[NIST SP 800-161: Cybersecurity Supply Chain Risk Management](/standards-threats/standards-regulatory-drivers/nist-sp-800-161/)** for C-SCRM operating guidance.
+- **[NIS2: Supplier Risk Governance and Customer Assurance](/standards-threats/standards-regulations/nis2/)** for regulated-customer supplier-risk pressure.
+- **[NIST SP 800-161: Cybersecurity Supply Chain Risk Management](/standards-threats/standards-regulations/nist-sp-800-161/)** for C-SCRM operating guidance.
 - **[Supplier Onboarding Evidence Package](/resources/worked-examples/supplier-onboarding-evidence-package/)** for a fictional example of supplier evidence before contract award.
 - **[Evidence Package Template](/resources/evidence-package-template/)** for packaging supplier-risk decisions for later review.
 

@@ -132,7 +132,7 @@ const config: Config = {
             },
             {
               label: 'Procurement and Supplier Assurance',
-              to: '/start-here/procurement/',
+              to: '/start-here/procurement-supplier-assurance/',
             },
             {
               label: 'Product Security',
@@ -140,19 +140,19 @@ const config: Config = {
             },
             {
               label: 'Supplier or Manufacturer',
-              to: '/start-here/supplier/',
+              to: '/start-here/supplier-manufacturer/',
             },
             {
               label: 'Audit, Compliance, and Customer Assurance',
-              to: '/start-here/audit-assurance/',
+              to: '/start-here/audit-compliance-assurance/',
             },
             {
               label: 'Technical Implementer',
-              to: '/start-here/implementer/',
+              to: '/start-here/technical-implementation/',
             },
             {
               label: 'Standards, Policy, and Compliance Mapping',
-              to: '/start-here/standards-policy/',
+              to: '/start-here/standards-compliance-mapping/',
             },
           ],
         },
@@ -165,43 +165,43 @@ const config: Config = {
             },
             {
               label: 'Standards and Regulations',
-              to: '/standards-threats/standards-regulatory-drivers/',
+              to: '/standards-threats/standards-regulations/',
             },
             {
               label: 'EU Cyber Resilience Act',
-              to: '/standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act/',
+              to: '/standards-threats/standards-regulations/eu-cyber-resilience-act/',
             },
             {
               label: 'NIS2',
-              to: '/standards-threats/standards-regulatory-drivers/nis2/',
+              to: '/standards-threats/standards-regulations/nis2/',
             },
             {
               label: 'NIST SP 800-161',
-              to: '/standards-threats/standards-regulatory-drivers/nist-sp-800-161/',
+              to: '/standards-threats/standards-regulations/nist-sp-800-161/',
             },
             {
               label: 'IEC 62443',
-              to: '/standards-threats/standards-regulatory-drivers/iec-62443/',
+              to: '/standards-threats/standards-regulations/iec-62443/',
             },
             {
               label: 'NIST SSDF',
-              to: '/standards-threats/standards-regulatory-drivers/nist-ssdf/',
+              to: '/standards-threats/standards-regulations/nist-ssdf/',
             },
             {
               label: 'Threats and Failure Modes',
-              to: '/standards-threats/threats-failure-modes/',
+              to: '/standards-threats/threats/',
             },
             {
               label: 'Product and Component Trust Failures',
-              to: '/standards-threats/threats-failure-modes/product-component-trust-failures/',
+              to: '/standards-threats/threats/product-component-trust-failures/',
             },
             {
               label: 'Software and Update-Chain Compromise',
-              to: '/standards-threats/threats-failure-modes/software-update-chain-compromise/',
+              to: '/standards-threats/threats/software-update-chain-compromise/',
             },
             {
               label: 'Supplier Assurance Failures',
-              to: '/standards-threats/threats-failure-modes/supplier-assurance-failures/',
+              to: '/standards-threats/threats/supplier-assurance-failures/',
             },
           ],
         },
@@ -218,15 +218,15 @@ const config: Config = {
             },
             {
               label: 'Lifecycle Map',
-              to: '/practices-controls/lifecycle-map/',
+              to: '/practices-controls/supply-chain-security-lifecycle-map/',
             },
             {
               label: 'Supplier & Procurement Assurance',
-              to: '/practices-controls/supplier-procurement-assurance/',
+              to: '/practices-controls/supplier-assurance-procurement/',
             },
             {
               label: 'Product Acceptance',
-              to: '/practices-controls/product-acceptance/',
+              to: '/practices-controls/product-acceptance-supply-chain-trust/',
             },
             {
               label: 'Secure Development & Release Governance',
@@ -234,11 +234,11 @@ const config: Config = {
             },
             {
               label: 'Software, Component & Vulnerability Management',
-              to: '/practices-controls/software-component-vulnerability-management/',
+              to: '/practices-controls/software-components-vulnerability-management/',
             },
             {
               label: 'Secure Update & Lifecycle Monitoring',
-              to: '/practices-controls/secure-update-lifecycle-monitoring/',
+              to: '/practices-controls/secure-updates-lifecycle-monitoring/',
             },
             {
               label: 'Audit & Compliance Readiness',
@@ -246,7 +246,7 @@ const config: Config = {
             },
             {
               label: 'Assurance Implementation Planning',
-              to: '/practices-controls/assurance-implementation-planning/',
+              to: '/practices-controls/supply-chain-assurance-implementation/',
             },
           ],
         },
@@ -271,15 +271,15 @@ const config: Config = {
             },
             {
               label: 'Transparency Artefacts & Component Visibility',
-              to: '/technology-options/transparency-artefacts-component-visibility/',
+              to: '/technology-options/sbom-vex-component-visibility/',
             },
             {
               label: 'Signing, Keys & Credential Mechanisms',
-              to: '/technology-options/signing-keys-credential-mechanisms/',
+              to: '/technology-options/signing-keys-credentials/',
             },
             {
               label: 'Update & Recovery Mechanisms',
-              to: '/technology-options/update-recovery-mechanisms/',
+              to: '/technology-options/secure-update-recovery-mechanisms/',
             },
             {
               label: 'Evidence Exchange & Verifier Workflows',
@@ -300,7 +300,7 @@ const config: Config = {
             },
             {
               label: 'Supplier Questions',
-              to: '/resources/supplier-questions/',
+              to: '/resources/supplier-security-questions/',
             },
             {
               label: 'Evidence Checklist',
@@ -320,7 +320,7 @@ const config: Config = {
             },
             {
               label: 'Standards & Technology Mapping Workflow',
-              to: '/resources/standards-technology-mapping-workflow/',
+              to: '/resources/standards-evidence-technology-mapping/',
             },
             {
               label: 'Glossary',

@@ -41,6 +41,6 @@ Do not create sector-specific pages unless there is enough real content to help 
 - [Standards & Threats](docs/standards-threats/index.md)
 - [Practices & Controls](docs/practices-controls/index.md)
 - [Evidence Checklist](docs/resources/evidence-checklist.md)
-- [Standards & Technology Mapping Workflow](docs/resources/standards-technology-mapping-workflow.md)
+- [Standards & Technology Mapping Workflow](docs/resources/standards-evidence-technology-mapping.md)
 - [Technology Options](docs/technology-options/index.md)
 - [Curated References](docs/resources/curated-references.md)

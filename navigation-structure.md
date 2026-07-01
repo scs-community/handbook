@@ -16,7 +16,7 @@ Do not put the 10 Best Practices page or individual practice pages in top naviga
 
 Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside standards and threats, practices and controls, technology-options, or resources pages.
 
-The Standards & Threats section contains [Threats and Failure Modes](/standards-threats/threats-failure-modes/) because that subsection is the canonical threat-pattern entry point.
+The Standards & Threats section contains [Threats and Failure Modes](/standards-threats/threats/) because that subsection is the canonical threat-pattern entry point.
 
 ## Route Policy
 
@@ -27,7 +27,7 @@ The public docs routes are served at the site root, not below `/docs/`.
 - `docs.routeBasePath`: `/`
 - `trailingSlash`: `true`
 
-Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/supplier-procurement-assurance/`, and `/technology-options/`. Avoid hardcoded `/docs/...` links in public content.
+Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/supplier-assurance-procurement/`, and `/technology-options/`. Avoid hardcoded `/docs/...` links in public content.
 
 ## Site Model
 
@@ -55,19 +55,19 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 
 /standards-threats/
   Standards & Threats
-/standards-threats/standards-regulatory-drivers/
+/standards-threats/standards-regulations/
   Standards and Regulations
-/standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act/
+/standards-threats/standards-regulations/eu-cyber-resilience-act/
   EU Cyber Resilience Act
-/standards-threats/standards-regulatory-drivers/nis2/
+/standards-threats/standards-regulations/nis2/
   NIS2
-/standards-threats/threats-failure-modes/
+/standards-threats/threats/
   Threats and Failure Modes
-/standards-threats/threats-failure-modes/product-component-trust-failures/
+/standards-threats/threats/product-component-trust-failures/
   Product and Component Trust Failures
-/standards-threats/threats-failure-modes/software-update-chain-compromise/
+/standards-threats/threats/software-update-chain-compromise/
   Software and Update-Chain Compromise
-/standards-threats/threats-failure-modes/supplier-assurance-failures/
+/standards-threats/threats/supplier-assurance-failures/
   Supplier Assurance Failures
 
 /practices-controls/
@@ -77,7 +77,7 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /practices-controls/10-best-practices/
   10 Best Practices for Supply-Chain Security
 
-/practices-controls/supplier-procurement-assurance/
+/practices-controls/supplier-assurance-procurement/
   Supplier & Procurement Assurance
 /practices-controls/product-acceptance/
   Product Acceptance
@@ -100,7 +100,7 @@ Applied practice pages are part of Practices & Controls. Resources support the f
   Trust Anchors & Device Identity
 /technology-options/attestation-measured-state/
   Attestation & Measured State
-/technology-options/transparency-artefacts-component-visibility/
+/technology-options/sbom-vex-component-visibility/
   Transparency Artefacts & Component Visibility
 /technology-options/signing-keys-credential-mechanisms/
   Signing, Keys & Credential Mechanisms
@@ -113,7 +113,7 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 
 /resources/
   Resources
-/resources/supplier-questions/
+/resources/supplier-security-questions/
   Supplier Questions
 /resources/evidence-checklist/
   Evidence Checklist
@@ -135,7 +135,7 @@ Applied practice pages are part of Practices & Controls. Resources support the f
   Component Provenance Example
 /resources/worked-examples/weak-vs-strong-supplier-answers/
   Weak vs Strong Supplier Answers
-/resources/standards-technology-mapping-workflow/
+/resources/standards-evidence-technology-mapping/
   Standards & Technology Mapping Workflow
 /resources/glossary/
   Glossary

@@ -1,6 +1,7 @@
 ---
-title: Glossary
+title: Supply Chain Security Glossary
 sidebar_position: 7
+sidebar_label: Glossary
 description: "Look up supply chain security terms used across the handbook, including evidence, provenance, attestation, SBOM, vulnerability response, and assurance."
 ---
 
@@ -55,4 +56,4 @@ This glossary defines practical terms used across the handbook. It covers assura
 - [Evidence Maturity Model](./evidence-maturity-model.md)
 - [Evidence Package Template](./evidence-package-template.md)
 - [Technology Options](../technology-options/index.md)
-- [Supplier Questions](./supplier-questions.md)
+- [Supplier Questions](./supplier-security-questions.md)

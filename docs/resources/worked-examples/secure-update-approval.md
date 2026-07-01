@@ -1,6 +1,7 @@
 ---
-title: Secure Update Approval
+title: Secure Update Approval Evidence Example
 sidebar_position: 4
+sidebar_label: Secure Update Approval
 description: "See a secure update approval example that links update risk, release evidence, verification, rollout decisions, and lifecycle monitoring."
 ---
 
@@ -103,10 +104,10 @@ Update approval evidence is retained with release records, vulnerability respons
 
 ## Related pages
 
-- [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-update-lifecycle-monitoring.md)
+- [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md)
 - [Secure Development & Release Governance](../../practices-controls/secure-development-release-governance.md)
-- [Software, Component & Vulnerability Management](../../practices-controls/software-component-vulnerability-management.md)
+- [Software, Component & Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md)
 - [Evidence Package Template](../evidence-package-template.md)
-- [Signing, Keys & Credential Mechanisms](../../technology-options/signing-keys-credential-mechanisms.md)
-- [Update & Recovery Mechanisms](../../technology-options/update-recovery-mechanisms.md)
+- [Signing, Keys & Credential Mechanisms](../../technology-options/signing-keys-credentials.md)
+- [Update & Recovery Mechanisms](../../technology-options/secure-update-recovery-mechanisms.md)
 - [Evidence Repositories, Logs & Retention](../../technology-options/evidence-repositories-logs-retention.md)

@@ -1,5 +1,6 @@
 ---
-title: For Technical Implementers
+title: Technical Implementation Reader Path
+sidebar_label: Technical Implementation
 description: "A reader journey for technical implementers choosing mechanisms for identity, attestation, signing, updates, evidence exchange, and retention."
 ---
 
@@ -15,7 +16,7 @@ Use this path when you need to implement technical mechanisms, tools, workflows,
 
 ## Read these pages in order
 
-1. [Assurance Implementation Planning](../practices-controls/assurance-implementation-planning.md)  
+1. [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md)  
    Start from assurance decisions, evidence needs, verification paths, and lifecycle retention requirements.
 2. [Choosing Technology Options](../technology-options/choosing-technology-options.md)  
    Compare mechanisms without treating them as mandates.
@@ -23,11 +24,11 @@ Use this path when you need to implement technical mechanisms, tools, workflows,
    Understand identity roots, credentials, and device or platform binding.
 4. [Attestation & Measured State](../technology-options/attestation-measured-state.md)  
    Understand how measured or current state may be reported and appraised.
-5. [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)  
+5. [Transparency Artefacts & Component Visibility](../technology-options/sbom-vex-component-visibility.md)  
    Understand SBOM/xBOM, component visibility, vulnerability linkage, and artefact limits.
-6. [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credential-mechanisms.md)  
+6. [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credentials.md)  
    Understand mechanisms for protecting releases, evidence, credentials, keys, and authorisation decisions.
-7. [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)  
+7. [Update & Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)  
    Understand authorised updates, rollback, recovery, and post-release assurance.
 8. [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)  
    Understand how evidence may move between producers, verifiers, relying parties, and tools.
@@ -62,7 +63,7 @@ A stronger answer starts with the decision and evidence need, then explains whic
 ## Related pages
 
 - [Technology Options](../technology-options/index.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
 - [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)

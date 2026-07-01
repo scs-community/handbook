@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Supply Chain Security Resources
 sidebar_label: Overview
 sidebar_position: 1
 description: "Use practical supply chain security resources including supplier questions, evidence checklists, maturity guidance, templates, worked examples, and references."
@@ -13,12 +13,12 @@ Resources are practical aids, not the conceptual home of the handbook. Use [Prac
 
 | Tool or template | Use it to... |
 |---|---|
-| [Supplier Questions](./supplier-questions.md) | Ask for useful assurance evidence |
+| [Supplier Questions](./supplier-security-questions.md) | Ask for useful assurance evidence |
 | [Evidence Checklist](./evidence-checklist.md) | Review whether evidence is scoped, verifiable, retained, and decision-ready |
 | [Evidence Maturity Model](./evidence-maturity-model.md) | Distinguish assertions from produced, verifiable, and lifecycle-retained evidence |
 | [Evidence Package Template](./evidence-package-template.md) | Assemble evidence for supplier assurance, product acceptance, audit, update review, vulnerability response, and lifecycle monitoring |
 | [Worked Examples](./worked-examples/index.md) | See realistic fictional examples of weak, better, and stronger evidence packages |
-| [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md) | Record how standards, evidence requirements, technology options, and mapping confidence support a decision |
+| [Standards & Technology Mapping Workflow](./standards-evidence-technology-mapping.md) | Record how standards, evidence requirements, technology options, and mapping confidence support a decision |
 | [Glossary](./glossary.md) | Align on assurance, evidence, lifecycle, verification, and technology-option terminology |
 | [Curated References](./curated-references.md) | Find curated public guidance and specifications |
 | [News and Analysis](/blog/) | Read short analysis of supply chain security incidents, policy changes, standards activity, and evidence practices |
@@ -31,11 +31,11 @@ Worked examples show the handbook's evidence model in realistic scenarios. Use t
 
 | Reader | Useful resources |
 |---|---|
-| Procurement | [Supplier Questions](./supplier-questions.md), [Evidence Checklist](./evidence-checklist.md), [Evidence Package Template](./evidence-package-template.md), [Supplier Onboarding Evidence Package](./worked-examples/supplier-onboarding-evidence-package.md) |
+| Procurement | [Supplier Questions](./supplier-security-questions.md), [Evidence Checklist](./evidence-checklist.md), [Evidence Package Template](./evidence-package-template.md), [Supplier Onboarding Evidence Package](./worked-examples/supplier-onboarding-evidence-package.md) |
 | Supplier | [Evidence Package Template](./evidence-package-template.md), [Evidence Maturity Model](./evidence-maturity-model.md), [Worked Examples](./worked-examples/index.md), [Glossary](./glossary.md) |
-| Auditor / assessor | [Evidence Checklist](./evidence-checklist.md), [Evidence Maturity Model](./evidence-maturity-model.md), [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md), [Evidence Package Template](./evidence-package-template.md) |
-| Technical implementer | [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md), [Curated References](./curated-references.md), [Glossary](./glossary.md), [Technology Options](../technology-options/index.md) |
-| Standards, policy, or compliance mapping | [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md), [Evidence Checklist](./evidence-checklist.md), [Curated References](./curated-references.md), [Glossary](./glossary.md) |
+| Auditor / assessor | [Evidence Checklist](./evidence-checklist.md), [Evidence Maturity Model](./evidence-maturity-model.md), [Standards & Technology Mapping Workflow](./standards-evidence-technology-mapping.md), [Evidence Package Template](./evidence-package-template.md) |
+| Technical implementer | [Standards & Technology Mapping Workflow](./standards-evidence-technology-mapping.md), [Curated References](./curated-references.md), [Glossary](./glossary.md), [Technology Options](../technology-options/index.md) |
+| Standards, policy, or compliance mapping | [Standards & Technology Mapping Workflow](./standards-evidence-technology-mapping.md), [Evidence Checklist](./evidence-checklist.md), [Curated References](./curated-references.md), [Glossary](./glossary.md) |
 
 Sector-note content should stay outside the public site until there is enough real sector material to help readers make decisions.
 

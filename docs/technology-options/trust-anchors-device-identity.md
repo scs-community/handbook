@@ -1,5 +1,5 @@
 ---
-title: Trust Anchors & Device Identity
+title: Trust Anchors and Device Identity
 sidebar_position: 3
 description: "Understand trust anchors and device identity mechanisms for product provenance, authenticity, onboarding, ownership, update, and lifecycle assurance."
 ---
@@ -18,7 +18,7 @@ Trust anchors and device identity may support:
 - identity-bound measurements or attestation inputs;
 - supplier, factory, provisioning, repair, transfer, or decommissioning evidence.
 
-They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance.md), [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md), [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md), and [Secure Update & Lifecycle Monitoring](../practices-controls/secure-update-lifecycle-monitoring.md).
+They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md), [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md), and [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md).
 
 ## Where it fits
 
@@ -157,6 +157,6 @@ Verification should check whether the identity evidence is bound to the right pr
 
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Glossary](../resources/glossary.md)
-- [Product Acceptance](../practices-controls/product-acceptance.md)
-- [Product and Component Trust Failures](../standards-threats/threats-failure-modes/product-component-trust-failures.md)
-- [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md)
+- [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
+- [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
+- [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)

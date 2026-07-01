@@ -111,7 +111,7 @@ For public site routes, use canonical root routes with trailing slashes, for exa
 - Good: `/practices-controls/10-best-practices/`
 - Good: `/technology-options/`
 - Good: `/resources/worked-examples/`
-- Good: `/resources/standards-technology-mapping-workflow/`
+- Good: `/resources/standards-evidence-technology-mapping/`
 - Good: `/resources/curated-references/`
 - Avoid: `/resources/further-reading/`
 - Avoid: `/resources/templates/`

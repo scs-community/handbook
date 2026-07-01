@@ -1,5 +1,5 @@
 ---
-title: Evidence Exchange & Verifier Workflows
+title: Evidence Exchange and Verifier Workflows
 sidebar_position: 8
 description: "Design evidence exchange and verifier workflows for requesting, packaging, validating, sharing, and reviewing supply chain security evidence."
 ---
@@ -18,7 +18,7 @@ Evidence exchange and verifier workflows may support:
 - verifier policy and relying-party decisions;
 - API, portal, repository, or automated evidence workflows.
 
-They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance.md), [Secure Update & Lifecycle Monitoring](../practices-controls/secure-update-lifecycle-monitoring.md), [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md), and [Assurance Implementation Planning](../practices-controls/assurance-implementation-planning.md).
+They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md), and [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md).
 
 ## Where it fits
 

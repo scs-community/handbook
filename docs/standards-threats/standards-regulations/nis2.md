@@ -114,8 +114,8 @@ Supplier evidence may include questionnaires, security addenda, SBOMs or compone
 
 ## What to do next
 
-- Use [Supplier & Procurement Assurance](../../practices-controls/supplier-procurement-assurance.md) to turn NIS2-driven needs into supplier-facing assurance work.
-- Use [Audit & Compliance Readiness](../../practices-controls/audit-compliance-readiness.md) and [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-update-lifecycle-monitoring.md) for review and operating models.
-- Use [Software, Component & Vulnerability Management](../../practices-controls/software-component-vulnerability-management.md), [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-update-lifecycle-monitoring.md), and [Audit & Compliance Readiness](../../practices-controls/audit-compliance-readiness.md) to identify useful evidence.
-- Use [Transparency Artefacts & Component Visibility](../../technology-options/transparency-artefacts-component-visibility.md) and [Evidence Exchange & Verifier Workflows](../../technology-options/evidence-exchange-verifier-workflows.md) where machine-readable evidence or exchange workflows may help.
-- Use [Supplier Questions](../../resources/supplier-questions.md) and the [Evidence Checklist](../../resources/evidence-checklist.md) to keep customer and supplier requests consistent.
+- Use [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md) to turn NIS2-driven needs into supplier-facing assurance work.
+- Use [Audit & Compliance Readiness](../../practices-controls/audit-compliance-readiness.md) and [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md) for review and operating models.
+- Use [Software, Component & Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md), [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md), and [Audit & Compliance Readiness](../../practices-controls/audit-compliance-readiness.md) to identify useful evidence.
+- Use [Transparency Artefacts & Component Visibility](../../technology-options/sbom-vex-component-visibility.md) and [Evidence Exchange & Verifier Workflows](../../technology-options/evidence-exchange-verifier-workflows.md) where machine-readable evidence or exchange workflows may help.
+- Use [Supplier Questions](../../resources/supplier-security-questions.md) and the [Evidence Checklist](../../resources/evidence-checklist.md) to keep customer and supplier requests consistent.

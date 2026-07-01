@@ -1,5 +1,5 @@
 ---
-title: Evidence Repositories, Logs & Retention
+title: "Evidence Repositories, Logs, and Retention"
 sidebar_position: 9
 description: "Plan evidence repositories, logs, and retention so supply chain assurance records remain traceable for audit, incident response, and lifecycle decisions."
 ---
@@ -21,7 +21,7 @@ Evidence repositories, logs, and retention mechanisms may support:
 - access, integrity, and retention controls;
 - audit, renewal, incident, and customer review workflows.
 
-They are commonly relevant to [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md), [Assurance Implementation Planning](../practices-controls/assurance-implementation-planning.md), [Secure Update & Lifecycle Monitoring](../practices-controls/secure-update-lifecycle-monitoring.md), and [Product Acceptance](../practices-controls/product-acceptance.md).
+They are commonly relevant to [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md), [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md), [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), and [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md).
 
 ## Where it fits
 

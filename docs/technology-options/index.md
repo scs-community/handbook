@@ -1,5 +1,5 @@
 ---
-title: Technology Options
+title: Supply Chain Security Technology Options
 sidebar_label: Overview
 sidebar_position: 1
 description: "Compare technology options for producing, protecting, exchanging, verifying, and retaining supply chain security evidence across lifecycle decisions."
@@ -24,9 +24,9 @@ Standards and regulations belong with [Standards & Threats](../standards-threats
 | Decide whether a mechanism is useful for an assurance workflow | [Choosing Technology Options](./choosing-technology-options.md) |
 | Bind product, component, device, or platform identity to a trustable root | [Trust Anchors & Device Identity](./trust-anchors-device-identity.md) |
 | Check measured or current state against expected state | [Attestation & Measured State](./attestation-measured-state.md) |
-| Understand product composition, dependencies, and vulnerability status | [Transparency Artefacts & Component Visibility](./transparency-artefacts-component-visibility.md) |
-| Protect releases, evidence, credentials, keys, or authorisation decisions | [Signing, Keys & Credential Mechanisms](./signing-keys-credential-mechanisms.md) |
-| Support authorised updates, recovery, rollback control, or post-release assurance | [Update & Recovery Mechanisms](./update-recovery-mechanisms.md) |
+| Understand product composition, dependencies, and vulnerability status | [Transparency Artefacts & Component Visibility](./sbom-vex-component-visibility.md) |
+| Protect releases, evidence, credentials, keys, or authorisation decisions | [Signing, Keys & Credential Mechanisms](./signing-keys-credentials.md) |
+| Support authorised updates, recovery, rollback control, or post-release assurance | [Update & Recovery Mechanisms](./secure-update-recovery-mechanisms.md) |
 | Move evidence between producers, verifiers, relying parties, and tools | [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md) |
 | Retain evidence so it remains usable for audit, renewal, incident review, and lifecycle decisions | [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md) |
 
@@ -72,4 +72,4 @@ Where this section lists individual standards, specifications, mechanisms, or to
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Glossary](../resources/glossary.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)

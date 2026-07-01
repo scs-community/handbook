@@ -1,12 +1,13 @@
 ---
-title: Secure Update & Lifecycle Monitoring
+title: Secure Updates and Lifecycle Monitoring
 sidebar_position: 8
+sidebar_label: Secure Updates and Monitoring
 description: "Operate secure update and lifecycle monitoring practices for update approval, deployment evidence, vulnerability response, and post-release assurance."
 ---
 
 Secure update and lifecycle monitoring is the recurring practice of governing update approval, authorisation, signing, delivery, installation, recovery, monitoring, evidence refresh, and continued lifecycle assurance.
 
-This practice is commonly driven by CRA, update requirements, vulnerability remediation, lifecycle assurance, product acceptance, and [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md).
+This practice is commonly driven by CRA, update requirements, vulnerability remediation, lifecycle assurance, product acceptance, and [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md).
 
 ## What this practice is for
 
@@ -100,14 +101,14 @@ Technology options may include update frameworks, signing systems, transparency 
 
 ## Related pages
 
-- [EU Cyber Resilience Act](../standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act.md)
-- [Software and Update-Chain Compromise](../standards-threats/threats-failure-modes/software-update-chain-compromise.md)
-- [10 Best Practices](./10-best-practices.md)
-- [Lifecycle Map](./lifecycle-map.md)
-- [Product Acceptance](./product-acceptance.md)
+- [EU Cyber Resilience Act](../standards-threats/standards-regulations/eu-cyber-resilience-act.md)
+- [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)
+- [10 Best Practices](/practices-controls/10-best-practices/)
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
+- [Product Acceptance](./product-acceptance-supply-chain-trust.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
 - [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
-- [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)
-- [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credential-mechanisms.md)
+- [Update & Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)
+- [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credentials.md)
 - [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)
