@@ -2,7 +2,7 @@
 title: "The EU ICT Supply Chain Security Toolbox: Turning Supplier Risk into Reviewable Evidence"
 authors: [scs_community]
 tags: [nis2, supplier-assurance, procurement, cscrm, evidence]
-description: "The EU ICT Supply Chain Security Toolbox makes supplier-risk governance more concrete. Here's how to turn it into evidence-backed assurance work."
+description: "The EU ICT Supply Chain Security Toolbox makes supplier-risk governance more concrete by tying supplier criticality, dependencies, and mitigation decisions to retained evidence."
 ---
 
 On 13 February 2026, the NIS Cooperation Group adopted the **EU ICT Supply Chain Security Toolbox**, developed by Member States with support from the European Commission and ENISA.
@@ -13,7 +13,7 @@ The European Commission describes the toolbox as a horizontal, common, non-bindi
 
 The same release also included Union-level coordinated risk assessments for connected and automated vehicles and detection equipment. That matters for this handbook because both examples show the same pattern: supplier and product risks become concrete only when they are tied to scope, criticality, dependencies, mitigation decisions, and retained evidence.
 
-This post looks back at the toolbox as an assurance-design prompt. It focuses on what buyers, suppliers, and reviewers should be able to evidence rather than trying to restate the whole policy document.
+For this handbook, the toolbox is most useful as a supplier-assurance design prompt: what should buyers ask for, what should suppliers be ready to show, and what decisions should remain reviewable later?
 
 :::info[Official source]
 
@@ -23,11 +23,11 @@ This post looks back at the toolbox as an assurance-design prompt. It focuses on
 
 ---
 
-::::info[What to do next]
+:::info[What to do next]
 
 Pick one critical supplier or high-dependency product and map the decision evidence you already retain: scope, criticality rationale, dependency concentration, risk response, contractual commitments, renewal trigger, and exception owner. Gaps in that evidence are usually better assurance improvements than another generic questionnaire.
 
-::::
+:::
 
 ---
 
@@ -56,7 +56,7 @@ It pushes buyers and operators to ask:
 
 That is the same direction as [NIS2](/standards-threats/standards-regulations/nis2/) and [NIST SP 800-161](/standards-threats/standards-regulations/nist-sp-800-161/): supplier risk should become governed, scoped, reviewable, and retained.
 
-➡️ **Handbook resource:** [Supplier & Procurement Assurance](/practices-controls/supplier-assurance-procurement/)
+For the operating practice behind these questions, see [Supplier & Procurement Assurance](/practices-controls/supplier-assurance-procurement/).
 
 ---
 
@@ -71,9 +71,9 @@ The Commission highlights a few mitigation themes that map directly to handbook 
 | Reducing dependencies on high-risk suppliers | Record risk response, mitigation, exception, or transition decisions. |
 | Union-level coordinated risk assessments | Use shared risk analysis to sharpen supplier, product, and sector-specific evidence requirements. |
 
-The handbook point is simple: supplier-risk governance becomes useful when it changes what evidence buyers request, how suppliers respond, and what decisions are retained.
+Supplier-risk governance becomes useful when it changes what evidence buyers request, how suppliers respond, and what decisions are retained.
 
-➡️ **Handbook resource:** [Evidence Checklist](/resources/evidence-checklist/)
+The [Evidence Checklist](/resources/evidence-checklist/) gives review criteria for making those requests decision-ready.
 
 ---
 
@@ -90,7 +90,7 @@ Useful questions include:
 - What incident-notification, vulnerability-response, and customer-communication commitments are contractual?
 - Who owns review, renewal, exception, and risk-acceptance decisions?
 
-➡️ **Handbook resource:** [Supplier Questions](/resources/supplier-security-questions/)
+[Supplier Questions](/resources/supplier-security-questions/) provides reusable wording for turning those evidence needs into supplier-facing requests.
 
 ---
 
@@ -106,7 +106,7 @@ Stronger answer:
 
 The stronger answer is not stronger because it uses more words. It is stronger because it ties the supplier claim to scope, artefacts, owners, review cadence, risk response, and retention.
 
-➡️ **Handbook resource:** [Weak vs Strong Supplier Answers](/resources/worked-examples/weak-vs-strong-supplier-answers/)
+The [Weak vs Strong Supplier Answers](/resources/worked-examples/weak-vs-strong-supplier-answers/) example shows how to score claims like this.
 
 ---
 

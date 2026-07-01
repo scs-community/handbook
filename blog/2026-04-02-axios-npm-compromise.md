@@ -13,7 +13,7 @@ The malicious dependency used a `postinstall` hook to deploy the cross-platform 
 
 This incident is a useful reminder that a familiar package name, a clean source repository, or a normal-looking dependency update is not enough assurance. The supply chain security question is whether the consumed artefact is expected, authorised, traceable, and tied to a reviewable release path.
 
-This post looks back at the incident as a supply-chain-assurance failure mode. It is not a news alert; it asks what evidence, controls, and retained decisions this kind of event should trigger.
+For product and supplier-assurance teams, the useful retrospective question is not only "were we affected?" It is whether dependency use, release approval, remediation, and customer-assurance records would still be reviewable after the incident response is over.
 
 :::info[Official analysis]
 
@@ -23,11 +23,11 @@ This post looks back at the incident as a supply-chain-assurance failure mode. I
 
 ---
 
-::::info[What to do next]
+:::info[What to do next]
 
 Check whether affected versions were used in products, services, CI systems, or developer environments. Retain affected-version analysis, remediation records, secret-rotation decisions, release approvals, customer-notification decisions, and remaining exceptions.
 
-::::
+:::
 
 ---
 
@@ -54,7 +54,7 @@ The incident abused several kinds of trust at once:
 
 For handbook purposes, the most important point is that these are not only technical failures. They are evidence failures. A product or supplier consuming the compromised releases needed to know which versions were used, where they were installed, which secrets may have been exposed, what remediation happened, and which records were retained.
 
-➡️ **Handbook resource:** [Software and Update-Chain Compromise](/standards-threats/threats/software-update-chain-compromise/)
+The related failure-mode page is [Software and Update-Chain Compromise](/standards-threats/threats/software-update-chain-compromise/).
 
 ---
 
@@ -72,7 +72,7 @@ Dependency lists and lockfiles matter, but they are not enough by themselves. Us
 | Secret-rotation and host-remediation records | Show what happened after potential credential exposure. |
 | Retained incident evidence | Supports later customer assurance, audit, and lessons learned. |
 
-➡️ **Handbook resource:** [NIST SSDF: Secure Software Development and Supplier Evidence](/standards-threats/standards-regulations/nist-ssdf/)
+[NIST SSDF: Secure Software Development and Supplier Evidence](/standards-threats/standards-regulations/nist-ssdf/) is the closest standards-driver page for release and supplier software evidence.
 
 ---
 
@@ -90,7 +90,7 @@ A weak answer says: "We updated the package."
 
 A stronger answer provides affected-version analysis, remediation records, secret-rotation evidence, release approval records, customer communication, and retained incident evidence.
 
-➡️ **Handbook resource:** [Vulnerability Response Evidence](/resources/worked-examples/vulnerability-response-evidence/)
+For an example evidence package, see [Vulnerability Response Evidence](/resources/worked-examples/vulnerability-response-evidence/).
 
 ---
 
@@ -108,7 +108,7 @@ At minimum, the evidence package should show:
 - customer or internal notification decisions;
 - remaining gaps and exception owners.
 
-➡️ **Handbook resource:** [Secure Update Approval](/resources/worked-examples/secure-update-approval/)
+The same retained-record logic appears in the [Secure Update Approval](/resources/worked-examples/secure-update-approval/) worked example.
 
 ---
 
