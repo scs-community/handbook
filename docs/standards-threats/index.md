@@ -2,6 +2,7 @@
 title: Standards & Threats
 sidebar_label: Overview
 sidebar_position: 1
+description: "Start with supply chain security standards, regulations, threat patterns, and failure modes before mapping controls, evidence, and technologies."
 ---
 
 Supply chain security work is usually driven by two forces: the standards, regulations, procurement expectations, and assurance frameworks organizations need to satisfy; and the real threats, attack patterns, and lifecycle failures those requirements are meant to reduce.
@@ -22,6 +23,9 @@ Current driver pages include:
 
 - [EU Cyber Resilience Act](./standards-regulatory-drivers/eu-cyber-resilience-act.md)
 - [NIS2](./standards-regulatory-drivers/nis2.md)
+- [NIST SP 800-161](./standards-regulatory-drivers/nist-sp-800-161.md)
+- [IEC 62443](./standards-regulatory-drivers/iec-62443.md)
+- [NIST SSDF](./standards-regulatory-drivers/nist-ssdf.md)
 
 ## Start with a threat pattern
 
@@ -43,6 +47,9 @@ The handbook uses the same translation pattern across standards and threats:
 - [Standards and Regulations](./standards-regulatory-drivers/index.md)
 - [EU Cyber Resilience Act](./standards-regulatory-drivers/eu-cyber-resilience-act.md)
 - [NIS2](./standards-regulatory-drivers/nis2.md)
+- [NIST SP 800-161](./standards-regulatory-drivers/nist-sp-800-161.md)
+- [IEC 62443](./standards-regulatory-drivers/iec-62443.md)
+- [NIST SSDF](./standards-regulatory-drivers/nist-ssdf.md)
 - [Threats and Failure Modes](./threats-failure-modes/index.md)
 - [Product and Component Trust Failures](./threats-failure-modes/product-component-trust-failures.md)
 - [Software and Update-Chain Compromise](./threats-failure-modes/software-update-chain-compromise.md)

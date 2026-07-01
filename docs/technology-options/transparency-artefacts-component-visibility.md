@@ -1,6 +1,7 @@
 ---
 title: Transparency Artefacts & Component Visibility
 sidebar_position: 5
+description: "Use SBOMs, VEX, xBOMs, inventories, and component transparency artefacts to support supply chain security decisions and vulnerability response."
 ---
 
 Transparency artefacts describe software, firmware, hardware, components, services, dependencies, vulnerabilities, or product composition. They can help teams understand what is present, what may be affected, and what evidence is needed for supplier assurance, product acceptance, vulnerability response, and audit.

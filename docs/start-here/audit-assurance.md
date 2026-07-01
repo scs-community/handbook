@@ -1,5 +1,6 @@
 ---
 title: For Audit, Compliance, and Customer Assurance Teams
+description: "A reader journey for audit, compliance, and customer assurance teams building traceable mappings, evidence packages, exceptions, and retention records."
 ---
 
 Use this path when you need to prepare, review, or explain evidence for audit, customer assurance, certification support, internal review, or ongoing compliance monitoring.

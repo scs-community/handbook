@@ -185,7 +185,7 @@ function CommunitySection(): ReactNode {
           <div className="col col--6">
             <Heading as="h2">Stay updated</Heading>
             <p>
-              Supply-chain-security expectations are changing quickly. Read short updates on incidents, policy changes, standards activity, and evidence practices.
+              Supply chain security expectations are changing quickly. Read short updates on incidents, policy changes, standards activity, and evidence practices.
             </p>
             <Link className="button button--primary" to="/blog/">
               Latest analysis

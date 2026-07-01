@@ -1,6 +1,7 @@
 ---
 title: Standards and Regulations
 sidebar_position: 1
+description: "Compare supply chain security standards and regulatory drivers, including CRA, NIS2, NIST SSDF, NIST SP 800-161, and IEC 62443."
 ---
 
 Standards, regulations, procurement expectations, and assurance frameworks create external pressure to act.

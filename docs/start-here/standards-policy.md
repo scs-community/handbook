@@ -1,5 +1,6 @@
 ---
 title: For Standards, Policy, and Compliance Mapping Teams
+description: "A reader journey for standards, policy, and compliance mapping teams translating requirements into controls, evidence, technologies, and verification paths."
 ---
 
 Use this path when you need to translate a regulation, standard, procurement expectation, customer requirement, or policy driver into practical controls, evidence expectations, and implementation choices.
@@ -21,7 +22,7 @@ Use this path when you need to translate a regulation, standard, procurement exp
 3. [EU Cyber Resilience Act](../standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act.md)  
    See how a major product-security regulation can be interpreted into lifecycle assurance work.
 4. [NIS2](../standards-threats/standards-regulatory-drivers/nis2.md)  
-   See how organisational and supplier-assurance expectations can flow into supply-chain-security practices.
+   See how organisational and supplier-assurance expectations can flow into supply chain security practices.
 5. [NIST SP 800-161](../standards-threats/standards-regulatory-drivers/nist-sp-800-161.md)  
    See how C-SCRM guidance can become supplier, acquisition, dependency, and risk-response evidence.
 6. [IEC 62443](../standards-threats/standards-regulatory-drivers/iec-62443.md)  
@@ -31,7 +32,7 @@ Use this path when you need to translate a regulation, standard, procurement exp
 8. [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md)  
    Connect external drivers to the failures they are trying to prevent.
 9. [10 Best Practices](../practices-controls/10-best-practices.md)  
-   Translate drivers and threats into practical supply-chain-security practices.
+   Translate drivers and threats into practical supply chain security practices.
 10. [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)  
    Record source roles, evidence requirements, technology options, mapping confidence, and gaps.
 11. [Evidence Checklist](../resources/evidence-checklist.md)  

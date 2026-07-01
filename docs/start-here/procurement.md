@@ -1,5 +1,6 @@
 ---
 title: For Procurement and Supplier Assurance Teams
+description: "A reader journey for procurement and supplier assurance teams that need supplier questions, evidence expectations, and risk-based acceptance paths."
 ---
 
 Use this path when you need to select, contract with, review, renew, or continue using a supplier based on evidence rather than unsupported claims.

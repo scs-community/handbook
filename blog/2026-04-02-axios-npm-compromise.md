@@ -11,7 +11,7 @@ The malicious dependency used a `postinstall` hook to deploy the cross-platform 
 
 {/* truncate */}
 
-This incident is a useful reminder that a familiar package name, a clean source repository, or a normal-looking dependency update is not enough assurance. The supply-chain-security question is whether the consumed artefact is expected, authorised, traceable, and tied to a reviewable release path.
+This incident is a useful reminder that a familiar package name, a clean source repository, or a normal-looking dependency update is not enough assurance. The supply chain security question is whether the consumed artefact is expected, authorised, traceable, and tied to a reviewable release path.
 
 This post looks back at the incident as a supply-chain-assurance failure mode. It is not a news alert; it asks what evidence, controls, and retained decisions this kind of event should trigger.
 

@@ -1,6 +1,7 @@
 ---
 title: Weak vs Strong Supplier Answers
 sidebar_position: 7
+description: "Compare weak and stronger supplier assurance answers to see how scope, evidence, verification, ownership, and retention improve confidence."
 ---
 
 This page gives short examples of vague supplier claims and more reviewable answers. Use it when writing supplier requests, scoring responses, or explaining why a claim is not enough.

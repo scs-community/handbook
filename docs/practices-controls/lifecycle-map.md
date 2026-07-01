@@ -1,9 +1,10 @@
 ---
 title: Lifecycle Map
 sidebar_position: 3
+description: "Map supply chain security practices across product lifecycle phases from concept and sourcing through release, operation, support, and retirement."
 ---
 
-Supply-chain-security assurance is not a single event. It changes as products move from design to sourcing, manufacturing, provisioning, logistics, acceptance, deployment, update, repair, transfer, and decommissioning. Evidence changes too: some evidence establishes origin, some verifies current state, some supports update and vulnerability response, and some proves lifecycle decisions after acceptance.
+Supply chain security assurance is not a single event. It changes as products move from design to sourcing, manufacturing, provisioning, logistics, acceptance, deployment, update, repair, transfer, and decommissioning. Evidence changes too: some evidence establishes origin, some verifies current state, some supports update and vulnerability response, and some proves lifecycle decisions after acceptance.
 
 ## Lifecycle evidence matrix
 

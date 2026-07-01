@@ -1,6 +1,7 @@
 ---
 title: Supplier Assurance Failures
 sidebar_position: 4
+description: "Identify supplier assurance failures that turn weak questionnaires, missing evidence, sub-tier dependencies, and unmanaged exceptions into risk."
 ---
 
 A supplier may claim that controls exist, but the recipient may not be able to verify scope, origin, freshness, operation, or retained evidence. This page helps answer the decision question: can we trust the supplier's evidence?

@@ -1,6 +1,7 @@
 ---
 title: Product Acceptance
 sidebar_position: 5
+description: "Plan product acceptance decisions using evidence for identity, provenance, component state, vulnerabilities, updates, supportability, and residual risk."
 ---
 
 Product acceptance is where supply chain assurance becomes operational. Before a product, component, platform, firmware load, or supplier-provided service is deployed or integrated, the recipient needs enough evidence to decide whether it is genuine, expected, supportable, and in an acceptable trust state.

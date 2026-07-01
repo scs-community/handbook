@@ -1,6 +1,7 @@
 ---
 title: Software and Update-Chain Compromise
 sidebar_position: 3
+description: "Use software and update-chain compromise scenarios to plan release governance, update approval, dependency visibility, and incident evidence."
 ---
 
 Malicious, vulnerable, unauthorized, or unreviewed software or firmware can enter a product before release, during update, or through supplier inputs. This page helps answer the decision question: can we trust the software, firmware, build, release, or update path?

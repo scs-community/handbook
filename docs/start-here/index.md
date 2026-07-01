@@ -1,9 +1,10 @@
 ---
 title: Start Here
 sidebar_label: Overview
+description: "Choose a role-based path through the Supply Chain Security Handbook for procurement, product security, suppliers, auditors, implementers, and policy teams."
 ---
 
-Use these role paths when you know who you are in the supply-chain-security assurance workflow, but not yet which handbook pages to read first.
+Use these role paths when you know who you are in the supply chain security assurance workflow, but not yet which handbook pages to read first.
 
 The role paths are a routing layer through the existing handbook. They do not replace the main structure:
 
@@ -30,3 +31,10 @@ If you already know the task you need to complete, you can go directly to the ma
 - [Practices & Controls](../practices-controls/index.md) explains what should operate, what evidence should be produced, and how controls support decisions.
 - [Technology Options](../technology-options/index.md) explains mechanisms that may help implement controls or generate, protect, exchange, verify, and retain evidence.
 - [Resources](../resources/index.md) contains checklists, templates, maturity models, glossaries, workflows, and worked examples.
+
+## Common topic shortcuts
+
+- [Supplier & Procurement Assurance](../practices-controls/supplier-procurement-assurance.md) for supplier assurance, procurement risk, evidence requests, and supplier review.
+- [Product Acceptance](../practices-controls/product-acceptance.md) for product trust, component provenance, vulnerability status, updates, supportability, and residual risk decisions.
+- [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md) for SBOMs, VEX, xBOMs, component inventories, and vulnerability-status evidence.
+- [Evidence Checklist](../resources/evidence-checklist.md) for testing whether supply chain security evidence is scoped, current, verifiable, retained, and tied to a decision.

@@ -1,6 +1,7 @@
 ---
 title: Update & Recovery Mechanisms
 sidebar_position: 7
+description: "Evaluate update and recovery mechanisms for secure delivery, rollback, repair, lifecycle monitoring, update evidence, and operational resilience."
 ---
 
 Update and recovery mechanisms can help deliver authorised changes, prevent unauthorised replacement, manage rollback and recovery paths, and retain evidence about what changed and why.

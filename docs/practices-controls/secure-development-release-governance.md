@@ -1,6 +1,7 @@
 ---
 title: Secure Development & Release Governance
 sidebar_position: 6
+description: "Connect secure development and release governance to supplier inputs, build integrity, approvals, provenance, and retained release evidence."
 ---
 
 Secure development and release governance is the recurring practice of controlling supplier inputs, dependencies, build outputs, reviews, approvals, signing readiness, and release evidence before product, software, or firmware release.
@@ -9,7 +10,7 @@ This practice is commonly driven by CRA, secure development expectations, releas
 
 ## What this practice is for
 
-This practice focuses on supply-chain-security-relevant development and release controls. It is not a generic secure development lifecycle page. It helps teams decide whether supplier-delivered software, firmware, dependencies, build outputs, and release artefacts are ready to become part of a product or update.
+This practice focuses on supply chain security-relevant development and release controls. It is not a generic secure development lifecycle page. It helps teams decide whether supplier-delivered software, firmware, dependencies, build outputs, and release artefacts are ready to become part of a product or update.
 
 ## Decisions this practice supports
 

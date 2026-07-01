@@ -2,6 +2,7 @@
 title: "EU Cyber Resilience Act: Product Cybersecurity and Lifecycle Evidence"
 sidebar_label: EU Cyber Resilience Act
 sidebar_position: 2
+description: "Map EU Cyber Resilience Act product cybersecurity expectations to lifecycle controls, evidence, vulnerability handling, and supplier assurance."
 ---
 
 The EU Cyber Resilience Act (CRA) creates product cybersecurity and lifecycle obligations for products with digital elements placed on the EU market. It increases pressure on manufacturers and product teams to understand how software, firmware, components, suppliers, updates, vulnerabilities, technical documentation, and lifecycle support affect product security.
@@ -14,7 +15,7 @@ This page focuses only on the parts of CRA that drive supply chain security cont
 
 :::info[Source status]
 
-This page is based on Regulation (EU) 2024/2847 and related European Commission CRA guidance listed below. It was last reviewed against the linked official sources on 2026-07-01. It interprets supply-chain-security implications for this handbook and is not a complete legal compliance guide.
+This page is based on Regulation (EU) 2024/2847 and related European Commission CRA guidance listed below. It was last reviewed against the linked official sources on 2026-07-01. It interprets supply chain security implications for this handbook and is not a complete legal compliance guide.
 
 :::
 

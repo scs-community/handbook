@@ -1,6 +1,7 @@
 ---
 title: Secure Update Approval
 sidebar_position: 4
+description: "See a secure update approval example that links update risk, release evidence, verification, rollout decisions, and lifecycle monitoring."
 ---
 
 This fictional example shows how to assess signing, release governance, rollback, recovery, vulnerability handling, and customer notification before approving an update.

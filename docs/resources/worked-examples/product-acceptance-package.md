@@ -1,6 +1,7 @@
 ---
 title: Product Acceptance Package
 sidebar_position: 3
+description: "See a product acceptance package example for reviewing product identity, component provenance, vulnerability status, update support, and residual risk."
 ---
 
 This fictional example shows what a buyer should review before accepting a connected product.

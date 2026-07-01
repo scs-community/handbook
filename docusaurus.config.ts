@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Supply Chain Security Handbook',
-  tagline: 'Practical guidance for evidence-backed lifecycle assurance',
+  tagline: 'Practical supply chain security guidance for evidence-backed lifecycle assurance',
   favicon: 'img/favicon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -65,7 +65,7 @@ const config: Config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          ignorePatterns: ['/blog/tags/**', '/blog/archive/**', '/blog/authors/**'],
           filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,

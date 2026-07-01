@@ -2,6 +2,7 @@
 title: Welcome to the Supply Chain Security Handbook
 authors: [scs_community]
 tags: [hello, supply-chain-security, assurance]
+description: "Introducing the Supply Chain Security Handbook, a practical guide for turning standards, threats, controls, evidence, and technologies into assurance."
 ---
 
 Welcome to the **SupplyChainSecurityHandbook.com** project.
@@ -10,7 +11,7 @@ Welcome to the **SupplyChainSecurityHandbook.com** project.
 
 Our mission is to build a practical, vendor-neutral reference for teams that need to manage trust across complex technology supply chains. The handbook focuses on products and platforms where hardware, firmware, software, suppliers, credentials, updates, and lifecycle services all affect security and assurance.
 
-Supply-chain-security expectations are moving beyond supplier assertions and one-time questionnaires. Buyers, suppliers, manufacturers, operators, auditors, and ecosystem participants increasingly need evidence that identity, provenance, integrity, updates, vulnerability handling, and lifecycle controls are operating.
+Supply chain security expectations are moving beyond supplier assertions and one-time questionnaires. Buyers, suppliers, manufacturers, operators, auditors, and ecosystem participants increasingly need evidence that identity, provenance, integrity, updates, vulnerability handling, and lifecycle controls are operating.
 
 This handbook is designed to bridge the gap between standards, threats, and evidence-backed assurance. We aim to help teams move from asking "What does this standard, procurement expectation, audit need, customer assurance request, or threat pattern mean?" to knowing "What practices, evidence, lifecycle controls, and implementation options should we consider?"
 
@@ -19,7 +20,7 @@ If you are new to the handbook, start with **[Start Here](/start-here/)** and ch
 ### What You'll Find Here
 
 - **[Standards & Threats](/standards-threats/)**: Starting points for standards, regulations, assurance expectations, threat patterns, lifecycle failure modes, and product trust decisions.
-- **[Practices & Controls](/practices-controls/)**: Applied supply-chain-security practices, lifecycle maps, the **[10 Best Practices for Supply-Chain Security](/practices-controls/10-best-practices/)**, and operating guidance for supplier assurance, product acceptance, release governance, updates, audit readiness, and implementation planning.
+- **[Practices & Controls](/practices-controls/)**: Applied supply chain security practices, lifecycle maps, the **[10 Best Practices for Supply Chain Security](/practices-controls/10-best-practices/)**, and operating guidance for supplier assurance, product acceptance, release governance, updates, audit readiness, and implementation planning.
 - **[Technology Options](/technology-options/)**: Role-based interpretation of trust anchors, attestation, transparency artefacts, signing, updates, exchange workflows, repositories, logs, retention, and tooling that may help produce, protect, exchange, verify, or retain evidence.
 - **[Resources](/resources/)**: Supplier questions, evidence checklists, evidence maturity guidance, evidence package templates, worked examples, standards and technology mapping workflows, glossary entries, and curated references.
 

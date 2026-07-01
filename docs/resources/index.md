@@ -2,6 +2,7 @@
 title: Resources
 sidebar_label: Overview
 sidebar_position: 1
+description: "Use practical supply chain security resources including supplier questions, evidence checklists, maturity guidance, templates, worked examples, and references."
 ---
 
 Resources contains reusable checklists, templates, questions, glossaries, and workflows that help readers apply the handbook. Use these pages when you need wording for supplier requests, a way to assess evidence maturity, a template for assembling evidence, or a workflow for mapping standards to practices and technologies.
@@ -20,6 +21,7 @@ Resources are practical aids, not the conceptual home of the handbook. Use [Prac
 | [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md) | Record how standards, evidence requirements, technology options, and mapping confidence support a decision |
 | [Glossary](./glossary.md) | Align on assurance, evidence, lifecycle, verification, and technology-option terminology |
 | [Curated References](./curated-references.md) | Find curated public guidance and specifications |
+| [News and Analysis](/blog/) | Read short analysis of supply chain security incidents, policy changes, standards activity, and evidence practices |
 
 ## Worked Examples
 

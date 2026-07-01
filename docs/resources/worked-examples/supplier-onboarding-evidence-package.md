@@ -1,13 +1,14 @@
 ---
 title: Supplier Onboarding Evidence Package
 sidebar_position: 2
+description: "See a supplier onboarding evidence package example that turns procurement risk into scoped controls, evidence, verification, and acceptance decisions."
 ---
 
 This fictional example shows what a useful supplier response can look like before contract award.
 
 ## Scenario
 
-A buyer is onboarding a supplier that provides a connected gateway device and associated update service. The supplier has passed an initial commercial review, but the buyer needs supply-chain-security evidence before contract award.
+A buyer is onboarding a supplier that provides a connected gateway device and associated update service. The supplier has passed an initial commercial review, but the buyer needs supply chain security evidence before contract award.
 
 ## Decision being made
 

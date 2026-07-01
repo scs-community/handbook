@@ -1,6 +1,7 @@
 ---
 title: Assurance Implementation Planning
 sidebar_position: 10
+description: "Plan supply chain assurance implementation by sequencing practices, controls, technology options, evidence repositories, workflows, and maturity improvements."
 ---
 
 Assurance implementation planning is the recurring practice of planning engineering and platform capabilities from assurance decisions, evidence needs, verification paths, and lifecycle retention requirements.

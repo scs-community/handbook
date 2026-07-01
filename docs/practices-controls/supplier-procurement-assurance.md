@@ -1,13 +1,14 @@
 ---
 title: Supplier & Procurement Assurance
 sidebar_position: 4
+description: "Build supplier and procurement assurance around scoped supplier risk, evidence requests, contractual commitments, renewal triggers, and exceptions."
 ---
 
 Supplier and procurement assurance is the recurring practice of selecting, contracting with, reviewing, renewing, and continuing to use suppliers based on evidence rather than unsupported claims.
 
 This practice is commonly driven by NIS2 customer flow-down, procurement requirements, supplier assurance reviews, customer assurance requests, audit needs, and [Supplier Assurance Failures](../standards-threats/threats-failure-modes/supplier-assurance-failures.md).
 
-This page does not provide general procurement policy; it focuses on supply-chain-security evidence and assurance expectations.
+This page does not provide general procurement policy; it focuses on supply chain security evidence and assurance expectations.
 
 ## What this practice is for
 

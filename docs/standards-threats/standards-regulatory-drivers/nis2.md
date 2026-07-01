@@ -2,6 +2,7 @@
 title: "NIS2: Supplier Risk Governance and Customer Assurance"
 sidebar_label: NIS2
 sidebar_position: 3
+description: "Understand how NIS2 supplier risk governance creates evidence needs for procurement, assurance, incident response, and customer confidence."
 ---
 
 NIS2 raises cybersecurity risk-management and governance expectations for essential and important entities, including supply chain and supplier risks. It makes supply chain risk part of governed cybersecurity risk management for regulated organisations, and that can affect suppliers indirectly through procurement requirements, contractual commitments, customer assurance requests, audits, and incident reporting expectations.
@@ -16,7 +17,7 @@ This page focuses only on the parts of NIS2 that drive supply chain security con
 
 :::info[Source status]
 
-This page is based on Directive (EU) 2022/2555 and related national implementation context. It was last reviewed against the linked official EUR-Lex sources on 2026-07-01. It interprets supply-chain-security implications for this handbook and is not a complete legal compliance guide.
+This page is based on Directive (EU) 2022/2555 and related national implementation context. It was last reviewed against the linked official EUR-Lex sources on 2026-07-01. It interprets supply chain security implications for this handbook and is not a complete legal compliance guide.
 
 :::
 

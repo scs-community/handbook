@@ -1,6 +1,7 @@
 ---
 title: Evidence Maturity Model
 sidebar_position: 4
+description: "Assess supply chain security evidence maturity from assertions and partial artefacts to scoped, verified, retained, and reusable assurance evidence."
 ---
 
 This page helps readers distinguish weak evidence from stronger assurance. It explains the progression from supplier assertion, to documented process, to produced artefact, to verifiable artefact, to lifecycle-retained evidence.

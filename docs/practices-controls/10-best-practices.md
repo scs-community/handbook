@@ -1,7 +1,8 @@
 ---
-title: 10 Best Practices for Supply-Chain Security
+title: 10 Best Practices for Supply Chain Security
 slug: /practices-controls/10-best-practices
 sidebar_position: 2
+description: "Review ten practical supply chain security practices for supplier assurance, product trust, component visibility, updates, audit readiness, and lifecycle evidence."
 ---
 
 This page is the practical synthesis for the handbook. It is not the whole site: each practice routes readers into lifecycle context, applied-practice pages, resource checklists and templates, and technology-options pages.

@@ -1,6 +1,7 @@
 ---
 title: Evidence Package Template
 sidebar_position: 5
+description: "Use an evidence package template to capture decisions, scope, controls, artefacts, verification, gaps, exceptions, owners, and retention records."
 ---
 
 Use this template when assembling evidence for supplier assurance, product acceptance, customer assurance, audit readiness, update review, vulnerability response, or lifecycle monitoring.

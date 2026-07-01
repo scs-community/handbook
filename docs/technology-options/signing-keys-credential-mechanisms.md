@@ -1,6 +1,7 @@
 ---
 title: Signing, Keys & Credential Mechanisms
 sidebar_position: 6
+description: "Compare signing, keys, certificates, and credential mechanisms for software integrity, release approval, update trust, and evidence verification."
 ---
 
 Signing, key, and credential mechanisms can help protect releases, evidence, update packages, verifier results, identities, and authorisation decisions from unauthorised change or misuse.

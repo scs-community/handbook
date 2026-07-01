@@ -1,6 +1,7 @@
 ---
 title: Attestation & Measured State
 sidebar_position: 4
+description: "Use attestation and measured state to support evidence about configuration, boot state, runtime posture, policy compliance, and verifier confidence."
 ---
 
 Attestation and measured-state technologies can help a recipient evaluate whether a device, platform, firmware set, component, or configuration is in an expected state.

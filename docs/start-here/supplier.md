@@ -1,8 +1,9 @@
 ---
 title: For Suppliers and Manufacturers
+description: "A reader journey for suppliers and manufacturers preparing evidence-backed answers for buyers, customers, auditors, and assurance reviewers."
 ---
 
-Use this path when a customer, assessor, auditor, or procurement team asks you to provide supply-chain-security evidence for a product, component, service, update, vulnerability response, or lifecycle event.
+Use this path when a customer, assessor, auditor, or procurement team asks you to provide supply chain security evidence for a product, component, service, update, vulnerability response, or lifecycle event.
 
 ## Decisions you probably need to make
 

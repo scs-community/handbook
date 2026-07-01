@@ -1,8 +1,9 @@
 ---
 title: For Technical Implementers
+description: "A reader journey for technical implementers choosing mechanisms for identity, attestation, signing, updates, evidence exchange, and retention."
 ---
 
-Use this path when you need to implement technical mechanisms, tools, workflows, repositories, or integrations that support supply-chain-security assurance.
+Use this path when you need to implement technical mechanisms, tools, workflows, repositories, or integrations that support supply chain security assurance.
 
 ## Decisions you probably need to make
 

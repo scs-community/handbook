@@ -1,6 +1,7 @@
 ---
 title: Product and Component Trust Failures
 sidebar_position: 2
+description: "Understand product and component trust failures involving identity, provenance, integrity, configuration, support state, and acceptance evidence."
 ---
 
 A product, component, platform, firmware load, or supplier-provided service may not be the one expected. This page helps answer the decision question: can we trust what was delivered?

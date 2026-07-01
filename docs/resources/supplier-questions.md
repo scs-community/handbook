@@ -1,6 +1,7 @@
 ---
 title: Supplier Questions
 sidebar_position: 2
+description: "Ask better supplier security questions that request scoped, verifiable, decision-ready evidence instead of generic compliance assertions."
 ---
 
 Supplier questions should help move from assertions to evidence-backed assurance. Use them in procurement, supplier assurance, product acceptance, audit, and lifecycle monitoring.

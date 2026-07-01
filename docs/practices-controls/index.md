@@ -2,6 +2,7 @@
 title: Practices & Controls
 sidebar_label: Overview
 sidebar_position: 1
+description: "Use practical supply chain security practices to turn standards and threats into controls, evidence expectations, verification, and operating routines."
 ---
 
 Practices & Controls is the operating layer of the handbook. Use it when a standard, regulation, procurement requirement, customer assurance request, audit need, or supply chain threat has created a need for action, and you need to decide what should actually operate.
@@ -18,7 +19,7 @@ Use this section to move from standards and threats to practical behaviours, cor
 
 | Page | Use it when you need to... |
 |---|---|
-| [10 Best Practices](./10-best-practices.md) | Understand the core supply-chain-security practices and how they connect to evidence, lifecycle, verification, and technology options. |
+| [10 Best Practices](./10-best-practices.md) | Understand the core supply chain security practices and how they connect to evidence, lifecycle, verification, and technology options. |
 | [Lifecycle Map](./lifecycle-map.md) | Place practices, controls, and evidence across design, sourcing, manufacturing, provisioning, logistics, acceptance, deployment, update, repair, transfer, and decommissioning. |
 | [Supplier & Procurement Assurance](./supplier-procurement-assurance.md) | Operate supplier selection, contracting, assurance review, renewal, and continued-use processes based on evidence. |
 | [Product Acceptance](./product-acceptance.md) | Accept delivered products, components, platforms, firmware loads, or services only when evidence supports the trust decision. |

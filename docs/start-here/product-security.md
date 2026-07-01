@@ -1,5 +1,6 @@
 ---
 title: For Product Security Leads
+description: "A reader journey for product security leads planning acceptance, release governance, vulnerability response, updates, and lifecycle assurance evidence."
 ---
 
 Use this path when you own product-security assurance across design, sourcing, acceptance, release, update, vulnerability response, and lifecycle monitoring.

@@ -1,13 +1,14 @@
 ---
 title: Audit & Compliance Readiness
 sidebar_position: 9
+description: "Prepare audit and compliance readiness with mapped requirements, evidence packages, owners, exceptions, verification records, and retention plans."
 ---
 
-Audit and compliance readiness is the recurring practice of maintaining traceable control evidence so supply-chain-security claims can be reviewed for scope, lifecycle stage, source, verification method, gaps, and retention.
+Audit and compliance readiness is the recurring practice of maintaining traceable control evidence so supply chain security claims can be reviewed for scope, lifecycle stage, source, verification method, gaps, and retention.
 
 This practice is commonly driven by customer assurance requests, audit needs, certification preparation, standards mapping, internal governance, and [Supplier Assurance Failures](../standards-threats/threats-failure-modes/supplier-assurance-failures.md).
 
-This page is not legal advice or a compliance checklist; it focuses on making supply-chain-security control evidence reviewable.
+This page is not legal advice or a compliance checklist; it focuses on making supply chain security control evidence reviewable.
 
 ## What this practice is for
 
@@ -78,7 +79,7 @@ This practice should produce control-to-evidence mappings, audit packs, customer
 
 ## Weak answer
 
-The organisation says it follows supply-chain-security best practices.
+The organisation says it follows supply chain security best practices.
 
 ## Stronger answer
 

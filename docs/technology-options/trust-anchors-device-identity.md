@@ -1,6 +1,7 @@
 ---
 title: Trust Anchors & Device Identity
 sidebar_position: 3
+description: "Understand trust anchors and device identity mechanisms for product provenance, authenticity, onboarding, ownership, update, and lifecycle assurance."
 ---
 
 Trust anchors and device-identity mechanisms can help bind identities, credentials, keys, measurements, or claims to hardware, firmware, secure components, or controlled execution environments.

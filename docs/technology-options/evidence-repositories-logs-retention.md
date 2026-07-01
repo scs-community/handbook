@@ -1,6 +1,7 @@
 ---
 title: Evidence Repositories, Logs & Retention
 sidebar_position: 9
+description: "Plan evidence repositories, logs, and retention so supply chain assurance records remain traceable for audit, incident response, and lifecycle decisions."
 ---
 
 Evidence repositories, logs, and retention mechanisms help evidence remain available, traceable, explainable, and reusable across acceptance, audit, vulnerability response, renewal, incident review, repair, transfer, and decommissioning.

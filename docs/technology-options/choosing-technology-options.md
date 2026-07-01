@@ -1,6 +1,7 @@
 ---
 title: Choosing Technology Options
 sidebar_position: 2
+description: "Choose supply chain security technology options by starting with assurance decisions, evidence needs, verification paths, constraints, and operating maturity."
 ---
 
 Technology choices should start from the assurance decision, not from the acronym. A mechanism is useful when it helps operate a control, produce or protect evidence, exchange that evidence with the right party, or verify that the evidence is still meaningful.

@@ -2,9 +2,10 @@
 title: Threats and Failure Modes
 sidebar_label: Overview
 sidebar_position: 1
+description: "Explore supply chain security threats and failure modes that should drive controls, evidence requirements, verification, and lifecycle decisions."
 ---
 
-Supply-chain-security standards and requirements are easier to apply when readers can see the failures they are trying to prevent.
+Supply chain security standards and requirements are easier to apply when readers can see the failures they are trying to prevent.
 
 This section groups common supply chain threat patterns and lifecycle failure modes by the decision they affect: whether to trust what was delivered, whether to trust the software and update path, and whether to trust a supplier's evidence. Each page connects the threat pattern to practical controls and evidence.
 

@@ -1,6 +1,7 @@
 ---
 title: Evidence Exchange & Verifier Workflows
 sidebar_position: 8
+description: "Design evidence exchange and verifier workflows for requesting, packaging, validating, sharing, and reviewing supply chain security evidence."
 ---
 
 Evidence exchange and verifier workflows move evidence between producers, verifiers, relying parties, customers, operators, repositories, and audit workflows. Relying parties are the teams, services, customers, or workflows that make decisions based on verifier results. These workflows matter when evidence must be requested, transmitted, appraised, explained, or reused.

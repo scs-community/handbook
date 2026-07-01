@@ -2,6 +2,7 @@
 title: Worked Examples
 sidebar_label: Overview
 sidebar_position: 1
+description: "Learn from worked examples that show weak, better, and stronger supply chain security evidence for supplier, product, update, and vulnerability decisions."
 ---
 
 Worked examples show the handbook's evidence model in action. They are fictional, realistic scenarios that demonstrate how to move from a claim to reviewable evidence.

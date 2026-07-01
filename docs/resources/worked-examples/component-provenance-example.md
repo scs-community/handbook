@@ -1,6 +1,7 @@
 ---
 title: Component Provenance Example
 sidebar_position: 6
+description: "See a component provenance example that moves from a component list to useful evidence about source, integrity, supplier, and verification."
 ---
 
 This fictional example shows how to move from a component list to usable assurance evidence.

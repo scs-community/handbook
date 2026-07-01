@@ -2,6 +2,7 @@
 title: Technology Options
 sidebar_label: Overview
 sidebar_position: 1
+description: "Compare technology options for producing, protecting, exchanging, verifying, and retaining supply chain security evidence across lifecycle decisions."
 ---
 
 Technology options are mechanisms, formats, protocols, trust anchors, verifier workflows, repositories, and tools that may help implement controls or generate, protect, exchange, verify, and retain evidence.

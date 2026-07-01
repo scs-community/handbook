@@ -2,6 +2,7 @@
 title: "NIST SSDF: Secure Software Development and Supplier Evidence"
 sidebar_label: NIST SSDF
 sidebar_position: 6
+description: "Map NIST SSDF secure software development practices to supply chain controls, release evidence, vulnerability response, and supplier assurance."
 ---
 
 NIST SP 800-218, the Secure Software Development Framework (SSDF), describes secure software development practices that can be integrated into software development lifecycles. For supply chain security, SSDF is useful when software, firmware, supplier code, release governance, vulnerability reduction, or secure-development evidence is the reason for action.

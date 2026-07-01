@@ -1,13 +1,14 @@
 ---
 title: Glossary
 sidebar_position: 7
+description: "Look up supply chain security terms used across the handbook, including evidence, provenance, attestation, SBOM, vulnerability response, and assurance."
 ---
 
 This glossary defines practical terms used across the handbook. It covers assurance, evidence, practices, controls, lifecycle, technology options, and verification language. It is intentionally practical rather than standards-body-specific.
 
 | Term | Practical definition |
 |---|---|
-| Assurance | Confidence that a supply-chain-security practice or control is operating as intended. |
+| Assurance | Confidence that a supply chain security practice or control is operating as intended. |
 | Assertion | A claim that something is true without supporting reviewable evidence. |
 | Attestation | A claim, often signed and based on measurements or protected state, about properties or current state of a device, component, platform, or service. Attestation needs baselines, policies, trust anchors, and interpretation; it does not automatically prove vulnerability status, provenance, or compliance. |
 | Attestation evidence | Evidence produced for appraisal by a verifier, often about measured or current state. |

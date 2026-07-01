@@ -1,16 +1,17 @@
 ---
 title: Standards & Technology Mapping Workflow
 sidebar_position: 6
+description: "Map standards and requirements to practices, controls, evidence, technology options, verification paths, confidence levels, and implementation gaps."
 ---
 
-Use this workflow when a standards participant, product-security leader, assurance team, or implementation planner needs to understand where standards and technologies support supply-chain-security assurance and where interpretation, profiling, or additional guidance is needed.
+Use this workflow when a standards participant, product-security leader, assurance team, or implementation planner needs to understand where standards and technologies support supply chain security assurance and where interpretation, profiling, or additional guidance is needed.
 
 The goal is not to prove compliance from a citation. The goal is to explain the role a source plays in a decision and avoid overstating what it provides.
 
 ## What can go wrong
 
 - Different standards are treated as equivalent even though they play different roles.
-- A technology mechanism is mistaken for full supply-chain-security assurance.
+- A technology mechanism is mistaken for full supply chain security assurance.
 - A governance requirement is treated as if it defines a technical evidence format.
 - Mapping confidence is not stated.
 - Gaps are hidden rather than documented.

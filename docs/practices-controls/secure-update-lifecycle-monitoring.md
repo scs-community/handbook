@@ -1,6 +1,7 @@
 ---
 title: Secure Update & Lifecycle Monitoring
 sidebar_position: 8
+description: "Operate secure update and lifecycle monitoring practices for update approval, deployment evidence, vulnerability response, and post-release assurance."
 ---
 
 Secure update and lifecycle monitoring is the recurring practice of governing update approval, authorisation, signing, delivery, installation, recovery, monitoring, evidence refresh, and continued lifecycle assurance.
@@ -11,7 +12,7 @@ This practice is commonly driven by CRA, update requirements, vulnerability reme
 
 This practice keeps assurance alive after acceptance. Updates, repairs, transfers, vulnerability decisions, and retirement events can change product state, evidence freshness, and trust assumptions. The practice defines which lifecycle events require review, re-verification, evidence refresh, or exception handling.
 
-This page focuses on assurance after acceptance; it does not replace operational monitoring or incident response guidance outside the supply-chain-security context.
+This page focuses on assurance after acceptance; it does not replace operational monitoring or incident response guidance outside the supply chain security context.
 
 ## Decisions this practice supports
 
