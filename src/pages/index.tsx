@@ -19,9 +19,6 @@ function HomepageHeader() {
           A practical handbook for turning supply chain security standards and real-world threats into controls, evidence, and implementation choices across connected products and platforms.
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/standards-threats/">
-            Start with standards and threats
-          </Link>
           <Link className="button button--secondary button--lg" to="/practices-controls/10-best-practices/">
             Read the 10 best practices
           </Link>
@@ -31,87 +28,50 @@ function HomepageHeader() {
   );
 }
 
-function HandbookModel(): ReactNode {
-  const steps = [
+function ChooseYourPath(): ReactNode {
+  const roleRoutes = [
     {
-      title: 'Standards & Threats',
-      description: 'Start with the standard, regulation, procurement expectation, audit question, customer assurance need, threat pattern, or failure mode that brought you here.',
+      title: 'I buy or assess suppliers',
+      description: 'Review supplier assurance, evidence requests, maturity, and worked examples.',
+      to: '/start-here/procurement/',
     },
     {
-      title: 'Practices & Controls',
-      description: 'Translate the standard or threat into control expectations, lifecycle responsibilities, supplier questions, and operating decisions.',
+      title: 'I own product security',
+      description: 'Plan assurance across acceptance, release, update, vulnerability response, and lifecycle monitoring.',
+      to: '/start-here/product-security/',
     },
     {
-      title: 'Technology Options',
-      description: 'Compare mechanisms, formats, protocols, trust anchors, verifier workflows, and tools that can implement controls or generate, protect, exchange, verify, and retain evidence.',
+      title: 'I am a supplier or manufacturer',
+      description: 'Prepare evidence-backed answers for customers, auditors, buyers, and assessors.',
+      to: '/start-here/supplier/',
     },
     {
-      title: 'Resources',
-      description: 'Use checklists, templates, glossaries, and workflows to turn practices into evidence requests, review criteria, and reusable assurance packages.',
-    },
-  ];
-
-  return (
-    <section className={styles.model}>
-      <div className="container">
-        <div className="text--center margin-bottom--lg">
-          <Heading as="h2">How the handbook helps</Heading>
-          <p>
-            Use the handbook to move from standards, compliance pressure, procurement expectations, customer assurance, or real supply chain threats to practical controls, evidence expectations, and implementation choices.
-          </p>
-        </div>
-        <div className={styles.modelSteps}>
-          {steps.map((step) => (
-            <div key={step.title} className={styles.modelStep}>
-              <Heading as="h3">{step.title}</Heading>
-              <p>{step.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function CommonStartingPoints(): ReactNode {
-  const routes = [
-    {
-      title: 'I need to understand a standard or regulation',
-      description: 'Start with standards, regulations, procurement expectations, and assurance obligations.',
-      to: '/standards-threats/',
+      title: 'I prepare for audit or customer assurance',
+      description: 'Build traceable evidence packages, mappings, exceptions, and retention records.',
+      to: '/start-here/audit-assurance/',
     },
     {
-      title: 'I need to understand what could go wrong',
-      description: 'Look at supply chain threat patterns, lifecycle failure modes, and the controls used to mitigate them.',
-      to: '/standards-threats/threats-failure-modes/',
+      title: 'I implement technical mechanisms',
+      description: 'Start from evidence needs, then compare mechanisms, trust anchors, workflows, and repositories.',
+      to: '/start-here/implementer/',
     },
     {
-      title: 'I need practices and controls',
-      description: 'Translate standards and threats into control expectations, supplier questions, and lifecycle decisions.',
-      to: '/practices-controls/',
-    },
-    {
-      title: 'I need evidence for audit or customer review',
-      description: 'Use checklists and templates to assemble scoped, verifiable, and retained evidence packages.',
-      to: '/resources/evidence-package-template/',
-    },
-    {
-      title: 'I need implementation options',
-      description: 'Compare technologies, trust anchors, protocols, formats, and tooling.',
-      to: '/technology-options/',
+      title: 'I map standards to controls',
+      description: 'Translate standards, regulations, policy drivers, and customer requirements into controls and evidence.',
+      to: '/start-here/standards-policy/',
     },
   ];
 
   return (
-    <section className={styles.startingPoints}>
+    <section className={styles.choosePath}>
       <div className="container">
         <div className="text--center margin-bottom--lg">
-          <Heading as="h2">Common starting points</Heading>
-          <p>Choose the route that best matches why you arrived.</p>
+          <Heading as="h2">Choose your path</Heading>
+          <p>Start with the role that best matches your part in the assurance workflow.</p>
         </div>
-        <div className={styles.startingPointGrid}>
-          {routes.map((route) => (
-            <Link key={route.title} className={styles.startingPointCard} to={route.to}>
+        <div className={styles.roleGrid}>
+          {roleRoutes.map((route) => (
+            <Link key={route.title} className={styles.roleCard} to={route.to}>
               <Heading as="h3">{route.title}</Heading>
               <p>{route.description}</p>
             </Link>
@@ -122,52 +82,79 @@ function CommonStartingPoints(): ReactNode {
   );
 }
 
-function StartByRole(): ReactNode {
-  const routes = [
+function HandbookModelCompact(): ReactNode {
+  const steps = [
     {
-      title: 'I buy or assess suppliers',
-      description: 'Follow a path through supplier assurance, supplier questions, evidence review, and worked examples.',
-      to: '/start-here/procurement/',
+      title: 'Standards & Threats',
+      to: '/standards-threats/',
     },
     {
-      title: 'I own product security',
-      description: 'Move from lifecycle practices to product acceptance, release governance, vulnerability response, updates, and evidence.',
-      to: '/start-here/product-security/',
+      title: 'Practices & Controls',
+      to: '/practices-controls/',
     },
     {
-      title: 'I am a supplier or manufacturer',
-      description: 'Prepare evidence-backed answers for customers without relying on broad claims or unsupported policy statements.',
-      to: '/start-here/supplier/',
+      title: 'Technology Options',
+      to: '/technology-options/',
     },
     {
-      title: 'I prepare for audit or customer assurance',
-      description: 'Use maturity, checklists, evidence packages, mappings, and retention guidance to make assurance reviewable.',
-      to: '/start-here/audit-assurance/',
-    },
-    {
-      title: 'I implement technical mechanisms',
-      description: 'Start with evidence and verification needs, then compare mechanisms, trust anchors, workflows, and repositories.',
-      to: '/start-here/implementer/',
-    },
-    {
-      title: 'I map standards to controls',
-      description: 'Translate standards, regulations, policy drivers, and customer requirements into controls, evidence, and mapping confidence.',
-      to: '/start-here/standards-policy/',
+      title: 'Resources',
+      to: '/resources/',
     },
   ];
 
   return (
-    <section className={styles.startingPoints}>
+    <section className={styles.model}>
+      <div className="container">
+        <div className="text--center">
+          <Heading as="h2">How the handbook works</Heading>
+          <div className={styles.modelFlow}>
+            {steps.map((step, index) => (
+              <span key={step.title} className={styles.modelFlowItem}>
+                <Link to={step.to}>{step.title}</Link>
+                {index < steps.length - 1 && <span className={styles.modelArrow}>-&gt;</span>}
+              </span>
+            ))}
+          </div>
+          <p className={styles.modelSummary}>
+            Use the handbook to move from an external driver or real failure mode to controls, evidence expectations, verification paths, and implementation choices.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FeaturedResources(): ReactNode {
+  const resources = [
+    {
+      title: 'Evidence Checklist',
+      description: 'Review whether evidence is scoped, verifiable, retained, and tied to the decision.',
+      to: '/resources/evidence-checklist/',
+    },
+    {
+      title: 'Worked Examples',
+      description: 'See realistic examples of weak, better, and stronger evidence packages.',
+      to: '/resources/worked-examples/',
+    },
+    {
+      title: 'Standards & Technology Mapping Workflow',
+      description: 'Map requirements, controls, evidence, technologies, and confidence.',
+      to: '/resources/standards-technology-mapping-workflow/',
+    },
+  ];
+
+  return (
+    <section className={styles.featuredResources}>
       <div className="container">
         <div className="text--center margin-bottom--lg">
-          <Heading as="h2">Start by role</Heading>
-          <p>Choose the path that best matches your role in the assurance workflow.</p>
+          <Heading as="h2">Featured resources</Heading>
+          <p>Use these practical tools when you are ready to turn a path into reviewable evidence.</p>
         </div>
-        <div className={styles.startingPointGrid}>
-          {routes.map((route) => (
-            <Link key={route.title} className={styles.startingPointCard} to={route.to}>
-              <Heading as="h3">{route.title}</Heading>
-              <p>{route.description}</p>
+        <div className={styles.resourceGrid}>
+          {resources.map((resource) => (
+            <Link key={resource.title} className={styles.resourceCard} to={resource.to}>
+              <Heading as="h3">{resource.title}</Heading>
+              <p>{resource.description}</p>
             </Link>
           ))}
         </div>
@@ -217,9 +204,9 @@ export default function Home(): ReactNode {
       description="A practical handbook for turning supply chain security standards and real-world threats into controls, evidence, and implementation choices across connected products and platforms.">
       <HomepageHeader />
       <main>
-        <HandbookModel />
-        <CommonStartingPoints />
-        <StartByRole />
+        <ChooseYourPath />
+        <HandbookModelCompact />
+        <FeaturedResources />
         <CommunitySection />
       </main>
     </Layout>

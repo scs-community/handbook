@@ -24,38 +24,18 @@
   flex-wrap: wrap;
 }
 
-.model {
-  padding: 3rem 0;
-  background-color: var(--ifm-color-emphasis-100);
-}
-
-.modelSteps {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.modelStep {
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: var(--ifm-card-border-radius);
-  padding: 1rem;
-}
-
-.modelStep h3 {
-  font-size: 1.1rem;
-}
-
-.startingPoints {
+.choosePath {
   padding: 3rem 0;
 }
 
-.startingPointGrid {
+.roleGrid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.startingPointCard {
+.roleCard,
+.resourceCard {
   border: 1px solid var(--ifm-color-emphasis-200);
   border-radius: var(--ifm-card-border-radius);
   color: inherit;
@@ -65,15 +45,54 @@
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
 
-.startingPointCard:hover {
+.roleCard:hover,
+.resourceCard:hover {
   border-color: var(--ifm-color-primary);
   color: inherit;
   text-decoration: none;
   transform: translateY(-2px);
 }
 
-.startingPointCard h3 {
+.roleCard h3,
+.resourceCard h3 {
   font-size: 1.05rem;
+}
+
+.model {
+  padding: 3rem 0;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.modelFlow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.modelFlowItem {
+  font-weight: 600;
+}
+
+.modelArrow {
+  color: var(--ifm-color-emphasis-600);
+  margin-left: 0.5rem;
+}
+
+.modelSummary {
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.featuredResources {
+  padding: 3rem 0;
+}
+
+.resourceGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .community {
@@ -92,8 +111,8 @@
     gap: 0.5rem;
   }
 
-  .modelSteps,
-  .startingPointGrid {
+  .roleGrid,
+  .resourceGrid {
     grid-template-columns: 1fr;
   }
 
