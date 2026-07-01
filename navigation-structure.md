@@ -4,13 +4,13 @@ This document describes the intended and current public navigation for SupplyCha
 
 ## Top-Level Navigation
 
-The top navigation should stay restrained:
+The top navigation should stay restrained. The site title/logo acts as the home link; the explicit navbar items are the four handbook sections plus GitHub:
 
-1. Home
-2. Standards & Threats
-3. Practices & Controls
-4. Technology Options
-5. Resources
+1. Standards & Threats
+2. Practices & Controls
+3. Technology Options
+4. Resources
+5. GitHub
 
 Do not put the 10 Best Practices page or individual practice pages in top navigation. Practices live inside Practices & Controls because they describe recurring operating activities. The 10 Best Practices page belongs inside Practices & Controls as the synthesis and anchor page.
 
@@ -27,7 +27,9 @@ The public docs routes are served at the site root, not below `/docs/`.
 - `docs.routeBasePath`: `/`
 - `trailingSlash`: `true`
 
-Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/supplier-assurance-procurement/`, and `/technology-options/`. Avoid hardcoded `/docs/...` links in public content.
+Use public links such as `/standards-threats/`, `/practices-controls/`, `/practices-controls/supplier-assurance-procurement/`, and `/technology-options/` in config, JSX, blog posts, and other cross-plugin contexts. Avoid hardcoded `/docs/...` links in public content.
+
+Within docs pages, prefer relative Markdown source links such as `../resources/evidence-checklist.md`. Docusaurus converts those source links to the final public route and keeps docs easier to rename. Use public routes inside docs only when source links are not appropriate, such as the `10-best-practices` numeric-prefix exception.
 
 ## Site Model
 
@@ -53,6 +55,21 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /
   Home
 
+/start-here/
+  Start Here
+/start-here/procurement-supplier-assurance/
+  Procurement and Supplier Assurance
+/start-here/product-security/
+  Product Security
+/start-here/supplier-manufacturer/
+  Supplier or Manufacturer
+/start-here/audit-compliance-assurance/
+  Audit, Compliance, and Customer Assurance
+/start-here/technical-implementation/
+  Technical Implementation
+/start-here/standards-compliance-mapping/
+  Standards and Compliance Mapping
+
 /standards-threats/
   Standards & Threats
 /standards-threats/standards-regulations/
@@ -61,6 +78,12 @@ Applied practice pages are part of Practices & Controls. Resources support the f
   EU Cyber Resilience Act
 /standards-threats/standards-regulations/nis2/
   NIS2
+/standards-threats/standards-regulations/nist-sp-800-161/
+  NIST SP 800-161
+/standards-threats/standards-regulations/iec-62443/
+  IEC 62443
+/standards-threats/standards-regulations/nist-ssdf/
+  NIST SSDF
 /standards-threats/threats/
   Threats and Failure Modes
 /standards-threats/threats/product-component-trust-failures/
@@ -72,24 +95,24 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 
 /practices-controls/
   Practices & Controls overview
-/practices-controls/lifecycle-map/
-  Lifecycle Map
 /practices-controls/10-best-practices/
-  10 Best Practices for Supply-Chain Security
+  10 Best Practices for Supply Chain Security
+/practices-controls/supply-chain-security-lifecycle-map/
+  Supply Chain Security Lifecycle Map
 
 /practices-controls/supplier-assurance-procurement/
   Supplier & Procurement Assurance
-/practices-controls/product-acceptance/
-  Product Acceptance
+/practices-controls/product-acceptance-supply-chain-trust/
+  Product Acceptance and Supply Chain Trust
 /practices-controls/secure-development-release-governance/
   Secure Development & Release Governance
-/practices-controls/software-component-vulnerability-management/
+/practices-controls/software-components-vulnerability-management/
   Software, Component & Vulnerability Management
-/practices-controls/secure-update-lifecycle-monitoring/
+/practices-controls/secure-updates-lifecycle-monitoring/
   Secure Update & Lifecycle Monitoring
 /practices-controls/audit-compliance-readiness/
   Audit & Compliance Readiness
-/practices-controls/assurance-implementation-planning/
+/practices-controls/supply-chain-assurance-implementation/
   Assurance Implementation Planning
 
 /technology-options/
@@ -101,11 +124,11 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /technology-options/attestation-measured-state/
   Attestation & Measured State
 /technology-options/sbom-vex-component-visibility/
-  Transparency Artefacts & Component Visibility
-/technology-options/signing-keys-credential-mechanisms/
-  Signing, Keys & Credential Mechanisms
-/technology-options/update-recovery-mechanisms/
-  Update & Recovery Mechanisms
+  SBOM, VEX, and Component Visibility
+/technology-options/signing-keys-credentials/
+  Signing, Keys, and Credentials
+/technology-options/secure-update-recovery-mechanisms/
+  Secure Update and Recovery Mechanisms
 /technology-options/evidence-exchange-verifier-workflows/
   Evidence Exchange & Verifier Workflows
 /technology-options/evidence-repositories-logs-retention/
@@ -114,7 +137,7 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /resources/
   Resources
 /resources/supplier-security-questions/
-  Supplier Questions
+  Supplier Security Questions
 /resources/evidence-checklist/
   Evidence Checklist
 /resources/evidence-maturity-model/
@@ -136,26 +159,32 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /resources/worked-examples/weak-vs-strong-supplier-answers/
   Weak vs Strong Supplier Answers
 /resources/standards-evidence-technology-mapping/
-  Standards & Technology Mapping Workflow
+  Standards to Evidence and Technology Mapping Workflow
 /resources/glossary/
   Glossary
 /resources/curated-references/
   Curated References
+
+/blog/
+  News and Analysis
 ```
 
 ## Homepage Routing
 
-The homepage should introduce the handbook and point readers to the Standards & Threats as the single detailed routing surface. Avoid stacking multiple homepage route systems such as obligation tables, persona cards, and intent grids.
+The homepage should introduce the handbook and route readers without competing navigation systems. The current implementation uses role-based reader paths, a compact handbook model, featured resources, and a news/analysis handoff.
 
 Homepage routing should stay limited to:
 
-- primary CTA: `/standards-threats/`;
-- secondary CTA: `/practices-controls/10-best-practices/`;
+- hero CTA: `/practices-controls/10-best-practices/`;
+- role cards under `/start-here/`;
+- compact model links to `/standards-threats/`, `/practices-controls/`, `/technology-options/`, and `/resources/`;
+- featured resources: Evidence Checklist, Worked Examples, and Standards to Evidence and Technology Mapping Workflow;
+- latest analysis link to `/blog/`;
 - top navigation for readers who already know the section they want.
 
 ## Detailed Routing
 
-Detailed routing belongs in `/standards-threats/`, section landing pages, sidebars, and page-level related links. This keeps the homepage focused while still helping readers who arrive with procurement, audit, product-acceptance, evidence, or implementation questions.
+Detailed routing belongs in `/start-here/`, `/standards-threats/`, section landing pages, sidebars, and page-level related links. This keeps the homepage focused while still helping readers who arrive with procurement, audit, product acceptance, evidence, implementation, or standards-mapping questions.
 
 ## Footer And Secondary Navigation
 
@@ -173,9 +202,10 @@ Resources should not become a catch-all archive. They should remain the small pr
 - evidence maturity models;
 - evidence package templates;
 - worked examples;
-- standards and technology mapping workflows;
+- standards to evidence and technology mapping workflows;
 - sector-note templates should remain outside public navigation until there is enough sector content;
-- curated references.
+- curated references;
+- news and analysis.
 
 Do not reintroduce standalone `Artifact Map`, generic `Templates`, or separate `Evidence Glossary` pages unless there is a specific reader job that cannot be served by the current toolkit. Keep Worked Examples under Resources rather than making examples a top-level navigation item.
 
@@ -186,7 +216,7 @@ Add new pages when there is enough real content to help the reader make a decisi
 New pages should connect to at least one of:
 
 - a real obligation or decision;
-- a supply-chain-security risk or failure mode;
+- a supply chain security risk or failure mode;
 - a lifecycle stage;
 - an evidence type or evidence package need;
 - a technology option, standard, or evidence requirement mapping;

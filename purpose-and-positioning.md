@@ -22,7 +22,7 @@ Visitors often arrive because they face a standard, regulation, procurement expe
 
 They should leave with:
 
-- a clearer understanding of the standard, threat, expectation, or supply-chain-security decision they are trying to address;
+- a clearer understanding of the standard, threat, expectation, or supply chain security decision they are trying to address;
 - a practical view of relevant lifecycle controls and best practices;
 - a sense of what evidence can support those practices;
 - a sense of who produces, verifies, retains, and relies on that evidence;
@@ -32,8 +32,8 @@ They should leave with:
 
 Write first for:
 
-- product-security leaders;
-- supply-chain-security leaders;
+- product security leaders;
+- supply chain security leaders;
 - procurement and supplier-assurance teams;
 - procurement and acquisition teams for technical products;
 - product-acceptance decision makers;
@@ -41,15 +41,15 @@ Write first for:
 - platform and device manufacturers;
 - component and secure-technology vendors.
 
-Support implementers, auditors, assessors, certification bodies, assurance labs, and standards participants as secondary readers.
+Support implementers, auditors, assessors, certification bodies, assurance labs, and standards participants through dedicated reader paths and section-level routing.
 
-The site should not primarily be written for standards specialists. Standards specialists may be interested, but the language should start from supply-chain-security problems and evidence needs, not from standards-body terminology.
+The site should not primarily be written for standards specialists. Standards specialists may be interested, but the language should start from supply chain security problems and evidence needs, not from standards-body terminology.
 
 ## Primary Reader
 
 The primary reader is responsible for translating a standard, expectation, threat, or failure mode into practical assurance work. That reader may sit in product security, supply-chain security, procurement, supplier assurance, audit, compliance, product acceptance, or governance.
 
-Secondary readers include assurance requesters and implementers who need to ask for, produce, verify, retain, or explain evidence. Serve them through practice pages, reusable resources, technology-option pages, and page-level related links rather than separate homepage routing systems.
+The homepage exposes six lightweight reader journeys: procurement and supplier assurance, product security, suppliers and manufacturers, audit and compliance assurance, technical implementation, and standards/compliance mapping. Those journeys should point into the same handbook model rather than becoming separate content silos.
 
 ## Content Model
 
@@ -58,7 +58,7 @@ The site distinguishes four connected layers:
 1. **Standards & Threats**: standards, regulations, procurement expectations, assurance frameworks, cyber threats, and supply-chain attack or failure modes that explain why action is needed and what is being mitigated.
 2. **Practices & Controls**: the operating layer of the handbook. Practice pages explain what should operate, which controls sit inside the practice, what evidence those controls should produce or retain, and how reviewers can verify it.
 3. **Technology Options**: the technology interpretation layer. These pages explain mechanisms that may help implement controls or generate, protect, exchange, verify, or retain evidence without making any single mechanism mandatory.
-4. **Resources**: a small practical toolkit: [Supplier Questions](docs/resources/supplier-security-questions.md), [Evidence Checklist](docs/resources/evidence-checklist.md), [Evidence Maturity Model](docs/resources/evidence-maturity-model.md), [Evidence Package Template](docs/resources/evidence-package-template.md), [Worked Examples](docs/resources/worked-examples/index.md), [Standards & Technology Mapping Workflow](docs/resources/standards-evidence-technology-mapping.md), [Glossary](docs/resources/glossary.md), and [Curated References](docs/resources/curated-references.md).
+4. **Resources**: a small practical toolkit: [Supplier Security Questions](docs/resources/supplier-security-questions.md), [Evidence Checklist](docs/resources/evidence-checklist.md), [Evidence Maturity Model](docs/resources/evidence-maturity-model.md), [Evidence Package Template](docs/resources/evidence-package-template.md), [Worked Examples](docs/resources/worked-examples/index.md), [Standards to Evidence and Technology Mapping Workflow](docs/resources/standards-evidence-technology-mapping.md), [Glossary](docs/resources/glossary.md), [Curated References](docs/resources/curated-references.md), and News and Analysis.
 
 Standards should not be treated as one category. Some standards and frameworks explain why a reader has a requirement. Some describe assurance expectations or evidence structures. Others provide technical mechanisms.
 
@@ -72,7 +72,7 @@ Evidence is a cross-cutting concept rather than a top-level section. It belongs 
 
 ## Lifecycle Thesis
 
-Supply-chain-security assurance is not a single event. It changes as products move from design to sourcing, manufacturing, provisioning, logistics, acceptance, deployment, update, repair, transfer, and decommissioning.
+Supply chain security assurance is not a single event. It changes as products move from design to sourcing, manufacturing, provisioning, logistics, acceptance, deployment, update, repair, transfer, and decommissioning.
 
 The evidence needed at each stage changes too. Some evidence establishes origin. Some verifies current state. Some supports update and vulnerability response. Some proves lifecycle decisions after acceptance.
 
@@ -85,7 +85,7 @@ The site is not:
 - a standards-body advocacy site;
 - a detailed implementation profile;
 - a procurement questionnaire only;
-- a generic software supply-chain-security site;
+- a generic software supply chain security site;
 - a list of TCG or GlobalPlatform technologies.
 
 ## Distinctive Editorial Angle
@@ -94,8 +94,8 @@ Supply-chain security becomes more actionable when practices are linked to lifec
 
 ## Relationship To Standards Activity
 
-The handbook should be transparent about its relationship to the GlobalPlatform / TCG collaboration while remaining organized around reader needs rather than standards liaison activity.
+The handbook may cite GlobalPlatform, TCG, and related standards activity where relevant, but it should remain organized around reader needs rather than standards liaison activity.
 
-The GlobalPlatform 10 best practices workplan is source material for one theme within the broader site. The 10 best practices page is a navigational and educational anchor inside Practices & Controls. It is not the whole site.
+The 10 best practices material is source material for one theme within the broader site. The 10 best practices page is a navigational and educational anchor inside Practices & Controls. It is not the whole site.
 
 Standards and technology options should be clearly sourced where possible. Interpretive mappings should be presented as guidance, not as formal endorsement, certification advice, or compliance advice.

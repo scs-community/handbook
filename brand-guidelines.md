@@ -8,12 +8,12 @@ These guidelines codify visual and written conventions so contributors can prese
 |---|---|
 | Name | Supply Chain Security Handbook |
 | Domain | `supplychainsecurityhandbook.com` |
-| Tagline | Practical guidance for evidence-backed lifecycle assurance |
-| Core proposition | Practical supply-chain-security guidance for products and platforms where hardware, firmware, software, suppliers, credentials, updates, and lifecycle services all affect trust. |
+| Tagline | Practical supply chain security guidance for evidence-backed lifecycle assurance |
+| Core proposition | Practical supply chain security guidance for products and platforms where hardware, firmware, software, suppliers, credentials, updates, and lifecycle services all affect trust. |
 | Personality | Practical, neutral, standards-aware, evidence-led, and lifecycle-aware. |
 | Voice | Clear, active, and decision-oriented. Avoid hype, advocacy, and standards-body jargon as the starting point. |
 
-The brand should feel related to the Secure-by-Design Handbook visual family, but the content positioning is distinct. This site is about supply-chain-security assurance across complex technology products and platforms, not broad secure-by-design implementation guidance.
+The brand should feel related to the Secure-by-Design Handbook visual family, but the content positioning is distinct. This site is about supply chain security assurance across complex technology products and platforms, not broad secure-by-design implementation guidance.
 
 ## Logo And Asset Suite
 
@@ -74,12 +74,13 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 
 ## Homepage Visual Pattern
 
-The homepage should keep the sister-site visual pattern while reflecting the supply-chain-security brief:
+The homepage should keep the sister-site visual pattern while reflecting the supply chain security brief:
 
-- Hero proposition and two clear calls to action.
-- Value pillars that move from standards and threats to practices and controls to technology options and resource tools.
+- Hero proposition and a clear primary call to action into the 10 best practices.
+- Role-based reader paths for procurement, product security, suppliers, audit, implementers, and standards/compliance mapping.
 - A simple model: standards and threats, practices and controls, technology options, and resources.
-- A clear handoff to the Standards & Threats for detailed routing.
+- Featured resources that route readers to evidence checklists, worked examples, and standards/evidence/technology mapping.
+- A concise handoff to news and analysis.
 - Neutrality and open-source framing.
 
 Do not let the homepage look like a TCG, GlobalPlatform, or 10 best practices microsite.
@@ -96,11 +97,11 @@ Do not let the homepage look like a TCG, GlobalPlatform, or 10 best practices mi
 Follow `style-guide.md` for editorial voice. Key brand reminders:
 
 - Use "Supply Chain Security Handbook" for the project name.
-- Use "supply-chain security" as a noun phrase when referring to the discipline generally.
+- Use "supply chain security" as the public noun phrase when referring to the discipline generally.
 - Prefer "evidence-backed assurance", "lifecycle assurance", "practical guidance", and "technology-aware mappings".
 - Avoid "evidence hub", "10 best practices microsite", and any phrasing that implies a standards body owns the whole problem.
 - Treat technology options as implementation or verification options, not mandates.
-- Treat resources as a small toolkit, not a library. The public Resources set is Supplier Questions, Evidence Checklist, Evidence Maturity Model, Evidence Package Template, Worked Examples, Standards & Technology Mapping Workflow, Glossary, and Curated References.
+- Treat resources as a small toolkit, not a library. The public Resources set is Supplier Security Questions, Evidence Checklist, Evidence Maturity Model, Evidence Package Template, Worked Examples, Standards to Evidence and Technology Mapping Workflow, Glossary, Curated References, and News and Analysis.
 
 ## Linking Guidance
 

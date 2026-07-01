@@ -2,7 +2,7 @@
 title: Sector Notes Template
 ---
 
-Sector notes are a placeholder and template for future sector-specific interpretation. They should not imply mature sector guidance until there is enough sourced content to help readers make decisions.
+Sector notes are a placeholder and template for future sector-specific interpretation. This file should remain outside `docs/` and public navigation until there is enough sourced content to help readers make decisions.
 
 When sector content is added, start from the same reader problems, standards and threats, practices and controls, evidence expectations, technology-option constraints, and resource needs. Add sector context only where it changes sufficiency, vocabulary, retention, assurance expectations, or implementation constraints.
 
@@ -34,13 +34,13 @@ When sector content is added, start from the same reader problems, standards and
 
 ## Guardrail
 
-Do not create sector-specific pages unless there is enough real content to help the reader make decisions. Otherwise, keep sector notes short and link back to the general standards and threats, practices, resources, and technology option pages.
+Do not create sector-specific public pages unless there is enough real content to help the reader make decisions. Otherwise, keep sector notes short, keep drafts outside `docs/`, and link back to the general standards and threats, practices, resources, and technology option pages.
 
 ## Related Pages
 
 - [Standards & Threats](docs/standards-threats/index.md)
 - [Practices & Controls](docs/practices-controls/index.md)
 - [Evidence Checklist](docs/resources/evidence-checklist.md)
-- [Standards & Technology Mapping Workflow](docs/resources/standards-evidence-technology-mapping.md)
+- [Standards to Evidence and Technology Mapping Workflow](docs/resources/standards-evidence-technology-mapping.md)
 - [Technology Options](docs/technology-options/index.md)
 - [Curated References](docs/resources/curated-references.md)
