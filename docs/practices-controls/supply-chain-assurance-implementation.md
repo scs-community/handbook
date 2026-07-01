@@ -99,8 +99,8 @@ Technology options may include TCG, GlobalPlatform, IETF RATS/EAT, CoRIM/CoMID, 
 
 - [10 Best Practices](/practices-controls/10-best-practices/)
 - [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
-- [Audit & Compliance Readiness](./audit-compliance-readiness.md)
+- [Audit and Compliance Readiness](./audit-compliance-readiness.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
-- [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)
+- [Evidence Exchange and Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
+- [Evidence Repositories, Logs, and Retention](../technology-options/evidence-repositories-logs-retention.md)

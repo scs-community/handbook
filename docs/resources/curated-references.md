@@ -32,7 +32,7 @@ This page is not a live standards catalogue. Keep it stable, useful, and maintai
 | [ENISA Good Practices for Supply Chain Cybersecurity](https://www.enisa.europa.eu/publications/good-practices-for-supply-chain-cybersecurity) | EU supply-chain cybersecurity practices and NIS2-related context | Cite publication page/date when used |
 | [ENISA Threat Landscape for Supply Chain Attacks](https://www.enisa.europa.eu/publications/threat-landscape-for-supply-chain-attacks) | Attack/failure mode context and threat examples | Cite publication page/date when used |
 | [UK NCSC Supply Chain Security Guidance](https://www.ncsc.gov.uk/collection/supply-chain-security) | Supplier assurance, supply-chain principles, and assessment practices | Use page version/review date where available |
-| [CISA SBOM topic page](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security/sbom) | SBOM policy, adoption, and operationalization context | Use page and resource dates where available |
+| [CISA SBOM topic page](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security/sbom) | SBOM policy, adoption, and operationalisation context | Use page and resource dates where available |
 | [CISA 2025 Minimum Elements for SBOM](https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom) | SBOM minimum elements and software transparency expectations | Draft guidance, published 2025-08-22 |
 
 ## Evidence structures and attestation

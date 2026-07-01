@@ -101,17 +101,17 @@ Applied practice pages are part of Practices & Controls. Resources support the f
   Supply Chain Security Lifecycle Map
 
 /practices-controls/supplier-assurance-procurement/
-  Supplier & Procurement Assurance
+  Supplier and Procurement Assurance
 /practices-controls/product-acceptance-supply-chain-trust/
   Product Acceptance and Supply Chain Trust
 /practices-controls/secure-development-release-governance/
-  Secure Development & Release Governance
+  Secure Development and Release Governance
 /practices-controls/software-components-vulnerability-management/
-  Software, Component & Vulnerability Management
+  Software Component and Vulnerability Management
 /practices-controls/secure-updates-lifecycle-monitoring/
-  Secure Update & Lifecycle Monitoring
+  Secure Updates and Lifecycle Monitoring
 /practices-controls/audit-compliance-readiness/
-  Audit & Compliance Readiness
+  Audit and Compliance Readiness
 /practices-controls/supply-chain-assurance-implementation/
   Assurance Implementation Planning
 
@@ -120,9 +120,9 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /technology-options/choosing-technology-options/
   Choosing Technology Options
 /technology-options/trust-anchors-device-identity/
-  Trust Anchors & Device Identity
+  Trust Anchors and Device Identity
 /technology-options/attestation-measured-state/
-  Attestation & Measured State
+  Attestation and Measured State
 /technology-options/sbom-vex-component-visibility/
   SBOM, VEX, and Component Visibility
 /technology-options/signing-keys-credentials/
@@ -130,9 +130,9 @@ Applied practice pages are part of Practices & Controls. Resources support the f
 /technology-options/secure-update-recovery-mechanisms/
   Secure Update and Recovery Mechanisms
 /technology-options/evidence-exchange-verifier-workflows/
-  Evidence Exchange & Verifier Workflows
+  Evidence Exchange and Verifier Workflows
 /technology-options/evidence-repositories-logs-retention/
-  Evidence Repositories, Logs & Retention
+  Evidence Repositories, Logs, and Retention
 
 /resources/
   Resources
@@ -207,7 +207,7 @@ Resources should not become a catch-all archive. They should remain the small pr
 - curated references;
 - news and analysis.
 
-Do not reintroduce standalone `Artifact Map`, generic `Templates`, or separate `Evidence Glossary` pages unless there is a specific reader job that cannot be served by the current toolkit. Keep Worked Examples under Resources rather than making examples a top-level navigation item.
+Do not reintroduce standalone `Artefact Map`, generic `Templates`, or separate `Evidence Glossary` pages unless there is a specific reader job that cannot be served by the current toolkit. Keep Worked Examples under Resources rather than making examples a top-level navigation item.
 
 ## Expansion Rules
 

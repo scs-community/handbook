@@ -16,9 +16,9 @@ Use this path when you need to select, contract with, review, renew, or continue
 
 ## Read these pages in order
 
-1. [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)  
+1. [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)  
    Understand the recurring supplier-selection, contracting, review, renewal, and continued-use practice.
-2. [Supplier Questions](../resources/supplier-security-questions.md)  
+2. [Supplier Security Questions](../resources/supplier-security-questions.md)  
    Turn assurance needs into concrete supplier requests.
 3. [Evidence Checklist](../resources/evidence-checklist.md)  
    Decide whether the supplier's evidence is scoped, verifiable, retained, and decision-ready.
@@ -60,5 +60,5 @@ A stronger answer identifies the artefact, owner, product or service scope, life
 
 - [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md)
 - [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
-- [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
+- [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
+- [Evidence Exchange and Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)

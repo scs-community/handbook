@@ -13,12 +13,12 @@ This page helps teams decide which option areas are relevant without turning any
 
 | Assurance need | Useful option areas | Evidence or workflow supported |
 |---|---|---|
-| Identify a device, product, component, platform, or supplier-provided service | [Trust Anchors & Device Identity](./trust-anchors-device-identity.md), [Signing, Keys & Credential Mechanisms](./signing-keys-credentials.md) | Device identity, platform identity, certificate chains, key lifecycle records, credential issuance records |
-| Show what software, firmware, component, dependency, or vulnerability information is present | [Transparency Artefacts & Component Visibility](./sbom-vex-component-visibility.md) | SBOM/xBOM records, component inventories, vulnerability status records, dependency metadata |
-| Compare measured or reported state against expected state | [Attestation & Measured State](./attestation-measured-state.md), [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md) | Measurements, reference values, attestation evidence, verifier appraisal results |
-| Protect release, update, recovery, or evidence artefacts from unauthorised change | [Signing, Keys & Credential Mechanisms](./signing-keys-credentials.md), [Update & Recovery Mechanisms](./secure-update-recovery-mechanisms.md) | Signed releases, update authorisation records, recovery artefacts, key-use logs |
-| Exchange evidence between suppliers, product teams, operators, assessors, and customers | [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md) | Evidence requests, attestation exchange, SBOM distribution, verifier policies, APIs |
-| Retain evidence for acceptance, audit, renewal, vulnerability response, or incident review | [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md) | Evidence packages, repository metadata, verifier logs, access records, retention records |
+| Identify a device, product, component, platform, or supplier-provided service | [Trust Anchors and Device Identity](./trust-anchors-device-identity.md), [Signing, Keys, and Credentials](./signing-keys-credentials.md) | Device identity, platform identity, certificate chains, key lifecycle records, credential issuance records |
+| Show what software, firmware, component, dependency, or vulnerability information is present | [SBOM, VEX, and Component Visibility](./sbom-vex-component-visibility.md) | SBOM/xBOM records, component inventories, vulnerability status records, dependency metadata |
+| Compare measured or reported state against expected state | [Attestation and Measured State](./attestation-measured-state.md), [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md) | Measurements, reference values, attestation evidence, verifier appraisal results |
+| Protect release, update, recovery, or evidence artefacts from unauthorised change | [Signing, Keys, and Credentials](./signing-keys-credentials.md), [Secure Update and Recovery Mechanisms](./secure-update-recovery-mechanisms.md) | Signed releases, update authorisation records, recovery artefacts, key-use logs |
+| Exchange evidence between suppliers, product teams, operators, assessors, and customers | [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md) | Evidence requests, attestation exchange, SBOM distribution, verifier policies, APIs |
+| Retain evidence for acceptance, audit, renewal, vulnerability response, or incident review | [Evidence Repositories, Logs, and Retention](./evidence-repositories-logs-retention.md) | Evidence packages, repository metadata, verifier logs, access records, retention records |
 
 ## Selection questions
 
@@ -86,4 +86,4 @@ Use this pattern when choosing or documenting a technology option:
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
+- [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)

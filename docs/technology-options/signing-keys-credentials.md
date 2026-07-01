@@ -19,7 +19,7 @@ Signing, key, and credential mechanisms may support:
 - separation of build, release, update, recovery, and evidence-signing authority;
 - review of signing events and credential lifecycle state.
 
-They are commonly relevant to [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md), [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), and [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md).
+They are commonly relevant to [Secure Development and Release Governance](../practices-controls/secure-development-release-governance.md), [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), and [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md).
 
 ## Where it fits
 
@@ -129,9 +129,9 @@ Verification should check signature validity, certificate path, key authorisatio
 ## Related pages
 
 - [Choosing Technology Options](./choosing-technology-options.md)
-- [Trust Anchors & Device Identity](./trust-anchors-device-identity.md)
-- [Update & Recovery Mechanisms](./secure-update-recovery-mechanisms.md)
+- [Trust Anchors and Device Identity](./trust-anchors-device-identity.md)
+- [Secure Update and Recovery Mechanisms](./secure-update-recovery-mechanisms.md)
 - [Glossary](../resources/glossary.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md)
+- [Secure Development and Release Governance](../practices-controls/secure-development-release-governance.md)
 - [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)

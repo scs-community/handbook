@@ -29,7 +29,7 @@ The decision becomes weak when the item cannot be tied to the expected supplier,
 These failures usually arise when the delivered item cannot be matched to the expected supplier, configuration, custody path, or lifecycle state. The examples below are different ways the same decision can become unsafe: accepting something without confidence that it is the intended thing.
 
 - Counterfeit or substituted component.
-- Unauthorized lower-grade, reused, repaired, or refurbished part.
+- Unauthorised lower-grade, reused, repaired, or refurbished part.
 - Supplier delivers a different component, build, firmware load, configuration, or service than expected.
 - Reseller, integrator, repairer, or logistics actor changes product state without clear records.
 - Repair, refurbishment, resale, or ownership transfer changes trust state.
@@ -62,7 +62,7 @@ The decision is defensible when the evidence is tied to the specific product, co
 
 - [Threats and Failure Modes](./index.md)
 - [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
-- [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
-- [Trust Anchors & Device Identity](../../technology-options/trust-anchors-device-identity.md)
-- [Evidence Repositories, Logs & Retention](../../technology-options/evidence-repositories-logs-retention.md)
+- [Supplier and Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
+- [Trust Anchors and Device Identity](../../technology-options/trust-anchors-device-identity.md)
+- [Evidence Repositories, Logs, and Retention](../../technology-options/evidence-repositories-logs-retention.md)
 - [Evidence Checklist](../../resources/evidence-checklist.md)

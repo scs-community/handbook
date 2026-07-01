@@ -43,7 +43,7 @@ The examples also label weak, better, and stronger answers using the [Evidence M
 
 Use the examples alongside:
 
-- [Supplier Questions](../supplier-security-questions.md) for request wording;
+- [Supplier Security Questions](../supplier-security-questions.md) for request wording;
 - [Evidence Checklist](../evidence-checklist.md) for review criteria;
 - [Evidence Maturity Model](../evidence-maturity-model.md) for weak, better, stronger, and lifecycle-retained evidence;
 - [Evidence Package Template](../evidence-package-template.md) for packaging evidence for review;

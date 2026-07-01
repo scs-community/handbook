@@ -33,11 +33,11 @@ Evidence is not a separate journey. It is what makes practices reviewable.
 
 Use the maturity model when deciding whether evidence is sufficient for:
 
-- [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md);
+- [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md);
 - [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md);
-- [Software, Component & Vulnerability Management](../practices-controls/software-components-vulnerability-management.md);
-- [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md);
-- [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md);
+- [Software Component and Vulnerability Management](../practices-controls/software-components-vulnerability-management.md);
+- [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md);
+- [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md);
 - [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md).
 
 ## Retention warning

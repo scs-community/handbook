@@ -1,13 +1,13 @@
 ---
 title: Supplier Security Questions
 sidebar_position: 2
-sidebar_label: Supplier Questions
+sidebar_label: Supplier Security Questions
 description: "Ask better supplier security questions that request scoped, verifiable, decision-ready evidence instead of generic compliance assertions."
 ---
 
 Supplier questions should help move from assertions to evidence-backed assurance. Use them in procurement, supplier assurance, product acceptance, audit, and lifecycle monitoring.
 
-Use this page for wording: what to ask a supplier. Use [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md) for the practice context, and use the [Evidence Checklist](./evidence-checklist.md) to turn answers into review criteria.
+Use this page for wording: what to ask a supplier. Use [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md) for the practice context, and use the [Evidence Checklist](./evidence-checklist.md) to turn answers into review criteria.
 
 ## How to use these questions
 
@@ -56,7 +56,7 @@ Ask for the artefact, owner, lifecycle stage, retention expectation, and verific
 
 ## Related Pages
 
-- [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)
+- [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)
 - [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
 - [Evidence Checklist](./evidence-checklist.md)
 - [Standards & Threats](../standards-threats/index.md)

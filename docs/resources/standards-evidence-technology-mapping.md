@@ -1,7 +1,7 @@
 ---
 title: Standards to Evidence and Technology Mapping Workflow
 sidebar_position: 6
-sidebar_label: Standards and Technology Mapping
+sidebar_label: Standards to Evidence and Technology Mapping
 description: "Map standards and requirements to practices, controls, evidence, technology options, verification paths, confidence levels, and implementation gaps."
 ---
 

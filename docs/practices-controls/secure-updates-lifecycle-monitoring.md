@@ -1,7 +1,7 @@
 ---
 title: Secure Updates and Lifecycle Monitoring
 sidebar_position: 8
-sidebar_label: Secure Updates and Monitoring
+sidebar_label: Secure Updates and Lifecycle Monitoring
 description: "Operate secure update and lifecycle monitoring practices for update approval, deployment evidence, vulnerability response, and post-release assurance."
 ---
 
@@ -109,6 +109,6 @@ Technology options may include update frameworks, signing systems, transparency 
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
 - [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
-- [Update & Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)
-- [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credentials.md)
-- [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)
+- [Secure Update and Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)
+- [Signing, Keys, and Credentials](../technology-options/signing-keys-credentials.md)
+- [Evidence Repositories, Logs, and Retention](../technology-options/evidence-repositories-logs-retention.md)

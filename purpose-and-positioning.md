@@ -94,7 +94,7 @@ Supply-chain security becomes more actionable when practices are linked to lifec
 
 ## Relationship To Standards Activity
 
-The handbook may cite GlobalPlatform, TCG, and related standards activity where relevant, but it should remain organized around reader needs rather than standards liaison activity.
+The handbook may cite GlobalPlatform, TCG, and related standards activity where relevant, but it should remain organised around reader needs rather than standards liaison activity.
 
 The 10 best practices material is source material for one theme within the broader site. The 10 best practices page is a navigational and educational anchor inside Practices & Controls. It is not the whole site.
 

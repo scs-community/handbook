@@ -28,11 +28,11 @@ Logo usage:
 
 - Keep clear space of at least half the logo height around the mark.
 - Keep the mark legible at small sizes.
-- Do not skew, stretch, outline, recolor arbitrarily, or change stroke weight.
+- Do not skew, stretch, outline, recolour arbitrarily, or change stroke weight.
 - Use approved SVG assets from `static/img/` rather than recreating the mark.
 - Use descriptive alt text, such as "Supply Chain Security Handbook logo".
 
-## Color Palette
+## Colour Palette
 
 The site currently uses the sister-site teal/cyan palette.
 
@@ -47,8 +47,8 @@ The site currently uses the sister-site teal/cyan palette.
 
 Accessibility expectations:
 
-- Do not convey meaning by color alone.
-- Check text contrast when adding new color combinations.
+- Do not convey meaning by colour alone.
+- Check text contrast when adding new colour combinations.
 - Prefer the existing Docusaurus/Infima variables in `src/css/custom.css`.
 
 ## Typography

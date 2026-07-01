@@ -21,7 +21,7 @@ Evidence repositories, logs, and retention mechanisms may support:
 - access, integrity, and retention controls;
 - audit, renewal, incident, and customer review workflows.
 
-They are commonly relevant to [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md), [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md), [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), and [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md).
+They are commonly relevant to [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md), [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md), [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), and [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md).
 
 ## Where it fits
 
@@ -127,7 +127,7 @@ Verification should check whether evidence origin is preserved, whether integrit
 ## Related pages
 
 - [Choosing Technology Options](./choosing-technology-options.md)
-- [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md)
+- [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
+- [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md)

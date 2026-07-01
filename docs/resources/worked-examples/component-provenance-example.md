@@ -109,9 +109,9 @@ Component provenance evidence is retained with acceptance evidence and refreshed
 ## Related pages
 
 - [Product and Component Trust Failures](../../standards-threats/threats/product-component-trust-failures.md)
-- [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
+- [Supplier and Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
 - [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
-- [Transparency Artefacts & Component Visibility](../../technology-options/sbom-vex-component-visibility.md)
-- [Trust Anchors & Device Identity](../../technology-options/trust-anchors-device-identity.md)
+- [SBOM, VEX, and Component Visibility](../../technology-options/sbom-vex-component-visibility.md)
+- [Trust Anchors and Device Identity](../../technology-options/trust-anchors-device-identity.md)
 - [Evidence Package Template](../evidence-package-template.md)
 - [Glossary](../glossary.md)

@@ -56,7 +56,7 @@ It pushes buyers and operators to ask:
 
 That is the same direction as [NIS2](/standards-threats/standards-regulations/nis2/) and [NIST SP 800-161](/standards-threats/standards-regulations/nist-sp-800-161/): supplier risk should become governed, scoped, reviewable, and retained.
 
-For the operating practice behind these questions, see [Supplier & Procurement Assurance](/practices-controls/supplier-assurance-procurement/).
+For the operating practice behind these questions, see [Supplier and Procurement Assurance](/practices-controls/supplier-assurance-procurement/).
 
 ---
 
@@ -90,7 +90,7 @@ Useful questions include:
 - What incident-notification, vulnerability-response, and customer-communication commitments are contractual?
 - Who owns review, renewal, exception, and risk-acceptance decisions?
 
-[Supplier Questions](/resources/supplier-security-questions/) provides reusable wording for turning those evidence needs into supplier-facing requests.
+[Supplier Security Questions](/resources/supplier-security-questions/) provides reusable wording for turning those evidence needs into supplier-facing requests.
 
 ---
 

@@ -22,13 +22,13 @@ Standards and regulations belong with [Standards & Threats](../standards-threats
 | If you need to... | Start with... |
 |---|---|
 | Decide whether a mechanism is useful for an assurance workflow | [Choosing Technology Options](./choosing-technology-options.md) |
-| Bind product, component, device, or platform identity to a trustable root | [Trust Anchors & Device Identity](./trust-anchors-device-identity.md) |
-| Check measured or current state against expected state | [Attestation & Measured State](./attestation-measured-state.md) |
-| Understand product composition, dependencies, and vulnerability status | [Transparency Artefacts & Component Visibility](./sbom-vex-component-visibility.md) |
-| Protect releases, evidence, credentials, keys, or authorisation decisions | [Signing, Keys & Credential Mechanisms](./signing-keys-credentials.md) |
-| Support authorised updates, recovery, rollback control, or post-release assurance | [Update & Recovery Mechanisms](./secure-update-recovery-mechanisms.md) |
-| Move evidence between producers, verifiers, relying parties, and tools | [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md) |
-| Retain evidence so it remains usable for audit, renewal, incident review, and lifecycle decisions | [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md) |
+| Bind product, component, device, or platform identity to a trustable root | [Trust Anchors and Device Identity](./trust-anchors-device-identity.md) |
+| Check measured or current state against expected state | [Attestation and Measured State](./attestation-measured-state.md) |
+| Understand product composition, dependencies, and vulnerability status | [SBOM, VEX, and Component Visibility](./sbom-vex-component-visibility.md) |
+| Protect releases, evidence, credentials, keys, or authorisation decisions | [Signing, Keys, and Credentials](./signing-keys-credentials.md) |
+| Support authorised updates, recovery, rollback control, or post-release assurance | [Secure Update and Recovery Mechanisms](./secure-update-recovery-mechanisms.md) |
+| Move evidence between producers, verifiers, relying parties, and tools | [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md) |
+| Retain evidence so it remains usable for audit, renewal, incident review, and lifecycle decisions | [Evidence Repositories, Logs, and Retention](./evidence-repositories-logs-retention.md) |
 
 ## What technology options can and cannot do
 
@@ -72,4 +72,4 @@ Where this section lists individual standards, specifications, mechanisms, or to
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Glossary](../resources/glossary.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
+- [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)

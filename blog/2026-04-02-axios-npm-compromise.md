@@ -122,7 +122,7 @@ threat/failure mode -> decision -> control -> evidence -> verification -> gaps -
 
 Recommended reading:
 
-- **[Secure Development & Release Governance](/practices-controls/secure-development-release-governance/)** for release approval, supplier inputs, and build-output evidence.
-- **[Software, Component & Vulnerability Management](/practices-controls/software-components-vulnerability-management/)** for affected-product analysis and dependency visibility.
-- **[Secure Update & Lifecycle Monitoring](/practices-controls/secure-updates-lifecycle-monitoring/)** for update approval and post-release assurance.
-- **[Transparency Artefacts & Component Visibility](/technology-options/sbom-vex-component-visibility/)** for SBOM/xBOM, dependency, and vulnerability-status artefacts.
+- **[Secure Development and Release Governance](/practices-controls/secure-development-release-governance/)** for release approval, supplier inputs, and build-output evidence.
+- **[Software Component and Vulnerability Management](/practices-controls/software-components-vulnerability-management/)** for affected-product analysis and dependency visibility.
+- **[Secure Updates and Lifecycle Monitoring](/practices-controls/secure-updates-lifecycle-monitoring/)** for update approval and post-release assurance.
+- **[SBOM, VEX, and Component Visibility](/technology-options/sbom-vex-component-visibility/)** for SBOM/xBOM, dependency, and vulnerability-status artefacts.

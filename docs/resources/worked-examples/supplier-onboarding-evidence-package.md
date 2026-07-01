@@ -106,10 +106,10 @@ Supplier onboarding evidence is retained with the contract file and refreshed at
 
 ## Related pages
 
-- [Supplier & Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
-- [Supplier Questions](../supplier-security-questions.md)
+- [Supplier and Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
+- [Supplier Security Questions](../supplier-security-questions.md)
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)
-- [Evidence Exchange & Verifier Workflows](../../technology-options/evidence-exchange-verifier-workflows.md)
-- [Evidence Repositories, Logs & Retention](../../technology-options/evidence-repositories-logs-retention.md)
+- [Evidence Exchange and Verifier Workflows](../../technology-options/evidence-exchange-verifier-workflows.md)
+- [Evidence Repositories, Logs, and Retention](../../technology-options/evidence-repositories-logs-retention.md)

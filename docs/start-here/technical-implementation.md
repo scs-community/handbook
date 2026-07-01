@@ -20,19 +20,19 @@ Use this path when you need to implement technical mechanisms, tools, workflows,
    Start from assurance decisions, evidence needs, verification paths, and lifecycle retention requirements.
 2. [Choosing Technology Options](../technology-options/choosing-technology-options.md)  
    Compare mechanisms without treating them as mandates.
-3. [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md)  
+3. [Trust Anchors and Device Identity](../technology-options/trust-anchors-device-identity.md)  
    Understand identity roots, credentials, and device or platform binding.
-4. [Attestation & Measured State](../technology-options/attestation-measured-state.md)  
+4. [Attestation and Measured State](../technology-options/attestation-measured-state.md)  
    Understand how measured or current state may be reported and appraised.
-5. [Transparency Artefacts & Component Visibility](../technology-options/sbom-vex-component-visibility.md)  
+5. [SBOM, VEX, and Component Visibility](../technology-options/sbom-vex-component-visibility.md)  
    Understand SBOM/xBOM, component visibility, vulnerability linkage, and artefact limits.
-6. [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credentials.md)  
+6. [Signing, Keys, and Credentials](../technology-options/signing-keys-credentials.md)  
    Understand mechanisms for protecting releases, evidence, credentials, keys, and authorisation decisions.
-7. [Update & Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)  
+7. [Secure Update and Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)  
    Understand authorised updates, rollback, recovery, and post-release assurance.
-8. [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)  
+8. [Evidence Exchange and Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)  
    Understand how evidence may move between producers, verifiers, relying parties, and tools.
-9. [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)  
+9. [Evidence Repositories, Logs, and Retention](../technology-options/evidence-repositories-logs-retention.md)  
    Understand how evidence remains usable for audit, renewal, incident review, and lifecycle decisions.
 
 ## What you should leave with
@@ -63,7 +63,7 @@ A stronger answer starts with the decision and evidence need, then explains whic
 ## Related pages
 
 - [Technology Options](../technology-options/index.md)
-- [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
+- [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
 - [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)

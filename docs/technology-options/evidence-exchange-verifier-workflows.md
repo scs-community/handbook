@@ -18,7 +18,7 @@ Evidence exchange and verifier workflows may support:
 - verifier policy and relying-party decisions;
 - API, portal, repository, or automated evidence workflows.
 
-They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md), and [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md).
+They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md), and [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md).
 
 ## Where it fits
 
@@ -128,7 +128,7 @@ Verification should check who produced the evidence, whether the exchange path p
 ## Related pages
 
 - [Choosing Technology Options](./choosing-technology-options.md)
-- [Attestation & Measured State](./attestation-measured-state.md)
-- [Evidence Repositories, Logs & Retention](./evidence-repositories-logs-retention.md)
+- [Attestation and Measured State](./attestation-measured-state.md)
+- [Evidence Repositories, Logs, and Retention](./evidence-repositories-logs-retention.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
-- [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
+- [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md)

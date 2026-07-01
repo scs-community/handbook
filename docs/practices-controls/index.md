@@ -21,12 +21,12 @@ Use this section to move from standards and threats to practical behaviours, cor
 |---|---|
 | [10 Best Practices](/practices-controls/10-best-practices/) | Understand the core supply chain security practices and how they connect to evidence, lifecycle, verification, and technology options. |
 | [Lifecycle Map](./supply-chain-security-lifecycle-map.md) | Place practices, controls, and evidence across design, sourcing, manufacturing, provisioning, logistics, acceptance, deployment, update, repair, transfer, and decommissioning. |
-| [Supplier & Procurement Assurance](./supplier-assurance-procurement.md) | Operate supplier selection, contracting, assurance review, renewal, and continued-use processes based on evidence. |
+| [Supplier and Procurement Assurance](./supplier-assurance-procurement.md) | Operate supplier selection, contracting, assurance review, renewal, and continued-use processes based on evidence. |
 | [Product Acceptance](./product-acceptance-supply-chain-trust.md) | Accept delivered products, components, platforms, firmware loads, or services only when evidence supports the trust decision. |
-| [Secure Development & Release Governance](./secure-development-release-governance.md) | Govern supplier inputs, dependencies, build outputs, reviews, approvals, signing readiness, and release evidence. |
-| [Software, Component & Vulnerability Management](./software-components-vulnerability-management.md) | Maintain visibility of software, firmware, components, supplier inputs, affected products, vulnerabilities, remediation, and status communication. |
-| [Secure Update & Lifecycle Monitoring](./secure-updates-lifecycle-monitoring.md) | Govern update approval, authorisation, signing, delivery, installation, recovery, evidence refresh, and continued lifecycle assurance. |
-| [Audit & Compliance Readiness](./audit-compliance-readiness.md) | Maintain traceable control evidence for audit, customer assurance, certification, and internal review. |
+| [Secure Development and Release Governance](./secure-development-release-governance.md) | Govern supplier inputs, dependencies, build outputs, reviews, approvals, signing readiness, and release evidence. |
+| [Software Component and Vulnerability Management](./software-components-vulnerability-management.md) | Maintain visibility of software, firmware, components, supplier inputs, affected products, vulnerabilities, remediation, and status communication. |
+| [Secure Updates and Lifecycle Monitoring](./secure-updates-lifecycle-monitoring.md) | Govern update approval, authorisation, signing, delivery, installation, recovery, evidence refresh, and continued lifecycle assurance. |
+| [Audit and Compliance Readiness](./audit-compliance-readiness.md) | Maintain traceable control evidence for audit, customer assurance, certification, and internal review. |
 | [Assurance Implementation Planning](./supply-chain-assurance-implementation.md) | Plan engineering capabilities from assurance decisions, evidence needs, verification paths, and lifecycle retention requirements. |
 
 ## Operating model

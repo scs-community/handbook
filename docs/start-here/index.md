@@ -34,7 +34,7 @@ If you already know the task you need to complete, you can go directly to the ma
 
 ## Common topic shortcuts
 
-- [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md) for supplier assurance, procurement risk, evidence requests, and supplier review.
+- [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md) for supplier assurance, procurement risk, evidence requests, and supplier review.
 - [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md) for product trust, component provenance, vulnerability status, updates, supportability, and residual risk decisions.
-- [Transparency Artefacts & Component Visibility](../technology-options/sbom-vex-component-visibility.md) for SBOMs, VEX, xBOMs, component inventories, and vulnerability-status evidence.
+- [SBOM, VEX, and Component Visibility](../technology-options/sbom-vex-component-visibility.md) for SBOMs, VEX, xBOMs, component inventories, and vulnerability-status evidence.
 - [Evidence Checklist](../resources/evidence-checklist.md) for testing whether supply chain security evidence is scoped, current, verifiable, retained, and tied to a decision.

@@ -85,7 +85,7 @@ Supply chain assurance weakens when origin, custody, reseller, integrator, logis
 
 **Related pages**
 
-- [Supplier Assurance and Procurement Security](./supplier-assurance-procurement.md)
+- [Supplier and Procurement Assurance](./supplier-assurance-procurement.md)
 - [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
 - [Component Provenance Evidence Example](../resources/worked-examples/component-provenance-example.md)
 

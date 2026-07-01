@@ -34,7 +34,7 @@ Use this path when you need to translate a regulation, standard, procurement exp
    Connect external drivers to the failures they are trying to prevent.
 9. [10 Best Practices](/practices-controls/10-best-practices/)  
    Translate drivers and threats into practical supply chain security practices.
-10. [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)  
+10. [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)  
    Record source roles, evidence requirements, technology options, mapping confidence, and gaps.
 11. [Evidence Checklist](../resources/evidence-checklist.md)  
    Check whether the mapped evidence is scoped, verifiable, retained, and decision-ready.
@@ -70,6 +70,6 @@ A stronger answer names the driver, assigns the source role, maps it to practice
 
 - [Practices & Controls](../practices-controls/index.md)
 - [Technology Options](../technology-options/index.md)
-- [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
+- [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Glossary](../resources/glossary.md)

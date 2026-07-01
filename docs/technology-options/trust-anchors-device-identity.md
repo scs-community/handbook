@@ -18,7 +18,7 @@ Trust anchors and device identity may support:
 - identity-bound measurements or attestation inputs;
 - supplier, factory, provisioning, repair, transfer, or decommissioning evidence.
 
-They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md), [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md), and [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md).
+They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md), [Secure Development and Release Governance](../practices-controls/secure-development-release-governance.md), and [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md).
 
 ## Where it fits
 
@@ -159,4 +159,4 @@ Verification should check whether the identity evidence is bound to the right pr
 - [Glossary](../resources/glossary.md)
 - [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
 - [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
-- [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)
+- [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)

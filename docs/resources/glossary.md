@@ -56,4 +56,4 @@ This glossary defines practical terms used across the handbook. It covers assura
 - [Evidence Maturity Model](./evidence-maturity-model.md)
 - [Evidence Package Template](./evidence-package-template.md)
 - [Technology Options](../technology-options/index.md)
-- [Supplier Questions](./supplier-security-questions.md)
+- [Supplier Security Questions](./supplier-security-questions.md)

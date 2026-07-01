@@ -18,7 +18,7 @@ Attestation and measured-state options may support:
 - verifier appraisal results;
 - current-state or update-state checks.
 
-They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md), [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), and [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md).
+They are commonly relevant to [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md), [Secure Development and Release Governance](../practices-controls/secure-development-release-governance.md), [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), and [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md).
 
 ## Where it fits
 
@@ -135,9 +135,9 @@ Verification should check whether the evidence came from the expected product or
 ## Related pages
 
 - [Choosing Technology Options](./choosing-technology-options.md)
-- [Trust Anchors & Device Identity](./trust-anchors-device-identity.md)
-- [Evidence Exchange & Verifier Workflows](./evidence-exchange-verifier-workflows.md)
+- [Trust Anchors and Device Identity](./trust-anchors-device-identity.md)
+- [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md)
 - [Glossary](../resources/glossary.md)
 - [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
-- [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md)
+- [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md)
 - [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)

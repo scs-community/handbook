@@ -16,7 +16,7 @@ Use this path when you need to prepare, review, or explain evidence for audit, c
 
 ## Read these pages in order
 
-1. [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)  
+1. [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md)  
    Understand how to maintain traceable control evidence for audit, customer assurance, certification, and internal review.
 2. [Evidence Checklist](../resources/evidence-checklist.md)  
    Review whether evidence is scoped, verifiable, retained, and decision-ready.
@@ -24,9 +24,9 @@ Use this path when you need to prepare, review, or explain evidence for audit, c
    Separate unsupported claims from produced, verifiable, and lifecycle-retained evidence.
 4. [Evidence Package Template](../resources/evidence-package-template.md)  
    Assemble decision-ready evidence packages with gaps, exceptions, and retention owners.
-5. [Standards & Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)  
+5. [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)  
    Record how standards, evidence requirements, technology options, and mapping confidence support the decision.
-6. [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)  
+6. [Evidence Repositories, Logs, and Retention](../technology-options/evidence-repositories-logs-retention.md)  
    Understand repository, retention, access, and audit-log considerations.
 
 ## What you should leave with
@@ -60,4 +60,4 @@ A stronger answer links the control, decision, artefact, source reference, revie
 - [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md)
 - [Weak vs Strong Supplier Answers](../resources/worked-examples/weak-vs-strong-supplier-answers.md)
 - [Standards and Regulations](../standards-threats/standards-regulations/index.md)
-- [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
+- [Evidence Exchange and Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)

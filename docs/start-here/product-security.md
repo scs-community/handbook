@@ -22,11 +22,11 @@ Use this path when you own product-security assurance across design, sourcing, a
    Place practices, controls, and evidence across design, sourcing, manufacturing, acceptance, deployment, update, repair, transfer, and decommissioning.
 3. [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)  
    Decide whether delivered products, components, firmware loads, or services are genuine, expected, supportable, and in an acceptable trust state.
-4. [Secure Development & Release Governance](../practices-controls/secure-development-release-governance.md)  
+4. [Secure Development and Release Governance](../practices-controls/secure-development-release-governance.md)  
    Govern supplier inputs, dependencies, build outputs, reviews, approvals, signing readiness, and release evidence.
-5. [Software, Component & Vulnerability Management](../practices-controls/software-components-vulnerability-management.md)  
+5. [Software Component and Vulnerability Management](../practices-controls/software-components-vulnerability-management.md)  
    Maintain visibility of components, affected products, vulnerabilities, remediation, and status communication.
-6. [Secure Update & Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md)  
+6. [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md)  
    Govern update approval, authorisation, signing, delivery, recovery, evidence refresh, and continued lifecycle assurance.
 7. [Evidence Checklist](../resources/evidence-checklist.md)  
    Review whether evidence is scoped, verifiable, retained, and tied to the decision.

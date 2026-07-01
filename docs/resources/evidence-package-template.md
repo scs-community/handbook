@@ -89,7 +89,7 @@ Use the same template fields, but emphasise different evidence depending on the 
 
 Retention does not make weak evidence strong. It preserves evidence usefulness only if the original artefact, context, and verification path are meaningful.
 
-Use this template with [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md) when evidence needs to support later audit, renewal, vulnerability response, transfer, repair, incident review, or decommissioning decisions.
+Use this template with [Evidence Repositories, Logs, and Retention](../technology-options/evidence-repositories-logs-retention.md) when evidence needs to support later audit, renewal, vulnerability response, transfer, repair, incident review, or decommissioning decisions.
 
 ## Related pages
 
@@ -97,5 +97,5 @@ Use this template with [Evidence Repositories, Logs & Retention](../technology-o
 - [Evidence Maturity Model](./evidence-maturity-model.md)
 - [Worked Examples](./worked-examples/index.md)
 - [Glossary](./glossary.md)
-- [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
+- [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
 - [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md)

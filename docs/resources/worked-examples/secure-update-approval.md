@@ -104,10 +104,10 @@ Update approval evidence is retained with release records, vulnerability respons
 
 ## Related pages
 
-- [Secure Update & Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md)
-- [Secure Development & Release Governance](../../practices-controls/secure-development-release-governance.md)
-- [Software, Component & Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md)
+- [Secure Updates and Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md)
+- [Secure Development and Release Governance](../../practices-controls/secure-development-release-governance.md)
+- [Software Component and Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md)
 - [Evidence Package Template](../evidence-package-template.md)
-- [Signing, Keys & Credential Mechanisms](../../technology-options/signing-keys-credentials.md)
-- [Update & Recovery Mechanisms](../../technology-options/secure-update-recovery-mechanisms.md)
-- [Evidence Repositories, Logs & Retention](../../technology-options/evidence-repositories-logs-retention.md)
+- [Signing, Keys, and Credentials](../../technology-options/signing-keys-credentials.md)
+- [Secure Update and Recovery Mechanisms](../../technology-options/secure-update-recovery-mechanisms.md)
+- [Evidence Repositories, Logs, and Retention](../../technology-options/evidence-repositories-logs-retention.md)

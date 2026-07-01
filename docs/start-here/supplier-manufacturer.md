@@ -16,7 +16,7 @@ Use this path when a customer, assessor, auditor, or procurement team asks you t
 
 ## Read these pages in order
 
-1. [Supplier Questions](../resources/supplier-security-questions.md)  
+1. [Supplier Security Questions](../resources/supplier-security-questions.md)  
    Understand the kinds of evidence customers may ask for.
 2. [Evidence Maturity Model](../resources/evidence-maturity-model.md)  
    Distinguish assertions, documented processes, produced artefacts, verifiable artefacts, and lifecycle-retained evidence.
@@ -58,6 +58,6 @@ A stronger answer explains what evidence exists, what it applies to, who owns it
 
 - [Supplier Onboarding Evidence Package](../resources/worked-examples/supplier-onboarding-evidence-package.md)
 - [Weak vs Strong Supplier Answers](../resources/worked-examples/weak-vs-strong-supplier-answers.md)
-- [Supplier & Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)
-- [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
-- [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)
+- [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)
+- [Evidence Exchange and Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
+- [Evidence Repositories, Logs, and Retention](../technology-options/evidence-repositories-logs-retention.md)

@@ -221,7 +221,7 @@ const config: Config = {
               to: '/practices-controls/supply-chain-security-lifecycle-map/',
             },
             {
-              label: 'Supplier & Procurement Assurance',
+              label: 'Supplier and Procurement Assurance',
               to: '/practices-controls/supplier-assurance-procurement/',
             },
             {
@@ -229,19 +229,19 @@ const config: Config = {
               to: '/practices-controls/product-acceptance-supply-chain-trust/',
             },
             {
-              label: 'Secure Development & Release Governance',
+              label: 'Secure Development and Release Governance',
               to: '/practices-controls/secure-development-release-governance/',
             },
             {
-              label: 'Software, Component & Vulnerability Management',
+              label: 'Software Component and Vulnerability Management',
               to: '/practices-controls/software-components-vulnerability-management/',
             },
             {
-              label: 'Secure Update & Lifecycle Monitoring',
+              label: 'Secure Updates and Lifecycle Monitoring',
               to: '/practices-controls/secure-updates-lifecycle-monitoring/',
             },
             {
-              label: 'Audit & Compliance Readiness',
+              label: 'Audit and Compliance Readiness',
               to: '/practices-controls/audit-compliance-readiness/',
             },
             {
@@ -262,31 +262,31 @@ const config: Config = {
               to: '/technology-options/choosing-technology-options/',
             },
             {
-              label: 'Trust Anchors & Device Identity',
+              label: 'Trust Anchors and Device Identity',
               to: '/technology-options/trust-anchors-device-identity/',
             },
             {
-              label: 'Attestation & Measured State',
+              label: 'Attestation and Measured State',
               to: '/technology-options/attestation-measured-state/',
             },
             {
-              label: 'Transparency Artefacts & Component Visibility',
+              label: 'SBOM, VEX, and Component Visibility',
               to: '/technology-options/sbom-vex-component-visibility/',
             },
             {
-              label: 'Signing, Keys & Credential Mechanisms',
+              label: 'Signing, Keys, and Credentials',
               to: '/technology-options/signing-keys-credentials/',
             },
             {
-              label: 'Update & Recovery Mechanisms',
+              label: 'Secure Update and Recovery Mechanisms',
               to: '/technology-options/secure-update-recovery-mechanisms/',
             },
             {
-              label: 'Evidence Exchange & Verifier Workflows',
+              label: 'Evidence Exchange and Verifier Workflows',
               to: '/technology-options/evidence-exchange-verifier-workflows/',
             },
             {
-              label: 'Evidence Repositories, Logs & Retention',
+              label: 'Evidence Repositories, Logs, and Retention',
               to: '/technology-options/evidence-repositories-logs-retention/',
             },
           ],
@@ -299,7 +299,7 @@ const config: Config = {
               to: '/resources/',
             },
             {
-              label: 'Supplier Questions',
+              label: 'Supplier Security Questions',
               to: '/resources/supplier-security-questions/',
             },
             {
@@ -319,7 +319,7 @@ const config: Config = {
               to: '/resources/worked-examples/',
             },
             {
-              label: 'Standards & Technology Mapping Workflow',
+              label: 'Standards to Evidence and Technology Mapping Workflow',
               to: '/resources/standards-evidence-technology-mapping/',
             },
             {

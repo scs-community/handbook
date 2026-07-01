@@ -51,7 +51,7 @@ Attestation does not automatically prove that the product is free from vulnerabi
 
 When acceptance evidence is missing, stale, incomplete, inconsistent, or unverifiable, the practice should produce a reject, quarantine, accept-with-conditions, remediation, or risk-acceptance decision rather than silently proceeding to deployment.
 
-Use [Supplier Questions](../resources/supplier-security-questions.md) to request missing evidence and the [Evidence Checklist](../resources/evidence-checklist.md) to document acceptance criteria.
+Use [Supplier Security Questions](../resources/supplier-security-questions.md) to request missing evidence and the [Evidence Checklist](../resources/evidence-checklist.md) to document acceptance criteria.
 
 ## Questions to ask
 
@@ -119,14 +119,14 @@ Relevant mappings may include Platform Certificates, TPM, DICE, Secure Element, 
 - [Threats and Failure Modes](../standards-threats/threats/index.md)
 - [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
 - [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
-- [Supplier & Procurement Assurance](./supplier-assurance-procurement.md)
-- [Supplier Questions](../resources/supplier-security-questions.md)
+- [Supplier and Procurement Assurance](./supplier-assurance-procurement.md)
+- [Supplier Security Questions](../resources/supplier-security-questions.md)
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
 - [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md)
 - [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)
-- [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md)
-- [Attestation & Measured State](../technology-options/attestation-measured-state.md)
-- [Transparency Artefacts & Component Visibility](../technology-options/sbom-vex-component-visibility.md)
-- [Update & Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)
+- [Trust Anchors and Device Identity](../technology-options/trust-anchors-device-identity.md)
+- [Attestation and Measured State](../technology-options/attestation-measured-state.md)
+- [SBOM, VEX, and Component Visibility](../technology-options/sbom-vex-component-visibility.md)
+- [Secure Update and Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)
