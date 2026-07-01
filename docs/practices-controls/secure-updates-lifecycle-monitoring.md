@@ -5,7 +5,7 @@ sidebar_label: Secure Updates and Lifecycle Monitoring
 description: "Operate secure update and lifecycle monitoring practices for update approval, deployment evidence, vulnerability response, and post-release assurance."
 ---
 
-Secure update and lifecycle monitoring is the recurring practice of governing update approval, authorisation, signing, delivery, installation, recovery, monitoring, evidence refresh, and continued lifecycle assurance.
+Secure update and lifecycle monitoring is the recurring practice of governing update approval, authorization, signing, delivery, installation, recovery, monitoring, evidence refresh, and continued lifecycle assurance.
 
 This practice is commonly driven by CRA, update requirements, vulnerability remediation, lifecycle assurance, product acceptance, and [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md).
 
@@ -33,13 +33,13 @@ When update or lifecycle evidence is missing, stale, incomplete, inconsistent, o
 
 | Control | Purpose | Evidence produced |
 |---|---|---|
-| Update approval workflow | Ensure updates are reviewed and authorised before release or deployment. | Update approvals, release notes, eligibility records. |
-| Update eligibility check | Confirm that an update is authorised for the specific product, version, lifecycle state, customer, region, or deployment context. | Eligibility decision, policy check, deployment cohort, exception record. |
+| Update approval workflow | Ensure updates are reviewed and authorized before release or deployment. | Update approvals, release notes, eligibility records. |
+| Update eligibility check | Confirm that an update is authorized for the specific product, version, lifecycle state, customer, region, or deployment context. | Eligibility decision, policy check, deployment cohort, exception record. |
 | Update signing control | Protect update authenticity and integrity. | Signing records, key custody records, update manifests. |
 | Installation and rollback recording | Show whether updates were delivered, installed, recoverable, and current. | Installation logs, rollback records, recovery records. |
 | Post-update verification | Check product state after update or configuration change. | Attestation results, configuration records, verification logs. |
 | Lifecycle event trigger | Identify repair, transfer, vulnerability, retirement, or ownership changes that require review. | Lifecycle-state records, event logs, review tasks. |
-| Evidence refresh | Keep evidence usable after acceptance and identify stale or missing records. | Refreshed artefacts, stale-evidence findings, exception records. |
+| Evidence refresh | Keep evidence usable after acceptance and identify stale or missing records. | Refreshed artifacts, stale-evidence findings, exception records. |
 
 ## What good practice looks like
 
@@ -47,7 +47,7 @@ Good lifecycle monitoring defines which events require new evidence, who reviews
 
 Update evidence does not prove provenance or identity by itself. Vulnerability records do not prove remediation unless connected to product versions, update records, and verification.
 
-Lifecycle-state records do not prove technical integrity unless connected to integrity evidence. Retention does not make weak evidence strong; it preserves evidence usefulness only if the original artefact, context, and verification path are meaningful.
+Lifecycle-state records do not prove technical integrity unless connected to integrity evidence. Retention does not make weak evidence strong; it preserves evidence usefulness only if the original artifact, context, and verification path are meaningful.
 
 ## Questions to ask
 
@@ -85,7 +85,7 @@ The product was checked at acceptance.
 
 ## Stronger answer
 
-The organisation defines lifecycle events, refreshes evidence after those events, verifies current state against policy, retains evidence for future assurance decisions, and records exceptions when operation continues despite gaps.
+The organization defines lifecycle events, refreshes evidence after those events, verifies current state against policy, retains evidence for future assurance decisions, and records exceptions when operation continues despite gaps.
 
 ## Verification considerations
 

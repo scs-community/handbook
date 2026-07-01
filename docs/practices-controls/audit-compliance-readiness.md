@@ -25,15 +25,15 @@ This practice connects control expectations to evidence before an audit or custo
 
 ## What can go wrong
 
-Audit readiness fails when requirements are translated into policy statements without operational evidence, when evidence is not bound to product or supplier scope, or when artefacts cannot be reviewed for freshness, lifecycle stage, verification method, and retention.
+Audit readiness fails when requirements are translated into policy statements without operational evidence, when evidence is not bound to product or supplier scope, or when artifacts cannot be reviewed for freshness, lifecycle stage, verification method, and retention.
 
 ## Core controls
 
 | Control | Purpose | Evidence produced |
 |---|---|---|
-| Control evidence register | Map controls to artefacts, owners, lifecycle stages, and review cadence. | Evidence register, ownership records, review schedule. |
+| Control evidence register | Map controls to artifacts, owners, lifecycle stages, and review cadence. | Evidence register, ownership records, review schedule. |
 | Standards mapping review | Keep standards interpretations separate from formal compliance claims. | Mapping matrix, source references, assumptions, gap records. |
-| Evidence retention control | Define what evidence is retained, where, for how long, and under whose ownership. | Retention policy, artefact repository records, access logs. |
+| Evidence retention control | Define what evidence is retained, where, for how long, and under whose ownership. | Retention policy, artifact repository records, access logs. |
 | Audit package preparation | Assemble evidence with scope, lifecycle, and verification context. | Audit pack, customer assurance pack, review notes. |
 | Exception visibility | Make gaps, expired evidence, and remediation commitments reviewable. | Exception records, remediation plans, risk acceptance records. |
 
@@ -51,8 +51,8 @@ Use the [Evidence Package Template](../resources/evidence-package-template.md) w
 
 ### Suppliers
 
-- What artefacts show that the relevant control, process, or assurance claim operated for this product or service?
-- Which artefacts can be shared with auditors or assessors, and under what confidentiality constraints?
+- What artifacts show that the relevant control, process, or assurance claim operated for this product or service?
+- Which artifacts can be shared with auditors or assessors, and under what confidentiality constraints?
 - How are exceptions, expired evidence, and remediation commitments documented?
 
 ### Internally
@@ -79,11 +79,11 @@ This practice should produce control-to-evidence mappings, audit packs, customer
 
 ## Weak answer
 
-The organisation says it follows supply chain security best practices.
+The organization says it follows supply chain security best practices.
 
 ## Stronger answer
 
-The organisation provides evidence for specific controls, explains how it was verified, identifies lifecycle and product/supplier scope, retains artefacts, and cites sources for standards or framework mappings.
+The organization provides evidence for specific controls, explains how it was verified, identifies lifecycle and product/supplier scope, retains artifacts, and cites sources for standards or framework mappings.
 
 ## Verification considerations
 
@@ -95,7 +95,7 @@ Control evidence readiness may cover design, sourcing, manufacturing, provisioni
 
 ## Technology options
 
-Technology options may include evidence repositories, GRC tooling, artefact registries, audit evidence stores, SBOM/xBOM exchange, attestation stores, vulnerability workflow tools, and reporting dashboards. Keep these as support mechanisms, not proof by themselves.
+Technology options may include evidence repositories, GRC tooling, artifact registries, audit evidence stores, SBOM/xBOM exchange, attestation stores, vulnerability workflow tools, and reporting dashboards. Keep these as support mechanisms, not proof by themselves.
 
 ## Related pages
 

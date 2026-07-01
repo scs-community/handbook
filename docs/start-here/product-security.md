@@ -27,7 +27,7 @@ Use this path when you own product-security assurance across design, sourcing, a
 5. [Software Component and Vulnerability Management](../practices-controls/software-components-vulnerability-management.md)  
    Maintain visibility of components, affected products, vulnerabilities, remediation, and status communication.
 6. [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md)  
-   Govern update approval, authorisation, signing, delivery, recovery, evidence refresh, and continued lifecycle assurance.
+   Govern update approval, authorization, signing, delivery, recovery, evidence refresh, and continued lifecycle assurance.
 7. [Evidence Checklist](../resources/evidence-checklist.md)  
    Review whether evidence is scoped, verifiable, retained, and tied to the decision.
 8. [Technology Options](../technology-options/index.md)  
@@ -45,7 +45,7 @@ After following this path, you should be able to produce:
 
 ## Evidence you should expect or produce
 
-Expect product acceptance records, identity and provenance evidence, firmware manifests, SBOM/xBOM artefacts, vulnerability status, release approvals, signing records, update approvals, deployment records, customer notifications, exception decisions, and lifecycle retention records.
+Expect product acceptance records, identity and provenance evidence, firmware manifests, SBOM/xBOM artifacts, vulnerability status, release approvals, signing records, update approvals, deployment records, customer notifications, exception decisions, and lifecycle retention records.
 
 ## Common weak answers
 

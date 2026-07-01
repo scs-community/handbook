@@ -25,7 +25,7 @@ ai:
 
 component-visibility:
   label: Component Visibility
-  description: Posts about component, dependency, and transparency artefact visibility.
+  description: Posts about component, dependency, and transparency artifact visibility.
   permalink: /component-visibility
 
 cscrm:
@@ -60,12 +60,12 @@ procurement:
 
 release-integrity:
   label: Release Integrity
-  description: Posts about release, update, and artefact integrity.
+  description: Posts about release, update, and artifact integrity.
   permalink: /release-integrity
 
 sbom:
   label: SBOM
-  description: Posts about software bills of materials and transparency artefacts.
+  description: Posts about software bills of materials and transparency artifacts.
   permalink: /sbom
 
 software-supply-chain:
@@ -80,7 +80,7 @@ supplier-assurance:
 
 transparency:
   label: Transparency
-  description: Posts about transparency artefacts and evidence visibility.
+  description: Posts about transparency artifacts and evidence visibility.
   permalink: /transparency
 
 vulnerability-response:

@@ -6,7 +6,7 @@ description: "Understand trust anchors and device identity mechanisms for produc
 
 Trust anchors and device-identity mechanisms can help bind identities, credentials, keys, measurements, or claims to hardware, firmware, secure components, or controlled execution environments.
 
-This option area is useful when a control depends on knowing which device, component, platform, secure service, or product instance produced evidence or is authorised to act.
+This option area is useful when a control depends on knowing which device, component, platform, secure service, or product instance produced evidence or is authorized to act.
 
 ## What this option area is for
 

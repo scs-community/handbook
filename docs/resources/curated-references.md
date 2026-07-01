@@ -7,7 +7,7 @@ description: "Find curated references for supply chain security standards, guida
 
 Curated references should be sourced, version-aware, and deliberately non-exhaustive. Use this page to find public guidance, standards, and specifications that support the handbook's mappings.
 
-This page is not a live standards catalogue. Keep it stable, useful, and maintainable.
+This page is not a live standards catalog. Keep it stable, useful, and maintainable.
 
 ## Source discipline
 
@@ -32,7 +32,7 @@ This page is not a live standards catalogue. Keep it stable, useful, and maintai
 | [ENISA Good Practices for Supply Chain Cybersecurity](https://www.enisa.europa.eu/publications/good-practices-for-supply-chain-cybersecurity) | EU supply-chain cybersecurity practices and NIS2-related context | Cite publication page/date when used |
 | [ENISA Threat Landscape for Supply Chain Attacks](https://www.enisa.europa.eu/publications/threat-landscape-for-supply-chain-attacks) | Attack/failure mode context and threat examples | Cite publication page/date when used |
 | [UK NCSC Supply Chain Security Guidance](https://www.ncsc.gov.uk/collection/supply-chain-security) | Supplier assurance, supply-chain principles, and assessment practices | Use page version/review date where available |
-| [CISA SBOM topic page](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security/sbom) | SBOM policy, adoption, and operationalisation context | Use page and resource dates where available |
+| [CISA SBOM topic page](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security/sbom) | SBOM policy, adoption, and operationalization context | Use page and resource dates where available |
 | [CISA 2025 Minimum Elements for SBOM](https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom) | SBOM minimum elements and software transparency expectations | Draft guidance, published 2025-08-22 |
 
 ## Evidence structures and attestation
@@ -46,11 +46,11 @@ This page is not a live standards catalogue. Keep it stable, useful, and maintai
 | [TCG DICE Certificate Profiles v1.1](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Certificate-Profiles-v1.1_pub.pdf) | DICE certificate profiles and identity/attestation certificates | Version 1.1, 2025-04-24 |
 | [TCG DICE Attestation Architecture v1.2](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Attestation-Architecture-v1.2_pub.pdf) | DICE attestation architecture and certificate extensions | Version 1.2 |
 
-## Transparency artefacts
+## Transparency artifacts
 
 | Source | Use it for | Version or date note |
 |---|---|---|
-| [SPDX](https://spdx.dev/) | SPDX SBOM and systems/package data exchange references | SPDX is identified by the project as ISO/IEC 5962:2021; cite artefact version used |
+| [SPDX](https://spdx.dev/) | SPDX SBOM and systems/package data exchange references | SPDX is identified by the project as ISO/IEC 5962:2021; cite artifact version used |
 | [CycloneDX](https://cyclonedx.org/) | CycloneDX BOM capabilities, including SBOM, HBOM, CBOM, VEX, and other BOM types | Cite exact CycloneDX version used |
 | [ECMA-424 CycloneDX specification](https://ecma-tc54.github.io/ECMA-424/) | Formal CycloneDX Bill of Materials specification | Cite edition/version used |
 

@@ -43,17 +43,17 @@ The supplier says:
 
 Assessment: better, but incomplete. Signing does not prove release approval, rollback, recovery, affected-version mapping, or customer notification.
 
-Evidence maturity: Level 2–3, documented process and produced artefact without complete verification.
+Evidence maturity: Level 2–3, documented process and produced artifact without complete verification.
 
 ## Stronger answer
 
 The supplier provides:
 
-- release artefacts signed using controlled keys;
+- release artifacts signed using controlled keys;
 - retained build provenance;
 - logged release approval;
 - documented rollback conditions;
-- tested recovery behaviour for the approved configurations;
+- tested recovery behavior for the approved configurations;
 - affected-version mapping tied to vulnerability records;
 - customer notification text for affected operators.
 
@@ -65,7 +65,7 @@ Evidence maturity: Level 4–5 where deployment records are retained.
 
 | Improvement | Why it matters |
 |---|---|
-| Release approval added | Shows that signing happened after an authorised decision |
+| Release approval added | Shows that signing happened after an authorized decision |
 | Key control and signing evidence added | Lets the buyer verify origin and integrity of the update package |
 | Affected-version mapping added | Connects the update to vulnerability and product scope |
 | Rollback and recovery evidence added | Shows what happens if deployment fails or must be reversed |
@@ -77,13 +77,13 @@ Evidence maturity: Level 4–5 where deployment records are retained.
 | Field | Example content |
 |---|---|
 | Decision supported | Approve firmware update 5.4.3 for deployment |
-| Threat/failure mode addressed | Unauthorised update, incomplete rollback, untested recovery, unresolved affected-version mapping |
+| Threat/failure mode addressed | Unauthorized update, incomplete rollback, untested recovery, unresolved affected-version mapping |
 | Practice/control supported | Update approval workflow, update eligibility check, update signing control, installation and rollback recording |
 | Scope | Industrial controller IC-22, firmware 5.4.2 to 5.4.3, deployment cohort A, affected vulnerability VULN-2026-014 |
 | Evidence included | Release approval, signed update manifest, signing event record, build provenance, affected-version analysis, vulnerability remediation record, rollback test result, recovery procedure, customer notification draft |
 | Producer/source | Supplier release manager, supplier product security team, update service owner |
 | Consumer/recipient | Buyer product owner, deployment approver, vulnerability response lead |
-| Verification method | Check release approval, signature validity, key authorisation, affected-version mapping, rollback/recovery test evidence, and notification scope |
+| Verification method | Check release approval, signature validity, key authorization, affected-version mapping, rollback/recovery test evidence, and notification scope |
 | Known gaps | Recovery test passed on reference hardware but not yet on one regional configuration |
 | Exceptions/risk acceptance | Regional configuration excluded from deployment until recovery test completes |
 | Retention owner | Supplier release owner and buyer lifecycle monitoring owner |
@@ -91,7 +91,7 @@ Evidence maturity: Level 4–5 where deployment records are retained.
 ## Verification questions
 
 - Was the update approved before signing and deployment?
-- Is the update package signed by an authorised key for this product and release?
+- Is the update package signed by an authorized key for this product and release?
 - Is the affected-version analysis tied to product versions and vulnerability records?
 - Are rollback and recovery conditions documented and tested?
 - Are deployment failures, exclusions, and customer notification decisions retained?

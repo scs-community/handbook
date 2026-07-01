@@ -65,7 +65,7 @@ Standards should not be treated as one category. Some standards and frameworks e
 | Type | Role in the site | Examples |
 |---|---|---|
 | Standards and regulations | Explain why visitors may need guidance | CRA, NIS2, NIST, ISO, ENISA, NCSC, CISA, sector frameworks |
-| Assurance and evidence structures | Explain what artefacts or assurance structures may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
+| Assurance and evidence structures | Explain what artifacts or assurance structures may be useful | SBOM/xBOM, CoRIM/CoMID, RATS/EAT, attestation evidence |
 | Technology and implementation mechanisms | Explain how evidence or trust can be implemented | TCG, GlobalPlatform, SPDM, TPM, DICE, TEE, Secure Element |
 
 Evidence is a cross-cutting concept rather than a top-level section. It belongs inside practice pages, review checklists, evidence packages, and technology-option explanations. Evidence should be scoped to a decision, product or supplier boundary, lifecycle stage, and verification path.
@@ -94,7 +94,7 @@ Supply-chain security becomes more actionable when practices are linked to lifec
 
 ## Relationship To Standards Activity
 
-The handbook may cite GlobalPlatform, TCG, and related standards activity where relevant, but it should remain organised around reader needs rather than standards liaison activity.
+The handbook may cite GlobalPlatform, TCG, and related standards activity where relevant, but it should remain organized around reader needs rather than standards liaison activity.
 
 The 10 best practices material is source material for one theme within the broader site. The 10 best practices page is a navigational and educational anchor inside Practices & Controls. It is not the whole site.
 

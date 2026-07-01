@@ -16,7 +16,7 @@ Evidence repositories, logs, and retention mechanisms may support:
 
 - storage and retrieval of assurance evidence;
 - verifier logs and appraisal records;
-- artefact registries and metadata;
+- artifact registries and metadata;
 - lifecycle-state evidence;
 - access, integrity, and retention controls;
 - audit, renewal, incident, and customer review workflows.
@@ -28,7 +28,7 @@ They are commonly relevant to [Audit and Compliance Readiness](../practices-cont
 | Lifecycle stage | How it may help |
 |---|---|
 | Procurement and acceptance | Retain supplier responses, acceptance evidence, exceptions, and approvals |
-| Release and update | Retain signed artefacts, vulnerability status, update evidence, and verifier results |
+| Release and update | Retain signed artifacts, vulnerability status, update evidence, and verifier results |
 | Operation and monitoring | Preserve logs, state changes, failed checks, and exception records |
 | Audit, renewal, and customer assurance | Retrieve evidence packages and explain historical control operation |
 | Repair, transfer, and decommissioning | Preserve lifecycle-state decisions and closure evidence |
@@ -38,7 +38,7 @@ They are commonly relevant to [Audit and Compliance Readiness](../practices-cont
 ### Evidence repositories
 
 - **Assurance role:** Store, retrieve, and reuse evidence across lifecycle decisions.
-- **Evidence supported:** Signed evidence packages, verifier logs, artefact registries, lifecycle-state records, customer assurance records, and audit evidence.
+- **Evidence supported:** Signed evidence packages, verifier logs, artifact registries, lifecycle-state records, customer assurance records, and audit evidence.
 - **Lifecycle fit:** Acceptance, deployment, update, repair, transfer, audit, incident response, renewal, and decommissioning.
 - **Dependencies:** Origin, integrity, access control, metadata, retention rules, ownership, and interpretation.
 - **What it does not prove:** A repository does not make evidence trustworthy unless origin, integrity, access, and interpretation are preserved.
@@ -55,14 +55,14 @@ They are commonly relevant to [Audit and Compliance Readiness](../practices-cont
 - **Mapping confidence:** Supporting for verifier workflows and audit readiness.
 - **Source/version note:** Cite the verifier, policy version, log schema, integrity mechanism, and retention period.
 
-### Artefact registries
+### Artifact registries
 
-- **Assurance role:** Store signed releases, SBOM/xBOM records, vulnerability records, reference values, configuration records, or other artefacts with metadata.
-- **Evidence supported:** Artefact identity, version, origin, signature, scope, approval, publication, and retrieval records.
+- **Assurance role:** Store signed releases, SBOM/xBOM records, vulnerability records, reference values, configuration records, or other artifacts with metadata.
+- **Evidence supported:** Artifact identity, version, origin, signature, scope, approval, publication, and retrieval records.
 - **Lifecycle fit:** Build, release, acceptance, update, vulnerability response, audit, and renewal.
 - **Dependencies:** Naming, versioning, signing, metadata, access controls, update process, and retention rules.
-- **What it does not prove:** A registry record does not prove artefact correctness or sufficiency unless connected to review and verification.
-- **Mapping confidence:** Supporting for evidence management; direct where a specific artefact registry or packaging specification is mapped.
+- **What it does not prove:** A registry record does not prove artifact correctness or sufficiency unless connected to review and verification.
+- **Mapping confidence:** Supporting for evidence management; direct where a specific artifact registry or packaging specification is mapped.
 - **Source/version note:** Cite the registry type, metadata model, signature or integrity mechanism, and retention policy.
 
 ### Retention and reuse workflows
@@ -96,7 +96,7 @@ They do not make evidence accurate, complete, trustworthy, or sufficient. They a
 
 - evidence packages and repository metadata;
 - verifier and appraisal logs;
-- artefact registry records;
+- artifact registry records;
 - access and retrieval records;
 - retention schedules and disposal records;
 - stale-evidence review and refresh records;
@@ -108,7 +108,7 @@ Verification should check whether evidence origin is preserved, whether integrit
 
 ## Tooling categories
 
-- evidence repositories and artefact registries;
+- evidence repositories and artifact registries;
 - document and records management;
 - verifier log storage;
 - metadata and evidence graph tooling;

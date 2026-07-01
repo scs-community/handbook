@@ -9,7 +9,7 @@ Technology options are mechanisms, formats, protocols, trust anchors, verifier w
 
 Tooling categories are included where they help readers understand implementation choices, but this section is not a vendor directory or product comparison.
 
-This section is the handbook's technology interpretation layer. It does not make any technology mandatory, and it is not organised as a standards-body catalogue. Start with the practice or control you need to operate, identify the evidence needed to support the assurance decision, then decide which technology options may help.
+This section is the handbook's technology interpretation layer. It does not make any technology mandatory, and it is not organized as a standards-body catalog. Start with the practice or control you need to operate, identify the evidence needed to support the assurance decision, then decide which technology options may help.
 
 ```text
 Practice/control need -> evidence need -> technology option -> verification and limits
@@ -25,14 +25,14 @@ Standards and regulations belong with [Standards & Threats](../standards-threats
 | Bind product, component, device, or platform identity to a trustable root | [Trust Anchors and Device Identity](./trust-anchors-device-identity.md) |
 | Check measured or current state against expected state | [Attestation and Measured State](./attestation-measured-state.md) |
 | Understand product composition, dependencies, and vulnerability status | [SBOM, VEX, and Component Visibility](./sbom-vex-component-visibility.md) |
-| Protect releases, evidence, credentials, keys, or authorisation decisions | [Signing, Keys, and Credentials](./signing-keys-credentials.md) |
-| Support authorised updates, recovery, rollback control, or post-release assurance | [Secure Update and Recovery Mechanisms](./secure-update-recovery-mechanisms.md) |
+| Protect releases, evidence, credentials, keys, or authorization decisions | [Signing, Keys, and Credentials](./signing-keys-credentials.md) |
+| Support authorized updates, recovery, rollback control, or post-release assurance | [Secure Update and Recovery Mechanisms](./secure-update-recovery-mechanisms.md) |
 | Move evidence between producers, verifiers, relying parties, and tools | [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md) |
 | Retain evidence so it remains usable for audit, renewal, incident review, and lifecycle decisions | [Evidence Repositories, Logs, and Retention](./evidence-repositories-logs-retention.md) |
 
 ## What technology options can and cannot do
 
-Technology options can help make controls more repeatable, evidence more structured, and verification more scalable. They may provide product identity, signed artefacts, transparency records, measured-state evidence, verifier results, repository records, and audit logs.
+Technology options can help make controls more repeatable, evidence more structured, and verification more scalable. They may provide product identity, signed artifacts, transparency records, measured-state evidence, verifier results, repository records, and audit logs.
 
 They do not replace governance, supplier accountability, acceptance criteria, risk acceptance, or review. A technology option is useful only when the surrounding practice explains what decision the evidence supports, who verifies it, how exceptions are handled, and how stale or conflicting evidence is treated.
 
@@ -40,7 +40,7 @@ They do not replace governance, supplier accountability, acceptance criteria, ri
 
 | Mapping type | Meaning |
 |---|---|
-| Direct | The standard or specification directly defines a mechanism, artefact, protocol, or evidence model for the issue |
+| Direct | The standard or specification directly defines a mechanism, artifact, protocol, or evidence model for the issue |
 | Supporting | It can help implement, exchange, protect, verify, or retain relevant evidence |
 | Contextual | It explains a standard, threat, assurance model, or governance expectation |
 | Adjacent | It may be relevant in some sectors or architectures, but is not central to the control |
@@ -51,7 +51,7 @@ They do not replace governance, supplier accountability, acceptance criteria, ri
 Where this section lists individual standards, specifications, mechanisms, or tooling patterns, use the same compact pattern:
 
 - Assurance role: what problem it helps with.
-- Evidence supported: what artefact, record, claim, or verification result it may support.
+- Evidence supported: what artifact, record, claim, or verification result it may support.
 - Lifecycle fit: where it is commonly relevant.
 - Dependencies: what trust anchors, policies, repositories, verifier workflows, or operational practices must exist around it.
 - What it does not prove: limits and non-goals.

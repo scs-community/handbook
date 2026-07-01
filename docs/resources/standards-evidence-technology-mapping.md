@@ -25,8 +25,8 @@ Separate standards and technologies by role:
 |---|---|
 | Demand source | Why action is needed, such as regulation, customer expectation, procurement need, audit, or governance pressure |
 | Practice or control source | What operating activity, safeguard, workflow, or review should exist |
-| Evidence requirement | What artefact, record, claim, measurement, log, package, or review trail would make the control reviewable |
-| Artefact format | How evidence may be structured or exchanged |
+| Evidence requirement | What artifact, record, claim, measurement, log, package, or review trail would make the control reviewable |
+| Artifact format | How evidence may be structured or exchanged |
 | Attestation or measurement mechanism | How measured or current state may be reported and appraised |
 | Trust anchor | What root, credential, key, or protected environment supports verification |
 | Protocol or exchange mechanism | How evidence may move between producers, verifiers, relying parties, and repositories |
@@ -37,7 +37,7 @@ Separate standards and technologies by role:
 | Step | Question |
 |---|---|
 | 1. Name the decision | What supplier, product, audit, update, vulnerability, acceptance, or lifecycle decision is being supported? |
-| 2. Identify the source | Is this a standard, regulation, framework, technology specification, assurance model, artefact format, or implementation option? |
+| 2. Identify the source | Is this a standard, regulation, framework, technology specification, assurance model, artifact format, or implementation option? |
 | 3. Assign the role | Is it a demand source, control source, evidence structure, trust anchor, protocol, exchange mechanism, or implementation technology? |
 | 4. State what it supports | What evidence, verification path, or control operation does it help with? |
 | 5. State what it does not solve | What claims would remain unsupported without additional practice, evidence, policy, or verification? |
@@ -55,14 +55,14 @@ Separate standards and technologies by role:
 
 ### Questions to ask internally
 
-- Are we using this source as a requirement source, evidence requirement, artefact format, technical mechanism, trust anchor, protocol, or implementation option?
+- Are we using this source as a requirement source, evidence requirement, artifact format, technical mechanism, trust anchor, protocol, or implementation option?
 - What decision would be unsafe if we treated this mapping as stronger than it is?
 - What additional guidance, profile, or implementation decision is needed to close the gap?
 
 ### Questions to ask assessors or auditors
 
 - Is the source/version visible and mapped to a specific claim or control?
-- Are interpretive mappings labelled as guidance rather than formal compliance advice?
+- Are interpretive mappings labeled as guidance rather than formal compliance advice?
 - Are direct, supporting, contextual, adjacent, and gap mappings distinguishable?
 
 ### Questions to ask implementers

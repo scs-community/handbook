@@ -46,7 +46,7 @@ The supplier provides:
 
 Assessment: better, but still incomplete. The answer provides delivery records, but does not show trustworthy product identity, provenance, firmware state, vulnerability status, or update baseline.
 
-Evidence maturity: Level 2–3, documented delivery records and produced artefacts without a complete verification path.
+Evidence maturity: Level 2–3, documented delivery records and produced artifacts without a complete verification path.
 
 ## Stronger answer
 
@@ -58,12 +58,12 @@ The supplier provides:
 - firmware version manifest and signed release identifier;
 - SBOM/xBOM for the accepted firmware release;
 - vulnerability status for the shipped version;
-- update history showing no post-release unauthorised update;
+- update history showing no post-release unauthorized update;
 - acceptance checklist that records verifier, date, product scope, gaps, and decision.
 
 Assessment: strong. The buyer can review the evidence against the actual delivered products and retain it as the lifecycle baseline.
 
-Evidence maturity: Level 4–5, verifiable artefacts with retained lifecycle baseline.
+Evidence maturity: Level 4–5, verifiable artifacts with retained lifecycle baseline.
 
 ## What changed from weak to strong?
 
@@ -82,7 +82,7 @@ Evidence maturity: Level 4–5, verifiable artefacts with retained lifecycle bas
 |---|---|
 | Decision supported | Accept batch C-2026-041 for deployment |
 | Threat/failure mode addressed | Counterfeit product, firmware drift, unclear vulnerability status, missing lifecycle baseline |
-| Practice/control supported | Identity verification, provenance review, integrity/configuration check, transparency artefact review, update/vulnerability review |
+| Practice/control supported | Identity verification, provenance review, integrity/configuration check, transparency artifact review, update/vulnerability review |
 | Scope | Industrial controller model IC-22, serial numbers 3101-3150, firmware 5.4.2 |
 | Evidence included | Device identity records, serial list, custody record, firmware manifest, SBOM, vulnerability status, update history, acceptance checklist |
 | Producer/source | Supplier manufacturing system, supplier release system, buyer product acceptance reviewer |

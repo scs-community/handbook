@@ -33,13 +33,13 @@ This page is relevant to:
 - Product-security, software, firmware, and release teams defining secure development and release evidence.
 - Suppliers and manufacturers asked to provide customer-facing secure development, vulnerability, SBOM, or release evidence.
 - Procurement and customer assurance teams asking for supplier software assurance evidence.
-- Implementers building build, signing, provenance, vulnerability, artefact, and evidence-retention workflows.
+- Implementers building build, signing, provenance, vulnerability, artifact, and evidence-retention workflows.
 
 ## Scope and supply chain relevance
 
 SSDF provides a common vocabulary for secure software development practices. For this handbook, its value is in translating software and firmware development expectations into evidence that can support supplier assurance, product acceptance, release approval, vulnerability response, and audit readiness.
 
-SSDF-relevant supply chain work usually centres on secure development governance, protected development and build environments, third-party component management, vulnerability response, release integrity, supplier software evidence, and retained records that show what was reviewed and approved.
+SSDF-relevant supply chain work usually centers on secure development governance, protected development and build environments, third-party component management, vulnerability response, release integrity, supplier software evidence, and retained records that show what was reviewed and approved.
 
 For supply chain security, scope questions usually become evidence questions:
 
@@ -69,7 +69,7 @@ SSDF-relevant practices can help reduce supply chain failures such as:
 - source, build, or release environments are not protected
 - release approval and signing evidence is missing
 - vulnerability response is not tied to affected products or versions
-- suppliers provide policy claims without product-scoped artefacts
+- suppliers provide policy claims without product-scoped artifacts
 - development and release evidence is not retained for audit, customer assurance, or incident response
 - known limitations in supplier software evidence are hidden
 
@@ -81,8 +81,8 @@ SSDF-relevant practices can help reduce supply chain failures such as:
 | Protected source, build, and release environments | Source, build, dependency, or release pipelines can be compromised or changed without detection. | Build and release controls, access control, release approval, signing readiness. | Access records, build logs, release approvals, change records, signing event records, provenance records. |
 | Third-party component management | Components or dependencies introduce vulnerabilities or unsupported code that cannot be traced to affected products. | Component inventory, dependency review, SBOM/xBOM generation, supplier component review. | SBOM, dependency inventory, component review records, supplier declarations, vulnerability impact assessments. |
 | Vulnerability response | Vulnerabilities are acknowledged without affected-version analysis, remediation evidence, or customer communication. | Vulnerability intake, triage, affected-product analysis, remediation tracking, status communication. | Triage records, affected-version analysis, remediation records, VEX/status statements, customer notifications, risk acceptances. |
-| Release integrity | Software or firmware is released without clear approval, signing, provenance, or rollback evidence. | Release approval workflow, signing control, update approval, rollback and recovery evidence. | Signed release artefacts, update manifests, provenance records, approval logs, rollback and recovery records. |
-| Supplier software assurance | Supplier software evidence is generic, stale, or not tied to the product, version, component, service, or lifecycle decision. | Supplier evidence requirements, supplier review, product-scoped evidence package. | Supplier development evidence, vulnerability commitments, product-scoped artefacts, known limitations, remediation plans, retention commitments. |
+| Release integrity | Software or firmware is released without clear approval, signing, provenance, or rollback evidence. | Release approval workflow, signing control, update approval, rollback and recovery evidence. | Signed release artifacts, update manifests, provenance records, approval logs, rollback and recovery records. |
+| Supplier software assurance | Supplier software evidence is generic, stale, or not tied to the product, version, component, service, or lifecycle decision. | Supplier evidence requirements, supplier review, product-scoped evidence package. | Supplier development evidence, vulnerability commitments, product-scoped artifacts, known limitations, remediation plans, retention commitments. |
 
 ## What to do next
 

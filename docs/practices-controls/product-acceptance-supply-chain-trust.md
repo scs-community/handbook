@@ -22,7 +22,7 @@ This practice makes delivery a controlled assurance step before deployment or us
 
 ## What can go wrong
 
-- A delivered item contains counterfeit, substituted, lower-grade, reused, or unauthorised components.
+- A delivered item contains counterfeit, substituted, lower-grade, reused, or unauthorized components.
 - Firmware or low-level code has changed before delivery.
 - Device identity is not bound to a trustworthy manufacturer, product family, or trust anchor.
 - Provenance records are missing or inconsistent.
@@ -36,14 +36,14 @@ This practice makes delivery a controlled assurance step before deployment or us
 | Identity verification | Confirm the delivered item is the expected product, component, platform, or service. | Identity evidence, certificate records, acceptance checklist. |
 | Provenance review | Review origin, custody, transfer, repair, and supplier path. | Provenance records, chain-of-custody records, supplier declarations. |
 | Integrity/configuration check | Compare firmware, software, boot state, or configuration with the expected baseline. | Integrity evidence, measurements, attestation results, configuration records. |
-| Transparency artefact review | Confirm software, firmware, and component visibility for the accepted version. | SBOMs, xBOMs, component inventories, build provenance. |
+| Transparency artifact review | Confirm software, firmware, and component visibility for the accepted version. | SBOMs, xBOMs, component inventories, build provenance. |
 | Update/vulnerability review | Check update history, vulnerability status, and remediation commitments. | Update records, vulnerability records, VEX/status statements. |
 | Exception workflow | Decide what happens when evidence is missing or inconsistent. | Exception approvals, quarantine records, remediation actions. |
 | Acceptance decision record | Retain the basis for acceptance and later review. | Acceptance record, reviewer, scope, evidence package. |
 
 ## What good practice looks like
 
-A stronger product-acceptance process combines identity checks, provenance checks, transparency artefacts, integrity evidence, update history, vulnerability handling, and lifecycle-state records. It defines who verifies each artefact and what happens if evidence is missing or inconsistent.
+A stronger product-acceptance process combines identity checks, provenance checks, transparency artifacts, integrity evidence, update history, vulnerability handling, and lifecycle-state records. It defines who verifies each artifact and what happens if evidence is missing or inconsistent.
 
 Identity alone does not prove current integrity, vulnerability status, safe configuration, or update history. Provenance records may not reveal hidden sub-tier risk unless the chain and evidence requirements are defined.
 
@@ -71,12 +71,12 @@ Use [Supplier Security Questions](../resources/supplier-security-questions.md) t
 
 - Can each accepted product be tied to the evidence used for the acceptance decision?
 - Are acceptance records retained with enough context to be reviewed later?
-- Are missing or stale artefacts visible in the acceptance decision trail?
+- Are missing or stale artifacts visible in the acceptance decision trail?
 
 ### Questions to ask implementers
 
 - What acceptance workflow verifies identity, provenance, integrity, transparency, and update state?
-- How are evidence artefacts bound to serial numbers, product versions, firmware versions, or asset records?
+- How are evidence artifacts bound to serial numbers, product versions, firmware versions, or asset records?
 - How will acceptance results flow into asset management and lifecycle monitoring systems?
 
 ## Evidence this should produce
@@ -86,8 +86,8 @@ Use [Supplier Security Questions](../resources/supplier-security-questions.md) t
 | Identity evidence | Confirms the item is the expected device, component, platform, or product |
 | Provenance evidence | Shows origin, custody, manufacturing, logistics, and transfer history |
 | Integrity evidence | Shows whether firmware, configuration, and platform state match expectations |
-| Transparency artefacts | Support vulnerability analysis and component risk decisions |
-| Update records | Show whether updates were authorised, installed, recoverable, and current |
+| Transparency artifacts | Support vulnerability analysis and component risk decisions |
+| Update records | Show whether updates were authorized, installed, recoverable, and current |
 | Vulnerability records | Show known exposures, remediation, mitigations, or accepted risk |
 | Lifecycle-state records | Establish the baseline for deployment, repair, transfer, and decommissioning |
 
@@ -103,7 +103,7 @@ A stronger answer: The supplier provides identity evidence, provenance records, 
 
 ## Verification considerations
 
-Acceptance evidence is stronger when reviewers can verify issuer, product binding, integrity, freshness, lifecycle stage, and consistency across artefacts. When evidence is missing or inconsistent, record whether the decision is reject, quarantine, accept with conditions, or remediate before acceptance.
+Acceptance evidence is stronger when reviewers can verify issuer, product binding, integrity, freshness, lifecycle stage, and consistency across artifacts. When evidence is missing or inconsistent, record whether the decision is reject, quarantine, accept with conditions, or remediate before acceptance.
 
 ## Lifecycle stages
 

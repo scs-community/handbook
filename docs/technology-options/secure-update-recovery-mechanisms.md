@@ -5,7 +5,7 @@ sidebar_label: Secure Update and Recovery Mechanisms
 description: "Evaluate update and recovery mechanisms for secure delivery, rollback, repair, lifecycle monitoring, update evidence, and operational resilience."
 ---
 
-Update and recovery mechanisms can help deliver authorised changes, prevent unauthorised replacement, manage rollback and recovery paths, and retain evidence about what changed and why.
+Update and recovery mechanisms can help deliver authorized changes, prevent unauthorized replacement, manage rollback and recovery paths, and retain evidence about what changed and why.
 
 This option area is useful when a product, component, device, or platform needs post-release assurance across updates, emergency fixes, repair, recovery, and lifecycle-state changes.
 
@@ -13,10 +13,10 @@ This option area is useful when a product, component, device, or platform needs 
 
 Update and recovery mechanisms may support:
 
-- update authorisation and package integrity;
+- update authorization and package integrity;
 - release-to-update handoff;
 - version, configuration, and lifecycle-state control;
-- rollback, recovery, and failsafe behaviour;
+- rollback, recovery, and failsafe behavior;
 - update eligibility, monitoring, and evidence refresh.
 
 They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), [Secure Development and Release Governance](../practices-controls/secure-development-release-governance.md), [Software Component and Vulnerability Management](../practices-controls/software-components-vulnerability-management.md), and [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md).
@@ -33,9 +33,9 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 
 ## Options covered
 
-### Signed and authorised updates
+### Signed and authorized updates
 
-- **Assurance role:** Helps ensure update packages are authorised, intact, and bound to an expected release or supplier workflow.
+- **Assurance role:** Helps ensure update packages are authorized, intact, and bound to an expected release or supplier workflow.
 - **Evidence supported:** Signed update packages, update manifests, approval records, verification results, and deployment logs.
 - **Lifecycle fit:** Release, acceptance, deployment, operation, emergency response, and audit.
 - **Dependencies:** Signing governance, release approval, update policy, version binding, verifier workflow, and exception handling.
@@ -58,7 +58,7 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 - **Assurance role:** Supports controlled recovery from failed, compromised, or unsuitable states while managing rollback risk.
 - **Evidence supported:** Recovery images, recovery approvals, rollback controls, state transition records, and post-recovery validation.
 - **Lifecycle fit:** Operation, incident response, repair, emergency update, and return-to-service.
-- **Dependencies:** Recovery policy, signed recovery artefacts, protected recovery environment, key governance, and validation workflow.
+- **Dependencies:** Recovery policy, signed recovery artifacts, protected recovery environment, key governance, and validation workflow.
 - **What it does not prove:** Recovery capability does not prove the recovered state is acceptable without validation and updated evidence.
 - **Mapping confidence:** Supporting for lifecycle assurance; direct where a specific recovery mechanism or profile is mapped.
 - **Source/version note:** Cite the recovery mechanism, rollback policy, signing model, and validation process used.
@@ -75,7 +75,7 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 
 ## What these options can support
 
-Update and recovery mechanisms can support authorised change, vulnerable-version reduction, post-release evidence refresh, repair return-to-service, and recovery from failed or compromised states.
+Update and recovery mechanisms can support authorized change, vulnerable-version reduction, post-release evidence refresh, repair return-to-service, and recovery from failed or compromised states.
 
 ## What they do not solve alone
 
@@ -96,13 +96,13 @@ They do not replace secure development, release approval, vulnerability triage, 
 - signed update packages and manifests;
 - update approval and eligibility records;
 - deployment, failure, deferral, and exception logs;
-- recovery artefacts and recovery validation records;
+- recovery artifacts and recovery validation records;
 - version, configuration, and lifecycle-state evidence;
 - vulnerability remediation and status records.
 
 ## Verification considerations
 
-Verification should check whether the update came from an authorised source, whether the package was intact, whether the product was eligible, whether the installed state matches expectation, and whether exceptions or failed updates are reviewed.
+Verification should check whether the update came from an authorized source, whether the package was intact, whether the product was eligible, whether the installed state matches expectation, and whether exceptions or failed updates are reviewed.
 
 ## Tooling categories
 
@@ -116,8 +116,8 @@ Verification should check whether the update came from an authorised source, whe
 
 ## Questions to ask suppliers
 
-- How are updates authorised, signed, delivered, verified, and logged?
-- What evidence links a released artefact to an update package?
+- How are updates authorized, signed, delivered, verified, and logged?
+- What evidence links a released artifact to an update package?
 - How is update eligibility determined for different product states or customers?
 - What recovery and rollback controls exist, and how are they approved?
 

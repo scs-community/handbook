@@ -9,11 +9,11 @@ Practices & Controls is the operating layer of the handbook. Use it when a stand
 
 A practice is a recurring operating activity. A control is a safeguard, check, workflow, approval, or requirement inside that practice. Evidence is what the control produces or retains so the practice can be reviewed.
 
-Evidence may be an artefact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material.
+Evidence may be an artifact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material.
 
 Good evidence is bound to a decision, product or supplier scope, lifecycle stage, and verification path.
 
-Use this section to move from standards and threats to practical behaviours, core controls, evidence, verification, and implementation choices.
+Use this section to move from standards and threats to practical behaviors, core controls, evidence, verification, and implementation choices.
 
 ## Pages in this section
 
@@ -25,7 +25,7 @@ Use this section to move from standards and threats to practical behaviours, cor
 | [Product Acceptance](./product-acceptance-supply-chain-trust.md) | Accept delivered products, components, platforms, firmware loads, or services only when evidence supports the trust decision. |
 | [Secure Development and Release Governance](./secure-development-release-governance.md) | Govern supplier inputs, dependencies, build outputs, reviews, approvals, signing readiness, and release evidence. |
 | [Software Component and Vulnerability Management](./software-components-vulnerability-management.md) | Maintain visibility of software, firmware, components, supplier inputs, affected products, vulnerabilities, remediation, and status communication. |
-| [Secure Updates and Lifecycle Monitoring](./secure-updates-lifecycle-monitoring.md) | Govern update approval, authorisation, signing, delivery, installation, recovery, evidence refresh, and continued lifecycle assurance. |
+| [Secure Updates and Lifecycle Monitoring](./secure-updates-lifecycle-monitoring.md) | Govern update approval, authorization, signing, delivery, installation, recovery, evidence refresh, and continued lifecycle assurance. |
 | [Audit and Compliance Readiness](./audit-compliance-readiness.md) | Maintain traceable control evidence for audit, customer assurance, certification, and internal review. |
 | [Assurance Implementation Planning](./supply-chain-assurance-implementation.md) | Plan engineering capabilities from assurance decisions, evidence needs, verification paths, and lifecycle retention requirements. |
 
@@ -45,8 +45,8 @@ This keeps the site practical and neutral. Standards and threats explain why act
 |---|---|
 | Assertion | A supplier or team says a control exists |
 | Documented process | The process, owner, scope, and review cadence are described |
-| Produced artefact | A record, manifest, certificate, SBOM/xBOM, log, measurement, attestation, or report is provided |
-| Verifiable artefact | The recipient can verify origin, integrity, freshness, scope, or consistency |
+| Produced artifact | A record, manifest, certificate, SBOM/xBOM, log, measurement, attestation, or report is provided |
+| Verifiable artifact | The recipient can verify origin, integrity, freshness, scope, or consistency |
 | Lifecycle-retained evidence | Evidence is retained, refreshed, and reused across deployment, update, repair, transfer, audit, and decommissioning |
 
 Use [Evidence Maturity Model](../resources/evidence-maturity-model.md), [Evidence Checklist](../resources/evidence-checklist.md), [Glossary](../resources/glossary.md), and [Evidence Package Template](../resources/evidence-package-template.md) when turning practice evidence into reusable requests, review criteria, or audit packages.
@@ -70,7 +70,7 @@ Use this pattern when translating a regulation, customer request, procurement ex
 | Control | What safeguard, check, workflow, approval, or requirement sits inside the practice? |
 | Decision | What decision becomes stronger if the control operates? |
 | Failure mode | What could go wrong if the claim is wrong or unverifiable? |
-| Evidence | What artefact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material would support the control? |
+| Evidence | What artifact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material would support the control? |
 | Verification | How can the recipient test origin, integrity, freshness, consistency, or lifecycle relevance? |
 | Technology options | Which mechanisms, protocols, formats, trust anchors, verifier workflows, or tools may help produce, protect, exchange, verify, or retain the evidence? |
 
@@ -90,7 +90,7 @@ Use this pattern when translating a regulation, customer request, procurement ex
 
 ### Questions to ask assessors / auditors
 
-- Can the claim be traced to a control, artefact, lifecycle stage, and source reference?
+- Can the claim be traced to a control, artifact, lifecycle stage, and source reference?
 - Are unsupported assumptions and evidence gaps visible?
 - Is the guidance being used as practical interpretation rather than formal compliance advice?
 
@@ -98,7 +98,7 @@ Use this pattern when translating a regulation, customer request, procurement ex
 
 - What systems, workflows, or owners produce the needed evidence?
 - How will evidence be retained, refreshed, and reused after the initial decision?
-- What technology options may help without becoming the organising principle?
+- What technology options may help without becoming the organizing principle?
 
 ## Next actions
 

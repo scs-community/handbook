@@ -16,7 +16,7 @@ This page helps teams decide which option areas are relevant without turning any
 | Identify a device, product, component, platform, or supplier-provided service | [Trust Anchors and Device Identity](./trust-anchors-device-identity.md), [Signing, Keys, and Credentials](./signing-keys-credentials.md) | Device identity, platform identity, certificate chains, key lifecycle records, credential issuance records |
 | Show what software, firmware, component, dependency, or vulnerability information is present | [SBOM, VEX, and Component Visibility](./sbom-vex-component-visibility.md) | SBOM/xBOM records, component inventories, vulnerability status records, dependency metadata |
 | Compare measured or reported state against expected state | [Attestation and Measured State](./attestation-measured-state.md), [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md) | Measurements, reference values, attestation evidence, verifier appraisal results |
-| Protect release, update, recovery, or evidence artefacts from unauthorised change | [Signing, Keys, and Credentials](./signing-keys-credentials.md), [Secure Update and Recovery Mechanisms](./secure-update-recovery-mechanisms.md) | Signed releases, update authorisation records, recovery artefacts, key-use logs |
+| Protect release, update, recovery, or evidence artifacts from unauthorized change | [Signing, Keys, and Credentials](./signing-keys-credentials.md), [Secure Update and Recovery Mechanisms](./secure-update-recovery-mechanisms.md) | Signed releases, update authorization records, recovery artifacts, key-use logs |
 | Exchange evidence between suppliers, product teams, operators, assessors, and customers | [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md) | Evidence requests, attestation exchange, SBOM distribution, verifier policies, APIs |
 | Retain evidence for acceptance, audit, renewal, vulnerability response, or incident review | [Evidence Repositories, Logs, and Retention](./evidence-repositories-logs-retention.md) | Evidence packages, repository metadata, verifier logs, access records, retention records |
 
@@ -28,7 +28,7 @@ Name the decision first: supplier selection, product acceptance, release approva
 
 ### What evidence is needed?
 
-Identify whether the decision needs identity evidence, composition evidence, measured-state evidence, signed artefacts, vulnerability status, lifecycle-state records, verifier results, or retained audit material. Then choose options that support that evidence type.
+Identify whether the decision needs identity evidence, composition evidence, measured-state evidence, signed artifacts, vulnerability status, lifecycle-state records, verifier results, or retained audit material. Then choose options that support that evidence type.
 
 ### Who needs to verify it?
 
@@ -51,7 +51,7 @@ Use this pattern when choosing or documenting a technology option:
 | Step | Question |
 |---|---|
 | Practice/control need | Which practice or control is this supporting? |
-| Evidence need | What record, claim, artefact, measurement, log, or appraisal result is needed? |
+| Evidence need | What record, claim, artifact, measurement, log, or appraisal result is needed? |
 | Technology option | Which mechanism, format, protocol, repository, tooling category, or workflow may help? |
 | Dependencies | What keys, trust anchors, policies, baselines, repositories, tools, or roles must exist? |
 | Verification | Who verifies the evidence, against what policy, and how often? |
@@ -77,7 +77,7 @@ Use this pattern when choosing or documenting a technology option:
 ### Questions to ask assessors or auditors
 
 - Is the source, version, mapping rationale, and implementation scope visible enough to review?
-- Are advisory mappings clearly labelled as guidance?
+- Are advisory mappings clearly labeled as guidance?
 - Are endorsement, compliance, and certification claims avoided unless directly supported?
 
 ## Related pages

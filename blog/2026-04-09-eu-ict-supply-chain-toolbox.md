@@ -104,7 +104,7 @@ Stronger answer:
 
 > We maintain a product-scoped supplier dependency map, identify critical and high-risk suppliers, record the evidence supporting each rating, define contractual notification and vulnerability commitments, retain remediation and exception records, and refresh supplier evidence at renewal, major product change, incident, or support-boundary change.
 
-The stronger answer is not stronger because it uses more words. It is stronger because it ties the supplier claim to scope, artefacts, owners, review cadence, risk response, and retention.
+The stronger answer is not stronger because it uses more words. It is stronger because it ties the supplier claim to scope, artifacts, owners, review cadence, risk response, and retention.
 
 The [Weak vs Strong Supplier Answers](/resources/worked-examples/weak-vs-strong-supplier-answers/) example shows how to score claims like this.
 

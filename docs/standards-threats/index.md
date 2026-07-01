@@ -5,7 +5,7 @@ sidebar_position: 1
 description: "Start with supply chain security standards, regulations, threat patterns, and failure modes before mapping controls, evidence, and technologies."
 ---
 
-Supply chain security work is usually driven by two forces: the standards, regulations, procurement expectations, and assurance frameworks organisations need to satisfy; and the real threats, attack patterns, and lifecycle failures those requirements are meant to reduce.
+Supply chain security work is usually driven by two forces: the standards, regulations, procurement expectations, and assurance frameworks organizations need to satisfy; and the real threats, attack patterns, and lifecycle failures those requirements are meant to reduce.
 
 This section connects both sides. Start with a standard if you need to understand an external obligation. Start with a threat if you need to understand what could go wrong. Each route leads to practical controls, evidence expectations, and implementation options.
 
@@ -38,8 +38,8 @@ The handbook uses the same translation pattern across standards and threats:
 | Step | Question |
 |---|---|
 | Standard or threat | What standard, regulation, procurement expectation, customer request, audit need, threat, or failure mode brings the reader here? |
-| Practice or control | What control, responsibility, supplier question, or lifecycle behaviour should operate? |
-| Evidence | What artefact, record, claim, measurement, attestation, certificate, manifest, SBOM, update record, vulnerability record, lifecycle-state record, log, or audit material would support the control? |
+| Practice or control | What control, responsibility, supplier question, or lifecycle behavior should operate? |
+| Evidence | What artifact, record, claim, measurement, attestation, certificate, manifest, SBOM, update record, vulnerability record, lifecycle-state record, log, or audit material would support the control? |
 | Technology options | Which mechanisms, protocols, formats, trust anchors, verifier workflows, or tooling may help produce, protect, exchange, verify, or retain the evidence? |
 
 ## Current pages
@@ -61,5 +61,5 @@ The handbook uses the same translation pattern across standards and threats:
 - If you need standards and governance context, read [Standards and Regulations](./standards-regulations/index.md).
 - If you need control themes, read [Practices & Controls](../practices-controls/index.md).
 - If you need supplier-facing wording, use [Supplier Security Questions](../resources/supplier-security-questions.md).
-- If you need artefacts, use the [Evidence Checklist](../resources/evidence-checklist.md).
+- If you need artifacts, use the [Evidence Checklist](../resources/evidence-checklist.md).
 - If you need implementation context, review [Technology Options](../technology-options/index.md).

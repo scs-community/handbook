@@ -11,7 +11,7 @@ We welcome contributions in areas such as:
 - lifecycle assurance;
 - procurement and supplier assurance;
 - product acceptance;
-- evidence and assurance artefacts;
+- evidence and assurance artifacts;
 - technology options;
 - glossary entries, supplier questions, templates, and checklists;
 - source references and further reading.
@@ -29,7 +29,7 @@ Key principles:
 - Start from a reader requirement, decision, or risk.
 - Keep the site neutral and standards-aware.
 - Link practices to evidence and lifecycle stages.
-- Distinguish assertions from verifiable artefacts.
+- Distinguish assertions from verifiable artifacts.
 - Treat technology options as mappings and options, not mandates.
 - Cite public sources for factual claims about standards, frameworks, or guidance.
 

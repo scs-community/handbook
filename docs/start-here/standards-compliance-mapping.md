@@ -23,7 +23,7 @@ Use this path when you need to translate a regulation, standard, procurement exp
 3. [EU Cyber Resilience Act](../standards-threats/standards-regulations/eu-cyber-resilience-act.md)  
    See how a major product-security regulation can be interpreted into lifecycle assurance work.
 4. [NIS2](../standards-threats/standards-regulations/nis2.md)  
-   See how organisational and supplier-assurance expectations can flow into supply chain security practices.
+   See how organizational and supplier-assurance expectations can flow into supply chain security practices.
 5. [NIST SP 800-161](../standards-threats/standards-regulations/nist-sp-800-161.md)  
    See how C-SCRM guidance can become supplier, acquisition, dependency, and risk-response evidence.
 6. [IEC 62443](../standards-threats/standards-regulations/iec-62443.md)  

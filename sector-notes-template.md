@@ -14,7 +14,7 @@ When sector content is added, start from the same reader problems, standards and
 | Standard, regulation, or threat | What regulation, procurement expectation, customer assurance demand, audit, certification, threat, or lifecycle failure mode matters? |
 | Decision | What decision is the reader trying to make? |
 | Practices and controls | Which recurring operating activities or controls need sector-specific interpretation? |
-| Evidence | Which artefacts, records, claims, measurements, logs, attestations, or audit materials matter most in this sector? |
+| Evidence | Which artifacts, records, claims, measurements, logs, attestations, or audit materials matter most in this sector? |
 | Lifecycle emphasis | Which lifecycle stages are especially important? |
 | Technology options | Which formats, trust anchors, verifier workflows, repositories, tools, or mechanisms may help, and what do they not prove? |
 | Resource aids | Which supplier questions, checklist items, evidence maturity examples, evidence package fields, glossary terms, or mapping workflow records need sector-specific wording? |

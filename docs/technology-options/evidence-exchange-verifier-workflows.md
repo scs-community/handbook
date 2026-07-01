@@ -6,7 +6,7 @@ description: "Design evidence exchange and verifier workflows for requesting, pa
 
 Evidence exchange and verifier workflows move evidence between producers, verifiers, relying parties, customers, operators, repositories, and audit workflows. Relying parties are the teams, services, customers, or workflows that make decisions based on verifier results. These workflows matter when evidence must be requested, transmitted, appraised, explained, or reused.
 
-This option area is useful when the assurance decision depends not only on the artefact, but also on who receives it, how it is verified, what policy is applied, and what result is given to the relying party.
+This option area is useful when the assurance decision depends not only on the artifact, but also on who receives it, how it is verified, what policy is applied, and what result is given to the relying party.
 
 ## What this option area is for
 
@@ -54,8 +54,8 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 ### SBOM / xBOM distribution
 
-- **Assurance role:** Supports transfer and reuse of transparency artefacts between suppliers, buyers, operators, customers, and auditors.
-- **Evidence supported:** SBOMs, xBOMs, vulnerability records, build provenance, and related artefact metadata.
+- **Assurance role:** Supports transfer and reuse of transparency artifacts between suppliers, buyers, operators, customers, and auditors.
+- **Evidence supported:** SBOMs, xBOMs, vulnerability records, build provenance, and related artifact metadata.
 - **Lifecycle fit:** Procurement, release, acceptance, update, vulnerability response, audit, and renewal.
 - **Dependencies:** Format selection, product/version binding, access controls, repository or delivery channel, and recipient interpretation.
 - **What it does not prove:** Does not prove current integrity or remediation without evidence binding and workflow integration.
@@ -92,7 +92,7 @@ They do not decide what evidence is sufficient, who should trust whom, or what h
 ## Evidence they may produce, protect, exchange, or verify
 
 - attestation evidence and verifier results;
-- SBOM, xBOM, vulnerability, or lifecycle artefacts;
+- SBOM, xBOM, vulnerability, or lifecycle artifacts;
 - evidence requests and response records;
 - relying-party decision records;
 - API, portal, or exchange logs;

@@ -47,14 +47,14 @@ Expect supplier evidence requirements, product or service scope, named owners, s
 
 ## Common weak answers
 
-- "We have a mature security programme."
+- "We have a mature security program."
 - "We complete annual supplier questionnaires."
 - "We can provide certification if required."
 - "Our subcontractors are approved."
 
 ## Stronger answers
 
-A stronger answer identifies the artefact, owner, product or service scope, lifecycle stage, verification path, retention period, and limitations. It also records unresolved gaps as remediation, exception, rejection, or risk-acceptance decisions.
+A stronger answer identifies the artifact, owner, product or service scope, lifecycle stage, verification path, retention period, and limitations. It also records unresolved gaps as remediation, exception, rejection, or risk-acceptance decisions.
 
 ## Related pages
 

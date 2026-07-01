@@ -44,7 +44,7 @@ Good supplier assurance starts before contract award and continues through renew
 
 When evidence is missing, stale, incomplete, inconsistent, or unverifiable, the practice should produce an exception, remediation, rejection, or risk-acceptance decision rather than silently proceeding.
 
-Supplier claims should be treated as discovery inputs. The practice becomes stronger when those claims are supported by records, artefacts, and review paths tied to the specific product, service, supplier relationship, and lifecycle stage.
+Supplier claims should be treated as discovery inputs. The practice becomes stronger when those claims are supported by records, artifacts, and review paths tied to the specific product, service, supplier relationship, and lifecycle stage.
 
 Identity evidence helps identify a supplier, product, component, platform, or service, but identity alone does not prove current integrity, vulnerability status, safe configuration, or update history. Provenance records may not reveal hidden sub-tier risk unless the chain and evidence requirements are defined.
 
@@ -53,7 +53,7 @@ Identity evidence helps identify a supplier, product, component, platform, or se
 ### Suppliers
 
 - What identity, provenance, transparency, integrity, update, vulnerability, and lifecycle-state evidence can you provide for this product or service?
-- Which artefacts are tied to the exact product, component, firmware, software, service, version, or contract scope being assessed?
+- Which artifacts are tied to the exact product, component, firmware, software, service, version, or contract scope being assessed?
 - What evidence cannot currently be provided, and what remediation or maturity plan exists?
 
 ### Internally
@@ -64,7 +64,7 @@ Identity evidence helps identify a supplier, product, component, platform, or se
 
 ### Assessors / auditors
 
-- Can supplier claims be tied to artefacts that are reviewable and retained?
+- Can supplier claims be tied to artifacts that are reviewable and retained?
 - Are evidence gaps, compensating controls, and remediation commitments documented?
 - Is the assessment scoped to the supplier, product, service, and lifecycle stage under review?
 
@@ -76,13 +76,13 @@ Identity evidence helps identify a supplier, product, component, platform, or se
 
 ## Evidence this should produce
 
-This practice should produce supplier evidence requirements, supplier questionnaires with supporting artefacts, security addenda, supplier declarations, supplier risk reviews, sub-tier declarations, dependency records, supplier responsibility matrices, SBOM/xBOM or component records, vulnerability and incident commitments, remediation plans, exception approvals, and renewal records.
+This practice should produce supplier evidence requirements, supplier questionnaires with supporting artifacts, security addenda, supplier declarations, supplier risk reviews, sub-tier declarations, dependency records, supplier responsibility matrices, SBOM/xBOM or component records, vulnerability and incident commitments, remediation plans, exception approvals, and renewal records.
 
 Use [Supplier Security Questions](../resources/supplier-security-questions.md) for wording and the [Evidence Checklist](../resources/evidence-checklist.md) for review criteria.
 
 ## Weak answer
 
-The supplier confirms the product or service is secure and completes a questionnaire without supporting artefacts.
+The supplier confirms the product or service is secure and completes a questionnaire without supporting artifacts.
 
 ## Stronger answer
 
@@ -90,7 +90,7 @@ The supplier provides scope-bound evidence, explains how it is produced and reta
 
 ## Verification considerations
 
-Reviewers should check whether evidence is tied to the supplier, product, service, version, lifecycle stage, and decision. They should also review freshness, source, retention, known gaps, and whether supplier assertions are supported by artefacts.
+Reviewers should check whether evidence is tied to the supplier, product, service, version, lifecycle stage, and decision. They should also review freshness, source, retention, known gaps, and whether supplier assertions are supported by artifacts.
 
 ## Lifecycle stages
 
@@ -98,7 +98,7 @@ Supplier and procurement assurance applies during sourcing, contract award, deli
 
 ## Technology options
 
-Technology options may include supplier portals, evidence repositories, SBOM/xBOM exchange, VEX-like status communication, contract management workflows, vulnerability workflow tooling, and artefact verification services. These are options, not universal requirements.
+Technology options may include supplier portals, evidence repositories, SBOM/xBOM exchange, VEX-like status communication, contract management workflows, vulnerability workflow tooling, and artifact verification services. These are options, not universal requirements.
 
 ## Related pages
 

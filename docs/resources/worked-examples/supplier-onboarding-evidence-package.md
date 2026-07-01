@@ -21,7 +21,7 @@ Decision: approve with conditions.
 
 Main condition: update-hosting-provider evidence must be reviewed before production deployment.
 
-Evidence maturity: [Level 3–4](../evidence-maturity-model.md), because the response includes produced artefacts with reviewable scope and partial verification; not Level 5 until renewal and deployment records are refreshed and retained.
+Evidence maturity: [Level 3–4](../evidence-maturity-model.md), because the response includes produced artifacts with reviewable scope and partial verification; not Level 5 until renewal and deployment records are refreshed and retained.
 
 :::
 
@@ -41,7 +41,7 @@ The supplier says:
 
 > We have a documented secure development process, supplier review process, vulnerability handling process, and secure update policy. We can share summaries under NDA.
 
-Assessment: better, but still incomplete. The answer describes processes, but does not yet provide product-scoped artefacts or verification paths.
+Assessment: better, but still incomplete. The answer describes processes, but does not yet provide product-scoped artifacts or verification paths.
 
 Evidence maturity: Level 2, documented process.
 
@@ -61,7 +61,7 @@ The supplier provides:
 
 Assessment: strong. The response is scoped, reviewable, tied to contract and product decisions, and clear about gaps.
 
-Evidence maturity: Level 3–4, produced artefacts with reviewable scope and partial verification.
+Evidence maturity: Level 3–4, produced artifacts with reviewable scope and partial verification.
 
 ## What changed from weak to strong?
 

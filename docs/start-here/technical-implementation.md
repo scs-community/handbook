@@ -25,11 +25,11 @@ Use this path when you need to implement technical mechanisms, tools, workflows,
 4. [Attestation and Measured State](../technology-options/attestation-measured-state.md)  
    Understand how measured or current state may be reported and appraised.
 5. [SBOM, VEX, and Component Visibility](../technology-options/sbom-vex-component-visibility.md)  
-   Understand SBOM/xBOM, component visibility, vulnerability linkage, and artefact limits.
+   Understand SBOM/xBOM, component visibility, vulnerability linkage, and artifact limits.
 6. [Signing, Keys, and Credentials](../technology-options/signing-keys-credentials.md)  
-   Understand mechanisms for protecting releases, evidence, credentials, keys, and authorisation decisions.
+   Understand mechanisms for protecting releases, evidence, credentials, keys, and authorization decisions.
 7. [Secure Update and Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)  
-   Understand authorised updates, rollback, recovery, and post-release assurance.
+   Understand authorized updates, rollback, recovery, and post-release assurance.
 8. [Evidence Exchange and Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)  
    Understand how evidence may move between producers, verifiers, relying parties, and tools.
 9. [Evidence Repositories, Logs, and Retention](../technology-options/evidence-repositories-logs-retention.md)  

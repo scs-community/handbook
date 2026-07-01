@@ -35,14 +35,14 @@ This page is relevant to:
 
 - Manufacturers and product teams preparing products with digital elements for the EU market.
 - Suppliers providing software, firmware, components, cloud functions, or security-relevant services to those products.
-- Importers, distributors, and authorised representatives who may need evidence that product cybersecurity obligations are being handled.
+- Importers, distributors, and authorized representatives who may need evidence that product cybersecurity obligations are being handled.
 - Customers, procurement teams, auditors, and assurance reviewers asking for product security evidence.
 
 ## Scope and supply chain relevance
 
 CRA applies to [products with digital elements](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_3) placed on the EU market. In practical terms, that can include software, hardware, firmware, connected devices, and remote data-processing solutions that are part of the product's function.
 
-CRA-relevant supply chain work usually centres on secure development and release governance; software, firmware, and component visibility; supplier and dependency assurance; vulnerability handling during the support period; secure update capability; technical documentation; retained assurance evidence; and lifecycle support commitments.
+CRA-relevant supply chain work usually centers on secure development and release governance; software, firmware, and component visibility; supplier and dependency assurance; vulnerability handling during the support period; secure update capability; technical documentation; retained assurance evidence; and lifecycle support commitments.
 
 For supply chain security, scope questions usually become evidence questions:
 
@@ -87,7 +87,7 @@ CRA-relevant practices can help reduce supply chain failures such as:
 
 - vulnerable third-party components included without review
 - unclear software or firmware provenance
-- insecure or unauthorised update mechanisms
+- insecure or unauthorized update mechanisms
 - weak vulnerability handling during the support period
 - missing or incomplete SBOM or component visibility
 - insufficient supplier or component assurance
@@ -101,7 +101,7 @@ CRA-relevant practices can help reduce supply chain failures such as:
 |---|---|---|---|
 | Secure development and product security lifecycle | Vulnerabilities are introduced through software, firmware, dependencies, or supplier-delivered components. | Secure development practices, dependency review, supplier security expectations, release governance. | Secure development records, dependency and component inventories, security review records, supplier declarations, release approval records. |
 | Vulnerability handling during the support period | Known vulnerabilities remain untracked, unassessed, or unpatched across product and supplier components. | Vulnerability intake, triage, impact assessment, remediation workflow, supplier coordination, disclosure process. | Vulnerability records, triage decisions, remediation plans, supplier notifications, VEX/status statements, disclosure records. |
-| Secure update capability | Unauthorised, malicious, or vulnerable firmware or software is delivered to products. | Signed updates, update authorisation, release approval, rollback protections, update monitoring. | Signing records, update manifests, release approvals, update logs, rollback and recovery records. |
+| Secure update capability | Unauthorized, malicious, or vulnerable firmware or software is delivered to products. | Signed updates, update authorization, release approval, rollback protections, update monitoring. | Signing records, update manifests, release approvals, update logs, rollback and recovery records. |
 | Software and component visibility | Teams cannot identify affected products when a component or dependency is compromised or vulnerable. | SBOM or component inventory generation, dependency tracking, product/component mapping. | SBOMs, component inventories, dependency review records, vulnerability impact assessments. |
 | Technical documentation and assurance evidence | The manufacturer cannot demonstrate that supply chain controls are defined and operating. | Evidence retention, control mapping, documentation ownership, assurance review process. | Technical documentation, control records, audit logs, test reports, supplier evidence, update and vulnerability records. |
 | Supply-chain-aware lifecycle support and maintenance | Products remain in use after supplier support, component visibility, update availability, or vulnerability handling commitments are unclear. | Support-period definition, supplier and component support tracking, end-of-support communication, maintenance planning, customer notification. | Support policy, supplier support records, component support status, maintenance records, end-of-support notices, update history, customer communications. |

@@ -29,7 +29,7 @@ The decision becomes weak when the item cannot be tied to the expected supplier,
 These failures usually arise when the delivered item cannot be matched to the expected supplier, configuration, custody path, or lifecycle state. The examples below are different ways the same decision can become unsafe: accepting something without confidence that it is the intended thing.
 
 - Counterfeit or substituted component.
-- Unauthorised lower-grade, reused, repaired, or refurbished part.
+- Unauthorized lower-grade, reused, repaired, or refurbished part.
 - Supplier delivers a different component, build, firmware load, configuration, or service than expected.
 - Reseller, integrator, repairer, or logistics actor changes product state without clear records.
 - Repair, refurbishment, resale, or ownership transfer changes trust state.

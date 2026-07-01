@@ -171,7 +171,7 @@ function CommunitySection(): ReactNode {
           <div className="col col--6">
             <Heading as="h2">Neutral, standards-aware guidance</Heading>
             <p>
-              The handbook uses standards where they help explain requirements, controls, evidence, assurance models, or implementation mechanisms. Standards are mapped into the guidance, but they are not the main organising principle.
+              The handbook uses standards where they help explain requirements, controls, evidence, assurance models, or implementation mechanisms. Standards are mapped into the guidance, but they are not the main organizing principle.
             </p>
             <div className={styles.communityLinks}>
               <Link className="button button--outline button--primary" to="/technology-options/">

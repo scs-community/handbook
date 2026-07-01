@@ -27,7 +27,7 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 | Release | Define expected measurements, reference values, and verifier policy |
 | Acceptance | Compare delivered product state with expected state before acceptance |
 | Deployment and operation | Support runtime or periodic checks where appropriate |
-| Update and recovery | Check whether the installed or recovered state matches an authorised state |
+| Update and recovery | Check whether the installed or recovered state matches an authorized state |
 | Repair and audit | Support return-to-service, exception review, and audit explanations |
 
 ## Options covered

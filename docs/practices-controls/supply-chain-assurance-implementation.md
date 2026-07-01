@@ -81,7 +81,7 @@ We will implement attestation, SBOMs, or a particular tool because the standard 
 
 ## Stronger answer
 
-The organisation defines the assurance decisions first, then implements evidence production, protection, exchange, verification, retention, and lifecycle refresh for those decisions, with clear limits and gaps.
+The organization defines the assurance decisions first, then implements evidence production, protection, exchange, verification, retention, and lifecycle refresh for those decisions, with clear limits and gaps.
 
 ## Verification considerations
 

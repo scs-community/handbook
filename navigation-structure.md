@@ -190,7 +190,7 @@ Detailed routing belongs in `/start-here/`, `/standards-threats/`, section landi
 
 The footer can expose more of the sitemap than the header. It should help readers jump into common practices, technology-option pages, standards mappings, and reusable tools and templates.
 
-Footer links should still avoid making standards-body names the organising principle. Link to standards roles, practices, evidence needs, and technology-option roles first, then to specific technologies or standards within those pages.
+Footer links should still avoid making standards-body names the organizing principle. Link to standards roles, practices, evidence needs, and technology-option roles first, then to specific technologies or standards within those pages.
 
 ## Resources Rule
 
@@ -207,7 +207,7 @@ Resources should not become a catch-all archive. They should remain the small pr
 - curated references;
 - news and analysis.
 
-Do not reintroduce standalone `Artefact Map`, generic `Templates`, or separate `Evidence Glossary` pages unless there is a specific reader job that cannot be served by the current toolkit. Keep Worked Examples under Resources rather than making examples a top-level navigation item.
+Do not reintroduce standalone `Artifact Map`, generic `Templates`, or separate `Evidence Glossary` pages unless there is a specific reader job that cannot be served by the current toolkit. Keep Worked Examples under Resources rather than making examples a top-level navigation item.
 
 ## Expansion Rules
 

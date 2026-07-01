@@ -46,7 +46,7 @@ The supplier provides:
 
 Assessment: better, but still incomplete. The answer identifies expected components, but does not show custody, version binding, support status, or evidence gaps.
 
-Evidence maturity: Level 3, produced artefacts without complete provenance verification.
+Evidence maturity: Level 3, produced artifacts without complete provenance verification.
 
 ## Stronger answer
 
@@ -63,7 +63,7 @@ The supplier provides:
 
 Assessment: strong. The evidence connects component identity, provenance, lifecycle state, and acceptance decision.
 
-Evidence maturity: Level 4, verifiable artefacts with recorded exception and retention plan.
+Evidence maturity: Level 4, verifiable artifacts with recorded exception and retention plan.
 
 ## What changed from weak to strong?
 
@@ -82,7 +82,7 @@ Evidence maturity: Level 4, verifiable artefacts with recorded exception and ret
 |---|---|
 | Decision supported | Accept component provenance for device model CD-40 release 2.1 |
 | Threat/failure mode addressed | Component substitution, loss of provenance through reseller path, unsupported component status |
-| Practice/control supported | Provenance review, transparency artefact review, supplier component review, acceptance decision record |
+| Practice/control supported | Provenance review, transparency artifact review, supplier component review, acceptance decision record |
 | Scope | Secure component SC-7, firmware module NET-3.2, product CD-40 release 2.1 |
 | Evidence included | xBOM entries, approved source record, reseller path, purchase and receipt records, manufacturing record, component certificate, firmware build provenance, support status |
 | Producer/source | Supplier procurement system, manufacturing system, firmware build system, component supplier |

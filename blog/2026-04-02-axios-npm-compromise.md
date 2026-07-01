@@ -11,7 +11,7 @@ The malicious dependency used a `postinstall` hook to deploy the cross-platform 
 
 {/* truncate */}
 
-This incident is a useful reminder that a familiar package name, a clean source repository, or a normal-looking dependency update is not enough assurance. The supply chain security question is whether the consumed artefact is expected, authorised, traceable, and tied to a reviewable release path.
+This incident is a useful reminder that a familiar package name, a clean source repository, or a normal-looking dependency update is not enough assurance. The supply chain security question is whether the consumed artifact is expected, authorized, traceable, and tied to a reviewable release path.
 
 For product and supplier-assurance teams, the useful retrospective question is not only "were we affected?" It is whether dependency use, release approval, remediation, and customer-assurance records would still be reviewable after the incident response is over.
 
@@ -46,10 +46,10 @@ Check whether affected versions were used in products, services, CI systems, or 
 
 The incident abused several kinds of trust at once:
 
-- trust that a familiar package name represents a safe artefact;
+- trust that a familiar package name represents a safe artifact;
 - trust that a maintainer account is under expected control;
 - trust that a package release matches the expected source and dependency graph;
-- trust that install-time behaviour is benign;
+- trust that install-time behavior is benign;
 - trust that an update can be accepted without fresh evidence.
 
 For handbook purposes, the most important point is that these are not only technical failures. They are evidence failures. A product or supplier consuming the compromised releases needed to know which versions were used, where they were installed, which secrets may have been exposed, what remediation happened, and which records were retained.
@@ -65,9 +65,9 @@ Dependency lists and lockfiles matter, but they are not enough by themselves. Us
 | Evidence | Why it matters |
 |---|---|
 | Dependency lockfiles and package inventories | Show whether affected versions were present in products, services, developer environments, or CI systems. |
-| Repository-to-package consistency checks | Help distinguish source trust from published artefact trust. |
+| Repository-to-package consistency checks | Help distinguish source trust from published artifact trust. |
 | Release provenance and approval records | Show whether a package version followed an expected release path. |
-| Install-time behaviour review | Makes `postinstall` scripts and unexpected execution paths visible. |
+| Install-time behavior review | Makes `postinstall` scripts and unexpected execution paths visible. |
 | Affected-version analysis | Separates affected, fixed, not affected, and unknown product states. |
 | Secret-rotation and host-remediation records | Show what happened after potential credential exposure. |
 | Retained incident evidence | Supports later customer assurance, audit, and lessons learned. |
@@ -125,4 +125,4 @@ Recommended reading:
 - **[Secure Development and Release Governance](/practices-controls/secure-development-release-governance/)** for release approval, supplier inputs, and build-output evidence.
 - **[Software Component and Vulnerability Management](/practices-controls/software-components-vulnerability-management/)** for affected-product analysis and dependency visibility.
 - **[Secure Updates and Lifecycle Monitoring](/practices-controls/secure-updates-lifecycle-monitoring/)** for update approval and post-release assurance.
-- **[SBOM, VEX, and Component Visibility](/technology-options/sbom-vex-component-visibility/)** for SBOM/xBOM, dependency, and vulnerability-status artefacts.
+- **[SBOM, VEX, and Component Visibility](/technology-options/sbom-vex-component-visibility/)** for SBOM/xBOM, dependency, and vulnerability-status artifacts.

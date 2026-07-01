@@ -5,9 +5,9 @@ sidebar_label: "Signing, Keys, and Credentials"
 description: "Compare signing, keys, certificates, and credential mechanisms for software integrity, release approval, update trust, and evidence verification."
 ---
 
-Signing, key, and credential mechanisms can help protect releases, evidence, update packages, verifier results, identities, and authorisation decisions from unauthorised change or misuse.
+Signing, key, and credential mechanisms can help protect releases, evidence, update packages, verifier results, identities, and authorization decisions from unauthorized change or misuse.
 
-This option area is useful when a control depends on proving who produced an artefact, whether it changed, whether a key was authorised for a purpose, or whether a credential is still valid for the lifecycle state being reviewed.
+This option area is useful when a control depends on proving who produced an artifact, whether it changed, whether a key was authorized for a purpose, or whether a credential is still valid for the lifecycle state being reviewed.
 
 ## What this option area is for
 
@@ -26,8 +26,8 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 | Lifecycle stage | How it may help |
 |---|---|
 | Design and sourcing | Define key roles, signing boundaries, and credential expectations |
-| Build and release | Sign release candidates, release artefacts, evidence packages, or provenance records |
-| Acceptance | Verify signatures, certificate chains, authorisation, and product/version binding |
+| Build and release | Sign release candidates, release artifacts, evidence packages, or provenance records |
+| Acceptance | Verify signatures, certificate chains, authorization, and product/version binding |
 | Update and recovery | Authorise updates, recovery images, rollback controls, and emergency release paths |
 | Audit and decommissioning | Retain key-use records, revoke credentials, retire keys, and explain historical signatures |
 
@@ -35,17 +35,17 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 
 ### Code, firmware, update, and evidence signing
 
-- **Assurance role:** Provides integrity and origin evidence for artefacts that need controlled release, exchange, or retention.
+- **Assurance role:** Provides integrity and origin evidence for artifacts that need controlled release, exchange, or retention.
 - **Evidence supported:** Signed releases, update packages, firmware images, evidence bundles, provenance records, and verifier results.
 - **Lifecycle fit:** Build, release, acceptance, update, recovery, audit, and retention.
 - **Dependencies:** Key governance, signing policy, build/release approval, timestamping where needed, verification workflow, and revocation handling.
-- **What it does not prove:** A valid signature does not prove the content is safe, authorised by the right process, vulnerability-free, or compliant.
+- **What it does not prove:** A valid signature does not prove the content is safe, authorized by the right process, vulnerability-free, or compliant.
 - **Mapping confidence:** Direct for signing mechanisms; supporting for assurance workflows.
 - **Source/version note:** Cite the signature format, certificate or key profile, signing policy, timestamping approach, and verification rules used.
 
 ### Key management and hardware-backed key protection
 
-- **Assurance role:** Protects keys used for identity, release signing, update authorisation, attestation, evidence signing, or credential issuance.
+- **Assurance role:** Protects keys used for identity, release signing, update authorization, attestation, evidence signing, or credential issuance.
 - **Evidence supported:** Key lifecycle records, key-use logs, rotation records, approval records, and revocation or retirement evidence.
 - **Lifecycle fit:** Design, provisioning, release, update, operation, audit, incident response, and decommissioning.
 - **Dependencies:** Key ownership, separation of duties, access control, backup/recovery, monitoring, incident response, and retention.
@@ -53,13 +53,13 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 - **Mapping confidence:** Supporting for most assurance workflows; direct where a specific key-management mechanism or profile is mapped.
 - **Source/version note:** Cite the key store, HSM, secure element, TPM, cloud KMS, policy, or profile used, including version or configuration scope where relevant.
 
-### Certificates, credentials, and authorisation claims
+### Certificates, credentials, and authorization claims
 
-- **Assurance role:** Supports identity, authorisation, entitlement, role, supplier, service, or platform claims used in evidence workflows.
-- **Evidence supported:** Certificate chains, credential issuance records, validity and revocation status, role claims, and authorisation decisions.
+- **Assurance role:** Supports identity, authorization, entitlement, role, supplier, service, or platform claims used in evidence workflows.
+- **Evidence supported:** Certificate chains, credential issuance records, validity and revocation status, role claims, and authorization decisions.
 - **Lifecycle fit:** Provisioning, acceptance, deployment, update, service operation, transfer, renewal, and decommissioning.
 - **Dependencies:** Issuer policy, trust anchor, subject binding, validity rules, revocation checking, and lifecycle-state management.
-- **What it does not prove:** A credential does not prove the subject acted correctly or that the artefact is acceptable unless linked to policy and evidence.
+- **What it does not prove:** A credential does not prove the subject acted correctly or that the artifact is acceptable unless linked to policy and evidence.
 - **Mapping confidence:** Direct for credential mechanisms; supporting for lifecycle assurance.
 - **Source/version note:** Cite the credential format, issuer, certificate policy, profile, validity rules, and revocation mechanism.
 
@@ -69,13 +69,13 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 - **Evidence supported:** Approval records, signing event logs, role assignments, emergency signing records, and exception approvals.
 - **Lifecycle fit:** Build, release, update, recovery, audit, incident response, and decommissioning.
 - **Dependencies:** Release governance, access control, change management, monitoring, escalation paths, and audit logging.
-- **What it does not prove:** Separation reduces misuse risk but does not prove the artefact was adequately tested, reviewed, or accepted.
+- **What it does not prove:** Separation reduces misuse risk but does not prove the artifact was adequately tested, reviewed, or accepted.
 - **Mapping confidence:** Supporting for release and update assurance.
 - **Source/version note:** Cite the signing workflow, role model, approval policy, and logging source used.
 
 ## What these options can support
 
-Signing, key, and credential mechanisms can support stronger integrity, origin, authorisation, and accountability evidence. They can help recipients verify whether artefacts came from an expected source and whether key use aligns with the control policy.
+Signing, key, and credential mechanisms can support stronger integrity, origin, authorization, and accountability evidence. They can help recipients verify whether artifacts came from an expected source and whether key use aligns with the control policy.
 
 The same signature mechanism may support different decisions depending on whether it is used for release approval, update delivery, evidence integrity, or credential issuance; the decision context should be recorded.
 
@@ -94,7 +94,7 @@ They do not prove that signed content is safe, correct, complete, vulnerability-
 
 ## Evidence they may produce, protect, exchange, or verify
 
-- signed release, update, recovery, configuration, or evidence artefacts;
+- signed release, update, recovery, configuration, or evidence artifacts;
 - certificate chains and credential records;
 - key-use, rotation, revocation, and retirement logs;
 - signing approvals and exception records;
@@ -102,7 +102,7 @@ They do not prove that signed content is safe, correct, complete, vulnerability-
 
 ## Verification considerations
 
-Verification should check signature validity, certificate path, key authorisation, product/version binding, signing-time context, revocation status, and whether the signing event aligns with the release or update approval record.
+Verification should check signature validity, certificate path, key authorization, product/version binding, signing-time context, revocation status, and whether the signing event aligns with the release or update approval record.
 
 ## Tooling categories
 
@@ -115,14 +115,14 @@ Verification should check signature validity, certificate path, key authorisatio
 
 ## Questions to ask suppliers
 
-- Which artefacts are signed, and what decision does each signature support?
+- Which artifacts are signed, and what decision does each signature support?
 - Who controls the signing keys, and how are duties separated?
 - How are keys created, protected, rotated, revoked, recovered, and retired?
 - How are emergency, recovery, or exceptional signing paths approved and logged?
 
 ## Questions to ask implementers
 
-- Which signing workflow, key store, trust store, or verifier checks each artefact?
+- Which signing workflow, key store, trust store, or verifier checks each artifact?
 - How are signing events linked to release, update, credential, or evidence approval records?
 - What does a valid signature not prove without additional review or evidence?
 

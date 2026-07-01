@@ -17,10 +17,10 @@ The practices are not a compliance checklist. They are a route into the handbook
 | 1 | Establish and verify identity | Unknown, substituted, cloned, or mis-provisioned product/component | Identity record, issuer evidence, provisioning log |
 | 2 | Preserve provenance and chain of custody | Lost origin, custody, repair, or transfer evidence | Provenance record, custody record, supplier declaration |
 | 3 | Define lifecycle trust responsibilities | No owner for evidence, verification, or decisions | Responsibility matrix, acceptance criteria, retention owner |
-| 4 | Maintain transparency artefacts | Unknown software, firmware, hardware, or dependency composition | SBOM, component record, vulnerability status |
-| 5 | Verify integrity and configuration claims | Unauthorised firmware, software, boot, or configuration state | Reference measurements, manifests, attestation results |
+| 4 | Maintain transparency artifacts | Unknown software, firmware, hardware, or dependency composition | SBOM, component record, vulnerability status |
+| 5 | Verify integrity and configuration claims | Unauthorized firmware, software, boot, or configuration state | Reference measurements, manifests, attestation results |
 | 6 | Protect credentials, keys, and trust anchors | Cloned, extracted, stale, or wrongly issued credentials | Issuance record, key record, revocation record |
-| 7 | Authorise, record, and recover updates | Unauthorised, incomplete, or unrecoverable updates | Update approval, signing record, recovery evidence |
+| 7 | Authorise, record, and recover updates | Unauthorized, incomplete, or unrecoverable updates | Update approval, signing record, recovery evidence |
 | 8 | Track vulnerabilities and remediation evidence | Vulnerabilities not tied to products or decisions | Vulnerability record, affected-product analysis, remediation plan |
 | 9 | Retain and reuse evidence | Evidence is stale, unavailable, or unusable later | Evidence registry, lifecycle records, verifier logs |
 | 10 | Map standards and technologies cautiously | Standards ignored, overclaimed, or treated as mandates | Mapping matrix, source references, confidence rating |
@@ -77,7 +77,7 @@ Supply chain assurance weakens when origin, custody, reseller, integrator, logis
 
 | Area | Guidance |
 |---|---|
-| Threat or failure mode | Origin, custody, reseller, integrator, logistics, or repair information is lost, making substitution, tampering, or unauthorised changes difficult to detect. |
+| Threat or failure mode | Origin, custody, reseller, integrator, logistics, or repair information is lost, making substitution, tampering, or unauthorized changes difficult to detect. |
 | Core controls | Provenance capture, chain-of-custody review, supplier declaration review, transfer/repair record retention. |
 | Lifecycle fit | Sourcing, manufacturing, logistics, product acceptance, repair, transfer, decommissioning. |
 | Technology options | Platform Certificates, signed provenance records, CoRIM/CoMID, SBOM/xBOM formats, asset management systems. These may structure or protect provenance evidence; they do not prove every custody event is complete, trustworthy, or relevant to the decision. |
@@ -97,7 +97,7 @@ Evidence is only useful when someone owns the claim, the verification action, th
 
 | Use when | Ask for | Verify |
 |---|---|---|
-| Make trust assumptions and evidence responsibilities explicit across the product lifecycle. | Security requirements, threat models, supplier responsibility matrices, acceptance criteria, retention policies, verification procedures. | Owners are named for each claim, artefact, verification action, remediation decision, and retained record. |
+| Make trust assumptions and evidence responsibilities explicit across the product lifecycle. | Security requirements, threat models, supplier responsibility matrices, acceptance criteria, retention policies, verification procedures. | Owners are named for each claim, artifact, verification action, remediation decision, and retained record. |
 
 **Common weak answer:** "Security is covered by our process."
 
@@ -112,7 +112,7 @@ Evidence is only useful when someone owns the claim, the verification action, th
 | Core controls | Responsibility mapping, lifecycle evidence requirements, acceptance criteria, retention ownership, escalation path. |
 | Lifecycle fit | Design, sourcing, manufacturing, acceptance, deployment, update, repair, transfer, decommissioning. |
 | Technology options | Governance frameworks, secure development frameworks, assurance process standards, sector guidance. These may provide structure and vocabulary; they do not assign ownership or resolve contractual boundaries by themselves. |
-| Gaps and limits | Responsibility boundaries often cross organisational, contractual, and operational lines. |
+| Gaps and limits | Responsibility boundaries often cross organizational, contractual, and operational lines. |
 
 **Related pages**
 
@@ -122,13 +122,13 @@ Evidence is only useful when someone owns the claim, the verification action, th
 
 </details>
 
-## 4. Request and maintain transparency artefacts for software, firmware, and components
+## 4. Request and maintain transparency artifacts for software, firmware, and components
 
 Readers need enough component visibility to understand what is present, where risk enters, and whether known vulnerabilities affect the product or service.
 
 | Use when | Ask for | Verify |
 |---|---|---|
-| Connect software, firmware, hardware, and service composition to supplier review, acceptance, update, and vulnerability decisions. | SBOMs, firmware component records, hardware or component BOMs, dependency records, build provenance, vulnerability status records. | Transparency artefacts match the product, version, firmware, service, lifecycle state, and decision being reviewed. |
+| Connect software, firmware, hardware, and service composition to supplier review, acceptance, update, and vulnerability decisions. | SBOMs, firmware component records, hardware or component BOMs, dependency records, build provenance, vulnerability status records. | Transparency artifacts match the product, version, firmware, service, lifecycle state, and decision being reviewed. |
 
 **Common weak answer:** "We can provide an SBOM."
 
@@ -142,8 +142,8 @@ Readers need enough component visibility to understand what is present, where ri
 | Threat or failure mode | Buyers and operators cannot understand what software, firmware, hardware, or service components are present, where risks enter, or whether known vulnerabilities affect them. |
 | Core controls | Component inventory maintenance, SBOM/version binding, supplier component review, affected-product mapping. |
 | Lifecycle fit | Design, sourcing, build, acceptance, deployment, update, vulnerability response. |
-| Technology options | SPDX, CycloneDX, VEX-like records, build provenance tooling, package signing, SBOM distribution and exchange mechanisms. These may improve visibility and exchange; they do not prove the artefact is complete, current, or sufficient for the decision. |
-| Gaps and limits | Transparency artefacts need interpretation, freshness, version binding, exclusions, and vulnerability workflow integration. |
+| Technology options | SPDX, CycloneDX, VEX-like records, build provenance tooling, package signing, SBOM distribution and exchange mechanisms. These may improve visibility and exchange; they do not prove the artifact is complete, current, or sufficient for the decision. |
+| Gaps and limits | Transparency artifacts need interpretation, freshness, version binding, exclusions, and vulnerability workflow integration. |
 
 **Related pages**
 
@@ -221,18 +221,18 @@ Updates change product state after acceptance, so approval, signing, delivery, i
 
 | Use when | Ask for | Verify |
 |---|---|---|
-| Decide whether a software or firmware update was authorised, installed, recoverable, and consistent with expected state. | Update authorisation records, signing records, delivery records, installation records, version history, rollback evidence, recovery procedures. | The update followed an approved path and the product can be restored or explained if the update fails or introduces risk. |
+| Decide whether a software or firmware update was authorized, installed, recoverable, and consistent with expected state. | Update authorization records, signing records, delivery records, installation records, version history, rollback evidence, recovery procedures. | The update followed an approved path and the product can be restored or explained if the update fails or introduces risk. |
 
 **Common weak answer:** "Updates are signed."
 
-**Stronger answer:** Update evidence includes release approval, signing event record, authorised key, affected-version mapping, rollback and recovery evidence, deployment record, and retained exception decisions.
+**Stronger answer:** Update evidence includes release approval, signing event record, authorized key, affected-version mapping, rollback and recovery evidence, deployment record, and retained exception decisions.
 
 <details>
 <summary>Full guidance</summary>
 
 | Area | Guidance |
 |---|---|
-| Threat or failure mode | Unauthorised, incomplete, unrecoverable, or poorly documented updates change product state and break assurance after acceptance. |
+| Threat or failure mode | Unauthorized, incomplete, unrecoverable, or poorly documented updates change product state and break assurance after acceptance. |
 | Core controls | Update approval, signing control, update eligibility check, installation record, rollback/recovery review. |
 | Lifecycle fit | Deployment, update, operations, repair, vulnerability response. |
 | Technology options | Firmware signing, update frameworks, transparency logs, attestation, vulnerability handling records, secure boot and recovery mechanisms. These may protect update integrity or record update state; they do not prove the update was appropriate, recoverable, or accepted by the right owner. |
@@ -283,7 +283,7 @@ Evidence should remain usable after the original decision, especially when produ
 
 | Use when | Ask for | Verify |
 |---|---|---|
-| Keep evidence available, interpretable, refreshed, and reusable across acceptance, deployment, update, repair, transfer, audit, and decommissioning. | Evidence retention policy, artefact registry, lifecycle-state records, verifier logs, audit records, repair and transfer records, revocation records. | The recipient can find, verify, and interpret evidence after the original acceptance decision. |
+| Keep evidence available, interpretable, refreshed, and reusable across acceptance, deployment, update, repair, transfer, audit, and decommissioning. | Evidence retention policy, artifact registry, lifecycle-state records, verifier logs, audit records, repair and transfer records, revocation records. | The recipient can find, verify, and interpret evidence after the original acceptance decision. |
 
 **Common weak answer:** "Evidence is stored in the project folder."
 
@@ -295,9 +295,9 @@ Evidence should remain usable after the original decision, especially when produ
 | Area | Guidance |
 |---|---|
 | Threat or failure mode | Evidence exists once but is unavailable, stale, unverifiable, or unusable when the product is updated, repaired, transferred, audited, or retired. |
-| Core controls | Evidence retention, artefact registry, evidence refresh trigger, verifier log retention, stale-evidence review. |
+| Core controls | Evidence retention, artifact registry, evidence refresh trigger, verifier log retention, stale-evidence review. |
 | Lifecycle fit | Acceptance, deployment, update, repair, transfer, audit, decommissioning. |
-| Technology options | Evidence repositories, signed artefacts, RATS/EAT, CoRIM/CoMID, asset management systems, audit evidence stores. These may retain and protect records; they do not decide what evidence is sufficient or when it must be refreshed. |
+| Technology options | Evidence repositories, signed artifacts, RATS/EAT, CoRIM/CoMID, asset management systems, audit evidence stores. These may retain and protect records; they do not decide what evidence is sufficient or when it must be refreshed. |
 | Gaps and limits | Evidence retention requires governance, storage, access, refresh, privacy, and ownership decisions. |
 
 **Related pages**
@@ -345,17 +345,17 @@ If you arrived with a decision rather than a practice number, use this crosswalk
 
 | If you need to... | Start with practices... |
 |---|---|
-| Qualify, renew, or review a supplier | [2](#2-preserve-provenance-and-chain-of-custody-evidence), [3](#3-define-lifecycle-trust-assumptions-and-responsibilities), [4](#4-request-and-maintain-transparency-artefacts-for-software-firmware-and-components), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions), [10](#10-map-practices-to-standards-and-technology-choices-without-treating-them-as-mandates) |
-| Accept a connected product or component | [1](#1-establish-and-verify-device-component-and-platform-identity), [2](#2-preserve-provenance-and-chain-of-custody-evidence), [4](#4-request-and-maintain-transparency-artefacts-for-software-firmware-and-components), [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [6](#6-protect-provisioning-credentials-keys-and-trust-anchors), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
+| Qualify, renew, or review a supplier | [2](#2-preserve-provenance-and-chain-of-custody-evidence), [3](#3-define-lifecycle-trust-assumptions-and-responsibilities), [4](#4-request-and-maintain-transparency-artifacts-for-software-firmware-and-components), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions), [10](#10-map-practices-to-standards-and-technology-choices-without-treating-them-as-mandates) |
+| Accept a connected product or component | [1](#1-establish-and-verify-device-component-and-platform-identity), [2](#2-preserve-provenance-and-chain-of-custody-evidence), [4](#4-request-and-maintain-transparency-artifacts-for-software-firmware-and-components), [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [6](#6-protect-provisioning-credentials-keys-and-trust-anchors), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
 | Approve a software or firmware update | [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [7](#7-authorise-record-and-recover-updates), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
-| Respond to a vulnerability | [4](#4-request-and-maintain-transparency-artefacts-for-software-firmware-and-components), [7](#7-authorise-record-and-recover-updates), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
+| Respond to a vulnerability | [4](#4-request-and-maintain-transparency-artifacts-for-software-firmware-and-components), [7](#7-authorise-record-and-recover-updates), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
 | Prepare audit or customer evidence | [3](#3-define-lifecycle-trust-assumptions-and-responsibilities), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions), [10](#10-map-practices-to-standards-and-technology-choices-without-treating-them-as-mandates) |
 | Choose implementation mechanisms | [1](#1-establish-and-verify-device-component-and-platform-identity), [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [6](#6-protect-provisioning-credentials-keys-and-trust-anchors), [7](#7-authorise-record-and-recover-updates), [10](#10-map-practices-to-standards-and-technology-choices-without-treating-them-as-mandates) |
 
 ## How to use this page with the rest of the handbook
 
 - Use [Supply Chain Security Lifecycle Map](./supply-chain-security-lifecycle-map.md) to place practices in lifecycle context.
-- Use [Evidence Checklist](../resources/evidence-checklist.md) to identify artefacts and verification paths.
+- Use [Evidence Checklist](../resources/evidence-checklist.md) to identify artifacts and verification paths.
 - Use [Supplier Security Questions](../resources/supplier-security-questions.md) to turn practices into supplier requests.
 - Use [Supply Chain Security Worked Examples](../resources/worked-examples/index.md) when you need examples of weak, better, and stronger evidence packages.
 - Use [Supply Chain Security Technology Options](../technology-options/index.md) to understand mechanism roles and limits.

@@ -7,15 +7,15 @@ description: "CISA and G7 minimum elements for AI SBOMs show how component visib
 
 In May 2026, CISA and G7 partners released voluntary guidance on **Software Bill of Materials for AI - Minimum Elements**. The guidance is intended to improve transparency in artificial intelligence systems and their supply chains.
 
-CISA frames an SBOM as an "ingredients list" that helps organisations understand supply chains and make risk-informed decisions. For AI systems, that ingredients list needs to include more than ordinary software packages.
+CISA frames an SBOM as an "ingredients list" that helps organizations understand supply chains and make risk-informed decisions. For AI systems, that ingredients list needs to include more than ordinary software packages.
 
 {/* truncate */}
 
 The guidance describes AI-specific SBOM information across areas such as metadata, system-level properties, models, datasets, infrastructure, security properties, and key performance indicators.
 
-For this handbook, the important point is not that AI SBOMs are a new proof of assurance. They are transparency artefacts. They become useful when they are scoped to a product, version, model, dataset, service, or lifecycle decision, and when the recipient can understand their source, freshness, limitations, and verification path.
+For this handbook, the important point is not that AI SBOMs are a new proof of assurance. They are transparency artifacts. They become useful when they are scoped to a product, version, model, dataset, service, or lifecycle decision, and when the recipient can understand their source, freshness, limitations, and verification path.
 
-The useful assurance question is not "Do we have an AI SBOM?" It is "Can this artefact support a decision about an AI-enabled product or service?"
+The useful assurance question is not "Do we have an AI SBOM?" It is "Can this artifact support a decision about an AI-enabled product or service?"
 
 :::info[Official guidance]
 
@@ -40,13 +40,13 @@ Choose one AI-enabled product, service, or feature and define the minimum eviden
 | Product-security leads | To understand how AI components, datasets, models, and infrastructure affect product assurance. |
 | Procurement and supplier-assurance teams | To ask better questions about AI-enabled products and services. |
 | Suppliers and manufacturers | To prepare evidence-backed answers about AI system composition and limitations. |
-| Implementers | To understand where transparency artefacts may need repository, exchange, and verification workflows. |
+| Implementers | To understand where transparency artifacts may need repository, exchange, and verification workflows. |
 
 ---
 
 ## Why ordinary SBOM thinking is not enough for AI systems
 
-Traditional SBOM thinking often starts with software components: package names, versions, licences, suppliers, and dependency relationships. AI systems can include those things, but they can also depend on:
+Traditional SBOM thinking often starts with software components: package names, versions, licenses, suppliers, and dependency relationships. AI systems can include those things, but they can also depend on:
 
 - model identity, version, properties, and provenance;
 - training, evaluation, or operational datasets;
@@ -57,9 +57,9 @@ Traditional SBOM thinking often starts with software components: package names, 
 
 That means the assurance question changes. Buyers and reviewers need to know not only "what packages are in this product?" but also "which model, data, infrastructure, and service dependencies affect this decision?"
 
-For example, an AI gateway used to triage support tickets might include ordinary application dependencies, a hosted large-language-model service, prompt templates, retrieval indexes, evaluation datasets, cloud inference infrastructure, monitoring services, and policy rules that shape outputs. A useful AI SBOM would not turn that into a single magic assurance artefact. It would identify what changed, what is excluded, which version or service is being relied on, and how the buyer can verify freshness before acceptance or renewal.
+For example, an AI gateway used to triage support tickets might include ordinary application dependencies, a hosted large-language-model service, prompt templates, retrieval indexes, evaluation datasets, cloud inference infrastructure, monitoring services, and policy rules that shape outputs. A useful AI SBOM would not turn that into a single magic assurance artifact. It would identify what changed, what is excluded, which version or service is being relied on, and how the buyer can verify freshness before acceptance or renewal.
 
-[SBOM, VEX, and Component Visibility](/technology-options/sbom-vex-component-visibility/) explains how SBOM, VEX, and related artefacts fit into assurance decisions.
+[SBOM, VEX, and Component Visibility](/technology-options/sbom-vex-component-visibility/) explains how SBOM, VEX, and related artifacts fit into assurance decisions.
 
 ---
 
@@ -69,17 +69,17 @@ AI SBOMs can help make hidden dependencies visible. They may support:
 
 | AI SBOM area | Evidence value |
 |---|---|
-| Metadata | Shows who produced the artefact, when, in what format, and for what system. |
+| Metadata | Shows who produced the artifact, when, in what format, and for what system. |
 | System-level properties | Describes the AI system, components, data flows, usage, and intended application area. |
-| Models | Identifies models, versions, producers, properties, hashes, licences, and external references. |
+| Models | Identifies models, versions, producers, properties, hashes, licenses, and external references. |
 | Dataset properties | Records dataset identity, provenance, lifecycle use, licensing, and relevant properties. |
 | Infrastructure | Identifies physical, virtual, hardware, cloud, or runtime dependencies. |
 | Security properties | Captures security measures, vulnerabilities, threat models, or access-control assumptions. |
-| Key performance indicators | Records evaluation or operational metrics needed to understand model behaviour in context. |
+| Key performance indicators | Records evaluation or operational metrics needed to understand model behavior in context. |
 
 That visibility helps procurement, product-security, and assurance teams ask more specific questions about AI-enabled products and services.
 
-The [Evidence Maturity Model](/resources/evidence-maturity-model/) is useful when deciding whether an AI SBOM is only an assertion, a produced artefact, or something verifiable and retained.
+The [Evidence Maturity Model](/resources/evidence-maturity-model/) is useful when deciding whether an AI SBOM is only an assertion, a produced artifact, or something verifiable and retained.
 
 ---
 
@@ -93,9 +93,9 @@ It also does not prove by itself that:
 - the datasets are appropriate, complete, representative, or lawfully usable;
 - the system is free from vulnerabilities or adversarial weaknesses;
 - the listed infrastructure is configured securely;
-- the artefact is current, complete, or independently verified.
+- the artifact is current, complete, or independently verified.
 
-Like any transparency artefact, an AI SBOM becomes stronger when it is tied to a decision, scope, source, verification path, known limitations, and retention plan.
+Like any transparency artifact, an AI SBOM becomes stronger when it is tied to a decision, scope, source, verification path, known limitations, and retention plan.
 
 Use the [Evidence Checklist](/resources/evidence-checklist/) to review scope, source, freshness, limitations, verification, and retention.
 
@@ -106,11 +106,11 @@ Use the [Evidence Checklist](/resources/evidence-checklist/) to review scope, so
 For AI-enabled products and services, supplier questions should become more precise:
 
 - Which AI models, datasets, services, and infrastructure components are in scope?
-- Which versions, hashes, producers, licences, and external references apply?
+- Which versions, hashes, producers, licenses, and external references apply?
 - What is excluded from the AI SBOM, and why?
 - How often is the AI SBOM refreshed after model, data, infrastructure, or service changes?
 - What security properties, known vulnerabilities, and limitations are recorded?
-- Who retains the artefact, and how can a buyer verify freshness and scope?
+- Who retains the artifact, and how can a buyer verify freshness and scope?
 
 A weak answer says: "We can provide an AI SBOM."
 
@@ -122,7 +122,7 @@ A stronger answer provides a product-scoped AI SBOM with model, dataset, infrast
 
 ## How to treat AI SBOMs as evidence
 
-Treat an AI SBOM as one artefact inside an evidence package, not as assurance by itself.
+Treat an AI SBOM as one artifact inside an evidence package, not as assurance by itself.
 
 A useful AI SBOM should support a decision such as supplier onboarding, product acceptance, update approval, vulnerability response, audit, or continued use. It should be clear about:
 
@@ -134,6 +134,6 @@ A useful AI SBOM should support a decision such as supplier onboarding, product 
 
 Recommended reading:
 
-- **[Standards to Evidence and Technology Mapping Workflow](/resources/standards-evidence-technology-mapping/)** for mapping artefact roles and confidence.
+- **[Standards to Evidence and Technology Mapping Workflow](/resources/standards-evidence-technology-mapping/)** for mapping artifact roles and confidence.
 - **[Component Provenance Example](/resources/worked-examples/component-provenance-example/)** for a worked example of moving from a component list to usable assurance evidence.
 - **[Evidence Repositories, Logs, and Retention](/technology-options/evidence-repositories-logs-retention/)** for keeping transparency evidence usable after acceptance, update, repair, transfer, or audit.

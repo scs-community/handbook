@@ -10,7 +10,7 @@ This practice is commonly driven by CRA, secure development expectations, releas
 
 ## What this practice is for
 
-This practice focuses on supply chain security-relevant development and release controls. It is not a generic secure development lifecycle page. It helps teams decide whether supplier-delivered software, firmware, dependencies, build outputs, and release artefacts are ready to become part of a product or update.
+This practice focuses on supply chain security-relevant development and release controls. It is not a generic secure development lifecycle page. It helps teams decide whether supplier-delivered software, firmware, dependencies, build outputs, and release artifacts are ready to become part of a product or update.
 
 ## Decisions this practice supports
 
@@ -34,12 +34,12 @@ When release evidence is missing, stale, incomplete, inconsistent, or unverifiab
 |---|---|---|
 | Dependency approval | Review dependencies before inclusion or release. | Dependency review records, approved component list, exception records. |
 | Supplier software/firmware review | Assess supplier-delivered code or firmware against release criteria. | Supplier review records, security findings, remediation records. |
-| Build provenance capture | Tie build outputs to source, dependencies, tools, and environment. | Build provenance, build logs, artefact identifiers. |
-| Release approval workflow | Ensure release candidates are reviewed and authorised before signing, delivery, or update preparation. | Release approvals, release checklist, acceptance criteria. |
+| Build provenance capture | Tie build outputs to source, dependencies, tools, and environment. | Build provenance, build logs, artifact identifiers. |
+| Release approval workflow | Ensure release candidates are reviewed and authorized before signing, delivery, or update preparation. | Release approvals, release checklist, acceptance criteria. |
 | Pre-release vulnerability check | Identify unresolved vulnerabilities before release. | Vulnerability review, affected-product analysis, risk acceptance records. |
 | Signing readiness check | Confirm signing should occur only after approval and evidence capture. | Signing readiness record, key custody check, release manifest. |
 | Release-to-update handoff | Ensure release evidence, manifests, vulnerability status, signing records, and approval decisions are available to update and lifecycle monitoring workflows. | Release package, update manifest, version record, vulnerability status, lifecycle monitoring trigger. |
-| Release evidence retention | Keep release evidence available for audit, vulnerability response, and customer assurance. | Release evidence package, retained artefacts, review metadata. |
+| Release evidence retention | Keep release evidence available for audit, vulnerability response, and customer assurance. | Release evidence package, retained artifacts, review metadata. |
 
 ## What good practice looks like
 
@@ -49,7 +49,7 @@ Good release governance connects supplier inputs, dependency review, build prove
 
 ### Suppliers
 
-- What software, firmware, dependencies, build outputs, or artefacts are you delivering?
+- What software, firmware, dependencies, build outputs, or artifacts are you delivering?
 - What evidence shows these inputs were reviewed, approved, and version-bound?
 - What vulnerabilities, exceptions, or unresolved dependencies remain at release?
 
@@ -68,7 +68,7 @@ Good release governance connects supplier inputs, dependency review, build prove
 ### Implementers
 
 - What systems capture dependency review, build provenance, release approval, and signing records?
-- How are release artefacts bound to product, firmware, software, and component versions?
+- How are release artifacts bound to product, firmware, software, and component versions?
 - How will release evidence feed vulnerability response and update workflows?
 
 ## Evidence this should produce
@@ -81,7 +81,7 @@ The team says the release followed secure development practices.
 
 ## Stronger answer
 
-The team provides reviewed dependency records, supplier input reviews, build provenance, vulnerability status, release approvals, signing readiness evidence, release-to-update handoff records, and retained release artefacts for the specific product or firmware version.
+The team provides reviewed dependency records, supplier input reviews, build provenance, vulnerability status, release approvals, signing readiness evidence, release-to-update handoff records, and retained release artifacts for the specific product or firmware version.
 
 ## Verification considerations
 
@@ -93,7 +93,7 @@ This practice applies during design, sourcing, development, build, pre-release r
 
 ## Technology options
 
-Technology options may include source and artefact repositories, build provenance tooling, package signing, SBOM generation, vulnerability scanning, release workflow systems, signing services, transparency logs, and evidence repositories.
+Technology options may include source and artifact repositories, build provenance tooling, package signing, SBOM generation, vulnerability scanning, release workflow systems, signing services, transparency logs, and evidence repositories.
 
 ## Related pages
 

@@ -30,7 +30,7 @@ The decision becomes weak when those claims are generic, stale, incomplete, unve
 
 These failures usually arise when assurance work stops at statements, questionnaires, or contract language without connecting those claims to records for the assessed product, service, supplier relationship, or lifecycle event. The examples below are common ways supplier evidence becomes hard to rely on.
 
-- Supplier self-attestation without artefacts.
+- Supplier self-attestation without artifacts.
 - Questionnaire answers are not tied to supporting records.
 - Evidence is generic rather than product-specific or service-specific.
 - Evidence is stale, incomplete, unverifiable, or outside the assessed scope.
@@ -40,11 +40,11 @@ These failures usually arise when assurance work stops at statements, questionna
 
 ## Controls that help
 
-Supplier assurance controls should define evidence expectations before procurement or renewal, then keep review ownership, exceptions, and remediation visible. They should help teams decide whether to accept supplier claims, request stronger artefacts, record a gap, or escalate a risk.
+Supplier assurance controls should define evidence expectations before procurement or renewal, then keep review ownership, exceptions, and remediation visible. They should help teams decide whether to accept supplier claims, request stronger artifacts, record a gap, or escalate a risk.
 
 - Supplier evidence requirements.
 - Product-specific or service-specific acceptance criteria.
-- Artefact request process and evidence checklist.
+- Artifact request process and evidence checklist.
 - Supplier review cadence and renewal triggers.
 - Exception and risk acceptance process.
 - Contractual evidence, vulnerability, update, and incident notification clauses.
@@ -54,7 +54,7 @@ Supplier assurance controls should define evidence expectations before procureme
 
 The decision is defensible when supplier evidence is specific enough to review for scope, freshness, origin, and relevance. Evidence should also be retained so audit, renewal, incident response, or lifecycle monitoring does not have to restart from unsupported claims.
 
-- Supplier assurance questionnaires with supporting artefacts.
+- Supplier assurance questionnaires with supporting artifacts.
 - Audit reports and security addenda.
 - SBOMs, xBOMs, or component inventories.
 - Vulnerability handling records and remediation commitments.

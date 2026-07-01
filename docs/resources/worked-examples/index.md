@@ -37,7 +37,7 @@ Good evidence is not just a document. It should show:
 - what gaps, exceptions, or risk acceptances remain;
 - how long the evidence must remain available and useful.
 
-The examples also label weak, better, and stronger answers using the [Evidence Maturity Model](../evidence-maturity-model.md), so readers can see the difference between assertion, documented process, produced artefact, verifiable artefact, and lifecycle-retained evidence.
+The examples also label weak, better, and stronger answers using the [Evidence Maturity Model](../evidence-maturity-model.md), so readers can see the difference between assertion, documented process, produced artifact, verifiable artifact, and lifecycle-retained evidence.
 
 ## How to use these examples
 

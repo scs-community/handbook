@@ -10,7 +10,7 @@ Use this path when a customer, assessor, auditor, or procurement team asks you t
 
 - What evidence should we provide for a customer or buyer review?
 - Which product, version, component, service, or lifecycle stage does the evidence cover?
-- Which claims can we support with artefacts, records, or verification paths?
+- Which claims can we support with artifacts, records, or verification paths?
 - Which limitations, gaps, or exceptions need to be declared?
 - How should evidence be retained for later customer assurance, audit, renewal, or incident response?
 
@@ -19,7 +19,7 @@ Use this path when a customer, assessor, auditor, or procurement team asks you t
 1. [Supplier Security Questions](../resources/supplier-security-questions.md)  
    Understand the kinds of evidence customers may ask for.
 2. [Evidence Maturity Model](../resources/evidence-maturity-model.md)  
-   Distinguish assertions, documented processes, produced artefacts, verifiable artefacts, and lifecycle-retained evidence.
+   Distinguish assertions, documented processes, produced artifacts, verifiable artifacts, and lifecycle-retained evidence.
 3. [Evidence Package Template](../resources/evidence-package-template.md)  
    Package evidence so reviewers can understand the decision, scope, source, verification path, gaps, and retention owner.
 4. [Evidence Checklist](../resources/evidence-checklist.md)  
@@ -37,11 +37,11 @@ After following this path, you should be able to produce:
 - scoped answers tied to product, component, service, version, or lifecycle stage;
 - declared limitations, gaps, and exceptions;
 - a retention plan for reusable customer, audit, renewal, or incident-response evidence;
-- a clear statement of what each artefact does and does not prove.
+- a clear statement of what each artifact does and does not prove.
 
 ## Evidence you should expect or produce
 
-Prepare evidence that names the artefact, owner, product or service scope, version, lifecycle stage, verification method, known gaps, exception status, and retention expectation. Make clear whether the evidence is a process description, produced artefact, verifiable artefact, or lifecycle-retained record.
+Prepare evidence that names the artifact, owner, product or service scope, version, lifecycle stage, verification method, known gaps, exception status, and retention expectation. Make clear whether the evidence is a process description, produced artifact, verifiable artifact, or lifecycle-retained record.
 
 ## Common weak answers
 

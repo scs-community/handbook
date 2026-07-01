@@ -25,9 +25,9 @@ Use these questions in two modes:
 
 ## Transparency
 
-- What SBOM, firmware BOM, hardware BOM, or xBOM artefacts are available?
-- How are artefacts tied to product versions, firmware versions, builds, or configurations?
-- How are artefacts updated after product changes?
+- What SBOM, firmware BOM, hardware BOM, or xBOM artifacts are available?
+- How are artifacts tied to product versions, firmware versions, builds, or configurations?
+- How are artifacts updated after product changes?
 - What known limitations or exclusions apply?
 
 ## Integrity And Attestation
@@ -39,10 +39,10 @@ Use these questions in two modes:
 
 ## Updates And Vulnerabilities
 
-- How are updates authorised, signed, delivered, installed, recorded, and rolled back?
+- How are updates authorized, signed, delivered, installed, recorded, and rolled back?
 - What records show update history for this product or version?
 - How are vulnerabilities tracked, remediated, accepted, mitigated, or communicated?
-- Can vulnerability status be connected to SBOM/xBOM artefacts and product versions?
+- Can vulnerability status be connected to SBOM/xBOM artifacts and product versions?
 
 ## Lifecycle State
 
@@ -52,7 +52,7 @@ Use these questions in two modes:
 
 ## Request Pattern
 
-Ask for the artefact, owner, lifecycle stage, retention expectation, and verification path. A useful answer should explain not only what the supplier does, but what evidence exists and how a recipient can rely on it.
+Ask for the artifact, owner, lifecycle stage, retention expectation, and verification path. A useful answer should explain not only what the supplier does, but what evidence exists and how a recipient can rely on it.
 
 ## Related Pages
 

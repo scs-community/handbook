@@ -10,7 +10,7 @@ Use this path when you need to prepare, review, or explain evidence for audit, c
 
 - What control evidence is needed for the review?
 - Does the evidence support the specific audit, customer, product, supplier, or lifecycle decision?
-- Are claims traceable to artefacts, source references, verification metadata, and retained records?
+- Are claims traceable to artifacts, source references, verification metadata, and retained records?
 - Which gaps, exceptions, or remediation plans need to be visible?
 - How can standards and technology mappings be explained without overstating compliance?
 
@@ -52,7 +52,7 @@ Expect control evidence packages, source references, review records, mapping not
 
 ## Stronger answers
 
-A stronger answer links the control, decision, artefact, source reference, reviewer, verification method, exception status, remediation plan, review date, and retention location. It records confidence and limitations instead of treating a citation, tool output, or questionnaire response as proof.
+A stronger answer links the control, decision, artifact, source reference, reviewer, verification method, exception status, remediation plan, review date, and retention location. It records confidence and limitations instead of treating a citation, tool output, or questionnaire response as proof.
 
 ## Related pages
 

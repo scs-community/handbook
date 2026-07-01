@@ -8,7 +8,7 @@ Prefer:
 
 - practices supported by evidence;
 - evidence that can be produced, verified, retained, and reused;
-- supplier assertions strengthened by verifiable artefacts;
+- supplier assertions strengthened by verifiable artifacts;
 - technology options, not technology mandates;
 - lifecycle assurance, not one-time acceptance;
 - neutral practices first, implementation options second;
@@ -20,10 +20,10 @@ Avoid:
 - sounding like a GlobalPlatform advocacy site;
 - implying that technology alone solves supply-chain security;
 - duplicating generic SCRM guidance;
-- organising around standards-body jargon;
+- organizing around standards-body jargon;
 - treating standards only as technical implementation details;
 - making legal, certification-style, or compliance-authority claims;
-- implying every organisation needs the most advanced cryptographic assurance from day one.
+- implying every organization needs the most advanced cryptographic assurance from day one.
 
 ## Page Model
 
@@ -44,14 +44,14 @@ Recommended structure:
 
 ## Evidence Language
 
-Use evidence broadly: artefact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material.
+Use evidence broadly: artifact, record, claim, measurement, attestation, certificate, manifest, SBOM/xBOM, update record, vulnerability record, lifecycle-state record, log, or audit material.
 
 Distinguish:
 
 - assertion;
 - documented process;
-- produced artefact;
-- verifiable artefact;
+- produced artifact;
+- verifiable artifact;
 - lifecycle-retained evidence.
 
 ## Standards Language
@@ -94,7 +94,7 @@ Each page should pass these tests:
 - Does the page start from a real standard, threat, expectation, decision, or risk?
 - Does it explain what good practice looks like?
 - Does it say what evidence would support the practice?
-- Does it distinguish assertions from verifiable artefacts?
+- Does it distinguish assertions from verifiable artifacts?
 - Does it map to technology options, resource aids, or standards only where useful?
 - Does it give the reader practical questions or next actions?
 - Does it link naturally to deeper pages?
