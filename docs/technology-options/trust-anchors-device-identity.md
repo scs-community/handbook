@@ -32,7 +32,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 ## Options covered
 
-### TPM
+### Trusted Platform Module (TPM)
+
+A Trusted Platform Module (TPM) is a hardware-rooted trust component used for protected keys, measurements, sealing, and attestation-related evidence. In this handbook, TPM is treated as a technology option that can support device or platform identity and measured-state workflows; it is not proof of product acceptability by itself.
 
 - **Assurance role:** Hardware-rooted trust anchor for keys, measurements, sealing, platform identity, and attestation inputs.
 - **Evidence supported:** Hardware-rooted identity, measured boot evidence, attestation inputs, key lifecycle evidence, and platform state claims.
@@ -42,7 +44,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for TPM-backed mechanisms; supporting for product assurance workflows.
 - **Source/version note:** Cite the relevant TCG TPM specifications and related TCG platform identity or attestation specifications.
 
-### DICE
+### Device Identifier Composition Engine (DICE)
+
+Device Identifier Composition Engine (DICE) is a TCG approach for composing device identities from layered measurements and configuration state. In this handbook, DICE is treated as an identity and attestation option for constrained or embedded systems where firmware-bound identity evidence matters.
 
 - **Assurance role:** Device identity composition and layered identity derivation for constrained or embedded systems.
 - **Evidence supported:** Derived device identity, firmware-bound identity claims, provisioning evidence, and trust-chain evidence.
@@ -52,7 +56,21 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for DICE identity mechanisms; supporting for lifecycle assurance.
 - **Source/version note:** Cite specific TCG DICE sources such as DICE Certificate Profiles v1.1 and DICE Attestation Architecture v1.2.
 
+### Block Integrated Trust (BIT)
+
+Block Integrated Trust (BIT) is a TCG lightweight hardware root-of-trust mechanism for constrained devices or components. In this handbook, BIT is treated as a technology option for constrained-component identity, measurement storage, and measurement reporting; it is not a broad provenance mechanism by itself.
+
+- **Assurance role:** Lightweight hardware root-of-trust support for constrained devices or components.
+- **Evidence supported:** Component identity evidence, measurement evidence, challenge-response evidence, and attestation inputs.
+- **Lifecycle fit:** Manufacturing, provisioning, component acceptance, board acceptance, transfer, repair, and lifecycle review.
+- **Dependencies:** Trustworthy provisioning, verifier policy, reference or expected-state context, evidence retention, and relying-party interpretation.
+- **What it does not prove:** Does not prove full silicon provenance, manufacturing origin, foundry or lot integrity, packaging integrity, uncloned identity, or lifecycle continuity by itself.
+- **Mapping confidence:** Direct for BIT-defined constrained-component identity, measurement, and reporting mechanisms; supporting for broader product-acceptance workflows.
+- **Source/version note:** Cite the relevant TCG Block Integrated Trust source, including the public TCG BIT page and the specific BIT specification, profile, or implementation scope used.
+
 ### Secure Element
+
+A Secure Element is a protected component used to store credentials, keys, and sensitive security state or to perform security-sensitive operations. In this handbook, Secure Elements are relevant where identity, key protection, credential lifecycle, or protected operation evidence supports an assurance decision.
 
 - **Assurance role:** Protected component for credentials, keys, identity, and security-sensitive operations.
 - **Evidence supported:** Credential issuance records, hardware-bound identity, key lifecycle evidence, and protected operation support.
@@ -62,7 +80,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for protected credential and key mechanisms; supporting for lifecycle assurance.
 - **Source/version note:** Cite concrete Secure Element references such as GlobalPlatform Secure Element Protection Profile and relevant Secure Element specifications.
 
-### TEE
+### Trusted Execution Environment (TEE)
+
+A Trusted Execution Environment (TEE) is an isolated execution environment that can protect selected code, data, credentials, or security services. In this handbook, TEEs are treated as supporting mechanisms for protected execution and evidence generation, not as proof of product integrity or supply chain provenance by themselves.
 
 - **Assurance role:** Isolated execution environment that may help protect credentials, measurements, or security services.
 - **Evidence supported:** Protected execution claims, service state, key protection evidence, and implementation support for attestation or identity workflows.
@@ -72,7 +92,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for protected execution mechanisms; supporting for assurance evidence.
 - **Source/version note:** Cite concrete TEE references such as GlobalPlatform TEE System Architecture and relevant API or protection-profile documents.
 
-### PKI and platform certificates
+### Public Key Infrastructure (PKI) and platform certificates
+
+Public Key Infrastructure (PKI) and platform certificates provide certificate-based identity, issuer, and credential-chain evidence. In this handbook, they are useful when an assurance workflow needs to bind a device, platform, component, service, or supplier claim to an issuer and verification path.
 
 - **Assurance role:** Certificate-based identity and credential chains for devices, platforms, components, services, or suppliers.
 - **Evidence supported:** Certificate chains, issuance records, revocation status, platform identity, and identity-to-product binding evidence.
@@ -82,25 +104,17 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for certificate mechanisms; supporting for identity and provenance assurance.
 - **Source/version note:** Cite the specific certificate profile, policy, issuer, validity rules, and product binding used.
 
-### TCG and GlobalPlatform sources
+### Caliptra
 
-- **Assurance role:** Provide technology specifications and concepts relevant to platform identity, TPMs, DICE, measured boot, TEEs, Secure Elements, and related assurance mechanisms.
-- **Evidence supported:** Platform identity, credential records, reference measurements, protected execution claims, and trust-chain inputs.
-- **Lifecycle fit:** Manufacturing, provisioning, acceptance, deployment, update, repair, transfer, and decommissioning depending on the technology used.
-- **Dependencies:** Specific profiles, implementation scope, verifier policy, and supporting governance.
-- **What it does not prove:** Standards-body references do not by themselves define procurement sufficiency, sector-specific assurance, or lifecycle governance.
-- **Mapping confidence:** Direct for mechanisms they define; supporting for broader assurance workflows.
-- **Source/version note:** Cite exact publication names, versions, and dates rather than the standards body alone.
+Caliptra is an open silicon root-of-trust project for applicable platform and infrastructure architectures. In this handbook, Caliptra is treated as a concrete root-of-trust option where its implementation scope, firmware governance, and verifier policy fit the product architecture.
 
-### OCP SAFE / Caliptra
-
-- **Assurance role:** Open hardware root-of-trust and platform security concepts relevant to infrastructure and component assurance.
+- **Assurance role:** Open silicon root-of-trust implementation relevant to infrastructure and component assurance in applicable architectures.
 - **Evidence supported:** Root-of-trust evidence, device identity, firmware measurement, update or security state, and platform assurance inputs.
 - **Lifecycle fit:** Design, manufacturing, provisioning, acceptance, deployment, update, and operations for applicable architectures.
 - **Dependencies:** Architecture fit, implementation scope, firmware governance, verifier policy, and repository handling.
 - **What it does not prove:** May be architecture-specific and does not define all procurement, sector, or lifecycle evidence expectations.
-- **Mapping confidence:** Direct for mechanisms in applicable architectures; adjacent or supporting elsewhere.
-- **Source/version note:** Cite specific OCP S.A.F.E. public program, repository, Caliptra project, report, or specification references.
+- **Mapping confidence:** Direct for Caliptra mechanisms in applicable architectures; adjacent or supporting elsewhere.
+- **Source/version note:** Cite specific Caliptra project documentation, specifications, releases, or implementation references.
 
 ## What these options can support
 

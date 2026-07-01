@@ -33,7 +33,9 @@ They are commonly relevant to [Software Component and Vulnerability Management](
 
 ## Options covered
 
-### SBOM / xBOM
+### Software Bill of Materials (SBOM) / xBOM
+
+A Software Bill of Materials (SBOM) describes software components, while broader xBOM approaches may describe firmware, hardware, cryptographic assets, services, or other component types. In this handbook, BOM-style artifacts are transparency inputs, not proof that the listed components are safe, authentic, or acceptable.
 
 - **Assurance role:** Represents software or broader component transparency so recipients can understand what is present in a product or platform.
 - **Evidence supported:** Software, firmware, hardware, component, service, cryptographic asset, or dependency inventories depending on scope.
@@ -43,7 +45,9 @@ They are commonly relevant to [Software Component and Vulnerability Management](
 - **Mapping confidence:** Direct as a transparency evidence class; format-specific confidence depends on the cited format.
 - **Source/version note:** Cite the artifact format, version, scope, generation tool or process, and product or release binding.
 
-### SPDX
+### Software Package Data Exchange (SPDX)
+
+Software Package Data Exchange (SPDX) is a software bill-of-materials and software supply-chain artifact format. In this handbook, SPDX is relevant when a recipient needs structured software component, package, licensing, or relationship data tied to a product or release.
 
 - **Assurance role:** Provides a software bill of materials and software supply-chain artifact format used for software component transparency.
 - **Evidence supported:** SBOM records, package identifiers, licensing information, component relationships, and related software metadata.
@@ -55,6 +59,8 @@ They are commonly relevant to [Software Component and Vulnerability Management](
 
 ### CycloneDX
 
+CycloneDX is a bill-of-materials format used for software and broader supply-chain metadata. In this handbook, CycloneDX is relevant where component visibility, vulnerability metadata, dependency relationships, or other BOM records support supplier assurance, acceptance, or vulnerability response.
+
 - **Assurance role:** Provides an SBOM and broader component transparency format commonly used for software and supply-chain metadata.
 - **Evidence supported:** SBOM/xBOM-style component records, dependency relationships, vulnerability-related metadata, and product composition information.
 - **Lifecycle fit:** Build, release, procurement, product acceptance, vulnerability response, and audit.
@@ -63,7 +69,9 @@ They are commonly relevant to [Software Component and Vulnerability Management](
 - **Mapping confidence:** Direct for transparency artifacts; supporting for vulnerability and assurance workflows.
 - **Source/version note:** Cite the official CycloneDX specification reference, including ECMA-424 where applicable, and the exact CycloneDX version used.
 
-### VEX-like vulnerability status records
+### Vulnerability Exploitability eXchange (VEX)-like vulnerability status records
+
+Vulnerability Exploitability eXchange (VEX)-like records communicate whether a vulnerability affects a product, component, release, or service. In this handbook, VEX-style status is useful when it is tied to affected-version analysis, approval, scope, freshness, and customer or relying-party interpretation.
 
 - **Assurance role:** Communicate whether a known vulnerability affects a product, component, release, or service.
 - **Evidence supported:** Vulnerability status, affected/not affected reasoning, fixed status, under-investigation status, and remediation context.

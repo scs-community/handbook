@@ -111,7 +111,7 @@ Acceptance evidence should not be discarded after the product is accepted. It be
 
 ## Technology options
 
-Relevant mappings may include Platform Certificates, TPM, DICE, Secure Element, TEE, SPDM, measured boot, RATS/EAT, CoRIM/CoMID, SBOM/xBOM formats, and update-signing mechanisms. These are candidate implementation and verification options, not universal requirements.
+Relevant mappings may include Platform Certificates, TPM, DICE, Block Integrated Trust (BIT), Secure Element, TEE, SPDM, measured boot, RATS/EAT, CoRIM/CoMID, SBOM/xBOM formats, and update-signing mechanisms. These are candidate implementation and verification options, not universal requirements.
 
 ## Related pages
 

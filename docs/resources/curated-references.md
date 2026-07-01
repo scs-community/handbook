@@ -45,6 +45,7 @@ This page is not a live standards catalog. Keep it stable, useful, and maintaina
 | [TCG Platform Certificate Profile 2.1](https://trustedcomputinggroup.org/wp-content/uploads/TCG_Platform_Certificate_Profile_2.1_Pub.pdf) | Platform identity and composition claims | Version 2.1 |
 | [TCG DICE Certificate Profiles v1.1](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Certificate-Profiles-v1.1_pub.pdf) | DICE certificate profiles and identity/attestation certificates | Version 1.1, 2025-04-24 |
 | [TCG DICE Attestation Architecture v1.2](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Attestation-Architecture-v1.2_pub.pdf) | DICE attestation architecture and certificate extensions | Version 1.2 |
+| [TCG Block Integrated Trust](https://trustedcomputinggroup.org/work-groups/mars/) | Lightweight hardware root-of-trust capabilities for constrained device identity, measurement storage, and measurement reporting | Cite the public page and the exact BIT specification, profile, or implementation scope used |
 
 ## Transparency artifacts
 

@@ -35,6 +35,8 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 
 ### Signed and authorized updates
 
+Signed and authorized update mechanisms help recipients verify that an update package came from an expected authority and has not changed unexpectedly. In this handbook, signed updates support assurance only when they are connected to release approval, eligibility checks, deployment evidence, and exception handling.
+
 - **Assurance role:** Helps ensure update packages are authorized, intact, and bound to an expected release or supplier workflow.
 - **Evidence supported:** Signed update packages, update manifests, approval records, verification results, and deployment logs.
 - **Lifecycle fit:** Release, acceptance, deployment, operation, emergency response, and audit.
@@ -44,6 +46,8 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 - **Source/version note:** Cite the update framework, signature profile, manifest format, policy, and version used.
 
 ### Update eligibility checks
+
+Update eligibility checks decide whether a product, component, device, or platform should receive, apply, or continue using a specific update. In this handbook, eligibility evidence matters because the same update may be appropriate for one product state and unsafe or unsupported for another.
 
 - **Assurance role:** Determines whether a product, component, device, or platform is eligible to receive, apply, or continue using a specific update.
 - **Evidence supported:** Eligibility records, configuration checks, lifecycle-state records, version compatibility, and exception approvals.
@@ -55,6 +59,8 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 
 ### Recovery and rollback controls
 
+Recovery and rollback controls help return a product or component from a failed, compromised, or unsuitable state to a controlled state. In this handbook, recovery evidence is useful when it shows what state was restored, who approved it, and whether rollback risk was managed.
+
 - **Assurance role:** Supports controlled recovery from failed, compromised, or unsuitable states while managing rollback risk.
 - **Evidence supported:** Recovery images, recovery approvals, rollback controls, state transition records, and post-recovery validation.
 - **Lifecycle fit:** Operation, incident response, repair, emergency update, and return-to-service.
@@ -64,6 +70,8 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 - **Source/version note:** Cite the recovery mechanism, rollback policy, signing model, and validation process used.
 
 ### Update telemetry and evidence refresh
+
+Update telemetry and evidence refresh records show delivery, installation, failure, deferral, and current version state after release. In this handbook, telemetry becomes assurance evidence only when it is interpreted against inventory, vulnerability status, lifecycle state, and review criteria.
 
 - **Assurance role:** Provides records about update delivery, installation, failure, deferral, and current version state.
 - **Evidence supported:** Update logs, deployment status, failed-update records, exception records, and refreshed vulnerability or lifecycle evidence.

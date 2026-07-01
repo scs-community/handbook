@@ -35,6 +35,8 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 
 ### Code, firmware, update, and evidence signing
 
+Signing can protect the integrity and origin of code, firmware, update packages, evidence records, and verifier results. In this handbook, a signature is useful when the verifier can connect it to the right signing authority, approval policy, artifact scope, and lifecycle decision.
+
 - **Assurance role:** Provides integrity and origin evidence for artifacts that need controlled release, exchange, or retention.
 - **Evidence supported:** Signed releases, update packages, firmware images, evidence bundles, provenance records, and verifier results.
 - **Lifecycle fit:** Build, release, acceptance, update, recovery, audit, and retention.
@@ -44,6 +46,8 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 - **Source/version note:** Cite the signature format, certificate or key profile, signing policy, timestamping approach, and verification rules used.
 
 ### Key management and hardware-backed key protection
+
+Key management and hardware-backed key protection control how sensitive keys are generated, stored, used, rotated, revoked, and retired. In this handbook, key protection supports assurance only when key use is governed, logged, and tied to the relevant release, update, identity, or evidence workflow.
 
 - **Assurance role:** Protects keys used for identity, release signing, update authorization, attestation, evidence signing, or credential issuance.
 - **Evidence supported:** Key lifecycle records, key-use logs, rotation records, approval records, and revocation or retirement evidence.
@@ -55,6 +59,8 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 
 ### Certificates, credentials, and authorization claims
 
+Certificates, credentials, and authorization claims identify issuers, subjects, roles, entitlements, or authorization decisions. In this handbook, these mechanisms are useful when recipients can verify the issuer, scope, validity, revocation state, and relationship to the decision being made.
+
 - **Assurance role:** Supports identity, authorization, entitlement, role, supplier, service, or platform claims used in evidence workflows.
 - **Evidence supported:** Certificate chains, credential issuance records, validity and revocation status, role claims, and authorization decisions.
 - **Lifecycle fit:** Provisioning, acceptance, deployment, update, service operation, transfer, renewal, and decommissioning.
@@ -64,6 +70,8 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 - **Source/version note:** Cite the credential format, issuer, certificate policy, profile, validity rules, and revocation mechanism.
 
 ### Signing authority separation
+
+Signing authority separation limits who can sign different classes of builds, releases, updates, recovery images, evidence records, or emergency fixes. In this handbook, separation helps reduce misuse risk when it is backed by role governance, approval records, monitoring, and exception handling.
 
 - **Assurance role:** Separates who can sign builds, releases, updates, recovery images, evidence records, or emergency fixes.
 - **Evidence supported:** Approval records, signing event logs, role assignments, emergency signing records, and exception approvals.

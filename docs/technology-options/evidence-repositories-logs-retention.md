@@ -37,6 +37,8 @@ They are commonly relevant to [Audit and Compliance Readiness](../practices-cont
 
 ### Evidence repositories
 
+Evidence repositories store and retrieve evidence packages, metadata, logs, and records used across assurance decisions. In this handbook, repositories are useful only when they preserve enough origin, scope, integrity, and lifecycle context for later review.
+
 - **Assurance role:** Store, retrieve, and reuse evidence across lifecycle decisions.
 - **Evidence supported:** Signed evidence packages, verifier logs, artifact registries, lifecycle-state records, customer assurance records, and audit evidence.
 - **Lifecycle fit:** Acceptance, deployment, update, repair, transfer, audit, incident response, renewal, and decommissioning.
@@ -46,6 +48,8 @@ They are commonly relevant to [Audit and Compliance Readiness](../practices-cont
 - **Source/version note:** Cite the repository architecture, evidence packaging format, signature model, retention policy, and access model used.
 
 ### Verifier and appraisal logs
+
+Verifier and appraisal logs preserve what evidence was checked, which policy was applied, and what result was produced. In this handbook, logs help make verifier decisions reviewable, but they do not prove that the verifier policy or evidence inputs were sufficient.
 
 - **Assurance role:** Preserve what evidence was appraised, which policy was applied, and what result was produced.
 - **Evidence supported:** Verifier inputs, appraisal results, policy version, relying-party decision records, and exception records.
@@ -57,6 +61,8 @@ They are commonly relevant to [Audit and Compliance Readiness](../practices-cont
 
 ### Artifact registries
 
+Artifact registries store releases, SBOM/xBOM records, vulnerability records, reference values, configuration records, or other artifacts with metadata. In this handbook, registries help make artifacts findable and reviewable, but correctness still depends on generation, signing, review, and verification workflows.
+
 - **Assurance role:** Store signed releases, SBOM/xBOM records, vulnerability records, reference values, configuration records, or other artifacts with metadata.
 - **Evidence supported:** Artifact identity, version, origin, signature, scope, approval, publication, and retrieval records.
 - **Lifecycle fit:** Build, release, acceptance, update, vulnerability response, audit, and renewal.
@@ -66,6 +72,8 @@ They are commonly relevant to [Audit and Compliance Readiness](../practices-cont
 - **Source/version note:** Cite the registry type, metadata model, signature or integrity mechanism, and retention policy.
 
 ### Retention and reuse workflows
+
+Retention and reuse workflows keep evidence available after the original review, acceptance decision, or audit request has passed. In this handbook, retention is valuable when evidence remains tied to product scope, lifecycle state, refresh history, and the decision it supports.
 
 - **Assurance role:** Keep evidence explainable and usable after acceptance, across product changes, supplier changes, vulnerabilities, audit cycles, and lifecycle transitions.
 - **Evidence supported:** Retention schedules, evidence packages, access records, stale-evidence reviews, refresh decisions, and disposal records.

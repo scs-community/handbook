@@ -32,7 +32,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 ## Options covered
 
-### RATS evidence exchange
+### Remote Attestation Procedures (RATS) evidence exchange
+
+Remote Attestation Procedures (RATS) evidence exchange moves attestation evidence between attesters, verifiers, and relying parties. In this handbook, it is useful when evidence needs a repeatable exchange and appraisal path rather than ad hoc file sharing or manual interpretation.
 
 - **Assurance role:** Supports exchange of attestation evidence between attesters, verifiers, and relying parties.
 - **Evidence supported:** Attestation evidence, appraisal results, freshness claims, and relying-party decision inputs.
@@ -42,7 +44,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for attestation exchange models; supporting for lifecycle assurance.
 - **Source/version note:** Cite the specific IETF RATS architecture and Entity Attestation Token sources used.
 
-### SPDM
+### Security Protocol and Data Model (SPDM)
+
+Security Protocol and Data Model (SPDM) can support authenticated communication and measurement access between devices or components in applicable architectures. In this handbook, SPDM is relevant where evidence exchange depends on protocol-level authentication, measurement retrieval, and verifier interpretation.
 
 - **Assurance role:** Supports secure device or component communication, authentication, and measurement access in applicable platform architectures.
 - **Evidence supported:** Protocol-level authentication evidence, measurement evidence, secure session properties, and verifier inputs.
@@ -52,7 +56,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for SPDM protocol mechanisms; supporting for broader assurance workflows.
 - **Source/version note:** Cite DMTF DSP0274 Security Protocol and Data Model (SPDM) Specification with the exact version used.
 
-### SBOM / xBOM distribution
+### Software Bill of Materials (SBOM) / xBOM distribution
+
+Software Bill of Materials (SBOM) and broader xBOM distribution workflows move transparency artifacts between suppliers, buyers, operators, customers, and auditors. In this handbook, distribution matters because a useful artifact must reach the right relying party with scope, version, freshness, and interpretation intact.
 
 - **Assurance role:** Supports transfer and reuse of transparency artifacts between suppliers, buyers, operators, customers, and auditors.
 - **Evidence supported:** SBOMs, xBOMs, vulnerability records, build provenance, and related artifact metadata.
@@ -62,7 +68,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Supporting unless a specific protocol or repository mechanism is mapped directly.
 - **Source/version note:** Cite the chosen format, transport or repository mechanism, version, and exchange workflow.
 
-### Verifier policies and APIs
+### Verifier policies and application programming interfaces (APIs)
+
+Verifier policies and application programming interfaces (APIs) define how evidence is requested, appraised, transformed into a result, and exposed to relying parties. In this handbook, they are useful when teams need consistent appraisal behavior and decision records across products, suppliers, or lifecycle events.
 
 - **Assurance role:** Define how evidence is requested, appraised, transformed into a result, and exposed to a relying party.
 - **Evidence supported:** Appraisal policies, verifier results, evidence request records, relying-party decisions, and exception records.

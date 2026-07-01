@@ -34,15 +34,19 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 ### Measured boot
 
+Measured boot records measurements of boot components or platform state so that a verifier can compare them with expected values. In this handbook, measured boot is useful only when measurements are tied to reference values, verifier policy, lifecycle context, and a decision about the product or component state.
+
 - **Assurance role:** Measures boot components or platform state so a verifier can compare reported values with expected reference values.
 - **Evidence supported:** Measurement logs, reference measurement comparison, attestation inputs, and verifier appraisal records.
 - **Lifecycle fit:** Manufacturing, acceptance, deployment, update validation, runtime monitoring, and repair return-to-service.
 - **Dependencies:** Trust anchor, reference values, verifier workflow, appraisal policy, and response process for unexpected state.
 - **What it does not prove:** Does not define acceptable policy, prove provenance, or remediate unexpected state without operational response.
 - **Mapping confidence:** Direct as a measurement mechanism; supporting for lifecycle assurance.
-- **Source/version note:** Cite the specific platform technology or specification, such as TPM/TCG, DICE, SPDM, or another platform reference.
+- **Source/version note:** Cite the specific platform technology or specification, such as TPM/TCG, DICE, Block Integrated Trust (BIT), SPDM, or another platform reference.
 
-### Reference Integrity Measurements
+### Reference Integrity Measurements (RIMs)
+
+Reference Integrity Measurements (RIMs) describe expected measurements or reference values used to appraise measured or attested state. In this handbook, RIMs help make measured-state evidence reviewable, but they still need trusted publication, version binding, and verifier interpretation.
 
 - **Assurance role:** Provide expected measurements or reference values used to appraise measured or attested state.
 - **Evidence supported:** Reference values, manifests, measurement metadata, and verifier inputs.
@@ -52,7 +56,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for integrity comparison; supporting for acceptance and monitoring workflows.
 - **Source/version note:** Cite the exact RIM, CoRIM, CoMID, or platform-specific reference-value source and version.
 
-### SPDM
+### Security Protocol and Data Model (SPDM)
+
+Security Protocol and Data Model (SPDM) is a DMTF protocol for device or component authentication, measurement access, and secure communication in applicable architectures. In this handbook, SPDM is treated as a technology option for collecting and protecting platform or component evidence, not as a complete assurance workflow by itself.
 
 - **Assurance role:** Can support device or component authentication, measurement access, and secure communication in applicable architectures.
 - **Evidence supported:** Protocol-level authentication, measurement-related evidence, secure session state, and device or component security properties.
@@ -62,7 +68,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for protocol mechanisms; supporting for product assurance workflows.
 - **Source/version note:** Cite DMTF DSP0274 Security Protocol and Data Model (SPDM) Specification with the exact version used.
 
-### IETF RATS / EAT
+### Remote Attestation Procedures (RATS) / Entity Attestation Token (EAT)
+
+The Remote Attestation Procedures (RATS) architecture describes roles for remote attestation, while Entity Attestation Token (EAT) provides a token format for attestation claims. In this handbook, RATS and EAT are useful when measured or claimed state must be appraised and communicated to a relying party.
 
 - **Assurance role:** Supports remote attestation architecture and evidence claims used in current-state appraisal.
 - **Evidence supported:** Attestation evidence, claims, freshness, verifier appraisal, and relying-party results.
@@ -72,7 +80,9 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 - **Mapping confidence:** Direct for attestation architecture and evidence claims; supporting for lifecycle assurance.
 - **Source/version note:** Cite the specific IETF RATS architecture and Entity Attestation Token sources used, such as the relevant RFC or datatracker record.
 
-### CoRIM / CoMID
+### Concise Reference Integrity Manifest (CoRIM) / Concise Module Identifier (CoMID)
+
+Concise Reference Integrity Manifest (CoRIM) and Concise Module Identifier (CoMID) are formats for reference values and measurement metadata used in attestation and appraisal workflows. In this handbook, they support expected-state management rather than proving current state by themselves.
 
 - **Assurance role:** Can support reference-value and measurement metadata used by attestation and appraisal workflows.
 - **Evidence supported:** Reference measurements, manifests, measured-state metadata, and verifier inputs.
