@@ -13,6 +13,15 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
+  startHereSidebar: [
+    'start-here/index',
+    'start-here/procurement',
+    'start-here/product-security',
+    'start-here/supplier',
+    'start-here/audit-assurance',
+    'start-here/implementer',
+    'start-here/standards-policy',
+  ],
   standardsThreatsSidebar: [
     'standards-threats/index',
     {

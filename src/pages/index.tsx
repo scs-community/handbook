@@ -122,6 +122,60 @@ function CommonStartingPoints(): ReactNode {
   );
 }
 
+function StartByRole(): ReactNode {
+  const routes = [
+    {
+      title: 'I buy or assess suppliers',
+      description: 'Follow a path through supplier assurance, supplier questions, evidence review, and worked examples.',
+      to: '/start-here/procurement/',
+    },
+    {
+      title: 'I own product security',
+      description: 'Move from lifecycle practices to product acceptance, release governance, vulnerability response, updates, and evidence.',
+      to: '/start-here/product-security/',
+    },
+    {
+      title: 'I am a supplier or manufacturer',
+      description: 'Prepare evidence-backed answers for customers without relying on broad claims or unsupported policy statements.',
+      to: '/start-here/supplier/',
+    },
+    {
+      title: 'I prepare for audit or customer assurance',
+      description: 'Use maturity, checklists, evidence packages, mappings, and retention guidance to make assurance reviewable.',
+      to: '/start-here/audit-assurance/',
+    },
+    {
+      title: 'I implement technical mechanisms',
+      description: 'Start with evidence and verification needs, then compare mechanisms, trust anchors, workflows, and repositories.',
+      to: '/start-here/implementer/',
+    },
+    {
+      title: 'I map standards to controls',
+      description: 'Translate standards, regulations, policy drivers, and customer requirements into controls, evidence, and mapping confidence.',
+      to: '/start-here/standards-policy/',
+    },
+  ];
+
+  return (
+    <section className={styles.startingPoints}>
+      <div className="container">
+        <div className="text--center margin-bottom--lg">
+          <Heading as="h2">Start by role</Heading>
+          <p>Choose the path that best matches your role in the assurance workflow.</p>
+        </div>
+        <div className={styles.startingPointGrid}>
+          {routes.map((route) => (
+            <Link key={route.title} className={styles.startingPointCard} to={route.to}>
+              <Heading as="h3">{route.title}</Heading>
+              <p>{route.description}</p>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function CommunitySection(): ReactNode {
   return (
     <section className={styles.community}>
@@ -165,6 +219,7 @@ export default function Home(): ReactNode {
       <main>
         <HandbookModel />
         <CommonStartingPoints />
+        <StartByRole />
         <CommunitySection />
       </main>
     </Layout>

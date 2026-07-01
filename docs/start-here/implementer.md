@@ -1,0 +1,67 @@
+---
+title: For Technical Implementers
+---
+
+Use this path when you need to implement technical mechanisms, tools, workflows, repositories, or integrations that support supply-chain-security assurance.
+
+## Decisions you probably need to make
+
+- What assurance decision must the implementation support?
+- What evidence needs to be produced, protected, exchanged, verified, or retained?
+- Which identifiers, trust anchors, policies, repositories, or verifier workflows are needed?
+- What does the mechanism prove, and what does it not prove by itself?
+- How will implementation limits, gaps, and lifecycle refresh needs be recorded?
+
+## Read these pages in order
+
+1. [Assurance Implementation Planning](../practices-controls/assurance-implementation-planning.md)  
+   Start from assurance decisions, evidence needs, verification paths, and lifecycle retention requirements.
+2. [Choosing Technology Options](../technology-options/choosing-technology-options.md)  
+   Compare mechanisms without treating them as mandates.
+3. [Trust Anchors & Device Identity](../technology-options/trust-anchors-device-identity.md)  
+   Understand identity roots, credentials, and device or platform binding.
+4. [Attestation & Measured State](../technology-options/attestation-measured-state.md)  
+   Understand how measured or current state may be reported and appraised.
+5. [Transparency Artefacts & Component Visibility](../technology-options/transparency-artefacts-component-visibility.md)  
+   Understand SBOM/xBOM, component visibility, vulnerability linkage, and artefact limits.
+6. [Signing, Keys & Credential Mechanisms](../technology-options/signing-keys-credential-mechanisms.md)  
+   Understand mechanisms for protecting releases, evidence, credentials, keys, and authorisation decisions.
+7. [Update & Recovery Mechanisms](../technology-options/update-recovery-mechanisms.md)  
+   Understand authorised updates, rollback, recovery, and post-release assurance.
+8. [Evidence Exchange & Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)  
+   Understand how evidence may move between producers, verifiers, relying parties, and tools.
+9. [Evidence Repositories, Logs & Retention](../technology-options/evidence-repositories-logs-retention.md)  
+   Understand how evidence remains usable for audit, renewal, incident review, and lifecycle decisions.
+
+## What you should leave with
+
+After following this path, you should be able to produce:
+
+- a mechanism selection rationale;
+- implementation acceptance criteria tied to assurance decisions;
+- a verifier workflow and trust assumptions;
+- repository, retention, and refresh design notes;
+- known limitations, mapping confidence, and gap records.
+
+## Evidence you should expect or produce
+
+Expect assurance requirements, implementation acceptance criteria, evidence schemas, verifier workflows, trust-anchor assumptions, repository and retention designs, test results, mapping-confidence notes, known limitations, and gap records.
+
+## Common weak answers
+
+- "We will implement attestation."
+- "We will generate SBOMs."
+- "The update package is signed."
+- "The tool stores the evidence."
+
+## Stronger answers
+
+A stronger answer starts with the decision and evidence need, then explains which mechanism supports it, how verification works, which trust anchors or policies are required, what the mechanism does not prove, and how evidence will be retained and refreshed across the lifecycle.
+
+## Related pages
+
+- [Technology Options](../technology-options/index.md)
+- [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)
+- [Evidence Checklist](../resources/evidence-checklist.md)
+- [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
+- [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)

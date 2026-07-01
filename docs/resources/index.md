@@ -25,6 +25,16 @@ Resources are practical aids, not the conceptual home of the handbook. Use [Prac
 
 Worked examples show the handbook's evidence model in realistic scenarios. Use them when a checklist or template is too abstract and you need to see what good evidence looks like for supplier onboarding, product acceptance, update approval, vulnerability response, component provenance, or supplier-answer scoring.
 
+## Using Resources By Role
+
+| Reader | Useful resources |
+|---|---|
+| Procurement | [Supplier Questions](./supplier-questions.md), [Evidence Checklist](./evidence-checklist.md), [Evidence Package Template](./evidence-package-template.md), [Supplier Onboarding Evidence Package](./worked-examples/supplier-onboarding-evidence-package.md) |
+| Supplier | [Evidence Package Template](./evidence-package-template.md), [Evidence Maturity Model](./evidence-maturity-model.md), [Worked Examples](./worked-examples/index.md), [Glossary](./glossary.md) |
+| Auditor / assessor | [Evidence Checklist](./evidence-checklist.md), [Evidence Maturity Model](./evidence-maturity-model.md), [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md), [Evidence Package Template](./evidence-package-template.md) |
+| Technical implementer | [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md), [Curated References](./curated-references.md), [Glossary](./glossary.md), [Technology Options](../technology-options/index.md) |
+| Standards, policy, or compliance mapping | [Standards & Technology Mapping Workflow](./standards-technology-mapping-workflow.md), [Evidence Checklist](./evidence-checklist.md), [Curated References](./curated-references.md), [Glossary](./glossary.md) |
+
 Sector-note content should stay outside the public site until there is enough real sector material to help readers make decisions.
 
 ## Resource Rules

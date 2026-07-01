@@ -124,6 +124,39 @@ const config: Config = {
       style: 'dark',
       links: [
         {
+          title: 'Start Here',
+          items: [
+            {
+              label: 'Start Here',
+              to: '/start-here/',
+            },
+            {
+              label: 'Procurement and Supplier Assurance',
+              to: '/start-here/procurement/',
+            },
+            {
+              label: 'Product Security',
+              to: '/start-here/product-security/',
+            },
+            {
+              label: 'Supplier or Manufacturer',
+              to: '/start-here/supplier/',
+            },
+            {
+              label: 'Audit, Compliance, and Customer Assurance',
+              to: '/start-here/audit-assurance/',
+            },
+            {
+              label: 'Technical Implementer',
+              to: '/start-here/implementer/',
+            },
+            {
+              label: 'Standards, Policy, and Compliance Mapping',
+              to: '/start-here/standards-policy/',
+            },
+          ],
+        },
+        {
           title: 'Standards & Threats',
           items: [
             {

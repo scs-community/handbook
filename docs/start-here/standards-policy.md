@@ -1,0 +1,67 @@
+---
+title: For Standards, Policy, and Compliance Mapping Teams
+---
+
+Use this path when you need to translate a regulation, standard, procurement expectation, customer requirement, or policy driver into practical controls, evidence expectations, and implementation choices.
+
+## Decisions you probably need to make
+
+- What external driver creates the need for action?
+- Which practices and controls should respond to that driver?
+- What evidence would make the response reviewable?
+- Which technology options may support the evidence or verification path?
+- How should source details, assumptions, gaps, and mapping confidence be recorded?
+
+## Read these pages in order
+
+1. [Standards & Threats](../standards-threats/index.md)  
+   Understand how standards, regulations, procurement expectations, assurance pressures, threats, and failure modes fit into the handbook.
+2. [Standards and Regulations](../standards-threats/standards-regulatory-drivers/index.md)  
+   Start with the governance or assurance driver that brought you here.
+3. [EU Cyber Resilience Act](../standards-threats/standards-regulatory-drivers/eu-cyber-resilience-act.md)  
+   See how a major product-security regulation can be interpreted into lifecycle assurance work.
+4. [NIS2](../standards-threats/standards-regulatory-drivers/nis2.md)  
+   See how organisational and supplier-assurance expectations can flow into supply-chain-security practices.
+5. [Threats and Failure Modes](../standards-threats/threats-failure-modes/index.md)  
+   Connect external drivers to the failures they are trying to prevent.
+6. [10 Best Practices](../practices-controls/10-best-practices.md)  
+   Translate drivers and threats into practical supply-chain-security practices.
+7. [Standards & Technology Mapping Workflow](../resources/standards-technology-mapping-workflow.md)  
+   Record source roles, evidence requirements, technology options, mapping confidence, and gaps.
+8. [Evidence Checklist](../resources/evidence-checklist.md)  
+   Check whether the mapped evidence is scoped, verifiable, retained, and decision-ready.
+9. [Curated References](../resources/curated-references.md)  
+   Use curated public sources without treating citations as proof by themselves.
+
+## What you should leave with
+
+After following this path, you should be able to produce:
+
+- a driver-to-practice-to-control mapping;
+- evidence requirements tied to the decision and lifecycle stage;
+- source and version notes for cited standards or guidance;
+- mapping confidence and known gaps;
+- a short explanation of what each cited source does and does not prove.
+
+## Evidence you should expect or produce
+
+Expect mapping notes, source references, source/version details, control interpretations, evidence requirements, technology-option roles, assumptions, mapping-confidence ratings, and gap records.
+
+## Common weak answers
+
+- "The standard requires this technology."
+- "This citation proves compliance."
+- "These frameworks are equivalent."
+- "The control is covered because the requirement is listed."
+
+## Stronger answers
+
+A stronger answer names the driver, assigns the source role, maps it to practices and controls, identifies the evidence needed, explains what technology options may support, records source details, and states mapping confidence, limits, and gaps.
+
+## Related pages
+
+- [Practices & Controls](../practices-controls/index.md)
+- [Technology Options](../technology-options/index.md)
+- [Audit & Compliance Readiness](../practices-controls/audit-compliance-readiness.md)
+- [Evidence Maturity Model](../resources/evidence-maturity-model.md)
+- [Glossary](../resources/glossary.md)

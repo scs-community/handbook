@@ -1,0 +1,32 @@
+---
+title: Start Here
+sidebar_label: Overview
+---
+
+Use these role paths when you know who you are in the supply-chain-security assurance workflow, but not yet which handbook pages to read first.
+
+The role paths are a routing layer through the existing handbook. They do not replace the main structure:
+
+```text
+Standards & Threats -> Practices & Controls -> Technology Options -> Resources
+```
+
+If you already know the task you need to complete, you can go directly to the main sections. If you are starting from your role, choose the closest path below.
+
+## Start by role
+
+| Role | Use this path when... |
+|---|---|
+| [Procurement and supplier assurance](./procurement.md) | You buy, qualify, contract with, renew, or review suppliers based on evidence. |
+| [Product security](./product-security.md) | You own product assurance across acceptance, release, vulnerability response, update, and lifecycle monitoring. |
+| [Supplier or manufacturer](./supplier.md) | You need to prepare evidence-backed answers for customers, buyers, auditors, or assessors. |
+| [Audit, compliance, and customer assurance](./audit-assurance.md) | You need to prepare, review, or explain retained evidence for audit, customer assurance, certification support, or internal review. |
+| [Technical implementer](./implementer.md) | You need to implement technical mechanisms, tools, workflows, repositories, or integrations that support assurance decisions. |
+| [Standards, policy, and compliance mapping](./standards-policy.md) | You need to translate external drivers into practices, controls, evidence, technology options, and mapping confidence. |
+
+## Main handbook sections
+
+- [Standards & Threats](../standards-threats/index.md) explains the standards, regulations, assurance pressures, threats, and failure modes that create the need for action.
+- [Practices & Controls](../practices-controls/index.md) explains what should operate, what evidence should be produced, and how controls support decisions.
+- [Technology Options](../technology-options/index.md) explains mechanisms that may help implement controls or generate, protect, exchange, verify, and retain evidence.
+- [Resources](../resources/index.md) contains checklists, templates, maturity models, glossaries, workflows, and worked examples.
