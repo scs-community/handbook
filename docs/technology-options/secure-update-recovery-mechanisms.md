@@ -112,6 +112,8 @@ They do not replace secure development, release approval, vulnerability triage, 
 
 Verification should check whether the update came from an authorized source, whether the package was intact, whether the product was eligible, whether the installed state matches expectation, and whether exceptions or failed updates are reviewed.
 
+Emerging CRA boot-manager guidance such as [ETSI EN 304 623: Boot Managers](../standards-threats/standards-regulations/eu-cyber-resilience-act/etsi-en-304-623-boot-managers.md) shows how update assurance can become more specific for pre-OS components. Reviewers may need evidence for authenticated and authorized update sources, isolated update logic, atomic update behavior, preserved recovery capability, protected update-verification keys, and support-period configuration updateability.
+
 ## Tooling categories
 
 - update frameworks and package managers;
