@@ -75,11 +75,13 @@ It may interact with:
 - [IEC 62443](./iec-62443.md), [NIST SSDF](./nist-ssdf.md), ETSI EN 303 645, SBOM/VEX expectations, and procurement or customer assurance requirements.
 - [Technology Options](../../technology-options/index.md) that support transparency, provenance, signing, attestation, and verification.
 
-## Harmonised standards and presumption of conformity
+## Harmonized standards and presumption of conformity
 
-Harmonised standards may become important because they can provide a route to [presumption of conformity](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_27) for relevant CRA requirements. For supply chain security, that does not remove the need to understand the underlying evidence.
+Harmonized standards may become important because they can provide a route to [presumption of conformity](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_27) for relevant CRA requirements. For supply chain security, that does not remove the need to understand the underlying evidence.
 
 Even where a standard supports conformity, product teams and suppliers may still need to show which controls operate, which products or components are covered, which evidence is retained, and how updates or vulnerability decisions are handled during the support period.
+
+For a boot-chain example, see [ETSI EN 304 623: Boot Managers](./eu-cyber-resilience-act/etsi-en-304-623-boot-managers.md). That page maps the draft CRA boot-manager standard to supply chain evidence for product acceptance, trust anchors, verified or measured boot, updates, rollback protection, debug interfaces, vulnerability handling, and assessment records.
 
 ## Threats and failure modes addressed
 

@@ -29,7 +29,14 @@ const sidebars: SidebarsConfig = {
       label: 'Standards and Regulations',
       link: {type: 'doc', id: 'standards-threats/standards-regulations/index'},
       items: [
-        'standards-threats/standards-regulations/eu-cyber-resilience-act',
+        {
+          type: 'category',
+          label: 'EU Cyber Resilience Act',
+          link: {type: 'doc', id: 'standards-threats/standards-regulations/eu-cyber-resilience-act'},
+          items: [
+            'standards-threats/standards-regulations/eu-cyber-resilience-act/etsi-en-304-623-boot-managers',
+          ],
+        },
         'standards-threats/standards-regulations/nis2',
         'standards-threats/standards-regulations/nist-sp-800-161',
         'standards-threats/standards-regulations/iec-62443',

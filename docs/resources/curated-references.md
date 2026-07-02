@@ -61,6 +61,7 @@ This page is not a live standards catalog. Keep it stable, useful, and maintaina
 |---|---|---|
 | [DMTF SPDM standards page](https://www.dmtf.org/standards/spdm) | SPDM overview and links to related specifications | Cite exact DSP version used |
 | [DMTF DSP0274 SPDM 1.4.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0274_1.4.0.pdf) | Security Protocol and Data Model messages, data objects, and sequences | Version 1.4.0, 2025-05-15 document date |
+| [Draft ETSI EN 304 623 V0.1.3](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf) | CRA boot-manager security requirements, including boot trust, update, rollback, debug, and evidence considerations | Interim draft, 2026-06; cite final published text if it changes |
 | [GlobalPlatform specification library](https://globalplatform.org/specs-library/) | GlobalPlatform TEE, Secure Element, and related specifications | Cite exact document ID and version |
 | [GlobalPlatform TEE System Architecture v1.3](https://globalplatform.org/specs-library/tee-system-architecture/) | TEE architecture context | GPD_SPE_009, published 2022-05 |
 | [GlobalPlatform TEE Secure Element API v1.1.2](https://globalplatform.org/specs-library/tee-secure-element-api/) | TEE to Secure Element API context | GPD_SPE_024, published 2021-02 |
