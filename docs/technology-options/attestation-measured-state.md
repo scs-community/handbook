@@ -34,6 +34,8 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 ### Measured boot
 
+[EN 304 623 § 4.2.1](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=24)
+
 Measured boot records measurements of boot components or platform state so that a verifier can compare them with expected values. In this handbook, measured boot is useful only when measurements are tied to reference values, verifier policy, lifecycle context, and a decision about the product or component state.
 
 Measured boot is a pattern that can be implemented through different platform technologies, such as TPM Platform Configuration Registers (PCRs), [DICE](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Attestation-Architecture-v1.2_pub.pdf)-derived identities, BIT-style measurement reporting, or other protected measurement storage. Implementations may be exposed through platform firmware, embedded firmware, device-management agents, or attestation services. The assurance question is which implementation produced the measurements and how a verifier can interpret them.
@@ -47,6 +49,8 @@ Measured boot is a pattern that can be implemented through different platform te
 - **Source/version note:** Cite the specific platform technology or specification, such as TPM/TCG, DICE, Block Integrated Trust (BIT), SPDM, or another platform reference.
 
 ### Reference Integrity Measurements (RIMs)
+
+[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)
 
 Reference Integrity Measurements (RIMs) describe expected measurements or reference values used to appraise measured or attested state. In this handbook, RIMs help make measured-state evidence reviewable, but they still need trusted publication, version binding, and verifier interpretation.
 

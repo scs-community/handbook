@@ -35,6 +35,9 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 
 ### Code, firmware, update, and evidence signing
 
+[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
+[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=18)
+
 Signing can protect the integrity and origin of code, firmware, update packages, evidence records, and verifier results. In this handbook, a signature is useful when the verifier can connect it to the right signing authority, approval policy, artifact scope, and lifecycle decision.
 
 Signing assurance depends on the concrete format, key type, certificate profile, timestamping approach, signing service, and verification workflow. Examples include [Sigstore](https://www.sigstore.dev/), code-signing certificate services, firmware-signing pipelines, package-manager signing, container signing, and evidence-package signing. A signature mechanism only becomes useful when recipients can tell who was authorized to sign what, when, and for which decision.
@@ -48,6 +51,9 @@ Signing assurance depends on the concrete format, key type, certificate profile,
 - **Source/version note:** Cite the signature format, certificate or key profile, signing policy, timestamping approach, and verification rules used.
 
 ### Key management and hardware-backed key protection
+
+[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=18)<br/>
+[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)
 
 Key management and hardware-backed key protection control how sensitive keys are generated, stored, used, rotated, revoked, and retired. In this handbook, key protection supports assurance only when key use is governed, logged, and tied to the relevant release, update, identity, or evidence workflow.
 
@@ -76,6 +82,8 @@ Credential assurance depends on the concrete profile and ecosystem. X.509 certif
 - **Source/version note:** Cite the credential format, issuer, certificate policy, profile, validity rules, and revocation mechanism.
 
 ### Signing authority separation
+
+[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=18)
 
 Signing authority separation limits who can sign different classes of builds, releases, updates, recovery images, evidence records, or emergency fixes. In this handbook, separation helps reduce misuse risk when it is backed by role governance, approval records, monitoring, and exception handling.
 

@@ -62,6 +62,9 @@ SPDM evidence depends on the implemented protocol version, requester and respond
 
 ### Software Bill of Materials (SBOM) / xBOM distribution
 
+[CRA Art. 13 §§ 3, 6](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
+[NIS2 Art. 21 § 2(d)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2555#art_21)
+
 Software Bill of Materials (SBOM) and broader xBOM distribution workflows move transparency artifacts between suppliers, buyers, operators, customers, and auditors. In this handbook, distribution matters because a useful artifact must reach the right relying party with scope, version, freshness, and interpretation intact.
 
 SBOM and xBOM distribution can use different formats, portals, APIs, repositories, or customer assurance workflows. Examples include supplier portals, artifact repositories such as [OCI registries](https://opencontainers.org/), dependency-management platforms, vulnerability-management platforms, and customer trust centers. The concrete implementation matters because access controls, integrity protection, update cadence, product binding, and recipient interpretation determine whether the artifact is usable.
@@ -75,6 +78,9 @@ SBOM and xBOM distribution can use different formats, portals, APIs, repositorie
 - **Source/version note:** Cite the chosen format, transport or repository mechanism, version, and exchange workflow.
 
 ### Verifier policies and application programming interfaces (APIs)
+
+[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>
+[SP 800-161 SR-6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1-upd1.pdf#page=171)
 
 Verifier policies and application programming interfaces (APIs) define how evidence is requested, appraised, transformed into a result, and exposed to relying parties. In this handbook, they are useful when teams need consistent appraisal behavior and decision records across products, suppliers, or lifecycle events.
 

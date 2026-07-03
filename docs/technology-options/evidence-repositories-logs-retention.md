@@ -37,6 +37,8 @@ They are commonly relevant to [Audit and Compliance Readiness](../practices-cont
 
 ### Evidence repositories
 
+[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)
+
 Evidence repositories store and retrieve evidence packages, metadata, logs, and records used across assurance decisions. In this handbook, repositories are useful only when they preserve enough origin, scope, integrity, and lifecycle context for later review.
 
 Repository assurance depends on the implemented architecture, metadata model, access controls, integrity protection, and export workflow. A document store, artifact registry, evidence graph, customer portal, GRC tool, Git repository, [OCI registry](https://opencontainers.org/), or cloud object store may all retain evidence, but they preserve different context unless designed deliberately. Examples include graph or metadata systems such as [GUAC](https://github.com/guacsec/guac) and [Grafeas](https://github.com/Grafeas/Grafeas), or attestation stores such as [Archivista](https://github.com/in-toto/archivista).
@@ -50,6 +52,9 @@ Repository assurance depends on the implemented architecture, metadata model, ac
 - **Source/version note:** Cite the repository architecture, evidence packaging format, signature model, retention policy, and access model used.
 
 ### Verifier and appraisal logs
+
+[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>
+[SP 800-161 SR-6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1-upd1.pdf#page=171)
 
 Verifier and appraisal logs preserve what evidence was checked, which policy was applied, and what result was produced. In this handbook, logs help make verifier decisions reviewable, but they do not prove that the verifier policy or evidence inputs were sufficient.
 
@@ -65,6 +70,8 @@ Verifier logs are implementation-specific. Examples include attestation verifier
 
 ### Artifact registries
 
+[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)
+
 Artifact registries store releases, SBOM/xBOM records, vulnerability records, reference values, configuration records, or other artifacts with metadata. In this handbook, registries help make artifacts findable and reviewable, but correctness still depends on generation, signing, review, and verification workflows.
 
 Registries differ in how they model artifacts, signatures, metadata, versioning, access, and retention. Examples include [OCI registries](https://opencontainers.org/), package registries, firmware repositories, SBOM repositories, vulnerability advisory repositories, reference-value stores, and OCI-attached attestations created by tools such as [cosign](https://github.com/sigstore/cosign). The implementation should make it clear whether a registry entry is a source artifact, published evidence, cached copy, superseded record, or approval-bound release.
@@ -78,6 +85,9 @@ Registries differ in how they model artifacts, signatures, metadata, versioning,
 - **Source/version note:** Cite the registry type, metadata model, signature or integrity mechanism, and retention policy.
 
 ### Retention and reuse workflows
+
+[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>
+[CRA Art. 13 §§ 8-10](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)
 
 Retention and reuse workflows keep evidence available after the original review, acceptance decision, or audit request has passed. In this handbook, retention is valuable when evidence remains tied to product scope, lifecycle state, refresh history, and the decision it supports.
 
