@@ -35,6 +35,9 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 
 ### Signed and authorized updates
 
+[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
+[EN 304 623 § 5.2](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=84)
+
 Signed and authorized update mechanisms help recipients verify that an update package came from an expected authority and has not changed unexpectedly. In this handbook, signed updates support assurance only when they are connected to release approval, eligibility checks, deployment evidence, and exception handling.
 
 Update mechanisms may be implemented through product-specific firmware update systems, operating-system package managers, bootloader update flows, device-management platforms, or industry frameworks. Examples include [Mender](https://mender.io/), [RAUC](https://rauc.io/), [SWUpdate](https://sbabic.github.io/swupdate/), [TUF](https://theupdateframework.io/) or [Uptane](https://uptane.org/)-style metadata frameworks, [QuarkLink](https://quarklink.io/) for embedded device provisioning and OTA update management, package-manager signing, mobile-device management, or cloud IoT device-management services. Assurance depends on the concrete update format, authority model, verifier behavior, deployment path, and records produced.
@@ -48,6 +51,8 @@ Update mechanisms may be implemented through product-specific firmware update sy
 - **Source/version note:** Cite the update framework, signature profile, manifest format, policy, and version used.
 
 ### Update eligibility checks
+
+[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)
 
 Update eligibility checks decide whether a product, component, device, or platform should receive, apply, or continue using a specific update. In this handbook, eligibility evidence matters because the same update may be appropriate for one product state and unsafe or unsupported for another.
 
@@ -63,6 +68,8 @@ Eligibility can be implemented in fleet tooling, device agents, update services,
 
 ### Recovery and rollback controls
 
+[EN 304 623 § 5.2](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=84)
+
 Recovery and rollback controls help return a product or component from a failed, compromised, or unsuitable state to a controlled state. In this handbook, recovery evidence is useful when it shows what state was restored, who approved it, and whether rollback risk was managed.
 
 Recovery and rollback controls vary widely across boot firmware, device firmware, package managers, cloud-managed devices, and manual service processes. Examples include A/B partitions, recovery images, bootloader fallback slots, golden images, signed rescue media, and service-center reflash workflows. Reviewers need the implemented recovery path, anti-rollback policy, protected state, and validation evidence rather than a generic rollback claim.
@@ -76,6 +83,9 @@ Recovery and rollback controls vary widely across boot firmware, device firmware
 - **Source/version note:** Cite the recovery mechanism, rollback policy, signing model, and validation process used.
 
 ### Update telemetry and evidence refresh
+
+[CRA Art. 13 §§ 8-10](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
+[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)
 
 Update telemetry and evidence refresh records show delivery, installation, failure, deferral, and current version state after release. In this handbook, telemetry becomes assurance evidence only when it is interpreted against inventory, vulnerability status, lifecycle state, and review criteria.
 
