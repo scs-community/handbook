@@ -34,11 +34,11 @@ When evidence needs, verification paths, or lifecycle retention requirements are
 
 | Control | Purpose | Evidence produced |
 |---|---|---|
-| Assurance requirement definition | Translate decisions into evidence and verification needs. | Assurance requirements, decision records, evidence requirements. |
+| **Assurance requirement definition**<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>[NIS2 Art. 21 § 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2555#art_21) | Translate decisions into evidence and verification needs. | Assurance requirements, decision records, evidence requirements. |
 | Capability ownership | Define who builds, operates, reviews, and maintains evidence capabilities. | Ownership records, operating model, support model. |
 | Implementation acceptance criteria | Test whether the capability supports the intended assurance decisions. | Acceptance criteria, test results, gap records. |
-| Verification workflow design | Define how recipients review evidence origin, integrity, freshness, and scope. | Verification workflow, verifier requirements, metadata model. |
-| Retention and refresh design | Keep evidence useful after acceptance, update, repair, transfer, and audit. | Retention design, refresh triggers, lifecycle-state mappings. |
+| **Verification workflow design**<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>[SP 800-161 SR-6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1-upd1.pdf#page=171) | Define how recipients review evidence origin, integrity, freshness, and scope. | Verification workflow, verifier requirements, metadata model. |
+| **Retention and refresh design**<br/>[CRA Art. 13 §§ 8-10](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31) | Keep evidence useful after acceptance, update, repair, transfer, and audit. | Retention design, refresh triggers, lifecycle-state mappings. |
 | Technology option assessment | Compare mechanisms without treating them as mandates. | Option assessment, assumptions, limits, confidence ratings. |
 
 ## What good practice looks like

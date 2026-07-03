@@ -33,13 +33,13 @@ When update or lifecycle evidence is missing, stale, incomplete, inconsistent, o
 
 | Control | Purpose | Evidence produced |
 |---|---|---|
-| Update approval workflow | Ensure updates are reviewed and authorized before release or deployment. | Update approvals, release notes, eligibility records. |
-| Update eligibility check | Confirm that an update is authorized for the specific product, version, lifecycle state, customer, region, or deployment context. | Eligibility decision, policy check, deployment cohort, exception record. |
-| Update signing control | Protect update authenticity and integrity. | Signing records, key custody records, update manifests. |
-| Installation and rollback recording | Show whether updates were delivered, installed, recoverable, and current. | Installation logs, rollback records, recovery records. |
-| Post-update verification | Check product state after update or configuration change. | Attestation results, configuration records, verification logs. |
-| Lifecycle event trigger | Identify repair, transfer, vulnerability, retirement, or ownership changes that require review. | Lifecycle-state records, event logs, review tasks. |
-| Evidence refresh | Keep evidence usable after acceptance and identify stale or missing records. | Refreshed artifacts, stale-evidence findings, exception records. |
+| **Update approval workflow**<br/>[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>[EN 304 623 § 5.2](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=84) | Ensure updates are reviewed and authorized before release or deployment. | Update approvals, release notes, eligibility records. |
+| **Update eligibility check**<br/>[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13) | Confirm that an update is authorized for the specific product, version, lifecycle state, customer, region, or deployment context. | Eligibility decision, policy check, deployment cohort, exception record. |
+| **Update signing control**<br/>[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>[EN 304 623 § 5.2](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=84) | Protect update authenticity and integrity. | Signing records, key custody records, update manifests. |
+| **Installation and rollback recording**<br/>[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>[EN 304 623 § 5.2](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=84) | Show whether updates were delivered, installed, recoverable, and current. | Installation logs, rollback records, recovery records. |
+| **Post-update verification**<br/>[EN 304 623 § 4.2.1](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=24) | Check product state after update or configuration change. | Attestation results, configuration records, verification logs. |
+| **Lifecycle event trigger**<br/>[CRA Art. 13 §§ 8-10](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13) | Identify repair, transfer, vulnerability, retirement, or ownership changes that require review. | Lifecycle-state records, event logs, review tasks. |
+| **Evidence refresh**<br/>[CRA Art. 13 §§ 8-10](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31) | Keep evidence usable after acceptance and identify stale or missing records. | Refreshed artifacts, stale-evidence findings, exception records. |
 
 ## What good practice looks like
 

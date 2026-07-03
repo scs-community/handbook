@@ -32,14 +32,14 @@ When release evidence is missing, stale, incomplete, inconsistent, or unverifiab
 
 | Control | Purpose | Evidence produced |
 |---|---|---|
-| Dependency approval | Review dependencies before inclusion or release. | Dependency review records, approved component list, exception records. |
-| Supplier software/firmware review | Assess supplier-delivered code or firmware against release criteria. | Supplier review records, security findings, remediation records. |
-| Build provenance capture | Tie build outputs to source, dependencies, tools, and environment. | Build provenance, build logs, artifact identifiers. |
-| Release approval workflow | Ensure release candidates are reviewed and authorized before signing, delivery, or update preparation. | Release approvals, release checklist, acceptance criteria. |
-| Pre-release vulnerability check | Identify unresolved vulnerabilities before release. | Vulnerability review, affected-product analysis, risk acceptance records. |
-| Signing readiness check | Confirm signing should occur only after approval and evidence capture. | Signing readiness record, key custody check, release manifest. |
-| Release-to-update handoff | Ensure release evidence, manifests, vulnerability status, signing records, and approval decisions are available to update and lifecycle monitoring workflows. | Release package, update manifest, version record, vulnerability status, lifecycle monitoring trigger. |
-| Release evidence retention | Keep release evidence available for audit, vulnerability response, and customer assurance. | Release evidence package, retained artifacts, review metadata. |
+| **Dependency approval**<br/>[SSDF PW.4](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=22) | Review dependencies before inclusion or release. | Dependency review records, approved component list, exception records. |
+| **Supplier software/firmware review**<br/>[SSDF PO.1.3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=10)<br/>[SSDF PW.4](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=22) | Assess supplier-delivered code or firmware against release criteria. | Supplier review records, security findings, remediation records. |
+| **Build provenance capture**<br/>[SSDF PS.1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=17) | Tie build outputs to source, dependencies, tools, and environment. | Build provenance, build logs, artifact identifiers. |
+| **Release approval workflow**<br/>[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=18)<br/>[SSDF PS.3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=19) | Ensure release candidates are reviewed and authorized before signing, delivery, or update preparation. | Release approvals, release checklist, acceptance criteria. |
+| **Pre-release vulnerability check**<br/>[SSDF RV.1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=29)<br/>[SSDF RV.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=30) | Identify unresolved vulnerabilities before release. | Vulnerability review, affected-product analysis, risk acceptance records. |
+| **Signing readiness check**<br/>[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=18) | Confirm signing should occur only after approval and evidence capture. | Signing readiness record, key custody check, release manifest. |
+| **Release-to-update handoff**<br/>[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13) | Ensure release evidence, manifests, vulnerability status, signing records, and approval decisions are available to update and lifecycle monitoring workflows. | Release package, update manifest, version record, vulnerability status, lifecycle monitoring trigger. |
+| **Release evidence retention**<br/>[SSDF PS.3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=19)<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31) | Keep release evidence available for audit, vulnerability response, and customer assurance. | Release evidence package, retained artifacts, review metadata. |
 
 ## What good practice looks like
 

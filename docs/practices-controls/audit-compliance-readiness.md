@@ -31,11 +31,11 @@ Audit readiness fails when requirements are translated into policy statements wi
 
 | Control | Purpose | Evidence produced |
 |---|---|---|
-| Control evidence register | Map controls to artifacts, owners, lifecycle stages, and review cadence. | Evidence register, ownership records, review schedule. |
-| Standards mapping review | Keep standards interpretations separate from formal compliance claims. | Mapping matrix, source references, assumptions, gap records. |
-| Evidence retention control | Define what evidence is retained, where, for how long, and under whose ownership. | Retention policy, artifact repository records, access logs. |
-| Audit package preparation | Assemble evidence with scope, lifecycle, and verification context. | Audit pack, customer assurance pack, review notes. |
-| Exception visibility | Make gaps, expired evidence, and remediation commitments reviewable. | Exception records, remediation plans, risk acceptance records. |
+| **Control evidence register**<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31) | Map controls to artifacts, owners, lifecycle stages, and review cadence. | Evidence register, ownership records, review schedule. |
+| **Standards mapping review**<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>[NIS2 Art. 21 § 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2555#art_21) | Keep standards interpretations separate from formal compliance claims. | Mapping matrix, source references, assumptions, gap records. |
+| **Evidence retention control**<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31) | Define what evidence is retained, where, for how long, and under whose ownership. | Retention policy, artifact repository records, access logs. |
+| **Audit package preparation**<br/>[CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>[NIS2 Art. 21 § 1](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2555#art_21) | Assemble evidence with scope, lifecycle, and verification context. | Audit pack, customer assurance pack, review notes. |
+| **Exception visibility**<br/>[SP 800-161 § 2.3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1-upd1.pdf#page=30) | Make gaps, expired evidence, and remediation commitments reviewable. | Exception records, remediation plans, risk acceptance records. |
 
 ## What good practice looks like
 
