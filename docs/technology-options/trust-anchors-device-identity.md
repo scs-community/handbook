@@ -36,6 +36,8 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 A Trusted Platform Module (TPM) is a hardware-rooted trust component used for protected keys, measurements, sealing, and attestation-related evidence. In this handbook, TPM is treated as a technology option that can support device or platform identity and measured-state workflows; it is not proof of product acceptability by itself.
 
+TPM refers to the TCG specification ecosystem and interface model, not a single product. Real systems may use a discrete TPM chip from vendors such as [Infineon OPTIGA TPM](https://www.infineon.com/cms/en/product/security-smart-card-solutions/optiga-embedded-security-solutions/optiga-tpm/), [Nuvoton TPM](https://www.nuvoton.com/products/cloud-computing/security/trusted-platform-module-tpm/), [STSAFE-TPM](https://www.st.com/en/secure-mcus/stsafe-tpm.html), or [Microchip TPM](https://www.microchip.com/en-us/products/security-ics/trusted-platform-module); an integrated TPM in platform silicon; or a firmware TPM such as [Intel PTT](https://www.intel.com/content/www/us/en/support/articles/000094205/processors/intel-core-processors.html) or [AMD fTPM](https://www.amd.com/en/resources/support-articles/faqs/PA-200.html). Assurance depends on the specific implementation, provisioning, credentials, firmware state, platform integration, and verifier policy.
+
 - **Assurance role:** Hardware-rooted trust anchor for keys, measurements, sealing, platform identity, and attestation inputs.
 - **Evidence supported:** Hardware-rooted identity, measured boot evidence, attestation inputs, key lifecycle evidence, and platform state claims.
 - **Lifecycle fit:** Manufacturing, provisioning, acceptance, deployment, monitoring, repair, transfer, and decommissioning.
@@ -47,6 +49,8 @@ A Trusted Platform Module (TPM) is a hardware-rooted trust component used for pr
 ### Device Identifier Composition Engine (DICE)
 
 Device Identifier Composition Engine (DICE) is a TCG approach for composing device identities from layered measurements and configuration state. In this handbook, DICE is treated as an identity and attestation option for constrained or embedded systems where firmware-bound identity evidence matters.
+
+DICE is an architecture pattern and specification family rather than a single component. Examples include [Android's DICE adoption](https://source.android.com/docs/security/features/dice), Google's [Open Profile for DICE](https://github.com/google/open-dice), and [Caliptra DICE flows](https://chipsalliance.github.io/Caliptra/2.0/specification/HEAD/) for measured boot and attestation. Actual assurance depends on how the silicon, boot ROM, firmware stages, certificate profiles, provisioning process, and verifier workflow implement and interpret the DICE chain.
 
 - **Assurance role:** Device identity composition and layered identity derivation for constrained or embedded systems.
 - **Evidence supported:** Derived device identity, firmware-bound identity claims, provisioning evidence, and trust-chain evidence.
@@ -60,6 +64,8 @@ Device Identifier Composition Engine (DICE) is a TCG approach for composing devi
 
 Block Integrated Trust (BIT) is a TCG lightweight hardware root-of-trust mechanism for constrained devices or components. In this handbook, BIT is treated as a technology option for constrained-component identity, measurement storage, and measurement reporting; it is not a broad provenance mechanism by itself.
 
+BIT should be assessed as a concrete implementation and integration scope, not only as a named capability. Public material is currently strongest at the TCG specification and work-group level, such as the [TCG Block Integrated Trust page](https://trustedcomputinggroup.org/work-groups/mars/). Some public implementation examples still use BIT's earlier MARS naming, such as [Crypto Quantique QRoot Lite](https://www.cryptoquantique.com/products/qroot-lite/) and the official [TCG MARS examples](https://github.com/TrustedComputingGroup/MARS). Reviewers still need to know which component implements BIT, what profile or specification applies, how it is provisioned, and how relying parties verify its measurements or reports.
+
 - **Assurance role:** Lightweight hardware root-of-trust support for constrained devices or components.
 - **Evidence supported:** Component identity evidence, measurement evidence, challenge-response evidence, and attestation inputs.
 - **Lifecycle fit:** Manufacturing, provisioning, component acceptance, board acceptance, transfer, repair, and lifecycle review.
@@ -71,6 +77,8 @@ Block Integrated Trust (BIT) is a TCG lightweight hardware root-of-trust mechani
 ### Secure Element
 
 A Secure Element is a protected component used to store credentials, keys, and sensitive security state or to perform security-sensitive operations. In this handbook, Secure Elements are relevant where identity, key protection, credential lifecycle, or protected operation evidence supports an assurance decision.
+
+Secure Element is a product category, not a single standard. Examples include products and families such as [NXP EdgeLock SE050](https://www.nxp.com/products/security-and-authentication/authentication/edgelock-se050-plug-and-trust-secure-element-family:SE050), [Infineon OPTIGA Trust](https://www.infineon.com/cms/en/product/security-smart-card-solutions/optiga-embedded-security-solutions/optiga-trust/), [STMicroelectronics STSAFE](https://www.st.com/en/secure-mcus/stsafe-a.html), and [Microchip ATECC or Trust Platform](https://www.microchip.com/en-us/products/security-ics/trust-platform) devices. Implementations vary by vendor, certification profile, API, provisioning flow, key custody model, and lifecycle controls, so evidence should identify the specific secure element and how it is used.
 
 - **Assurance role:** Protected component for credentials, keys, identity, and security-sensitive operations.
 - **Evidence supported:** Credential issuance records, hardware-bound identity, key lifecycle evidence, and protected operation support.
@@ -84,6 +92,8 @@ A Secure Element is a protected component used to store credentials, keys, and s
 
 A Trusted Execution Environment (TEE) is an isolated execution environment that can protect selected code, data, credentials, or security services. In this handbook, TEEs are treated as supporting mechanisms for protected execution and evidence generation, not as proof of product integrity or supply chain provenance by themselves.
 
+TEE is an architecture category with materially different implementations, such as [Arm TrustZone](https://www.arm.com/technologies/trustzone-for-cortex-a)-based TEEs, [OP-TEE](https://www.op-tee.org/), [Intel SGX](https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html) or [Intel TDX](https://www.intel.com/content/www/us/en/developer/tools/trust-domain-extensions/overview.html)-style environments, [AMD SEV-SNP](https://www.amd.com/en/developer/sev.html), or vendor-specific secure enclaves. Assurance depends on the implementation scope, threat model, firmware or runtime governance, attestation support, and verifier interpretation.
+
 - **Assurance role:** Isolated execution environment that may help protect credentials, measurements, or security services.
 - **Evidence supported:** Protected execution claims, service state, key protection evidence, and implementation support for attestation or identity workflows.
 - **Lifecycle fit:** Provisioning, deployment, runtime service operation, update, and lifecycle services.
@@ -96,6 +106,8 @@ A Trusted Execution Environment (TEE) is an isolated execution environment that 
 
 Public Key Infrastructure (PKI) and platform certificates provide certificate-based identity, issuer, and credential-chain evidence. In this handbook, they are useful when an assurance workflow needs to bind a device, platform, component, service, or supplier claim to an issuer and verification path.
 
+PKI and platform certificate assurance depends on the concrete certificate profile, issuer policy, subject binding, validity rules, revocation mechanism, and relying-party trust store. Examples include the [TCG Platform Certificate Profile](https://trustedcomputinggroup.org/resource/tcg-platform-certificate-profile/) and tooling such as NSA's [paccor](https://github.com/nsacyber/paccor) for creating, signing, inspecting, and validating TCG-defined platform certificates. A certificate chain is evidence only when the recipient can interpret what the credential actually claims.
+
 - **Assurance role:** Certificate-based identity and credential chains for devices, platforms, components, services, or suppliers.
 - **Evidence supported:** Certificate chains, issuance records, revocation status, platform identity, and identity-to-product binding evidence.
 - **Lifecycle fit:** Manufacturing, provisioning, acceptance, deployment, repair, transfer, renewal, and decommissioning.
@@ -107,6 +119,8 @@ Public Key Infrastructure (PKI) and platform certificates provide certificate-ba
 ### Caliptra
 
 Caliptra is an open silicon root-of-trust project for applicable platform and infrastructure architectures. In this handbook, Caliptra is treated as a concrete root-of-trust option where its implementation scope, firmware governance, and verifier policy fit the product architecture.
+
+Caliptra is closer to a concrete open project than a generic category, with public [Caliptra project documentation](https://chipsalliance.github.io/Caliptra/) and implementation materials. Deployed assurance still depends on how the design is integrated into silicon or platform firmware, which version or profile is used, how firmware is governed, and which evidence a verifier can consume.
 
 - **Assurance role:** Open silicon root-of-trust implementation relevant to infrastructure and component assurance in applicable architectures.
 - **Evidence supported:** Root-of-trust evidence, device identity, firmware measurement, update or security state, and platform assurance inputs.

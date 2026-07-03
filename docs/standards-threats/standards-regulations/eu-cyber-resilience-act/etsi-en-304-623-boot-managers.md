@@ -6,7 +6,7 @@ description: "Understand how draft ETSI EN 304 623 for CRA boot managers relates
 
 ETSI EN 304 623 is a draft CRA vertical standard for boot managers. It matters to supply chain security because boot managers establish initial system trust before operating systems, applications, or higher-level security services are available.
 
-For this handbook, the useful question is not only whether a boot manager implements secure boot. It is whether the manufacturer can show how boot code, trust anchors, key provisioning, update paths, rollback protection, debug interfaces, measured-state evidence, vulnerability handling, and lifecycle support are controlled across suppliers and product versions.
+For this handbook, the useful question is not only whether a boot manager implements verified boot or measured boot. It is whether the manufacturer can show how boot code, trust anchors, key provisioning, update paths, rollback protection, debug interfaces, measured-state evidence, vulnerability handling, and lifecycle support are controlled across suppliers and product versions.
 
 :::info[Source status]
 

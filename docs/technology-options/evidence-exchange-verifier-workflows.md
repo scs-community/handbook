@@ -36,6 +36,8 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 Remote Attestation Procedures (RATS) evidence exchange moves attestation evidence between attesters, verifiers, and relying parties. In this handbook, it is useful when evidence needs a repeatable exchange and appraisal path rather than ad hoc file sharing or manual interpretation.
 
+RATS describes roles and relationships; it does not by itself define a complete product assurance system. Implementations need concrete attesters, evidence formats or token profiles, verifier policy, freshness handling, relying-party semantics, and records of failed or exceptional appraisals. Examples include the [Veraison](https://github.com/veraison) project, [veraison/eat](https://github.com/veraison/eat), [veraison/ear](https://github.com/veraison/ear), and embedded token libraries such as [ctoken](https://github.com/laurencelundblade/ctoken).
+
 - **Assurance role:** Supports exchange of attestation evidence between attesters, verifiers, and relying parties.
 - **Evidence supported:** Attestation evidence, appraisal results, freshness claims, and relying-party decision inputs.
 - **Lifecycle fit:** Acceptance, deployment, runtime monitoring, service admission, update validation, and audit.
@@ -47,6 +49,8 @@ Remote Attestation Procedures (RATS) evidence exchange moves attestation evidenc
 ### Security Protocol and Data Model (SPDM)
 
 Security Protocol and Data Model (SPDM) can support authenticated communication and measurement access between devices or components in applicable architectures. In this handbook, SPDM is relevant where evidence exchange depends on protocol-level authentication, measurement retrieval, and verifier interpretation.
+
+SPDM evidence depends on the implemented protocol version, requester and responder roles, transport binding, endpoint credentials, measurement commands, and how verifier tooling consumes the results. Example implementations include [DMTF libspdm](https://github.com/DMTF/libspdm) and SPDM support inside device firmware, platform firmware, management controllers, or component validation tooling. "Supports SPDM" is a starting point for questions, not a sufficient assurance claim.
 
 - **Assurance role:** Supports secure device or component communication, authentication, and measurement access in applicable platform architectures.
 - **Evidence supported:** Protocol-level authentication evidence, measurement evidence, secure session properties, and verifier inputs.
@@ -60,6 +64,8 @@ Security Protocol and Data Model (SPDM) can support authenticated communication 
 
 Software Bill of Materials (SBOM) and broader xBOM distribution workflows move transparency artifacts between suppliers, buyers, operators, customers, and auditors. In this handbook, distribution matters because a useful artifact must reach the right relying party with scope, version, freshness, and interpretation intact.
 
+SBOM and xBOM distribution can use different formats, portals, APIs, repositories, or customer assurance workflows. Examples include supplier portals, artifact repositories such as [OCI registries](https://opencontainers.org/), dependency-management platforms, vulnerability-management platforms, and customer trust centers. The concrete implementation matters because access controls, integrity protection, update cadence, product binding, and recipient interpretation determine whether the artifact is usable.
+
 - **Assurance role:** Supports transfer and reuse of transparency artifacts between suppliers, buyers, operators, customers, and auditors.
 - **Evidence supported:** SBOMs, xBOMs, vulnerability records, build provenance, and related artifact metadata.
 - **Lifecycle fit:** Procurement, release, acceptance, update, vulnerability response, audit, and renewal.
@@ -71,6 +77,8 @@ Software Bill of Materials (SBOM) and broader xBOM distribution workflows move t
 ### Verifier policies and application programming interfaces (APIs)
 
 Verifier policies and application programming interfaces (APIs) define how evidence is requested, appraised, transformed into a result, and exposed to relying parties. In this handbook, they are useful when teams need consistent appraisal behavior and decision records across products, suppliers, or lifecycle events.
+
+APIs and verifier policies are implementation contracts. Examples may include an attestation verifier API, SBOM ingestion API, vulnerability-status API, procurement evidence portal, or CI/CD policy gate. Reviewers should know the policy version, evidence inputs, result semantics, authentication model, error handling, and audit logging rather than treating a successful API response as self-explanatory.
 
 - **Assurance role:** Define how evidence is requested, appraised, transformed into a result, and exposed to a relying party.
 - **Evidence supported:** Appraisal policies, verifier results, evidence request records, relying-party decisions, and exception records.

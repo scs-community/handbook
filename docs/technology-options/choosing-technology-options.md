@@ -38,6 +38,10 @@ Evidence may be verified by an internal product team, procurement team, operator
 
 Most options need supporting practices: key governance, supplier obligations, release controls, reference-value management, repository access controls, verifier policies, exception handling, and evidence retention. A mechanism without the surrounding practice is usually weak assurance.
 
+Also distinguish the named option from the concrete implementation. Many options in this section are standards, protocols, architectures, formats, or product categories rather than single products. A TPM, DICE design, SPDM endpoint, SBOM format, TEE, secure element, or verifier workflow still needs an implementation scope, version, supplier, configuration, provisioning model, and evidence path before it can support an assurance decision.
+
+Vendor, product, and tooling examples in these pages are illustrative, not endorsements or complete market surveys. Use them to understand the kind of implementation evidence to request.
+
 ### What does it not prove?
 
 Record the limits explicitly. An SBOM does not prove components are safe. A signature does not prove content is acceptable. Attestation does not prove provenance without expected-state baselines. A repository does not make evidence trustworthy unless origin, integrity, access, and interpretation are preserved.

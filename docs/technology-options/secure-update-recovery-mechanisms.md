@@ -37,6 +37,8 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 
 Signed and authorized update mechanisms help recipients verify that an update package came from an expected authority and has not changed unexpectedly. In this handbook, signed updates support assurance only when they are connected to release approval, eligibility checks, deployment evidence, and exception handling.
 
+Update mechanisms may be implemented through product-specific firmware update systems, operating-system package managers, bootloader update flows, device-management platforms, or industry frameworks. Examples include [Mender](https://mender.io/), [RAUC](https://rauc.io/), [SWUpdate](https://sbabic.github.io/swupdate/), [TUF](https://theupdateframework.io/) or [Uptane](https://uptane.org/)-style metadata frameworks, package-manager signing, mobile-device management, or cloud IoT device-management services. Assurance depends on the concrete update format, authority model, verifier behavior, deployment path, and records produced.
+
 - **Assurance role:** Helps ensure update packages are authorized, intact, and bound to an expected release or supplier workflow.
 - **Evidence supported:** Signed update packages, update manifests, approval records, verification results, and deployment logs.
 - **Lifecycle fit:** Release, acceptance, deployment, operation, emergency response, and audit.
@@ -48,6 +50,8 @@ Signed and authorized update mechanisms help recipients verify that an update pa
 ### Update eligibility checks
 
 Update eligibility checks decide whether a product, component, device, or platform should receive, apply, or continue using a specific update. In this handbook, eligibility evidence matters because the same update may be appropriate for one product state and unsafe or unsupported for another.
+
+Eligibility can be implemented in fleet tooling, device agents, update services, installer logic, boot firmware, or manual release gates. Examples include staged rollout systems, device-management policies, package constraints, firmware version checks, and cloud deployment rings. The evidence should show which implementation made the decision and which product state, policy, and version data it used.
 
 - **Assurance role:** Determines whether a product, component, device, or platform is eligible to receive, apply, or continue using a specific update.
 - **Evidence supported:** Eligibility records, configuration checks, lifecycle-state records, version compatibility, and exception approvals.
@@ -61,6 +65,8 @@ Update eligibility checks decide whether a product, component, device, or platfo
 
 Recovery and rollback controls help return a product or component from a failed, compromised, or unsuitable state to a controlled state. In this handbook, recovery evidence is useful when it shows what state was restored, who approved it, and whether rollback risk was managed.
 
+Recovery and rollback controls vary widely across boot firmware, device firmware, package managers, cloud-managed devices, and manual service processes. Examples include A/B partitions, recovery images, bootloader fallback slots, golden images, signed rescue media, and service-center reflash workflows. Reviewers need the implemented recovery path, anti-rollback policy, protected state, and validation evidence rather than a generic rollback claim.
+
 - **Assurance role:** Supports controlled recovery from failed, compromised, or unsuitable states while managing rollback risk.
 - **Evidence supported:** Recovery images, recovery approvals, rollback controls, state transition records, and post-recovery validation.
 - **Lifecycle fit:** Operation, incident response, repair, emergency update, and return-to-service.
@@ -72,6 +78,8 @@ Recovery and rollback controls help return a product or component from a failed,
 ### Update telemetry and evidence refresh
 
 Update telemetry and evidence refresh records show delivery, installation, failure, deferral, and current version state after release. In this handbook, telemetry becomes assurance evidence only when it is interpreted against inventory, vulnerability status, lifecycle state, and review criteria.
+
+Telemetry examples include device deployment status, update logs, and server-side deployment records, such as [Mender deployment logs](https://docs.mender.io/1.5/troubleshooting/mender-client) and [deployment status APIs](https://docs.mender.io/1.1/apis/device-apis/deployments). Similar patterns can appear in device-management services, staged rollout systems, or OTA update platforms.
 
 - **Assurance role:** Provides records about update delivery, installation, failure, deferral, and current version state.
 - **Evidence supported:** Update logs, deployment status, failed-update records, exception records, and refreshed vulnerability or lifecycle evidence.

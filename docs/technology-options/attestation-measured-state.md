@@ -36,6 +36,8 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 Measured boot records measurements of boot components or platform state so that a verifier can compare them with expected values. In this handbook, measured boot is useful only when measurements are tied to reference values, verifier policy, lifecycle context, and a decision about the product or component state.
 
+Measured boot is a pattern that can be implemented through different platform technologies, such as TPM Platform Configuration Registers (PCRs), [DICE](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Attestation-Architecture-v1.2_pub.pdf)-derived identities, BIT-style measurement reporting, or other protected measurement storage. Implementations may be exposed through platform firmware, embedded firmware, device-management agents, or attestation services. The assurance question is which implementation produced the measurements and how a verifier can interpret them.
+
 - **Assurance role:** Measures boot components or platform state so a verifier can compare reported values with expected reference values.
 - **Evidence supported:** Measurement logs, reference measurement comparison, attestation inputs, and verifier appraisal records.
 - **Lifecycle fit:** Manufacturing, acceptance, deployment, update validation, runtime monitoring, and repair return-to-service.
@@ -47,6 +49,8 @@ Measured boot records measurements of boot components or platform state so that 
 ### Reference Integrity Measurements (RIMs)
 
 Reference Integrity Measurements (RIMs) describe expected measurements or reference values used to appraise measured or attested state. In this handbook, RIMs help make measured-state evidence reviewable, but they still need trusted publication, version binding, and verifier interpretation.
+
+RIM-style reference values are only useful when their format, publisher, signature or integrity mechanism, product/version binding, and distribution path are clear. A reference value without trusted publication and update handling can make measured-state checks look stronger than they are.
 
 - **Assurance role:** Provide expected measurements or reference values used to appraise measured or attested state.
 - **Evidence supported:** Reference values, manifests, measurement metadata, and verifier inputs.
@@ -60,6 +64,8 @@ Reference Integrity Measurements (RIMs) describe expected measurements or refere
 
 Security Protocol and Data Model (SPDM) is a DMTF protocol for device or component authentication, measurement access, and secure communication in applicable architectures. In this handbook, SPDM is treated as a technology option for collecting and protecting platform or component evidence, not as a complete assurance workflow by itself.
 
+SPDM support depends on concrete requester and responder implementations, transport binding, endpoint certificates, measurement sources, firmware behavior, and verifier integration. Examples include open-source stacks such as [DMTF libspdm](https://github.com/DMTF/libspdm) and SPDM support integrated into platform firmware, device firmware, or management-controller ecosystems. A product claim that it "supports SPDM" should identify the implemented version, endpoints, measurements, and policy assumptions.
+
 - **Assurance role:** Can support device or component authentication, measurement access, and secure communication in applicable architectures.
 - **Evidence supported:** Protocol-level authentication, measurement-related evidence, secure session state, and device or component security properties.
 - **Lifecycle fit:** Platform or component acceptance, device communication, measurement collection, deployment, and monitoring.
@@ -72,6 +78,8 @@ Security Protocol and Data Model (SPDM) is a DMTF protocol for device or compone
 
 The Remote Attestation Procedures (RATS) architecture describes roles for remote attestation, while Entity Attestation Token (EAT) provides a token format for attestation claims. In this handbook, RATS and EAT are useful when measured or claimed state must be appraised and communicated to a relying party.
 
+RATS and EAT are architectural and token-building blocks. Real assurance depends on the attester implementation, token profile, signing keys, freshness mechanism, verifier policy, and relying-party decision flow. Example deployments may use platform attestation services, device-management services, cloud workload attestation, or custom verifiers, with implementation examples such as [Veraison](https://github.com/veraison), [veraison/eat](https://github.com/veraison/eat), or embedded token libraries such as [ctoken](https://github.com/laurencelundblade/ctoken), rather than a single standard product.
+
 - **Assurance role:** Supports remote attestation architecture and evidence claims used in current-state appraisal.
 - **Evidence supported:** Attestation evidence, claims, freshness, verifier appraisal, and relying-party results.
 - **Lifecycle fit:** Acceptance, deployment, monitoring, update validation, service admission, and audit.
@@ -83,6 +91,8 @@ The Remote Attestation Procedures (RATS) architecture describes roles for remote
 ### Concise Reference Integrity Manifest (CoRIM) / Concise Module Identifier (CoMID)
 
 Concise Reference Integrity Manifest (CoRIM) and Concise Module Identifier (CoMID) are formats for reference values and measurement metadata used in attestation and appraisal workflows. In this handbook, they support expected-state management rather than proving current state by themselves.
+
+CoRIM and CoMID artifacts need an implementation context: who produces them, how they are signed or distributed, which products and versions they describe, and how verifiers ingest and supersede them. Examples include Veraison's [cocli](https://github.com/veraison/cocli), [corim-rs](https://github.com/veraison/corim-rs), [cover](https://github.com/veraison/cover), and Azure's [corim](https://github.com/azure/corim) tooling.
 
 - **Assurance role:** Can support reference-value and measurement metadata used by attestation and appraisal workflows.
 - **Evidence supported:** Reference measurements, manifests, measured-state metadata, and verifier inputs.

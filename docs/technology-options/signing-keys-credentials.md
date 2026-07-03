@@ -37,6 +37,8 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 
 Signing can protect the integrity and origin of code, firmware, update packages, evidence records, and verifier results. In this handbook, a signature is useful when the verifier can connect it to the right signing authority, approval policy, artifact scope, and lifecycle decision.
 
+Signing assurance depends on the concrete format, key type, certificate profile, timestamping approach, signing service, and verification workflow. Examples include [Sigstore](https://www.sigstore.dev/), code-signing certificate services, firmware-signing pipelines, package-manager signing, container signing, and evidence-package signing. A signature mechanism only becomes useful when recipients can tell who was authorized to sign what, when, and for which decision.
+
 - **Assurance role:** Provides integrity and origin evidence for artifacts that need controlled release, exchange, or retention.
 - **Evidence supported:** Signed releases, update packages, firmware images, evidence bundles, provenance records, and verifier results.
 - **Lifecycle fit:** Build, release, acceptance, update, recovery, audit, and retention.
@@ -48,6 +50,8 @@ Signing can protect the integrity and origin of code, firmware, update packages,
 ### Key management and hardware-backed key protection
 
 Key management and hardware-backed key protection control how sensitive keys are generated, stored, used, rotated, revoked, and retired. In this handbook, key protection supports assurance only when key use is governed, logged, and tied to the relevant release, update, identity, or evidence workflow.
+
+Hardware-backed protection may involve an HSM, secure element, TPM, cloud KMS, platform enclave, or product-specific key store. Examples include [Thales Luna](https://cpl.thalesgroup.com/encryption/hardware-security-modules) or [Utimaco HSMs](https://utimaco.com/products/hardware-security-modules), [YubiHSM](https://www.yubico.com/product/yubihsm-2/), [AWS KMS](https://aws.amazon.com/kms/), [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault), [Google Cloud KMS](https://cloud.google.com/security/products/security-key-management), or a product-integrated secure element. These are not interchangeable without understanding the implementation, access model, certification or assurance claims, backup/recovery behavior, and audit logging.
 
 - **Assurance role:** Protects keys used for identity, release signing, update authorization, attestation, evidence signing, or credential issuance.
 - **Evidence supported:** Key lifecycle records, key-use logs, rotation records, approval records, and revocation or retirement evidence.
@@ -61,6 +65,8 @@ Key management and hardware-backed key protection control how sensitive keys are
 
 Certificates, credentials, and authorization claims identify issuers, subjects, roles, entitlements, or authorization decisions. In this handbook, these mechanisms are useful when recipients can verify the issuer, scope, validity, revocation state, and relationship to the decision being made.
 
+Credential assurance depends on the concrete profile and ecosystem. X.509 certificates, TCG platform certificates, device certificates, [SPIFFE](https://spiffe.io/) identities, JSON Web Tokens (JWTs), and role claims can carry very different meanings unless issuer policy, subject binding, validity, revocation, and relying-party interpretation are documented.
+
 - **Assurance role:** Supports identity, authorization, entitlement, role, supplier, service, or platform claims used in evidence workflows.
 - **Evidence supported:** Certificate chains, credential issuance records, validity and revocation status, role claims, and authorization decisions.
 - **Lifecycle fit:** Provisioning, acceptance, deployment, update, service operation, transfer, renewal, and decommissioning.
@@ -72,6 +78,8 @@ Certificates, credentials, and authorization claims identify issuers, subjects, 
 ### Signing authority separation
 
 Signing authority separation limits who can sign different classes of builds, releases, updates, recovery images, evidence records, or emergency fixes. In this handbook, separation helps reduce misuse risk when it is backed by role governance, approval records, monitoring, and exception handling.
+
+Separation can be implemented through different tooling and operating models, from role-based signing services to dedicated HSM partitions or emergency signing workflows. Examples include [Sigstore cosign](https://github.com/sigstore/cosign) keyless signing with CI/CD identity, GitHub Actions OIDC-based signing workflows, and admission or deployment enforcement using [Sigstore policy-controller](https://docs.sigstore.dev/policy-controller/overview/). The evidence should show the actual control path, not just a statement that duties are separated.
 
 - **Assurance role:** Separates who can sign builds, releases, updates, recovery images, evidence records, or emergency fixes.
 - **Evidence supported:** Approval records, signing event logs, role assignments, emergency signing records, and exception approvals.

@@ -235,7 +235,7 @@ Updates change product state after acceptance, so approval, signing, delivery, i
 | Threat or failure mode | Unauthorized, incomplete, unrecoverable, or poorly documented updates change product state and break assurance after acceptance. |
 | Core controls | Update approval, signing control, update eligibility check, installation record, rollback/recovery review. |
 | Lifecycle fit | Deployment, update, operations, repair, vulnerability response. |
-| Technology options | Firmware signing, update frameworks, transparency logs, attestation, vulnerability handling records, secure boot and recovery mechanisms. These may protect update integrity or record update state; they do not prove the update was appropriate, recoverable, or accepted by the right owner. |
+| Technology options | Firmware signing, update frameworks, transparency logs, attestation, vulnerability handling records, verified boot, measured-state, and recovery mechanisms. These may protect update integrity or record update state; they do not prove the update was appropriate, recoverable, or accepted by the right owner. |
 | Gaps and limits | Update assurance must connect engineering, operations, supplier support, vulnerability response, and customer assurance workflows. |
 
 **Related pages**
