@@ -5,13 +5,33 @@ sidebar_label: Weak vs Strong Supplier Answers
 description: "Compare weak and stronger supplier assurance answers to see how scope, evidence, verification, ownership, and retention improve confidence."
 ---
 
-This page gives short examples of vague supplier claims and more reviewable answers. Use it when writing supplier requests, scoring responses, or explaining why a claim is not enough.
+This page shows how to score supplier security claims. Use it when writing supplier requests, reviewing responses, explaining why an answer is not enough, or deciding whether supplier evidence is ready to package and retain.
 
-## How to read the examples
+It sits between [Supplier Security Questions](../supplier-security-questions.md), the [Evidence Checklist](../evidence-checklist.md), the [Evidence Maturity Model](../evidence-maturity-model.md), and the [Supplier Onboarding Evidence Package](./supplier-onboarding-evidence-package.md).
 
-Weak answers are usually assertions. Better answers describe a process or name an artifact. Stronger answers are scoped, reviewable, and tied to a decision, lifecycle stage, verification path, gap, and retention expectation.
+## How to score supplier claims
+
+Use this pattern when comparing supplier answers:
+
+| Rating | What it usually means | What to do next |
+|---|---|---|
+| Weak | The answer is mostly an assertion. | Ask for scope, artifacts, owners, verification, gaps, and retention. |
+| Better | The answer names a process or artifact. | Check whether it is bound to the supplier, product, component, release, or lifecycle decision under review. |
+| Stronger | The answer is scoped, reviewable, decision-ready, gap-aware, and retained. | Use the [Evidence Checklist](../evidence-checklist.md) to review it and the [Evidence Package Template](../evidence-package-template.md) to package the decision. |
 
 Use the [Evidence Maturity Model](../evidence-maturity-model.md) to score whether an answer is an assertion, documented process, produced artifact, verifiable artifact, or lifecycle-retained evidence.
+
+## What stronger answers include
+
+Stronger supplier answers usually show:
+
+- the decision they support;
+- the supplier, product, component, firmware, service, release, or lifecycle scope;
+- the artifact or record being provided;
+- who produced it and who owns it;
+- how it can be verified;
+- known gaps, exclusions, exceptions, or residual risks;
+- where it will be retained and when it must be refreshed.
 
 ## Side-by-side examples
 
@@ -38,6 +58,8 @@ Use the [Evidence Maturity Model](../evidence-maturity-model.md) to score whethe
 | How can it be checked? | Issuer, signature, trust anchor, reference value, timestamp, product/version binding, verifier policy, or reviewer decision |
 | What remains unresolved? | Missing artifact, stale status, incomplete scope, unverified supplier claim, unsupported technology claim, or accepted risk |
 | How is it retained? | Repository, contract file, acceptance record, release record, audit package, vulnerability case, or lifecycle record |
+
+Use this pattern before moving a supplier response into a full [Supplier Onboarding Evidence Package](./supplier-onboarding-evidence-package.md). If the answer is still weak or incomplete, keep the gap visible rather than treating the response as assurance.
 
 ## Related pages
 

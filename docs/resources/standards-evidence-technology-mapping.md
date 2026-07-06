@@ -45,6 +45,18 @@ Separate standards and technologies by role:
 | 7. Record source details | Which version, publication date, profile, implementation scope, or source link is being used? |
 | 8. Record gaps and assumptions | What interpretation, future profiling, product-specific decision, or implementation choice remains? |
 
+## Starter mapping example
+
+| Mapping field | Example |
+|---|---|
+| Decision | Approve firmware update 5.4.3 for deployment |
+| Source | CRA Article 13 update-related expectations; secure update technology option; supplier release record |
+| Source role | Demand source, practice/control source, and implementation evidence |
+| Supports | Update approval workflow, signed update package, rollback/recovery evidence, deployment records |
+| Does not solve | Product provenance, full vulnerability status, customer installation confirmation, or long-term retention by itself |
+| Mapping confidence | Supporting, unless tied to product-scoped release records and verification evidence |
+| Gaps/assumptions | Regional configuration recovery test still incomplete |
+
 ## Questions to ask
 
 ### Questions to ask suppliers

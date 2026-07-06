@@ -81,6 +81,8 @@ Evidence maturity: Level 4, verifiable artifacts with recorded exception and ret
 | Field | Example content |
 |---|---|
 | Decision supported | Accept component provenance for device model CD-40 release 2.1 |
+| Decision outcome | Accept the batch with a recorded exception |
+| Decision owner | Buyer product acceptance owner with supplier assurance review |
 | Threat/failure mode addressed | Component substitution, loss of provenance through reseller path, unsupported component status |
 | Practice/control supported | Provenance review, transparency artifact review, supplier component review, acceptance decision record |
 | Scope | Secure component SC-7, firmware module NET-3.2, product CD-40 release 2.1 |
@@ -91,6 +93,7 @@ Evidence maturity: Level 4, verifiable artifacts with recorded exception and ret
 | Known gaps | One reseller custody handoff lacks timestamped receipt evidence |
 | Exceptions/risk acceptance | Supplier records compensating incoming inspection and commits to direct-source evidence for future batches |
 | Retention owner | Supplier manufacturing quality owner and buyer product acceptance owner |
+| Follow-up actions | Limit the exception to this batch, request direct-source evidence for future supply, and refresh provenance evidence after source or firmware changes |
 
 ## Verification questions
 
@@ -111,7 +114,9 @@ Component provenance evidence is retained with acceptance evidence and refreshed
 - [Product and Component Trust Failures](../../standards-threats/threats/product-component-trust-failures.md)
 - [Supplier and Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
 - [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
+- [Evidence Checklist](../evidence-checklist.md)
+- [Evidence Maturity Model](../evidence-maturity-model.md)
+- [Evidence Package Template](../evidence-package-template.md)
 - [SBOM, VEX, and Component Visibility](../../technology-options/sbom-vex-component-visibility.md)
 - [Trust Anchors and Device Identity](../../technology-options/trust-anchors-device-identity.md)
-- [Evidence Package Template](../evidence-package-template.md)
 - [Glossary](../glossary.md)

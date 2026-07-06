@@ -79,6 +79,8 @@ Evidence maturity: Level 3–4, produced artifacts with reviewable scope and par
 | Field | Example content |
 |---|---|
 | Decision supported | Supplier approval before contract award |
+| Decision outcome | Approve with conditions |
+| Decision owner | Buyer procurement owner with product security and legal review |
 | Threat/failure mode addressed | Supplier self-attestation only, opaque sub-tier dependencies, unsupported update-service claims |
 | Practice/control supported | Supplier evidence requirements, supplier scope/version binding, contractual evidence clauses, supplier assurance review |
 | Scope | Gateway device model GW-100, firmware 3.x, update service, critical sub-tier update hosting provider |
@@ -89,6 +91,7 @@ Evidence maturity: Level 3–4, produced artifacts with reviewable scope and par
 | Known gaps | No independent review of update hosting provider yet; supplier commits to provide review evidence before first production deployment |
 | Exceptions/risk acceptance | Contract award may proceed only if the update hosting evidence is delivered before production use |
 | Retention owner | Buyer supplier assurance owner and supplier account security owner |
+| Follow-up actions | Add contractual evidence clause, request update-hosting-provider review evidence, and block production deployment until the gap is closed |
 
 ## Verification questions
 

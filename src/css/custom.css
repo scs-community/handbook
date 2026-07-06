@@ -50,3 +50,47 @@
   --ifm-footer-color: #f5fcfd;
   --ifm-footer-link-color: #f5fcfd;
 }
+
+.scs-card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1rem 0 2rem;
+}
+
+.scs-card-grid--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.scs-card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-card-border-radius);
+  color: inherit;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.scs-card:hover {
+  border-color: var(--ifm-color-primary);
+  color: inherit;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.scs-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.scs-card p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .scs-card-grid,
+  .scs-card-grid--three {
+    grid-template-columns: 1fr;
+  }
+}

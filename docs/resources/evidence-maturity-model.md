@@ -9,6 +9,16 @@ This page helps readers distinguish weak evidence from stronger assurance. It ex
 
 Evidence is not a separate journey. It is what makes practices reviewable.
 
+## How this fits the toolkit
+
+Use [Supplier Security Questions](./supplier-security-questions.md) to request evidence.
+
+Use the [Evidence Checklist](./evidence-checklist.md) to review whether the evidence is scoped, current, verifiable, retained, and tied to a decision.
+
+Use this maturity model to score whether the response is an assertion, documented process, produced artifact, verifiable artifact, or lifecycle-retained evidence.
+
+Use the [Evidence Package Template](./evidence-package-template.md) to retain the decision, evidence, verification notes, gaps, exceptions, and follow-up actions.
+
 ## Maturity levels
 
 | Level | Description | Example |
@@ -40,7 +50,7 @@ Use the maturity model when deciding whether evidence is sufficient for:
 - [Audit and Compliance Readiness](../practices-controls/audit-compliance-readiness.md);
 - [Assurance Implementation Planning](../practices-controls/supply-chain-assurance-implementation.md).
 
-## Retention warning
+## Retention Does Not Improve Weak Evidence
 
 Retention does not make weak evidence strong. It preserves evidence usefulness only if the original artifact, context, and verification path are meaningful.
 
@@ -49,6 +59,7 @@ Good retained evidence stays bound to a decision, product or supplier scope, lif
 ## Related pages
 
 - [Evidence Checklist](./evidence-checklist.md)
+- [Supplier Security Questions](./supplier-security-questions.md)
 - [Glossary](./glossary.md)
 - [Evidence Package Template](./evidence-package-template.md)
 - [Practices & Controls](../practices-controls/index.md)

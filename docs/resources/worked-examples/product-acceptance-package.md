@@ -81,6 +81,8 @@ Evidence maturity: Level 4–5, verifiable artifacts with retained lifecycle bas
 | Field | Example content |
 |---|---|
 | Decision supported | Accept batch C-2026-041 for deployment |
+| Decision outcome | Accept with conditions |
+| Decision owner | Buyer product acceptance authority |
 | Threat/failure mode addressed | Counterfeit product, firmware drift, unclear vulnerability status, missing lifecycle baseline |
 | Practice/control supported | Identity verification, provenance review, integrity/configuration check, transparency artifact review, update/vulnerability review |
 | Scope | Industrial controller model IC-22, serial numbers 3101-3150, firmware 5.4.2 |
@@ -91,6 +93,7 @@ Evidence maturity: Level 4–5, verifiable artifacts with retained lifecycle bas
 | Known gaps | No runtime attestation available before deployment; first attestation check scheduled during onboarding |
 | Exceptions/risk acceptance | Accept with condition that first deployment attestation must match firmware 5.4.2 baseline |
 | Retention owner | Buyer asset owner and lifecycle monitoring owner |
+| Follow-up actions | Perform first deployment attestation, retain the accepted baseline, and open remediation if deployed state does not match firmware 5.4.2 |
 
 ## Verification questions
 
@@ -111,6 +114,7 @@ The acceptance package is retained as the baseline for future update approval, v
 - [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
 - [Lifecycle Map](../../practices-controls/supply-chain-security-lifecycle-map.md)
 - [Evidence Checklist](../evidence-checklist.md)
+- [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)
 - [Trust Anchors and Device Identity](../../technology-options/trust-anchors-device-identity.md)
 - [Attestation and Measured State](../../technology-options/attestation-measured-state.md)

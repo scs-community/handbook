@@ -77,6 +77,8 @@ Evidence maturity: Level 4–5 where deployment records are retained.
 | Field | Example content |
 |---|---|
 | Decision supported | Approve firmware update 5.4.3 for deployment |
+| Decision outcome | Approve for deployment to tested configurations only |
+| Decision owner | Buyer deployment approver with vulnerability response lead review |
 | Threat/failure mode addressed | Unauthorized update, incomplete rollback, untested recovery, unresolved affected-version mapping |
 | Practice/control supported | Update approval workflow, update eligibility check, update signing control, installation and rollback recording |
 | Scope | Industrial controller IC-22, firmware 5.4.2 to 5.4.3, deployment cohort A, affected vulnerability VULN-2026-014 |
@@ -87,6 +89,7 @@ Evidence maturity: Level 4–5 where deployment records are retained.
 | Known gaps | Recovery test passed on reference hardware but not yet on one regional configuration |
 | Exceptions/risk acceptance | Regional configuration excluded from deployment until recovery test completes |
 | Retention owner | Supplier release owner and buyer lifecycle monitoring owner |
+| Follow-up actions | Complete regional recovery testing, update the deployment scope, retain deployment logs, and review the exclusion decision by the mitigation deadline |
 
 ## Verification questions
 
@@ -107,6 +110,8 @@ Update approval evidence is retained with release records, vulnerability respons
 - [Secure Updates and Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md)
 - [Secure Development and Release Governance](../../practices-controls/secure-development-release-governance.md)
 - [Software Component and Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md)
+- [Evidence Checklist](../evidence-checklist.md)
+- [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)
 - [Signing, Keys, and Credentials](../../technology-options/signing-keys-credentials.md)
 - [Secure Update and Recovery Mechanisms](../../technology-options/secure-update-recovery-mechanisms.md)
