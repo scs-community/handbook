@@ -4,12 +4,12 @@ sidebar_label: Standards and Compliance Mapping
 description: "A reader journey for standards, policy, and compliance mapping teams translating requirements into controls, evidence, technologies, and verification paths."
 ---
 
-Use this path when you need to translate a regulation, standard, procurement expectation, customer requirement, or policy driver into practical controls, evidence expectations, and implementation choices.
+Use this path when you need to translate a regulation, standard, procurement expectation, customer requirement, or policy expectation into practical controls, evidence expectations, and implementation choices.
 
 ## Decisions you probably need to make
 
-- What external driver creates the need for action?
-- Which practices and controls should respond to that driver?
+- What source, expectation, or assurance pressure creates the need for action?
+- Which practices and controls should respond to that source or expectation?
 - What evidence would make the response reviewable?
 - Which technology options may support the evidence or verification path?
 - How should source details, assumptions, gaps, and mapping confidence be recorded?
@@ -19,7 +19,7 @@ Use this path when you need to translate a regulation, standard, procurement exp
 1. [Standards & Threats](../standards-threats/index.md)  
    Understand how standards, regulations, procurement expectations, assurance pressures, threats, and failure modes fit into the handbook.
 2. [Standards and Regulations](../standards-threats/standards-regulations/index.md)  
-   Start with the governance or assurance driver that brought you here.
+   Start with the governance or assurance expectation that brought you here.
 3. [EU Cyber Resilience Act](../standards-threats/standards-regulations/eu-cyber-resilience-act.md)  
    See how a major product-security regulation can be interpreted into lifecycle assurance work.
 4. [NIS2](../standards-threats/standards-regulations/nis2.md)  
@@ -31,9 +31,9 @@ Use this path when you need to translate a regulation, standard, procurement exp
 7. [NIST SSDF](../standards-threats/standards-regulations/nist-ssdf.md)  
    See how secure software and firmware development practices can become supplier and release evidence.
 8. [Threats and Failure Modes](../standards-threats/threats/index.md)  
-   Connect external drivers to the failures they are trying to prevent.
+   Connect standards, expectations, and assurance pressures to the failures they are trying to prevent.
 9. [10 Best Practices](/practices-controls/10-best-practices/)  
-   Translate drivers and threats into practical supply chain security practices.
+   Translate standards, expectations, and threats into practical supply chain security practices.
 10. [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)  
    Record source roles, evidence requirements, technology options, mapping confidence, and gaps.
 11. [Evidence Checklist](../resources/evidence-checklist.md)  
@@ -45,7 +45,7 @@ Use this path when you need to translate a regulation, standard, procurement exp
 
 After following this path, you should be able to produce:
 
-- a driver-to-practice-to-control mapping;
+- a source-to-practice-to-control mapping;
 - evidence requirements tied to the decision and lifecycle stage;
 - source and version notes for cited standards or guidance;
 - mapping confidence and known gaps;
@@ -64,7 +64,7 @@ Expect mapping notes, source references, source/version details, control interpr
 
 ## Stronger answers
 
-A stronger answer names the driver, assigns the source role, maps it to practices and controls, identifies the evidence needed, explains what technology options may support, records source details, and states mapping confidence, limits, and gaps.
+A stronger answer names the source or expectation, assigns the source role, maps it to practices and controls, identifies the evidence needed, explains what technology options may support, records source details, and states mapping confidence, limits, and gaps.
 
 ## Related pages
 

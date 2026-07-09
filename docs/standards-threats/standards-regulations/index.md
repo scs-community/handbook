@@ -44,4 +44,5 @@ Start with the page that matches the standard, regulation, procurement requireme
 - [Threats and Failure Modes](../threats/index.md) to understand what the requirement is trying to reduce.
 - [Practices & Controls](../../practices-controls/index.md) to identify practical control themes.
 - [Evidence Checklist](../../resources/evidence-checklist.md) to decide which records, claims, logs, attestations, and audit materials matter.
+- [Evidence Package Template](../../resources/evidence-package-template.md) and [Worked Examples](../../resources/worked-examples/index.md) to package and compare evidence-backed decisions.
 - [Technology Options](../../technology-options/index.md) to compare mechanisms that may support implementation and verification.

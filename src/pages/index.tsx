@@ -22,6 +22,9 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/practices-controls/10-best-practices/">
             Read the 10 best practices
           </Link>
+          <Link className="button button--secondary button--lg" to="/start-here/">
+            Start with your role
+          </Link>
         </div>
       </div>
     </header>
@@ -57,7 +60,7 @@ function ChooseYourPath(): ReactNode {
     },
     {
       title: 'I map standards to controls',
-      description: 'Translate standards, regulations, policy drivers, and customer requirements into controls and evidence.',
+      description: 'Translate standards, regulations, policy expectations, and customer requirements into controls and evidence.',
       to: '/start-here/standards-compliance-mapping/',
     },
   ];
@@ -67,7 +70,7 @@ function ChooseYourPath(): ReactNode {
       <div className="container">
         <div className="text--center margin-bottom--lg">
           <Heading as="h2">Choose your path</Heading>
-          <p>Start with the role that best matches your part in the assurance workflow.</p>
+          <p>Start with the role that best matches your part in the assurance workflow, then move into decision guidance, evidence requests, and implementation options.</p>
         </div>
         <div className={styles.roleGrid}>
           {roleRoutes.map((route) => (
@@ -116,7 +119,7 @@ function HandbookModelCompact(): ReactNode {
             ))}
           </div>
           <p className={styles.modelSummary}>
-            Use the handbook to move from an external driver or real failure mode to controls, evidence expectations, verification paths, and implementation choices.
+            Use the handbook to move from a standard, threat, or assurance need to controls, evidence expectations, verification paths, and implementation choices.
           </p>
         </div>
       </div>

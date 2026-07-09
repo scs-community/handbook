@@ -7,6 +7,8 @@ description: "See a supplier onboarding evidence package example that turns proc
 
 This fictional example shows what a useful supplier response can look like before contract award.
 
+Use it with the [Evidence Package Template](../evidence-package-template.md) to see how a supplier approval-with-conditions decision can capture scope, evidence, verification, known gaps, exceptions, retention, and follow-up actions.
+
 ## Scenario
 
 A buyer is onboarding a supplier that provides a connected gateway device and associated update service. The supplier has passed an initial commercial review, but the buyer needs supply chain security evidence before contract award.
@@ -109,10 +111,21 @@ Supplier onboarding evidence is retained with the contract file and refreshed at
 
 ## Related pages
 
+Understand the practice:
+
 - [Supplier and Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
+
+Request supplier evidence:
+
 - [Supplier Security Questions](../supplier-security-questions.md)
+
+Review and package evidence:
+
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)
+
+Exchange and retain evidence:
+
 - [Evidence Exchange and Verifier Workflows](../../technology-options/evidence-exchange-verifier-workflows.md)
 - [Evidence Repositories, Logs, and Retention](../../technology-options/evidence-repositories-logs-retention.md)

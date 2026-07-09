@@ -5,11 +5,23 @@ sidebar_label: Supplier and Procurement Assurance
 description: "Build supplier and procurement assurance around scoped supplier risk, evidence requests, contractual commitments, renewal triggers, and exceptions."
 ---
 
-Supplier and procurement assurance is the recurring practice of selecting, contracting with, reviewing, renewing, and continuing to use suppliers based on evidence rather than unsupported claims.
+Use this page when you need to turn supplier risk, procurement security requirements, customer assurance requests, or renewal decisions into scoped evidence requests and review decisions.
+
+Supplier and procurement assurance is the recurring practice of selecting, contracting with, reviewing, renewing, and continuing to use suppliers based on evidence rather than unsupported claims. It helps procurement, supplier assurance, product security, legal, risk, and compliance teams decide what suppliers must show, how claims are reviewed, which commitments belong in contracts, and what happens when evidence is weak or incomplete.
+
+This practice helps define supplier evidence requirements before selection, contract award, renewal, continued use, remediation, or rejection. Use [Supplier Security Questions](../resources/supplier-security-questions.md) to request evidence, the [Evidence Checklist](../resources/evidence-checklist.md) to review it, and the [Supplier Onboarding Evidence Package](../resources/worked-examples/supplier-onboarding-evidence-package.md) to see a fictional approval-with-conditions decision.
+
+This guidance supports supply chain assurance decisions; it is not general procurement, legal, or certification advice.
+
+## Use this page when
+
+- You need supplier evidence before selection, contract award, renewal, or continued use.
+- A supplier claim, questionnaire response, certification, or policy statement is not enough by itself.
+- Critical sub-tiers, resellers, software inputs, components, update services, or support dependencies affect the assurance decision.
+- Contract terms need to preserve evidence, vulnerability, update, incident, retention, or remediation expectations.
+- Supplier evidence is missing, stale, incomplete, inconsistent, or hard to verify.
 
 This practice is commonly driven by NIS2 customer flow-down, procurement requirements, supplier assurance reviews, customer assurance requests, audit needs, and [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md).
-
-This page does not provide general procurement policy; it focuses on supply chain security evidence and assurance expectations.
 
 ## What this practice is for
 
@@ -102,17 +114,28 @@ Technology options may include supplier portals, evidence repositories, SBOM/xBO
 
 ## Related pages
 
-- [NIS2](../standards-threats/standards-regulations/nis2.md)
-- [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md)
-- [10 Best Practices](/practices-controls/10-best-practices/)
-- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
-- [Product Acceptance](./product-acceptance-supply-chain-trust.md)
+Request supplier evidence:
+
 - [Supplier Security Questions](../resources/supplier-security-questions.md)
+- [Weak vs Strong Supplier Answers](../resources/worked-examples/weak-vs-strong-supplier-answers.md)
+
+Review and package the decision:
+
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
 - [Supplier Onboarding Evidence Package](../resources/worked-examples/supplier-onboarding-evidence-package.md)
-- [Weak vs Strong Supplier Answers](../resources/worked-examples/weak-vs-strong-supplier-answers.md)
+
+Connect procurement to product and lifecycle decisions:
+
+- [Product Acceptance](./product-acceptance-supply-chain-trust.md)
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
+- [10 Best Practices](/practices-controls/10-best-practices/)
+
+Understand context and mechanisms:
+
+- [NIS2](../standards-threats/standards-regulations/nis2.md)
+- [Supplier Assurance Failures](../standards-threats/threats/supplier-assurance-failures.md)
 - [SBOM, VEX, and Component Visibility](../technology-options/sbom-vex-component-visibility.md)
 - [Evidence Exchange and Verifier Workflows](../technology-options/evidence-exchange-verifier-workflows.md)
 - [Evidence Repositories, Logs, and Retention](../technology-options/evidence-repositories-logs-retention.md)

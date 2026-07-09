@@ -5,7 +5,7 @@ sidebar_label: Weak vs Strong Supplier Answers
 description: "Compare weak and stronger supplier assurance answers to see how scope, evidence, verification, ownership, and retention improve confidence."
 ---
 
-This page shows how to score supplier security claims. Use it when writing supplier requests, reviewing responses, explaining why an answer is not enough, or deciding whether supplier evidence is ready to package and retain.
+Use this page to score supplier security questionnaire answers from unsupported assertions to decision-ready evidence. It helps when writing supplier requests, reviewing responses, explaining why an answer is not enough, or deciding whether supplier evidence is ready to package and retain.
 
 It sits between [Supplier Security Questions](../supplier-security-questions.md), the [Evidence Checklist](../evidence-checklist.md), the [Evidence Maturity Model](../evidence-maturity-model.md), and the [Supplier Onboarding Evidence Package](./supplier-onboarding-evidence-package.md).
 
@@ -20,6 +20,20 @@ Use this pattern when comparing supplier answers:
 | Stronger | The answer is scoped, reviewable, decision-ready, gap-aware, and retained. | Use the [Evidence Checklist](../evidence-checklist.md) to review it and the [Evidence Package Template](../evidence-package-template.md) to package the decision. |
 
 Use the [Evidence Maturity Model](../evidence-maturity-model.md) to score whether an answer is an assertion, documented process, produced artifact, verifiable artifact, or lifecycle-retained evidence.
+
+## Quick example
+
+Weak answer:
+
+> We have a mature security program.
+
+Better answer:
+
+> We have documented supplier-security and secure development processes.
+
+Stronger answer:
+
+> We provide product-scoped control evidence, named owners, review cadence, sub-tier declarations, known gaps, and remediation records for the assessed supplier relationship.
 
 ## What stronger answers include
 
@@ -63,10 +77,22 @@ Use this pattern before moving a supplier response into a full [Supplier Onboard
 
 ## Related pages
 
+Improve requests:
+
 - [Supplier Security Questions](../supplier-security-questions.md)
+
+Review evidence:
+
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Maturity Model](../evidence-maturity-model.md)
+
+Package the decision:
+
 - [Evidence Package Template](../evidence-package-template.md)
+- [Supplier Onboarding Evidence Package](./supplier-onboarding-evidence-package.md)
+
+Practice context:
+
 - [Supplier and Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
 - [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
 - [Audit and Compliance Readiness](../../practices-controls/audit-compliance-readiness.md)

@@ -6,6 +6,8 @@ description: "Choose a role-based path through the Supply Chain Security Handboo
 
 Use these role paths when you know who you are in the supply chain security assurance workflow, but not yet which handbook pages to read first.
 
+Each path routes you into decision guidance, evidence requests, verification questions, implementation options, and examples without replacing the main handbook structure.
+
 The role paths are a routing layer through the existing handbook. They do not replace the main structure:
 
 ```text
@@ -23,7 +25,7 @@ If you already know the task you need to complete, you can go directly to the ma
 | [Supplier or manufacturer](./supplier-manufacturer.md) | You need to prepare evidence-backed answers for customers, buyers, auditors, or assessors. |
 | [Audit, compliance, and customer assurance](./audit-compliance-assurance.md) | You need to prepare, review, or explain retained evidence for audit, customer assurance, certification support, or internal review. |
 | [Technical implementer](./technical-implementation.md) | You need to implement technical mechanisms, tools, workflows, repositories, or integrations that support assurance decisions. |
-| [Standards, policy, and compliance mapping](./standards-compliance-mapping.md) | You need to translate external drivers into practices, controls, evidence, technology options, and mapping confidence. |
+| [Standards, policy, and compliance mapping](./standards-compliance-mapping.md) | You need to translate standards, policy expectations, or customer requirements into practices, controls, evidence, technology options, and mapping confidence. |
 
 ## Main handbook sections
 

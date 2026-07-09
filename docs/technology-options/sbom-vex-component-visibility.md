@@ -5,9 +5,20 @@ sidebar_label: "SBOM, VEX, and Component Visibility"
 description: "Use SBOMs, VEX, xBOMs, inventories, and component transparency artifacts to support supply chain security decisions and vulnerability response."
 ---
 
-Transparency artifacts describe software, firmware, hardware, components, services, dependencies, vulnerabilities, or product composition. They can help teams understand what is present, what may be affected, and what evidence is needed for supplier assurance, product acceptance, vulnerability response, and audit.
+Use this page when you need to understand how SBOMs, VEX-like records, xBOMs, inventories, and component transparency artifacts support supplier assurance, product acceptance, vulnerability response, update planning, customer evidence, or audit.
 
-This option area is useful when a control depends on component visibility or when a customer, operator, auditor, assessor, or procurement team needs structured evidence about product composition.
+Transparency artifacts describe software, firmware, hardware, components, services, dependencies, vulnerabilities, or product composition. They can help teams understand what is present, what may be affected, and what evidence is needed for a decision. They do not prove security, integrity, authenticity, remediation, compliance, or product acceptance by themselves.
+
+This option area is useful when a control depends on component visibility or when a customer, operator, auditor, assessor, product-security team, or procurement team needs structured evidence about product composition. Use it with the [Evidence Checklist](../resources/evidence-checklist.md) when reviewing whether component evidence is scoped, current, verifiable, retained, and tied to a decision.
+
+This guidance supports supply chain assurance decisions; it is not legal, certification, or product-safety advice.
+
+## Use this page when
+
+- You need component visibility for supplier assurance, product acceptance, vulnerability response, update planning, or audit.
+- A supplier provides an SBOM, xBOM, VEX-like statement, advisory, or component inventory and you need to judge what it can support.
+- You need to explain why SBOM/VEX records are transparency inputs, not proof that a product is secure or acceptable.
+- You need to connect component evidence to product/version binding, vulnerability analysis, update governance, retention, and exception handling.
 
 ## What this option area is for
 
@@ -143,8 +154,24 @@ Verification should check whether the artifact is bound to the right product and
 
 ## Related pages
 
+Choose and review evidence:
+
 - [Choosing Technology Options](./choosing-technology-options.md)
+- [Evidence Checklist](../resources/evidence-checklist.md)
 - [Glossary](../resources/glossary.md)
-- [Software Component and Vulnerability Management](../practices-controls/software-components-vulnerability-management.md)
+
+Apply in supplier and product decisions:
+
+- [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)
+- [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
 - [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)
+
+Use in vulnerability and update workflows:
+
+- [Software Component and Vulnerability Management](../practices-controls/software-components-vulnerability-management.md)
+- [Vulnerability Response Evidence](../resources/worked-examples/vulnerability-response-evidence.md)
+- [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
+
+Understand threat context:
+
 - [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)

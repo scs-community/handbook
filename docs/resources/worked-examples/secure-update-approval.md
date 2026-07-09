@@ -7,6 +7,8 @@ description: "See a secure update approval example that links update risk, relea
 
 This fictional example shows how to assess signing, release governance, rollback, recovery, vulnerability handling, and customer notification before approving an update.
 
+Use it with the [Evidence Package Template](../evidence-package-template.md) to see how an update approval package can capture scope, release evidence, verification, known gaps, exclusions, retention, and follow-up actions.
+
 ## Scenario
 
 A supplier wants to deploy firmware update 5.4.3 to devices already accepted by a buyer. The update fixes a security issue and changes a device communication component.
@@ -107,12 +109,23 @@ Update approval evidence is retained with release records, vulnerability respons
 
 ## Related pages
 
+Understand the practices:
+
 - [Secure Updates and Lifecycle Monitoring](../../practices-controls/secure-updates-lifecycle-monitoring.md)
 - [Secure Development and Release Governance](../../practices-controls/secure-development-release-governance.md)
 - [Software Component and Vulnerability Management](../../practices-controls/software-components-vulnerability-management.md)
+
+Review and package evidence:
+
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)
+
+Verify update mechanisms:
+
 - [Signing, Keys, and Credentials](../../technology-options/signing-keys-credentials.md)
 - [Secure Update and Recovery Mechanisms](../../technology-options/secure-update-recovery-mechanisms.md)
+
+Retain update evidence:
+
 - [Evidence Repositories, Logs, and Retention](../../technology-options/evidence-repositories-logs-retention.md)

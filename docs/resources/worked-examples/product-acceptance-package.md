@@ -7,6 +7,8 @@ description: "See a product acceptance package example for reviewing product ide
 
 This fictional example shows what a buyer should review before accepting a connected product.
 
+Use it with the [Evidence Package Template](../evidence-package-template.md) to see how an accept-with-conditions decision can capture scope, evidence, verification, known gaps, exceptions, retention, and follow-up actions.
+
 ## Scenario
 
 A buyer receives a batch of connected industrial controllers from an approved supplier. The devices will be deployed into a monitored operational environment, and the buyer needs evidence that the delivered products are genuine, expected, supportable, and in an acceptable trust state.
@@ -111,11 +113,19 @@ The acceptance package is retained as the baseline for future update approval, v
 
 ## Related pages
 
+Understand the practice:
+
 - [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
 - [Lifecycle Map](../../practices-controls/supply-chain-security-lifecycle-map.md)
+
+Review and package evidence:
+
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)
+
+Verify supporting evidence:
+
 - [Trust Anchors and Device Identity](../../technology-options/trust-anchors-device-identity.md)
 - [Attestation and Measured State](../../technology-options/attestation-measured-state.md)
 - [SBOM, VEX, and Component Visibility](../../technology-options/sbom-vex-component-visibility.md)

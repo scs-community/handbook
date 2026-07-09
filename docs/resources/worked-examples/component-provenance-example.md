@@ -7,6 +7,8 @@ description: "See a component provenance example that moves from a component lis
 
 This fictional example shows how to move from a component list to usable assurance evidence.
 
+Use it with the [Evidence Package Template](../evidence-package-template.md) to see how a component-provenance decision can capture product scope, source and custody evidence, verification, known gaps, exceptions, retention, and follow-up actions.
+
 ## Scenario
 
 A supplier provides an xBOM for a connected device. The buyer notices that a secure component and a firmware module are sourced through a reseller and asks for evidence that the components are expected, supported, and traceable.
@@ -111,12 +113,20 @@ Component provenance evidence is retained with acceptance evidence and refreshed
 
 ## Related pages
 
+Understand the threat and practices:
+
 - [Product and Component Trust Failures](../../standards-threats/threats/product-component-trust-failures.md)
 - [Supplier and Procurement Assurance](../../practices-controls/supplier-assurance-procurement.md)
 - [Product Acceptance](../../practices-controls/product-acceptance-supply-chain-trust.md)
+
+Review and package evidence:
+
 - [Evidence Checklist](../evidence-checklist.md)
 - [Evidence Maturity Model](../evidence-maturity-model.md)
 - [Evidence Package Template](../evidence-package-template.md)
+
+Verify supporting evidence:
+
 - [SBOM, VEX, and Component Visibility](../../technology-options/sbom-vex-component-visibility.md)
 - [Trust Anchors and Device Identity](../../technology-options/trust-anchors-device-identity.md)
 - [Glossary](../glossary.md)

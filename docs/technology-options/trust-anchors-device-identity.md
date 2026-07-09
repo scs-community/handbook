@@ -4,9 +4,20 @@ sidebar_position: 3
 description: "Understand trust anchors and device identity mechanisms for product provenance, authenticity, onboarding, ownership, update, and lifecycle assurance."
 ---
 
-Trust anchors and device-identity mechanisms can help bind identities, credentials, keys, measurements, or claims to hardware, firmware, secure components, or controlled execution environments.
+Use this page when you need to understand how trust anchors and device identity can support product acceptance, provenance, lifecycle state, verifier workflows, update eligibility, and retained assurance evidence.
 
-This option area is useful when a control depends on knowing which device, component, platform, secure service, or product instance produced evidence or is authorized to act.
+Trust anchors and device-identity mechanisms can help bind identities, credentials, keys, measurements, or claims to hardware, firmware, secure components, or controlled execution environments. They can make evidence easier to bind to a product, component, device, platform, or service, but they do not prove product acceptability, supplier trustworthiness, provenance, vulnerability status, or evidence sufficiency by themselves.
+
+This option area is useful when a control depends on knowing which device, component, platform, secure service, or product instance produced evidence or is authorized to act. Use [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md) for the acceptance decision, [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md) for a worked example, and [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md) when identity evidence must be consumed by verifier systems.
+
+This guidance supports supply chain assurance decisions; it is not legal, certification, or product-safety advice.
+
+## Use this page when
+
+- You need identity evidence for product acceptance, supplier assurance, provenance, lifecycle state, update eligibility, or verifier workflows.
+- A supplier claims a product uses a TPM, DICE, BIT, secure element, TEE, platform certificate, PKI, or silicon root of trust and you need to understand what that can support.
+- You need to know what an identity, credential, certificate, or trust-anchor claim is bound to and who can verify it.
+- You need to explain why identity evidence supports assurance but does not prove product trust by itself.
 
 ## What this option area is for
 
@@ -183,8 +194,22 @@ Verification should check whether the identity evidence is bound to the right pr
 
 ## Related pages
 
+Choose and interpret identity mechanisms:
+
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Glossary](../resources/glossary.md)
+
+Apply in acceptance and supplier decisions:
+
 - [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md)
-- [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
+- [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md)
 - [Supplier and Procurement Assurance](../practices-controls/supplier-assurance-procurement.md)
+
+Verify and exchange identity evidence:
+
+- [Attestation and Measured State](./attestation-measured-state.md)
+- [Evidence Exchange and Verifier Workflows](./evidence-exchange-verifier-workflows.md)
+
+Understand threat context:
+
+- [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)

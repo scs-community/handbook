@@ -5,9 +5,20 @@ sidebar_label: Secure Update and Recovery Mechanisms
 description: "Evaluate update and recovery mechanisms for secure delivery, rollback, repair, lifecycle monitoring, update evidence, and operational resilience."
 ---
 
-Update and recovery mechanisms can help deliver authorized changes, prevent unauthorized replacement, manage rollback and recovery paths, and retain evidence about what changed and why.
+Use this page when you need to understand how update and recovery mechanisms support update-chain trust, release governance, signing evidence, rollback, recovery, deployment evidence, and lifecycle monitoring.
 
-This option area is useful when a product, component, device, or platform needs post-release assurance across updates, emergency fixes, repair, recovery, and lifecycle-state changes.
+Update and recovery mechanisms can help deliver authorized changes, prevent unauthorized replacement, manage rollback and recovery paths, and retain evidence about what changed and why. They support assurance only when tied to release approval, update eligibility, deployment records, recovery validation, exception handling, and retained decisions.
+
+This option area is useful when a product, component, device, or platform needs post-release assurance across updates, emergency fixes, repair, recovery, and lifecycle-state changes. Use the [Secure Update Approval](../resources/worked-examples/secure-update-approval.md) example to see how update evidence can support an approve-with-exclusions decision.
+
+This guidance supports supply chain assurance decisions; it is not legal, certification, or product-safety advice.
+
+## Use this page when
+
+- You need to verify whether an update was authorized, signed, eligible, deployed, recoverable, and retained.
+- A supplier claims updates are secure, signed, recoverable, or monitored and you need evidence behind the claim.
+- Update failure, rollback, recovery, emergency patching, or regional exclusion needs a retained decision.
+- Update state must connect to product inventory, vulnerability status, lifecycle state, and customer or audit evidence.
 
 ## What this option area is for
 
@@ -157,9 +168,21 @@ Emerging CRA boot-manager guidance such as [ETSI EN 304 623: Boot Managers](../s
 
 ## Related pages
 
+Choose and design mechanisms:
+
 - [Choosing Technology Options](./choosing-technology-options.md)
 - [Signing, Keys, and Credentials](./signing-keys-credentials.md)
-- [Evidence Repositories, Logs, and Retention](./evidence-repositories-logs-retention.md)
-- [Evidence Package Template](../resources/evidence-package-template.md)
+
+Approve and review updates:
+
 - [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md)
+- [Secure Update Approval](../resources/worked-examples/secure-update-approval.md)
+- [Evidence Package Template](../resources/evidence-package-template.md)
+
+Retain update and recovery evidence:
+
+- [Evidence Repositories, Logs, and Retention](./evidence-repositories-logs-retention.md)
+
+Understand threat context:
+
 - [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md)

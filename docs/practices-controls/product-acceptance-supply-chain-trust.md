@@ -5,7 +5,20 @@ sidebar_label: Product Acceptance
 description: "Plan product acceptance decisions using evidence for identity, provenance, component state, vulnerabilities, updates, supportability, and residual risk."
 ---
 
-Product acceptance is where supply chain assurance becomes operational. Before a product, component, platform, firmware load, or supplier-provided service is deployed or integrated, the recipient needs enough evidence to decide whether it is genuine, expected, supportable, and in an acceptable trust state.
+Use this page when you need to decide whether a delivered product, component, platform, firmware load, or supplier-provided service can be accepted, rejected, quarantined, remediated, or accepted with conditions before deployment or integration.
+
+Product acceptance is the point where supply chain assurance becomes an operational trust decision. The recipient needs enough evidence to determine whether the delivered item is genuine, expected, supportable, tied to the right product or version, and in an acceptable trust state. That evidence may include identity, provenance, integrity, component transparency, vulnerability status, update history, lifecycle-state records, and retained acceptance decisions.
+
+This practice helps define the acceptance evidence baseline. Use the [Evidence Checklist](../resources/evidence-checklist.md) to review whether evidence is sufficient, and the [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md) to see a fictional accept-with-conditions decision.
+
+This guidance supports supply chain assurance decisions; it is not legal, certification, or product-safety advice.
+
+## Use this page when
+
+- You need evidence before accepting, quarantining, rejecting, remediating, or deploying a delivered item.
+- You need to define an acceptance baseline for later update, monitoring, repair, transfer, audit, or decommissioning decisions.
+- Supplier evidence is incomplete, stale, inconsistent, or hard to verify.
+- Product identity, provenance, firmware state, component visibility, vulnerability status, or update supportability affects the acceptance decision.
 
 This practice is commonly driven by procurement assurance, customer assurance, lifecycle governance, [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md), and [Software and Update-Chain Compromise](../standards-threats/threats/software-update-chain-compromise.md).
 
@@ -115,18 +128,29 @@ Relevant mappings may include Platform Certificates, TPM, DICE, Block Integrated
 
 ## Related pages
 
-- [Standards & Threats](../standards-threats/index.md)
-- [Threats and Failure Modes](../standards-threats/threats/index.md)
-- [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
-- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
-- [Supplier and Procurement Assurance](./supplier-assurance-procurement.md)
-- [Supplier Security Questions](../resources/supplier-security-questions.md)
+Define the acceptance baseline:
+
 - [Evidence Checklist](../resources/evidence-checklist.md)
 - [Evidence Maturity Model](../resources/evidence-maturity-model.md)
 - [Evidence Package Template](../resources/evidence-package-template.md)
+- [Lifecycle Map](./supply-chain-security-lifecycle-map.md)
+
+See worked examples:
+
 - [Product Acceptance Package](../resources/worked-examples/product-acceptance-package.md)
 - [Component Provenance Example](../resources/worked-examples/component-provenance-example.md)
+
+Verify mechanisms and evidence:
+
 - [Trust Anchors and Device Identity](../technology-options/trust-anchors-device-identity.md)
 - [Attestation and Measured State](../technology-options/attestation-measured-state.md)
 - [SBOM, VEX, and Component Visibility](../technology-options/sbom-vex-component-visibility.md)
 - [Secure Update and Recovery Mechanisms](../technology-options/secure-update-recovery-mechanisms.md)
+
+Understand context and adjacent practices:
+
+- [Standards & Threats](../standards-threats/index.md)
+- [Threats and Failure Modes](../standards-threats/threats/index.md)
+- [Product and Component Trust Failures](../standards-threats/threats/product-component-trust-failures.md)
+- [Supplier and Procurement Assurance](./supplier-assurance-procurement.md)
+- [Supplier Security Questions](../resources/supplier-security-questions.md)
