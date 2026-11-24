@@ -15,7 +15,7 @@ This page focuses only on the parts of CRA that drive supply chain security cont
 
 :::info[Source status]
 
-This page is based on Regulation (EU) 2024/2847 and related European Commission CRA guidance listed below. It was last reviewed against the linked official sources on 2026-07-01. It interprets supply chain security implications for this handbook and is not a complete legal compliance guide.
+This page is based on Regulation (EU) 2024/2847 and related European Commission CRA guidance listed below. It was last reviewed against the linked official sources on 24 November 2026. It interprets supply chain security implications for this handbook and is not a complete legal compliance guide.
 
 :::
 
@@ -26,8 +26,9 @@ Use the legal text for obligations and dates. Use guidance sources to interpret 
 - [Regulation (EU) 2024/2847, the Cyber Resilience Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847), as published in the Official Journal.
 - [Consolidated CRA text](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120), for easier article and annex citation.
 - [European Commission CRA FAQ](https://ec.europa.eu/newsroom/dae/redirection/document/122331), for implementation and transition questions.
+- [Commission CRA guidance, C(2026) 6013](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation), published on 27 July 2026, for non-binding guidance on scope, substantial modification, support periods, reporting obligations, and risk assessment.
 - [Implementing Regulation (EU) 2025/2392](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202502392), for technical descriptions of product categories in Annexes III and IV.
-- [BSI TR-03183](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1-0_9_0.pdf), as a practical technical guideline for cyber resilience requirements.
+- [BSI TR-03183](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html), as a practical technical guideline for cyber resilience requirements.
 
 ## Who should care
 
@@ -59,7 +60,7 @@ Use these dates for planning, not as legal advice:
 | Date | Planning significance |
 |---|---|
 | 2024-12-10 | CRA [entered into force](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_71). |
-| 2026-09-11 | Vulnerability and incident reporting duties begin for manufacturers under [Article 14](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_14). |
+| 2026-09-11 | Vulnerability and incident reporting duties for manufacturers apply from this date under [Article 14](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_14). |
 | 2027-12-11 | Main CRA requirements apply, including essential cybersecurity requirements, conformity assessment, technical documentation, and CE-marking obligations. |
 
 The most important planning point for this handbook is the support-period and lifecycle implication: product teams need ways to maintain visibility of components, vulnerabilities, updates, supplier inputs, and retained evidence after initial release.
@@ -77,7 +78,9 @@ It may interact with:
 
 ## Harmonized standards and presumption of conformity
 
-Harmonized standards may become important because they can provide a route to [presumption of conformity](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_27) for relevant CRA requirements. For supply chain security, that does not remove the need to understand the underlying evidence.
+Harmonized standards may become important because they can provide a route to [presumption of conformity](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_27) for relevant CRA requirements once their references are published in the Official Journal. For supply chain security, that does not remove the need to understand the underlying evidence.
+
+On 19 November 2026, CEN and CENELEC [announced the publication](https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-11-19-cra-standards-en-40000-1-1-and-en-40000-1-2/) of EN 40000-1-1 (vocabulary) and EN 40000-1-2 (principles, product risk management, and lifecycle activities), among the first standards developed under standardization request M/606 to support the CRA. Further standards for detailed requirements, vulnerability handling, and specific product categories are still being developed. The announcement does not state that their references have been published in the Official Journal, so do not treat them as giving presumption of conformity on that basis.
 
 Even where a standard supports conformity, product teams and suppliers may still need to show which controls operate, which products or components are covered, which evidence is retained, and how updates or vulnerability decisions are handled during the support period.
 

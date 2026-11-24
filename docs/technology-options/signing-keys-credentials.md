@@ -28,7 +28,7 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 | Design and sourcing | Define key roles, signing boundaries, and credential expectations |
 | Build and release | Sign release candidates, release artifacts, evidence packages, or provenance records |
 | Acceptance | Verify signatures, certificate chains, authorization, and product/version binding |
-| Update and recovery | Authorise updates, recovery images, rollback controls, and emergency release paths |
+| Update and recovery | Authorize updates, recovery images, rollback controls, and emergency release paths |
 | Audit and decommissioning | Retain key-use records, revoke credentials, retire keys, and explain historical signatures |
 
 ## Options covered
@@ -36,7 +36,7 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 ### Code, firmware, update, and evidence signing
 
 [CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
-[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=18)
+[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=19)
 
 Signing can protect the integrity and origin of code, firmware, update packages, evidence records, and verifier results. In this handbook, a signature is useful when the verifier can connect it to the right signing authority, approval policy, artifact scope, and lifecycle decision.
 
@@ -52,12 +52,12 @@ Signing assurance depends on the concrete format, key type, certificate profile,
 
 ### Key management and hardware-backed key protection
 
-[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=18)<br/>
+[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=19)<br/>
 [CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)
 
 Key management and hardware-backed key protection control how sensitive keys are generated, stored, used, rotated, revoked, and retired. In this handbook, key protection supports assurance only when key use is governed, logged, and tied to the relevant release, update, identity, or evidence workflow.
 
-Hardware-backed protection may involve an HSM, secure element, TPM, cloud KMS, platform enclave, or product-specific key store. Examples include [Thales Luna](https://cpl.thalesgroup.com/encryption/hardware-security-modules) or [Utimaco HSMs](https://utimaco.com/products/hardware-security-modules), [YubiHSM](https://www.yubico.com/product/yubihsm-2/), [AWS KMS](https://aws.amazon.com/kms/), [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault), [Google Cloud KMS](https://cloud.google.com/security/products/security-key-management), or a product-integrated secure element. These are not interchangeable without understanding the implementation, access model, certification or assurance claims, backup/recovery behavior, and audit logging.
+Hardware-backed protection may involve an HSM, secure element, TPM, cloud KMS, platform enclave, or product-specific key store. Examples include [Thales Luna](https://cpl.thalesgroup.com/encryption/hardware-security-modules) or [Utimaco HSMs](https://utimaco.com/data-protection/gp-hsm), [YubiHSM](https://www.yubico.com/product/yubihsm-2/), [AWS KMS](https://aws.amazon.com/kms/), [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault), [Google Cloud KMS](https://cloud.google.com/security/products/security-key-management), or a product-integrated secure element. These are not interchangeable without understanding the implementation, access model, certification or assurance claims, backup/recovery behavior, and audit logging.
 
 - **Assurance role:** Protects keys used for identity, release signing, update authorization, attestation, evidence signing, or credential issuance.
 - **Evidence supported:** Key lifecycle records, key-use logs, rotation records, approval records, and revocation or retirement evidence.
@@ -83,7 +83,7 @@ Credential assurance depends on the concrete profile and ecosystem. X.509 certif
 
 ### Signing authority separation
 
-[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=18)
+[SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=19)
 
 Signing authority separation limits who can sign different classes of builds, releases, updates, recovery images, evidence records, or emergency fixes. In this handbook, separation helps reduce misuse risk when it is backed by role governance, approval records, monitoring, and exception handling.
 

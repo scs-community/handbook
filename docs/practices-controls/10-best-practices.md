@@ -24,7 +24,7 @@ This guidance supports supply chain assurance decisions; it is not legal, certif
 | 4 | Maintain transparency artifacts | Unknown software, firmware, hardware, or dependency composition | SBOM, component record, vulnerability status |
 | 5 | Verify integrity and configuration claims | Unauthorized firmware, software, boot, or configuration state | Reference measurements, manifests, attestation results |
 | 6 | Protect credentials, keys, and trust anchors | Cloned, extracted, stale, or wrongly issued credentials | Issuance record, key record, revocation record |
-| 7 | Authorise, record, and recover updates | Unauthorized, incomplete, or unrecoverable updates | Update approval, signing record, recovery evidence |
+| 7 | Authorize, record, and recover updates | Unauthorized, incomplete, or unrecoverable updates | Update approval, signing record, recovery evidence |
 | 8 | Track vulnerabilities and remediation evidence | Vulnerabilities not tied to products or decisions | Vulnerability record, affected-product analysis, remediation plan |
 | 9 | Retain and reuse evidence | Evidence is stale, unavailable, or unusable later | Evidence registry, lifecycle records, verifier logs |
 | 10 | Map standards and technologies cautiously | Standards ignored, overclaimed, or treated as mandates | Mapping matrix, source references, confidence rating |
@@ -219,7 +219,7 @@ Credentials and trust anchors can strengthen assurance only if their issuance, b
 
 </details>
 
-## 7. Authorise, record, and recover updates
+## 7. Authorize, record, and recover updates
 
 Updates change product state after acceptance, so approval, signing, delivery, installation, rollback, and recovery evidence must remain reviewable.
 
@@ -351,10 +351,10 @@ If you arrived with a decision rather than a practice number, use this crosswalk
 |---|---|
 | Qualify, renew, or review a supplier | [2](#2-preserve-provenance-and-chain-of-custody-evidence), [3](#3-define-lifecycle-trust-assumptions-and-responsibilities), [4](#4-request-and-maintain-transparency-artifacts-for-software-firmware-and-components), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions), [10](#10-map-practices-to-standards-and-technology-choices-without-treating-them-as-mandates) |
 | Accept a connected product or component | [1](#1-establish-and-verify-device-component-and-platform-identity), [2](#2-preserve-provenance-and-chain-of-custody-evidence), [4](#4-request-and-maintain-transparency-artifacts-for-software-firmware-and-components), [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [6](#6-protect-provisioning-credentials-keys-and-trust-anchors), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
-| Approve a software or firmware update | [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [7](#7-authorise-record-and-recover-updates), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
-| Respond to a vulnerability | [4](#4-request-and-maintain-transparency-artifacts-for-software-firmware-and-components), [7](#7-authorise-record-and-recover-updates), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
+| Approve a software or firmware update | [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [7](#7-authorize-record-and-recover-updates), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
+| Respond to a vulnerability | [4](#4-request-and-maintain-transparency-artifacts-for-software-firmware-and-components), [7](#7-authorize-record-and-recover-updates), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions) |
 | Prepare audit or customer evidence | [3](#3-define-lifecycle-trust-assumptions-and-responsibilities), [8](#8-track-vulnerabilities-exposure-decisions-and-remediation-evidence), [9](#9-retain-and-reuse-evidence-across-lifecycle-decisions), [10](#10-map-practices-to-standards-and-technology-choices-without-treating-them-as-mandates) |
-| Choose implementation mechanisms | [1](#1-establish-and-verify-device-component-and-platform-identity), [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [6](#6-protect-provisioning-credentials-keys-and-trust-anchors), [7](#7-authorise-record-and-recover-updates), [10](#10-map-practices-to-standards-and-technology-choices-without-treating-them-as-mandates) |
+| Choose implementation mechanisms | [1](#1-establish-and-verify-device-component-and-platform-identity), [5](#5-verify-integrity-and-configuration-claims-using-trustworthy-evidence), [6](#6-protect-provisioning-credentials-keys-and-trust-anchors), [7](#7-authorize-record-and-recover-updates), [10](#10-map-practices-to-standards-and-technology-choices-without-treating-them-as-mandates) |
 
 ## How to use this page with the rest of the handbook
 

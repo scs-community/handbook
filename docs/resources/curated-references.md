@@ -33,7 +33,7 @@ This page is not a live standards catalog. Keep it stable, useful, and maintaina
 | [ENISA Threat Landscape for Supply Chain Attacks](https://www.enisa.europa.eu/publications/threat-landscape-for-supply-chain-attacks) | Attack/failure mode context and threat examples | Cite publication page/date when used |
 | [UK NCSC Supply Chain Security Guidance](https://www.ncsc.gov.uk/collection/supply-chain-security) | Supplier assurance, supply-chain principles, and assessment practices | Use page version/review date where available |
 | [CISA SBOM topic page](https://www.cisa.gov/topics/information-communications-technology-supply-chain-security/sbom) | SBOM policy, adoption, and operationalization context | Use page and resource dates where available |
-| [CISA 2025 Minimum Elements for SBOM](https://www.cisa.gov/resources-tools/resources/2025-minimum-elements-software-bill-materials-sbom) | SBOM minimum elements and software transparency expectations | Draft guidance, published 2025-08-22 |
+| [CISA 2026 Minimum Elements for SBOM](https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom) | SBOM minimum elements and software transparency expectations | Joint guidance with NSA, FBI, and international partners, published 2026-07-29; updates and replaces the 2021 NTIA minimum elements |
 
 ## Evidence structures and attestation
 
@@ -42,10 +42,10 @@ This page is not a live standards catalog. Keep it stable, useful, and maintaina
 | [IETF RATS Working Group](https://datatracker.ietf.org/wg/rats/about/) | Remote attestation architecture and evidence model context | Cite exact RFC or Internet-Draft |
 | [Entity Attestation Token RFC information](https://www.rfc-editor.org/info/rfc9782/) | EAT media types and links to EAT-related RFCs | RFC 9782; also cite EAT RFC used |
 | [IETF CoRIM Internet-Draft](https://datatracker.ietf.org/doc/draft-ietf-rats-corim/) | CoRIM/CoMID reference values and endorsements | Draft status; cite revision number |
-| [TCG Platform Certificate Profile 2.1](https://trustedcomputinggroup.org/wp-content/uploads/TCG_Platform_Certificate_Profile_2.1_Pub.pdf) | Platform identity and composition claims | Version 2.1 |
-| [TCG DICE Certificate Profiles v1.1](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Certificate-Profiles-v1.1_pub.pdf) | DICE certificate profiles and identity/attestation certificates | Version 1.1, 2025-04-24 |
-| [TCG DICE Attestation Architecture v1.2](https://trustedcomputinggroup.org/wp-content/uploads/DICE-Attestation-Architecture-v1.2_pub.pdf) | DICE attestation architecture and certificate extensions | Version 1.2 |
-| [TCG Block Integrated Trust](https://trustedcomputinggroup.org/work-groups/mars/) | Lightweight hardware root-of-trust capabilities for constrained device identity, measurement storage, and measurement reporting | Cite the public page and the exact BIT specification, profile, or implementation scope used |
+| [TCG Platform Certificate Profile 2.1](https://www.trustedcomputinggroup.org/resources/documents/tcg-platform-certificate-profile) | Platform identity and composition claims | Version 2.1, 2026-01-27 |
+| [TCG DICE Certificate Profiles v1.1](https://www.trustedcomputinggroup.org/resources/documents/dice-certificate-profiles) | DICE certificate profiles and identity/attestation certificates | Version 1.1, 2025-04-24 |
+| [TCG DICE Attestation Architecture v1.2](https://www.trustedcomputinggroup.org/resources/documents/dice-attestation-architecture) | DICE attestation architecture and certificate extensions | Version 1.2, 2025-04-24; errata v1.0 r1, 2026-01-29 |
+| [TCG Block Integrated Trust](https://www.trustedcomputinggroup.org/work-groups/bit) | Lightweight hardware root-of-trust capabilities for constrained device identity, measurement storage, and measurement reporting | Cite the public page and the exact BIT specification, profile, or implementation scope used |
 
 ## Transparency artifacts
 
@@ -61,11 +61,11 @@ This page is not a live standards catalog. Keep it stable, useful, and maintaina
 |---|---|---|
 | [DMTF SPDM standards page](https://www.dmtf.org/standards/spdm) | SPDM overview and links to related specifications | Cite exact DSP version used |
 | [DMTF DSP0274 SPDM 1.4.0](https://www.dmtf.org/sites/default/files/standards/documents/DSP0274_1.4.0.pdf) | Security Protocol and Data Model messages, data objects, and sequences | Version 1.4.0, 2025-05-15 document date |
-| [Draft ETSI EN 304 623 V0.1.3](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf) | CRA boot-manager security requirements, including boot trust, update, rollback, debug, and evidence considerations | Interim draft, 2026-06; cite final published text if it changes |
+| [Draft ETSI EN 304 623 V0.1.3](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf) | CRA boot-manager security requirements, including boot trust, update, rollback, debug, and evidence considerations | Draft submitted for the combined Public Enquiry and Vote phase, 2026-06; cite final published text if it changes |
 | [GlobalPlatform specification library](https://globalplatform.org/specs-library/) | GlobalPlatform TEE, Secure Element, and related specifications | Cite exact document ID and version |
 | [GlobalPlatform TEE System Architecture v1.3](https://globalplatform.org/specs-library/tee-system-architecture/) | TEE architecture context | GPD_SPE_009, published 2022-05 |
 | [GlobalPlatform TEE Secure Element API v1.1.2](https://globalplatform.org/specs-library/tee-secure-element-api/) | TEE to Secure Element API context | GPD_SPE_024, published 2021-02 |
-| [OCP S.A.F.E. program](https://www.opencompute.org/sp/about-ocp-safe) | Hardware and firmware security appraisal context | Cite current program page and repository references |
+| [OCP S.A.F.E. program](https://www.opencompute.org/sp/about-ocp-safe/) | Hardware and firmware security appraisal context | Cite current program page and repository references |
 | [OCP S.A.F.E. GitHub repository](https://github.com/opencomputeproject/OCP-Security-SAFE) | OCP S.A.F.E. framework, reports, and process documents | Cite commit, file, or release where appropriate |
 | [Caliptra project documentation](https://chipsalliance.github.io/Caliptra/) | Open silicon root-of-trust project context | Cite exact project documentation or specification referenced |
 

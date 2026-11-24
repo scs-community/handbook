@@ -47,7 +47,7 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 ### Signed and authorized updates
 
 [CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
-[EN 304 623 § 5.2](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=84)
+[EN 304 623 § 5.5](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=40)
 
 Signed and authorized update mechanisms help recipients verify that an update package came from an expected authority and has not changed unexpectedly. In this handbook, signed updates support assurance only when they are connected to release approval, eligibility checks, deployment evidence, and exception handling.
 
@@ -79,7 +79,7 @@ Eligibility can be implemented in fleet tooling, device agents, update services,
 
 ### Recovery and rollback controls
 
-[EN 304 623 § 5.2](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=84)
+[EN 304 623 § 5.5](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=40)
 
 Recovery and rollback controls help return a product or component from a failed, compromised, or unsuitable state to a controlled state. In this handbook, recovery evidence is useful when it shows what state was restored, who approved it, and whether rollback risk was managed.
 

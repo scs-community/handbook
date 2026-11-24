@@ -54,7 +54,7 @@ Repository assurance depends on the implemented architecture, metadata model, ac
 ### Verifier and appraisal logs
 
 [CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>
-[SP 800-161 SR-6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1-upd1.pdf#page=171)
+[SP 800-161 SR-6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1-upd1.pdf#page=173)
 
 Verifier and appraisal logs preserve what evidence was checked, which policy was applied, and what result was produced. In this handbook, logs help make verifier decisions reviewable, but they do not prove that the verifier policy or evidence inputs were sufficient.
 

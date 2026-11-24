@@ -80,7 +80,7 @@ SBOM and xBOM distribution can use different formats, portals, APIs, repositorie
 ### Verifier policies and application programming interfaces (APIs)
 
 [CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>
-[SP 800-161 SR-6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1-upd1.pdf#page=171)
+[SP 800-161 SR-6](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1-upd1.pdf#page=173)
 
 Verifier policies and application programming interfaces (APIs) define how evidence is requested, appraised, transformed into a result, and exposed to relying parties. In this handbook, they are useful when teams need consistent appraisal behavior and decision records across products, suppliers, or lifecycle events.
 
