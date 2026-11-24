@@ -196,6 +196,8 @@ The footer can expose more of the sitemap than the header. It should help reader
 
 Footer links should still avoid making standards-body names the organizing principle. Link to standards roles, practices, evidence needs, and technology-option roles first, then to specific technologies or standards within those pages.
 
+Below the link columns, the footer has a single copyright line naming the Supply Chain Security Handbook contributors and linking the CC BY-SA 4.0 license, which matches [LICENSE](./LICENSE).
+
 ## Resources Rule
 
 Resources should not become a catch-all archive. They should remain the small practical toolkit that helps readers act:

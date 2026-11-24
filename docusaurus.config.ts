@@ -55,6 +55,7 @@ const config: Config = {
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
+            copyright: `Copyright © ${new Date().getFullYear()} Supply Chain Security Handbook contributors. CC BY-SA 4.0.`,
           },
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -357,7 +358,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Supply Chain Security Handbook contributors. Licensed under CC BY-SA 4.0.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Supply Chain Security Handbook contributors. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.`,
     },
     prism: {
       theme: prismThemes.github,

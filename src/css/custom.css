@@ -51,6 +51,12 @@
   --ifm-footer-link-color: #f5fcfd;
 }
 
+/* The copyright line's license link sits on Deep Teal in both modes, so it uses the footer link color, underlined */
+.footer__copyright a {
+  color: var(--ifm-footer-link-color);
+  text-decoration: underline;
+}
+
 .scs-card-grid {
   display: grid;
   gap: 1rem;

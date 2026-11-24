@@ -49,6 +49,8 @@ npm run typecheck
 npm run build
 ```
 
+The GitHub Actions workflow runs the same two commands on every pull request and on every push to `main`, and deploys only from `main` when both pass.
+
 ## Submission Checklist
 
 - [ ] Content follows the style guide.
@@ -59,6 +61,10 @@ npm run build
 - [ ] Page avoids legal or compliance-authority claims.
 - [ ] Page links to related standards and threats, practices and controls, technology options, or resources.
 
+## Security
+
+Report security vulnerabilities privately as described in [SECURITY.md](SECURITY.md), not in a public issue. Errors in the guidance itself, such as a superseded standard version or a misstated date, belong in a public issue with a link to the primary source.
+
 ## License
 
-By contributing, you agree that your contributions will be licensed under the same license as the project.
+By contributing, you agree that your contributions are licensed under the same [CC BY-SA 4.0](LICENSE) license as the rest of the project.
