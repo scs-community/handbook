@@ -122,7 +122,9 @@ Do not publish:
 
 ### File And Front Matter
 
-Name files `blog/YYYY-MM-DD-short-slug.md`, using the publication date.
+Name files `blog/YYYY-MM-DD-short-slug.md`, always using the source date, even when the post is written later. The source date is the primary source's publication date or, for a scheduled event such as an obligation starting or a certificate expiring, the date the event takes effect. Posts therefore sort by when the event happened, and retrospective posts slot into the timeline where they belong. If the source has no single date (for example, a multi-day incident), use the date of the first authoritative report.
+
+Write a retrospective post as of its source date. Its body should not rely on facts that came out later. If a later development matters, put it in an update note (see [Updates And Corrections](#updates-and-corrections)), dated on the day you add it.
 
 ```yaml
 ---

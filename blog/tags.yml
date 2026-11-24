@@ -87,3 +87,8 @@ vulnerability-response:
   label: Vulnerability Response
   description: Posts about vulnerability handling, remediation, and response evidence.
   permalink: /vulnerability-response
+
+firmware:
+  label: Firmware
+  description: Posts about firmware, boot, and platform supply-chain assurance.
+  permalink: /firmware
