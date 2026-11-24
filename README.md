@@ -14,6 +14,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 - [Practices & Controls](docs/practices-controls/index.md) - Applied supply-chain-security practices, controls, lifecycle assurance, and the 10 best practices synthesis
 - [Technology Options](docs/technology-options/index.md) - Role-based technology interpretation for trust anchors, attestation, transparency artifacts, signing, updates, exchange, repositories, logs, and retention
 - [Resources](docs/resources/index.md) - Supplier questions, evidence checklist, evidence maturity model, evidence package template, worked examples, standards and technology mapping workflow, glossary, and curated references
+- [Periodic Review](periodic-review.md) - Monthly review of sources, accuracy, consistency, relevance, and site health
 - [Contributing](CONTRIBUTING.md) - Contribution workflow and submission checklist
 
 ## Installation
