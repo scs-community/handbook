@@ -7,13 +7,13 @@ description: "Force-pushed Trivy action tags and a malicious v0.69.4 release sho
 
 On 21 March 2026, the Trivy maintainers at Aqua Security published advisory GHSA-69fq-xp46-6x23 (CVE-2026-33634), rated critical. It states that "On March 19, 2026, a threat actor used compromised credentials to publish a malicious Trivy v0.69.4 release," force-pushed 76 of 77 version tags in `aquasecurity/trivy-action` to credential-stealing malware, and replaced all 7 tags in `aquasecurity/setup-trivy` with malicious commits. A maintainer announcement in the Trivy repository, "Trivy Security incident 2026-03-19", was posted on 20 March 2026.
 
-The advisory gives exposure windows on 19 and 20 March (UTC) of about 3 hours for the v0.69.4 binaries and images, about 12 hours for `trivy-action`, and about 4 hours for `setup-trivy`. It describes the root cause as the continuation of an incident first disclosed on 1 March, after which "credential rotation was performed but was not atomic (not all credentials were revoked simultaneously)." The advisory says the attacker could have used a still-valid token to exfiltrate newly rotated secrets during that window.
+The advisory describes the root cause as the continuation of an incident first disclosed on 1 March, after which "credential rotation was performed but was not atomic (not all credentials were revoked simultaneously)." The advisory says the attacker could have used a still-valid token to exfiltrate newly rotated secrets during that window.
 
 {/* truncate */}
 
 :::note[Updated 24 November 2026]
 
-The advisory was later updated to add malicious Trivy v0.69.5 and v0.69.6 images, which it says were pushed directly to Docker Hub on 22 March 2026 using separately compromised Docker Hub credentials, with no matching GitHub tags or releases. See the [advisory](https://github.com/advisories/GHSA-69fq-xp46-6x23). The analysis below is written as of 21 March 2026.
+The advisory was later updated to add malicious Trivy v0.69.5 and v0.69.6 images, which it says were pushed directly to Docker Hub on 22 March 2026 using separately compromised Docker Hub credentials, with no matching GitHub tags or releases. The advisory as revised (last updated 30 March 2026) also gives exposure windows on 19 and 20 March (UTC) of about 3 hours for the v0.69.4 binaries and images, about 12 hours for `trivy-action`, and about 4 hours for `setup-trivy`. It notes that pinning `trivy-action` to a commit from before 9 April 2025 could still pull a malicious `setup-trivy`, and that the malware could create a public `tpcp-docs` repository on a victim's account to hold stolen data, so finding one is a sign of compromise. See the [advisory](https://github.com/advisories/GHSA-69fq-xp46-6x23). The analysis below is written as of 21 March 2026.
 
 :::
 
@@ -70,7 +70,7 @@ The [Software and Update-Chain Compromise](/standards-threats/threats/software-u
 
 | Evidence | What it can support | What it does not show |
 |---|---|---|
-| Workflow files that pin actions to full commit SHAs | The pipeline runs a specific, reviewed commit rather than whatever a tag points to | That the pinned commit was safe; the advisory notes that pinning to an old `trivy-action` commit could still pull a malicious `setup-trivy` |
+| Workflow files that pin actions to full commit SHAs | The pipeline runs a specific, reviewed commit rather than whatever a tag points to | That the pinned commit was safe, or that the actions it calls are pinned too |
 | Image digests and immutable-release records | The artifact consumed is the one that was published and cannot be silently replaced | That the original release was authorized |
 | Signature verification against an expected signer identity | The artifact was signed by the expected workflow identity at a known time | That the build inputs were trustworthy |
 | Credential inventory and rotation records | Which secrets existed, when each was revoked, and when replacements were issued | That no still-valid token was used during the rotation window |
@@ -108,10 +108,9 @@ Stronger answer:
 
 For teams that ran an affected version, the advisory's actions translate into records worth keeping:
 
-- which workflows referenced `trivy-action` or `setup-trivy`, by tag or SHA, and which runs executed on 19 and 20 March 2026;
+- which workflows referenced `trivy-action` or `setup-trivy`, by tag or SHA, and which runs executed during the exposure window;
 - whether Trivy v0.69.4 was pulled or run from any source, and where it was removed;
 - the list of secrets each affected pipeline could reach, and the date each was rotated;
-- the results of searching your GitHub organization for repositories named `tpcp-docs`, which the advisory says may indicate stolen secrets;
 - the replacement pins and the review that approved them.
 
 The [Vulnerability Response Evidence](/resources/worked-examples/vulnerability-response-evidence/) worked example shows how these records fit into a complete response package.

@@ -89,6 +89,8 @@ Signing authority separation limits who can sign different classes of builds, re
 
 Separation can be implemented through different tooling and operating models, from role-based signing services to dedicated HSM partitions or emergency signing workflows. Examples include [Sigstore cosign](https://github.com/sigstore/cosign) keyless signing with CI/CD identity, GitHub Actions OIDC-based signing workflows, and admission or deployment enforcement using [Sigstore policy-controller](https://docs.sigstore.dev/policy-controller/overview/). The evidence should show the actual control path, not just a statement that duties are separated.
 
+Keyless signing and provenance show which identity and workflow published an artifact, not that the artifact is safe. In the TanStack npm compromise, the maintainers wrote that npm provenance, SLSA, OIDC, and 2FA "all worked as advertised and still didn't stop this attack", because a legitimate workflow was made to publish malicious code ([TanStack follow-up](https://tanstack.com/blog/incident-followup)). Treat provenance as evidence about the publishing path, and review what the workflow can be made to build.
+
 - **Assurance role:** Separates who can sign builds, releases, updates, recovery images, evidence records, or emergency fixes.
 - **Evidence supported:** Approval records, signing event logs, role assignments, emergency signing records, and exception approvals.
 - **Lifecycle fit:** Build, release, update, recovery, audit, incident response, and decommissioning.

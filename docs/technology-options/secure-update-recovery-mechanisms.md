@@ -32,6 +32,8 @@ Update and recovery mechanisms may support:
 
 They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../practices-controls/secure-updates-lifecycle-monitoring.md), [Secure Development and Release Governance](../practices-controls/secure-development-release-governance.md), [Software Component and Vulnerability Management](../practices-controls/software-components-vulnerability-management.md), and [Product Acceptance](../practices-controls/product-acceptance-supply-chain-trust.md).
 
+For a threat-and-control view of the whole update life cycle, see ENISA's [Technical Advisory on Secure Update Mechanisms](https://www.enisa.europa.eu/publications/enisa-technical-advisory-on-secure-update-mechanisms) (October 2026), written for manufacturers of products with digital elements.
+
 ## Where it fits
 
 | Lifecycle stage | How it may help |
