@@ -4,16 +4,19 @@ This guide covers how the handbook is kept accurate, current, and useful. Once a
 
 - [purpose-and-positioning.md](./purpose-and-positioning.md): mission, audience, and content model.
 - [style-guide.md](./style-guide.md): sourcing, dates, and news posts.
-- [navigation-structure.md](./navigation-structure.md): placement, routes, and linking.
+- [navigation-structure.md](./navigation-structure.md): placement, routes, sidebars, and reader journeys.
+- [brand-guidelines.md](./brand-guidelines.md): visual identity.
+- [entry-page-seo-strategy.md](./entry-page-seo-strategy.md): entry pages and search.
 
-**Status**: Proposed on 24 November 2026; not yet run.
+**Status**: In use. First run: November 2026 ([reviews/2026-11.md](./reviews/2026-11.md)).
 
 ## Principles
 
 - **Full, every month**: Every run reviews every doc page and every source cited in `docs/`. Nothing is skipped because it was fine last month. The only thing carried forward between runs is the previous report: its date, the developments it already recorded, and any sources it could not verify.
 - **Derived, not maintained**: Each run builds the source list from the pages, so the list cannot drift from what is published. The watchlist is also derived from the publishers the handbook already cites, plus a short fixed list of core bodies and incident sources, so that the review can find what the handbook does not yet cover.
 - **Unverified is a status, not a pass**: A source that cannot be fetched is recorded as could not verify, with the reason. It is never counted as confirmed or as broken.
-- **Correctness is fixed, relevance is proposed**: The run corrects what is wrong or out of date. Changes to guidance, structure, or the reader journeys are written up as proposals for a maintainer to decide.
+- **The run decides**: The run corrects what is wrong or out of date. It also makes the relevance changes it judges necessary, under the guide that owns each kind of change, and records every decision with its reason, including decisions not to change something. It does not leave proposals for a maintainer. The maintainer reviews the result as a pull request.
+- **Guides set the limits**: The run works within the maintainer guides and does not edit them. If a guide seems to stand in the way of a needed change, the run records that in the report's decisions, with the reason, rather than working around the guide.
 - **Obligations are flagged**: Any change the run makes to a legal or regulatory obligation, date, or scope (for example, under the CRA or NIS2) is listed separately in the report, so the reviewer checks it explicitly rather than finding it in the diff.
 
 ## Rules This Review Applies
@@ -160,13 +163,24 @@ Read each section as its audience would, against the developments found in quest
 - Does a recent incident expose a failure mode that the threat pages or practice pages do not cover?
 - Is there a standard, regulation, technology, or authority that readers now meet and the handbook does not cover?
 
-Write each answer that calls for change as a proposal in the report, with its reason and the source behind it. Do not make the change in the run.
+For each answer that calls for change, decide and act:
+
+- **Make the change** when the owning guide supports it: content scope and audience under [purpose-and-positioning.md](./purpose-and-positioning.md); placement, routes, sidebars, and reader journeys under [navigation-structure.md](./navigation-structure.md); wording, sourcing, and posts under [style-guide.md](./style-guide.md); visual changes under [brand-guidelines.md](./brand-guidelines.md); entry pages under [entry-page-seo-strategy.md](./entry-page-seo-strategy.md).
+- **Decline the change** when the evidence is thin, the source cannot be verified, or the cost to readers (moved pages, broken bookmarks, churn) outweighs the gain.
+
+Record every decision in the report: what was considered, what was decided, the reason, the source, and the pages changed. Apply the same-change rule, so that a relevance change reaches every page that states the same thing.
 
 ### 6. Is the Site Healthy?
 
 Run `npm run typecheck` and `npm run build`. The build fails on broken internal links (`onBrokenLinks: 'throw'`). Broken anchors and broken Markdown links only warn, so record every build warning in the report. Also run `npm outdated` and `npm audit`.
 
-Apply patch and minor dependency updates only if both checks still pass afterwards. Record major updates and security advisories as proposals.
+Apply dependency updates and keep each one only if both checks still pass:
+
+1. Apply all patch and minor updates together, plus `npm audit fix`. If the checks fail, revert them and retry one package at a time.
+2. Apply each major update on its own, and read the release notes for breaking changes first. If the checks fail and the fix is not small, revert it.
+3. Never run `npm audit fix --force` or accept a downgrade to clear an advisory.
+
+Record every update kept and reverted, with the reason for each revert, and any advisory that remains with why it could not be fixed.
 
 ## Fetching Sources
 
@@ -183,22 +197,22 @@ Some publishers block automated requests, and which ones do varies by run and by
 - **Use the issuer's own alternative route**: Some issuers offer another official route to the same facts, such as a publication listing, a CELEX or ELI record on EUR-Lex, a DOI record, the NIST CSRC publication page, or an IETF Datatracker page. Confirming through such a route counts. A third-party copy, cache, or archive does not.
 - **Paywalled standards**: For standards sold through a webstore (IEC, ISO), the publication page's edition, date, and status are the facts to confirm. Do not try to obtain the full text.
 - **Hand-check afterwards**: After the goal finishes, a maintainer opens each could-not-verify source in a browser. Claude records the result in the report as confirmed, updated, replaced, or withdrawn, with "checked by hand" in its note. Anything still unverified stays so.
-- **Escalate what stays unverified**: List any source that could not be verified in two consecutive reports at the top of the next report. Look for another official copy from the same issuer. If none can be checked, add a proposal to reword the claim so that it no longer depends on that source, or to remove it. Do not add a "last confirmed" date to the page.
+- **Escalate what stays unverified**: List any source that could not be verified in two consecutive reports at the top of the next report. Look for another official copy from the same issuer. If none can be checked, reword the claim so that it no longer depends on that source, or remove it, and record the decision. Do not add a "last confirmed" date to the page.
 
 ## Running the Review
 
 1. Start Claude Code in the repository on an up-to-date `main`, in auto mode, so that permission prompts do not stop the run.
 2. Paste the goal below, replacing `YYYY-MM` with the year and month of the run.
 3. When the goal ends, read the closing summary and the report. Then hand-check the could-not-verify sources, and ask Claude to record the results in the report.
-4. Decide the proposals, review the diff (checking each flagged obligation change against its source), then push the branch and open a pull request yourself.
+4. Review the diff and the decisions, checking each flagged obligation change against its source. Revert any decision you disagree with, then push the branch and open a pull request yourself.
 
 ### The Goal
 
 ```text
-/goal The YYYY-MM periodic review in periodic-review.md is complete. Steps: (1) Create branch review/YYYY-MM from main before any edit. (2) Create reviews/YYYY-MM.md with the six sections in periodic-review.md and fill each section as you work, so the report is the record if the session compacts or resumes. (3) Build the source list with the command in periodic-review.md and give every listed source exactly one status (confirmed, updated, replaced, withdrawn, or could not verify with a reason), fetching politely and never bypassing bot protection. (4) Check the watchlist in periodic-review.md for developments since the last report. (5) Review every page under docs/, split by sidebar section across subagents if useful; fix what is wrong, out of date, or inconsistent, list every change to a legal or regulatory obligation or date separately in the report, and record relevance changes as proposals without making them. (6) Write any news posts and update notes that new developments need, following style-guide.md. (7) Run npm run typecheck and npm run build, and fix failures. (8) Confirm the current branch is review/YYYY-MM, then commit all changes. Do not push. Done when your final message, in one turn, shows: the branch name; the number of sources listed and the count for each status; doc pages reviewed out of the total; the number of new developments, page changes, flagged obligation changes, posts, and proposals; both commands with exit code 0 from this session; and the commit hash. Stop and report what remains if not done after 40 turns.
+/goal The YYYY-MM periodic review in periodic-review.md is complete. Steps: (1) Create branch review/YYYY-MM from main before any edit. (2) Create reviews/YYYY-MM.md with the sections in periodic-review.md and fill each section as you work, so the report is the record if the session compacts or resumes. (3) Build the source list with the command in periodic-review.md and give every listed source exactly one status (confirmed, updated, replaced, withdrawn, or could not verify with a reason), fetching politely and never bypassing bot protection. (4) Check the watchlist in periodic-review.md for developments since the last report. (5) Review every page under docs/, split by sidebar section across subagents if useful; fix what is wrong, out of date, or inconsistent, make the relevance changes you judge necessary under the guide that owns each, record every decision with its reason, and list every change to a legal or regulatory obligation or date separately. (6) Write any news posts and update notes that new developments need, following style-guide.md. (7) Apply dependency updates as periodic-review.md describes, reverting any that fail. Run npm run typecheck and npm run build, and fix failures. (8) Confirm the current branch is review/YYYY-MM, then commit all changes. Do not push. Done when your final message, in one turn, shows: the branch name; the number of sources listed and the count for each status; doc pages reviewed out of the total; the number of new developments, page changes, flagged obligation changes, posts, relevance decisions, and dependency updates kept and reverted; both commands with exit code 0 from this session; and the commit hash. Stop and report what remains if not done after 40 turns.
 ```
 
-The goal stays under the 4,000-character limit. The evaluator that decides whether a goal is met reads only the conversation, not files, so the final message must show the evidence itself. The goal has not been tested yet. Adjust it here after the first run.
+The goal stays under the 4,000-character limit. The evaluator that decides whether a goal is met reads only the conversation, not files, so the final message must show the evidence itself. The first run used an earlier version of this goal that left relevance changes as proposals; this version has not been run yet. Adjust it here after its first run.
 
 ## The Report
 
@@ -208,7 +222,8 @@ Each run writes `reviews/YYYY-MM.md`, which is the review log. The report is not
 2. Any sources that could not be verified in the previous report as well as this one.
 3. The changes to legal or regulatory obligations and dates, each with its source, for the reviewer to check.
 4. One section for each of the six questions. Sources go in a table of URL, citing pages, status, and note. Pages are listed by sidebar section.
-5. The proposals, each with its reason and source, for a maintainer to decide.
-6. The hand-check results, added after the goal ends.
+5. The relevance decisions, each with what was considered, what was decided, the reason, the source, and the pages changed.
+6. The dependency updates kept and reverted, and any advisories that remain.
+7. The hand-check results, added after the goal ends.
 
 Never rewrite an earlier report. Correct it in the next one.
