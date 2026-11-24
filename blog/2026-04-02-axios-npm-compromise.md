@@ -15,7 +15,7 @@ This incident is a useful reminder that a familiar package name, a clean source 
 
 For product and supplier-assurance teams, the useful retrospective question is not only "were we affected?" It is whether dependency use, release approval, remediation, and customer-assurance records would still be reviewable after the incident response is over.
 
-:::info[Official analysis]
+:::info[Primary source]
 
 **[North Korea-Nexus Threat Actor Compromises Widely Used Axios NPM Package in Supply Chain Attack](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package)** — Google Threat Intelligence Group, 31 March 2026
 
@@ -86,9 +86,13 @@ Suppliers should be able to answer questions such as:
 - What remediation records, customer notifications, and risk acceptances were created?
 - How are future dependency updates checked before release or deployment?
 
-A weak answer says: "We updated the package."
+Weak answer:
 
-A stronger answer provides affected-version analysis, remediation records, secret-rotation evidence, release approval records, customer communication, and retained incident evidence.
+> We updated the package.
+
+Stronger answer:
+
+> We identified every product, build, and environment that used the affected versions, removed them, rotated exposed secrets, approved the remediated release, notified affected customers, and retained the incident evidence for later review.
 
 For an example evidence package, see [Vulnerability Response Evidence](/resources/worked-examples/vulnerability-response-evidence/).
 
@@ -112,7 +116,7 @@ The same retained-record logic appears in the [Secure Update Approval](/resource
 
 ---
 
-## Handbook mapping
+## How this maps to the handbook
 
 Use this incident as a worked example of the handbook's evidence model:
 

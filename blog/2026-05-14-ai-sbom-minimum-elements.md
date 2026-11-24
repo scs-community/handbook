@@ -17,7 +17,7 @@ For this handbook, the important point is not that AI SBOMs are a new proof of a
 
 The useful assurance question is not "Do we have an AI SBOM?" It is "Can this artifact support a decision about an AI-enabled product or service?"
 
-:::info[Official guidance]
+:::info[Primary source]
 
 **[Software Bill of Materials for AI - Minimum Elements](https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements)** — CISA and G7 partners, 12 May 2026
 
@@ -112,9 +112,13 @@ For AI-enabled products and services, supplier questions should become more prec
 - What security properties, known vulnerabilities, and limitations are recorded?
 - Who retains the artifact, and how can a buyer verify freshness and scope?
 
-A weak answer says: "We can provide an AI SBOM."
+Weak answer:
 
-A stronger answer provides a product-scoped AI SBOM with model, dataset, infrastructure, and software-component scope; names exclusions and limitations; records producer, timestamp, format, repository location, and refresh triggers; and explains how the buyer can verify freshness before acceptance, renewal, or major change.
+> We can provide an AI SBOM.
+
+Stronger answer:
+
+> We provide a product-scoped AI SBOM covering models, datasets, infrastructure, and software components. It names exclusions and limitations, records producer, timestamp, format, repository location, and refresh triggers, and you can verify its freshness against our repository before acceptance, renewal, or major change.
 
 [Supplier Security Questions](/resources/supplier-security-questions/) can be adapted for model, dataset, infrastructure, and service evidence.
 
@@ -131,6 +135,12 @@ A useful AI SBOM should support a decision such as supplier onboarding, product 
 - verification method and known limitations;
 - refresh triggers after model, data, service, infrastructure, or source changes;
 - retention owner and review cadence.
+
+---
+
+## How this maps to the handbook
+
+Use the AI SBOM guidance as an external driver for scoped, verifiable component-visibility evidence.
 
 Recommended reading:
 

@@ -15,7 +15,7 @@ The same release also included Union-level coordinated risk assessments for conn
 
 For this handbook, the toolbox is most useful as a supplier-assurance design prompt: what should buyers ask for, what should suppliers be ready to show, and what decisions should remain reviewable later?
 
-:::info[Official source]
+:::info[Primary source]
 
 **[ICT supply chain security: EU adopts a toolbox to mitigate risks](https://digital-strategy.ec.europa.eu/en/news/ict-supply-chain-security-eu-adopts-toolbox-mitigate-risks)** — European Commission, 13 February 2026
 
