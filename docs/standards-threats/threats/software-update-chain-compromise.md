@@ -33,6 +33,7 @@ These failures usually arise when teams cannot connect software or firmware to a
 - Firmware is modified before or after delivery.
 - Build or release process produces an unexpected artifact.
 - Signing credentials are misused, shared too broadly, or not protected.
+- Developer tooling that can reach build or release credentials is compromised. Examples include an IDE extension that arrives through automatic update ([CISA alert on Nx Console](https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories), 28 May 2026), CI actions referenced by version tags that are moved to malicious commits, and a security scanner running in CI with access to release secrets ([Trivy advisory GHSA-69fq-xp46-6x23](https://github.com/advisories/GHSA-69fq-xp46-6x23), 21 March 2026).
 - Update package is unauthorized, malicious, rollback-prone, or not tied to an approved release.
 - Configuration drifts from the accepted baseline after update or operation.
 - Vulnerability status is unclear across products, components, or supplier inputs.
@@ -45,6 +46,7 @@ Controls should preserve traceability from component selection through build, re
 - SBOM or xBOM generation and product/component mapping.
 - Build and release governance.
 - Signing controls and release approval.
+- Developer-tooling inventory, controlled tool updates, CI actions pinned to full commit SHAs, and complete revocation of credentials a compromised tool could reach.
 - Secure update authorization and rollback/recovery planning.
 - Vulnerability intake, triage, remediation, supplier coordination, and disclosure workflow.
 - Monitoring after update or configuration change.
@@ -56,6 +58,7 @@ The decision is defensible when evidence shows what software or firmware was inc
 - SBOMs, xBOMs, or component inventories.
 - Build provenance and release approvals.
 - Signing records, key custody records, and update manifests.
+- Developer-tooling inventories and installed versions, pinned workflow files, credential-to-tool mappings, and revocation records.
 - Update logs and rollback/recovery records.
 - Vulnerability records, supplier advisories, remediation plans, and VEX/status statements.
 - Configuration records and accepted baseline evidence.

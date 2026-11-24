@@ -23,11 +23,11 @@ Use the [Evidence Package Template](./evidence-package-template.md) to retain th
 
 | Level | Description | Example |
 |---|---|---|
-| Assertion | A supplier or team says a control exists. | The supplier says the product is authentic. |
-| Documented process | The process, owner, scope, and review cadence are described. | The supplier describes its identity, provisioning, and supplier review process. |
-| Produced artifact | A record, manifest, certificate, SBOM/xBOM, log, measurement, attestation, or report is provided. | The supplier provides identity evidence, credential issuance records, SBOMs, update records, or vulnerability status records. |
-| Verifiable artifact | The recipient can verify origin, integrity, freshness, scope, or consistency. | Evidence is signed, issuer-bound, product/version-bound, timestamped, measured, or supported by a verifier workflow. |
-| Lifecycle-retained evidence | Evidence is retained, refreshed, and reused across deployment, update, repair, transfer, audit, and decommissioning. | Evidence remains available after update, repair, transfer, vulnerability disclosure, and decommissioning, with supersession and retention records. |
+| Level 1: Assertion | A supplier or team says a control exists. | The supplier says the product is authentic. |
+| Level 2: Documented process | The process, owner, scope, and review cadence are described. | The supplier describes its identity, provisioning, and supplier review process. |
+| Level 3: Produced artifact | A record, manifest, certificate, SBOM/xBOM, log, measurement, attestation, or report is provided. | The supplier provides identity evidence, credential issuance records, SBOMs, update records, or vulnerability status records. |
+| Level 4: Verifiable artifact | The recipient can verify origin, integrity, freshness, scope, or consistency. | Evidence is signed, issuer-bound, product/version-bound, timestamped, measured, or supported by a verifier workflow. |
+| Level 5: Lifecycle-retained evidence | Evidence is retained, refreshed, and reused across deployment, update, repair, transfer, audit, and decommissioning. | Evidence remains available after update, repair, transfer, vulnerability disclosure, and decommissioning, with supersession and retention records. |
 
 ## Weak, better, stronger
 

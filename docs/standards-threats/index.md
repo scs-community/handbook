@@ -22,6 +22,7 @@ Use [Standards and Regulations](./standards-regulations/index.md) when a regulat
 Current driver pages include:
 
 - [EU Cyber Resilience Act](./standards-regulations/eu-cyber-resilience-act.md)
+- [ETSI EN 304 623: Boot Managers](./standards-regulations/eu-cyber-resilience-act/etsi-en-304-623-boot-managers.md)
 - [NIS2](./standards-regulations/nis2.md)
 - [NIST SP 800-161](./standards-regulations/nist-sp-800-161.md)
 - [IEC 62443](./standards-regulations/iec-62443.md)
@@ -46,6 +47,7 @@ The handbook uses the same translation pattern across standards and threats:
 
 - [Standards and Regulations](./standards-regulations/index.md)
 - [EU Cyber Resilience Act](./standards-regulations/eu-cyber-resilience-act.md)
+- [ETSI EN 304 623: Boot Managers](./standards-regulations/eu-cyber-resilience-act/etsi-en-304-623-boot-managers.md)
 - [NIS2](./standards-regulations/nis2.md)
 - [NIST SP 800-161](./standards-regulations/nist-sp-800-161.md)
 - [IEC 62443](./standards-regulations/iec-62443.md)

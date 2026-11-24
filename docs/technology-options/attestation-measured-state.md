@@ -82,7 +82,7 @@ SPDM support depends on concrete requester and responder implementations, transp
 
 The Remote Attestation Procedures (RATS) architecture describes roles for remote attestation, while Entity Attestation Token (EAT) provides a token format for attestation claims. In this handbook, RATS and EAT are useful when measured or claimed state must be appraised and communicated to a relying party.
 
-RATS and EAT are architectural and token-building blocks. Real assurance depends on the attester implementation, token profile, signing keys, freshness mechanism, verifier policy, and relying-party decision flow. Example deployments may use platform attestation services, device-management services, cloud workload attestation, or custom verifiers, with implementation examples such as [Veraison](https://github.com/veraison), [veraison/eat](https://github.com/veraison/eat), or embedded token libraries such as [ctoken](https://github.com/laurencelundblade/ctoken), rather than a single standard product.
+RATS and EAT are architectural and token-building blocks. Real assurance depends on the attester implementation, token profile, signing keys, freshness mechanism, verifier policy, and relying-party decision flow. Example deployments may use platform attestation services, device-management services, cloud workload attestation, or custom verifiers, with implementation examples such as [Veraison](https://github.com/veraison) or the [veraison/eat](https://github.com/veraison/eat) token library, rather than a single standard product.
 
 - **Assurance role:** Supports remote attestation architecture and evidence claims used in current-state appraisal.
 - **Evidence supported:** Attestation evidence, claims, freshness, verifier appraisal, and relying-party results.

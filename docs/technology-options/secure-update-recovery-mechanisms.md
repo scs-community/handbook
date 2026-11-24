@@ -46,7 +46,7 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 
 ### Signed and authorized updates
 
-[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
+[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)<br/>
 [EN 304 623 § 5.5](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=40)
 
 Signed and authorized update mechanisms help recipients verify that an update package came from an expected authority and has not changed unexpectedly. In this handbook, signed updates support assurance only when they are connected to release approval, eligibility checks, deployment evidence, and exception handling.
@@ -63,7 +63,7 @@ Update mechanisms may be implemented through product-specific firmware update sy
 
 ### Update eligibility checks
 
-[CRA Art. 13 § 8](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)
+[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)
 
 Update eligibility checks decide whether a product, component, device, or platform should receive, apply, or continue using a specific update. In this handbook, eligibility evidence matters because the same update may be appropriate for one product state and unsafe or unsupported for another.
 
@@ -100,7 +100,7 @@ Recovery and rollback controls vary widely across boot firmware, device firmware
 
 Update telemetry and evidence refresh records show delivery, installation, failure, deferral, and current version state after release. In this handbook, telemetry becomes assurance evidence only when it is interpreted against inventory, vulnerability status, lifecycle state, and review criteria.
 
-Telemetry examples include device deployment status, update logs, and server-side deployment records, such as [Mender deployment logs](https://docs.mender.io/1.5/troubleshooting/mender-client) and [deployment status APIs](https://docs.mender.io/1.1/apis/device-apis/deployments). Similar patterns can appear in device-management services, staged rollout systems, or OTA update platforms.
+Telemetry examples include device deployment status, update logs, and server-side deployment records, such as [Mender deployment logs](https://docs.mender.io/troubleshoot/mender-client) and [deployment status APIs](https://docs.mender.io/api/update-deployment-status/). Similar patterns can appear in device-management services, staged rollout systems, or OTA update platforms.
 
 - **Assurance role:** Provides records about update delivery, installation, failure, deferral, and current version state.
 - **Evidence supported:** Update logs, deployment status, failed-update records, exception records, and refreshed vulnerability or lifecycle evidence.

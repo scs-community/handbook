@@ -36,7 +36,7 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 Remote Attestation Procedures (RATS) evidence exchange moves attestation evidence between attesters, verifiers, and relying parties. In this handbook, it is useful when evidence needs a repeatable exchange and appraisal path rather than ad hoc file sharing or manual interpretation.
 
-RATS describes roles and relationships; it does not by itself define a complete product assurance system. Implementations need concrete attesters, evidence formats or token profiles, verifier policy, freshness handling, relying-party semantics, and records of failed or exceptional appraisals. Examples include the [Veraison](https://github.com/veraison) project, [veraison/eat](https://github.com/veraison/eat), [veraison/ear](https://github.com/veraison/ear), and embedded token libraries such as [ctoken](https://github.com/laurencelundblade/ctoken).
+RATS describes roles and relationships; it does not by itself define a complete product assurance system. Implementations need concrete attesters, evidence formats or token profiles, verifier policy, freshness handling, relying-party semantics, and records of failed or exceptional appraisals. Examples include the [Veraison](https://github.com/veraison) project and its [veraison/eat](https://github.com/veraison/eat) and [veraison/ear](https://github.com/veraison/ear) libraries.
 
 - **Assurance role:** Supports exchange of attestation evidence between attesters, verifiers, and relying parties.
 - **Evidence supported:** Attestation evidence, appraisal results, freshness claims, and relying-party decision inputs.
@@ -62,7 +62,7 @@ SPDM evidence depends on the implemented protocol version, requester and respond
 
 ### Software Bill of Materials (SBOM) / xBOM distribution
 
-[CRA Art. 13 §§ 3, 6](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
+[CRA Annex I Part II (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)<br/>
 [NIS2 Art. 21 § 2(d)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2555#art_21)
 
 Software Bill of Materials (SBOM) and broader xBOM distribution workflows move transparency artifacts between suppliers, buyers, operators, customers, and auditors. In this handbook, distribution matters because a useful artifact must reach the right relying party with scope, version, freshness, and interpretation intact.

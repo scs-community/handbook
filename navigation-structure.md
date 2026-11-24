@@ -76,6 +76,8 @@ Applied practice pages are part of Practices & Controls. Resources support the f
   Standards and Regulations
 /standards-threats/standards-regulations/eu-cyber-resilience-act/
   EU Cyber Resilience Act
+/standards-threats/standards-regulations/eu-cyber-resilience-act/etsi-en-304-623-boot-managers/
+  ETSI EN 304 623: Boot Managers
 /standards-threats/standards-regulations/nis2/
   NIS2
 /standards-threats/standards-regulations/nist-sp-800-161/

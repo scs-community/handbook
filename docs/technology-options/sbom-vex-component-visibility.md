@@ -46,12 +46,14 @@ They are commonly relevant to [Software Component and Vulnerability Management](
 
 ### Software Bill of Materials (SBOM) / xBOM
 
-[CRA Art. 13 §§ 3, 6](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)<br/>
+[CRA Annex I Part II (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)<br/>
 [SSDF PW.4](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=21)
 
 A Software Bill of Materials (SBOM) describes software components, while broader xBOM approaches may describe firmware, hardware, cryptographic assets, services, or other component types. In this handbook, BOM-style artifacts are transparency inputs, not proof that the listed components are safe, authentic, or acceptable.
 
 SBOM and xBOM are evidence classes, not one implementation. Examples of generation and handling tools include [Syft](https://github.com/anchore/syft), [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli), [SPDX tooling](https://github.com/spdx/tools-java), software composition analysis platforms, build-system plugins, and supplier portals. Their usefulness depends on the chosen format, generation process, product/version binding, scope statement, supplier coverage, update cadence, and repository or exchange workflow.
+
+A recipient may also expect SBOMs to follow a national or sector profile on top of the chosen format. For example, the German Federal Office for Information Security (BSI) publishes [BSI TR-03183-2](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html), a non-binding technical guideline that sets formal and technical requirements for SBOMs (version 2.1.0). Reviewers should ask which profile, if any, an SBOM is intended to meet.
 
 - **Assurance role:** Represents software or broader component transparency so recipients can understand what is present in a product or platform.
 - **Evidence supported:** Software, firmware, hardware, component, service, cryptographic asset, or dependency inventories depending on scope.

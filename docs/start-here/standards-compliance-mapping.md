@@ -22,23 +22,25 @@ Use this path when you need to translate a regulation, standard, procurement exp
    Start with the governance or assurance expectation that brought you here.
 3. [EU Cyber Resilience Act](../standards-threats/standards-regulations/eu-cyber-resilience-act.md)  
    See how a major product-security regulation can be interpreted into lifecycle assurance work.
-4. [NIS2](../standards-threats/standards-regulations/nis2.md)  
+4. [ETSI EN 304 623: Boot Managers](../standards-threats/standards-regulations/eu-cyber-resilience-act/etsi-en-304-623-boot-managers.md)  
+   See how a draft CRA standard for one product category can become evidence questions for boot trust, updates, rollback, and debug access.
+5. [NIS2](../standards-threats/standards-regulations/nis2.md)  
    See how organizational and supplier-assurance expectations can flow into supply chain security practices.
-5. [NIST SP 800-161](../standards-threats/standards-regulations/nist-sp-800-161.md)  
+6. [NIST SP 800-161](../standards-threats/standards-regulations/nist-sp-800-161.md)  
    See how C-SCRM guidance can become supplier, acquisition, dependency, and risk-response evidence.
-6. [IEC 62443](../standards-threats/standards-regulations/iec-62443.md)  
+7. [IEC 62443](../standards-threats/standards-regulations/iec-62443.md)  
    See how industrial product and component security expectations can shape lifecycle assurance.
-7. [NIST SSDF](../standards-threats/standards-regulations/nist-ssdf.md)  
+8. [NIST SSDF](../standards-threats/standards-regulations/nist-ssdf.md)  
    See how secure software and firmware development practices can become supplier and release evidence.
-8. [Threats and Failure Modes](../standards-threats/threats/index.md)  
+9. [Threats and Failure Modes](../standards-threats/threats/index.md)  
    Connect standards, expectations, and assurance pressures to the failures they are trying to prevent.
-9. [10 Best Practices](/practices-controls/10-best-practices/)  
+10. [10 Best Practices](/practices-controls/10-best-practices/)  
    Translate standards, expectations, and threats into practical supply chain security practices.
-10. [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)  
+11. [Standards to Evidence and Technology Mapping Workflow](../resources/standards-evidence-technology-mapping.md)  
    Record source roles, evidence requirements, technology options, mapping confidence, and gaps.
-11. [Evidence Checklist](../resources/evidence-checklist.md)  
+12. [Evidence Checklist](../resources/evidence-checklist.md)  
    Check whether the mapped evidence is scoped, verifiable, retained, and decision-ready.
-12. [Curated References](../resources/curated-references.md)  
+13. [Curated References](../resources/curated-references.md)  
    Use curated public sources without treating citations as proof by themselves.
 
 ## What you should leave with

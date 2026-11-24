@@ -42,6 +42,7 @@ This page is not a live standards catalog. Keep it stable, useful, and maintaina
 | [IETF RATS Working Group](https://datatracker.ietf.org/wg/rats/about/) | Remote attestation architecture and evidence model context | Cite exact RFC or Internet-Draft |
 | [Entity Attestation Token RFC information](https://www.rfc-editor.org/info/rfc9782/) | EAT media types and links to EAT-related RFCs | RFC 9782; also cite EAT RFC used |
 | [IETF CoRIM Internet-Draft](https://datatracker.ietf.org/doc/draft-ietf-rats-corim/) | CoRIM/CoMID reference values and endorsements | Draft status; cite revision number |
+| [RFC 9943: An Architecture for Trustworthy and Transparent Digital Supply Chains](https://www.rfc-editor.org/info/rfc9943) | IETF SCITT architecture for transparency services that register signed statements about supply-chain artifacts | Proposed Standard, published 2026-06 |
 | [TCG Platform Certificate Profile 2.1](https://www.trustedcomputinggroup.org/resources/documents/tcg-platform-certificate-profile) | Platform identity and composition claims | Version 2.1, 2026-01-27 |
 | [TCG DICE Certificate Profiles v1.1](https://www.trustedcomputinggroup.org/resources/documents/dice-certificate-profiles) | DICE certificate profiles and identity/attestation certificates | Version 1.1, 2025-04-24 |
 | [TCG DICE Attestation Architecture v1.2](https://www.trustedcomputinggroup.org/resources/documents/dice-attestation-architecture) | DICE attestation architecture and certificate extensions | Version 1.2, 2025-04-24; errata v1.0 r1, 2026-01-29 |

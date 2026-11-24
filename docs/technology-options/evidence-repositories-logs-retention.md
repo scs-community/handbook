@@ -58,7 +58,7 @@ Repository assurance depends on the implemented architecture, metadata model, ac
 
 Verifier and appraisal logs preserve what evidence was checked, which policy was applied, and what result was produced. In this handbook, logs help make verifier decisions reviewable, but they do not prove that the verifier policy or evidence inputs were sufficient.
 
-Verifier logs are implementation-specific. Examples include attestation verifier logs, CI/CD policy gate logs, SBOM ingestion logs, vulnerability-status appraisal logs, customer assurance portal audit logs, and transparency-log records such as [Rekor](https://github.com/sigstore/rekor) entries. Reviewers should know which verifier produced the log, which policy and evidence versions were used, how results are protected from alteration, and how log records are linked to the relying-party decision.
+Verifier logs are implementation-specific. Examples include attestation verifier logs, CI/CD policy gate logs, SBOM ingestion logs, vulnerability-status appraisal logs, customer assurance portal audit logs, and transparency-log records such as [Rekor](https://github.com/sigstore/rekor) entries or receipts from transparency services that follow the IETF [SCITT architecture (RFC 9943)](https://www.rfc-editor.org/info/rfc9943) for signed statements. Reviewers should know which verifier produced the log, which policy and evidence versions were used, how results are protected from alteration, and how log records are linked to the relying-party decision.
 
 - **Assurance role:** Preserve what evidence was appraised, which policy was applied, and what result was produced.
 - **Evidence supported:** Verifier inputs, appraisal results, policy version, relying-party decision records, and exception records.
@@ -87,7 +87,7 @@ Registries differ in how they model artifacts, signatures, metadata, versioning,
 ### Retention and reuse workflows
 
 [CRA Art. 31](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_31)<br/>
-[CRA Art. 13 §§ 8-10](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)
+[CRA Art. 13 § 13](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#art_13)
 
 Retention and reuse workflows keep evidence available after the original review, acceptance decision, or audit request has passed. In this handbook, retention is valuable when evidence remains tied to product scope, lifecycle state, refresh history, and the decision it supports.
 

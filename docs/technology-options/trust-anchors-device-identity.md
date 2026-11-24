@@ -47,7 +47,7 @@ They are commonly relevant to [Product Acceptance](../practices-controls/product
 
 A Trusted Platform Module (TPM) is a hardware-rooted trust component used for protected keys, measurements, sealing, and attestation-related evidence. In this handbook, TPM is treated as a technology option that can support device or platform identity and measured-state workflows; it is not proof of product acceptability by itself.
 
-TPM refers to the TCG specification ecosystem and interface model, not a single product. Real systems may use a discrete TPM chip from vendors such as [Infineon OPTIGA TPM](https://www.infineon.com/products/security-smart-card-solutions/optiga-embedded-security-solutions/optiga-tpm), [Nuvoton TPM](https://www.nuvoton.com/products/cloud-computing/security/trusted-platform-module-tpm/), [STSAFE-TPM](https://www.st.com/en/secure-mcus/stsafe-tpm.html), or [Microchip TPM](https://www.microchip.com/en-us/products/security-ics/trusted-platform-module); an integrated TPM in platform silicon; or a firmware TPM such as [Intel PTT](https://www.intel.com/content/www/us/en/support/articles/000094205/processors/intel-core-processors.html) or [AMD fTPM](https://www.amd.com/en/resources/support-articles/faqs/PA-200.html). Assurance depends on the specific implementation, provisioning, credentials, firmware state, platform integration, and verifier policy.
+TPM refers to the TCG specification ecosystem and interface model, not a single product. Real systems may use a discrete TPM chip from vendors such as [Infineon OPTIGA TPM](https://www.infineon.com/products/security-smart-card-solutions/optiga-embedded-security-solutions/optiga-tpm), [Nuvoton TPM](https://www.nuvoton.com/products/cloud-computing/security/trusted-platform-module-tpm/), [STSAFE-TPM](https://www.st.com/en/secure-mcus/stsafe-tpm.html), or [Microchip TPM](https://www.microchip.com/en-us/products/security-ics/trusted-platform-module); an integrated TPM in platform silicon; or a firmware TPM such as [Intel PTT](https://www.intel.com/content/www/us/en/support/articles/000094205/processors/intel-core-processors.html) or [AMD Firmware TPM](https://www.amd.com/content/dam/amd/en/documents/products/processors/technologies/amd-pro-technologies-security-white-paper.pdf). Assurance depends on the specific implementation, provisioning, credentials, firmware state, platform integration, and verifier policy.
 
 - **Assurance role:** Hardware-rooted trust anchor for keys, measurements, sealing, platform identity, and attestation inputs.
 - **Evidence supported:** Hardware-rooted identity, measured boot evidence, attestation inputs, key lifecycle evidence, and platform state claims.
@@ -125,7 +125,7 @@ PKI and platform certificate assurance depends on the concrete certificate profi
 - **Dependencies:** Certificate policy, root management, revocation handling, lifecycle-state updates, and recipient verification.
 - **What it does not prove:** A certificate does not prove the product is secure, current, unmodified, or acceptable without supporting evidence.
 - **Mapping confidence:** Direct for certificate mechanisms; supporting for identity and provenance assurance.
-- **Source/version note:** Cite the specific certificate profile, policy, issuer, validity rules, and product binding used.
+- **Source/version note:** Cite the specific certificate profile, such as TCG Platform Certificate Profile Version 2.1 (January 2026), and the policy, issuer, validity rules, and product binding used.
 
 ### Caliptra
 
