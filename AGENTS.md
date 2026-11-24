@@ -4,7 +4,7 @@ This repository contains the source for the Supply Chain Security Handbook, a Do
 
 ## Before making changes
 
-- For changes to handbook content, read [style-guide.md](style-guide.md) and [purpose-and-positioning.md](purpose-and-positioning.md). For posts under `blog/`, read the News And Analysis Posts section of the style guide.
+- For changes to handbook content, read [style-guide.md](style-guide.md) and [purpose-and-positioning.md](purpose-and-positioning.md). For posts under `blog/`, read the News and Analysis section of the positioning guide and the News And Analysis Posts section of the style guide. Where a topic overlaps a sister site (Secure-by-Design Handbook, PQC Handbook), follow the boundaries in the positioning guide's Sister Sites section.
 - For page placement, URLs, links, sidebars, or the footer, read [navigation-structure.md](navigation-structure.md) and check `sidebars.ts` and `docusaurus.config.ts` as needed.
 - For pages that readers arrive at cold from search, AI answers, or shared links, read [entry-page-seo-strategy.md](entry-page-seo-strategy.md).
 - For visual or UI changes, including diagrams, read [brand-guidelines.md](brand-guidelines.md).
@@ -22,7 +22,7 @@ This repository contains the source for the Supply Chain Security Handbook, a Do
 
 ## Implementation and verification
 
-- Docs live under `docs/` and are served from the site root with trailing slashes; blog posts live under `blog/` and are served under `/blog/`. Keep each doc in the sidebar that owns its section.
+- Docs live under `docs/` and are served from the site root with trailing slashes; blog posts live under `blog/` and are served under `/blog/`. Keep each doc in the sidebar that owns its section. Published URLs are permanent: do not rename or move a page without a redirect (see the URL Stability section of the navigation guide).
 - Preserve the documented Node.js 20+ requirement (CI builds with Node 24). Use the package scripts rather than ad hoc build commands.
 - Before considering a change ready, run `npm run typecheck` and `npm run build` (see [README.md](README.md)). Broken links fail the build.
 - Do not claim checks passed unless they were run and passed. If a check cannot be run, state that clearly.

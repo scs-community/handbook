@@ -76,6 +76,30 @@ Supply chain security assurance is not a single event. It changes as products mo
 
 The evidence needed at each stage changes too. Some evidence establishes origin. Some verifies current state. Some supports update and vulnerability response. Some proves lifecycle decisions after acceptance.
 
+## Sister Sites
+
+| Handbook | Owns | To Supply Chain Security Handbook |
+|---|---|---|
+| **Supply Chain Security Handbook** | Supplier assurance, procurement evidence, product acceptance, attestation and provenance evidence, component visibility as evidence, update-chain trust, and lifecycle evidence exchange and retention | Primary source for these topics |
+| **[Secure-by-Design Handbook](https://www.securebydesignhandbook.com)** | Connected-product secure-by-design engineering: secure boot, identity and keys, producing SBOM/VEX, OTA updates, vulnerability handling, CRA engineering and evidence | Onward reading for how a product is engineered; this site covers how that work is evidenced to buyers and relying parties |
+| **[PQC Handbook](https://pqchandbook.com)** | Post-quantum cryptography discovery, prioritization, authority timelines, long-lived verifiers, migration records | Onward reading for post-quantum migration; the authority for PQC dates, never this site |
+
+The boundary with the Secure-by-Design Handbook matters most, because both sites discuss SBOM/VEX, secure updates, and the CRA. This site treats them as evidence to be requested, verified, exchanged, and retained across a supply chain; engineering how to produce them belongs there (see also [entry-page-seo-strategy.md](entry-page-seo-strategy.md)).
+
+Each handbook runs its own news feed. A post here that touches post-quantum cryptography links to the PQC Handbook for PQC dates and positions, and a post about device engineering links to the Secure-by-Design Handbook. Where a statement here overlaps with a sister site, such as the status of EN 304 623 or SBOM requirements, keep the two consistent and cite the primary source rather than the sister site.
+
+## News and Analysis
+
+A news and analysis blog at `/blog/`, for the same audience and in the same register as the handbook. Each post reports one dated event, explains why it matters for supply-chain assurance, and sends the reader into the handbook pages that hold the lasting guidance. It is not a news aggregator or commentary stream, and it is not a way into the reader journeys.
+
+Posts cover a mix of:
+
+- **Incidents**: supply-chain compromises and failures with a first-party or authoritative report, framed around what evidence would have helped detect, contain, or verify them.
+- **Regulation and policy**: obligations, implementing acts, and authority guidance that change what buyers, suppliers, or manufacturers must evidence, with whose obligation it is and when it applies.
+- **Guidance and specifications**: standards, harmonized standards, and minimum-element publications that change what evidence can be specified, produced, or verified.
+
+Out of scope: vendor and product announcements, straight news reposts without an assurance interpretation, and speculation beyond what the primary source says. A post is never the only home of a date or obligation: one that changes a doc page ships with that change. The rules for choosing a topic, structure, and corrections are in the [style guide](style-guide.md#news-and-analysis-posts).
+
 ## Non-Goals
 
 The site is not:

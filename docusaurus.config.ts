@@ -94,7 +94,14 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/social-card.svg',
+    // Social platforms do not render SVG previews; social-card.svg is the source for this PNG.
+    image: 'img/social-card.png',
+    metadata: [
+      {property: 'og:image:width', content: '1200'},
+      {property: 'og:image:height', content: '630'},
+      {property: 'og:image:alt', content: 'Supply Chain Security Handbook: practical guidance for evidence-backed lifecycle assurance'},
+      {name: 'twitter:image:alt', content: 'Supply Chain Security Handbook: practical guidance for evidence-backed lifecycle assurance'},
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },

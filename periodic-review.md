@@ -2,9 +2,9 @@
 
 This guide covers how the handbook is kept accurate, current, and useful. Once a month, a full review of the site is run from Claude Code with `/goal`. It finds new standards activity and supply-chain incidents, rechecks every cited source and every doc page, and leaves a dated report. The other maintainer guides set the surrounding rules:
 
-- [purpose-and-positioning.md](./purpose-and-positioning.md): mission, audience, and content model.
-- [style-guide.md](./style-guide.md): sourcing, dates, and news posts.
-- [navigation-structure.md](./navigation-structure.md): placement, routes, sidebars, and reader journeys.
+- [purpose-and-positioning.md](./purpose-and-positioning.md): mission, audience, content model, sister-site boundaries, and news scope.
+- [style-guide.md](./style-guide.md): language, attribution, sourcing, dates, page metadata, and news posts.
+- [navigation-structure.md](./navigation-structure.md): placement, routes, URL stability, sidebars, and reader journeys.
 - [brand-guidelines.md](./brand-guidelines.md): visual identity.
 - [entry-page-seo-strategy.md](./entry-page-seo-strategy.md): entry pages and search.
 

@@ -33,6 +33,26 @@ Use public links such as `/standards-threats/`, `/practices-controls/`, `/practi
 
 Within docs pages, prefer relative Markdown source links such as `../resources/evidence-checklist.md`. Docusaurus converts those source links to the final public route and keeps docs easier to rename. Use public routes inside docs only when source links are not appropriate, such as the `10-best-practices` numeric-prefix exception.
 
+### URL Conventions
+
+A page's URL comes from its file path under `docs/`. Do not set `id` or `slug` in front matter; the one exception is `10-best-practices`, which sets both because Docusaurus would otherwise strip its numeric prefix.
+
+- **Characters**: lowercase letters, digits, and single hyphens.
+- **Depth**: section and page (`/practices-controls/supplier-assurance-procurement/`), with a group segment only where a section holds a real group of pages (`/standards-threats/threats/...`, `/resources/worked-examples/...`). A page for a standard that supports one regulation, such as the draft ETSI EN 304 623 page under the CRA, sits one level deeper, under that regulation (`/standards-threats/standards-regulations/eu-cyber-resilience-act/...`); do not go deeper than that.
+- **Pages**: a slug uses the key words of the page's `title`, in the handbook's own terms (`supplier-assurance-procurement`, `evidence-exchange-verifier-workflows`).
+- **Standards and regulations**: use the identifier as it is commonly cited (`nis2`, `iec-62443`, `nist-sp-800-161`, `etsi-en-304-623-...`), or a short name for an instrument without one (`eu-cyber-resilience-act`).
+- **No clashes**: no two pages in the same section share a final segment.
+
+Blog posts use the Docusaurus default for date-prefixed files: `blog/2026-03-21-trivy-ecosystem-compromise.md` is served at `/blog/2026/03/21/trivy-ecosystem-compromise/`. Keep this pattern; it is already published. Tag, archive, and author pages (`/blog/tags/**`, `/blog/archive/**`, `/blog/authors/**`) stay out of the sitemap, and the feeds resolve at `/blog/rss.xml` and `/blog/atom.xml`.
+
+### URL Stability
+
+The site is live at its canonical domain, so its URLs may already be linked from elsewhere and indexed. Treat every published URL, including blog post URLs, as permanent: rename or move a page only when the gain is worth it, and only together with a redirect from the old URL. The site has no redirect plugin yet, so adding `@docusaurus/plugin-client-redirects` is part of the first change that moves a published page.
+
+### Linking News Posts
+
+Posts link handbook pages with public root routes (`/practices-controls/...`), inline in the body where each helps the reader; the minimum and the closing section are in the [style guide](style-guide.md#news-and-analysis-posts). Doc pages may link to the blog listing (`/blog/`) or a tag page where noticing change is part of the reader's job, but never to an individual post, so no reference page depends on a dated snapshot.
+
 ## Site Model
 
 The site should feel like:
@@ -227,3 +247,13 @@ New pages should connect to at least one of:
 - an evidence type or evidence package need;
 - a technology option, standard, or evidence requirement mapping;
 - a reusable tool or template.
+
+Place each new page by the reader's job:
+
+- **Standards and regulations** belong in `/standards-threats/standards-regulations/`, as one page per instrument that maps it to supply-chain controls and evidence. A standard or implementing act that supports one regulation, including a draft candidate for harmonization, sits under that regulation, and its page says plainly that it is a draft.
+- **Threat patterns and failure modes** belong in `/standards-threats/threats/`, grouped by what fails (supplier assurance, product and component trust, the update chain) rather than by individual incident.
+- **Operating activities** belong in `/practices-controls/`, as a practice page that names its controls, the evidence they produce, and how a reviewer verifies it. Map new practices to the 10 Best Practices page rather than extending that list.
+- **Mechanisms that may help implement or verify a control** belong in `/technology-options/`, as an option within the role page it serves (trust anchors, attestation, signing, updates, exchange, retention), not as a page per product or standards body.
+- **Tools a reader uses directly** belong in `/resources/`: questions, checklists, templates, worked examples, the glossary, and curated references. Add a resource only when a practice needs it and no existing resource holds it, because the Resources set is a small toolkit (see the [Resources Rule](#resources-rule)).
+- **A new reader route** belongs in `/start-here/` only when a distinct kind of reader cannot be served by an existing route.
+- **A dated event** (an incident, a publication, an obligation taking effect) belongs in a post under `/blog/`, together with any change it makes to a doc page. Posts link into the handbook; doc pages do not link to individual posts (see [Linking News Posts](#linking-news-posts)).

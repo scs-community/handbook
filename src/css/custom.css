@@ -100,3 +100,14 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* navbar.style 'dark' (docusaurus.config.ts) applies Infima's .navbar--dark, which sets its
+   own charcoal background. Restore the brand navbar colors (brand-guidelines.md):
+   Deep Teal in light mode, Darker Teal in dark mode. */
+[data-theme='light'] .navbar--dark {
+  --ifm-navbar-background-color: #013b4e;
+}
+
+[data-theme='dark'] .navbar--dark {
+  --ifm-navbar-background-color: #012a38;
+}

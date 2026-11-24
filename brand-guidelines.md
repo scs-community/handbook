@@ -21,7 +21,7 @@ The brand should feel related to the Secure-by-Design Handbook visual family, bu
 |---|---|---|
 | Header logo | `static/img/logo.svg` | Navbar, site identity, small page or slide marks. |
 | Favicon | `static/img/favicon.svg` | Browser tab and small icon contexts. |
-| Social card | `static/img/social-card.svg` | OpenGraph and social preview image. |
+| Social card | `static/img/social-card.png` (source: `static/img/social-card.svg`) | OpenGraph and social preview image (`themeConfig.image`), `1200 × 630`, with `og:image` dimensions and alt text set in `themeConfig.metadata`. |
 | Source illustration | `static/img/tech_shield_padlock_v5.svg` | Shared sister-site visual source or supporting illustration where appropriate. |
 
 Logo usage:
@@ -65,13 +65,13 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 
 | Component | Guidance |
 |---|---|
-| Navbar | Deep Teal background with light text. Keep top navigation restrained. |
-| Footer | Dark style, practical links into the handbook journey. |
+| Navbar | Dark navbar (`navbar.style: 'dark'`) with light text, the search box, and restrained top-level items: the four handbook sections plus GitHub (see [navigation-structure.md](navigation-structure.md)). The background is Deep Teal (`#013B4E`) in light mode and Darker Teal (`#012A38`) in dark mode. Infima's `.navbar--dark` class sets its own charcoal background, so `src/css/custom.css` overrides it for both color modes. |
+| Footer | Dark style in both modes: Deep Teal (`#013B4E`) with Surface Light (`#F5FCFD`) links into the handbook journey, above a single copyright line whose license link is underlined in the footer link color. |
 | Primary buttons | Use the Docusaurus primary/secondary button system with the site palette. |
-| Cards | Use cards for reader routes, decisions, practice areas, technology-option roles, and resource tools. Keep copy short. |
+| Cards | Use the `scs-card` and `scs-card-grid` classes for reader routes, decisions, practice areas, technology-option roles, and resource tools: outlined cards with a subtle `1px` border that turns Primary Cyan on hover, in two or three columns that stack to one column at `768px` and below. Keep copy short. |
 | Code blocks | Use Source Code Pro and the configured Docusaurus code styling. |
-| Tables | Use for mappings and comparisons. Keep columns readable on mobile. |
-| Diagrams | Use Mermaid only where a flow or set of relationships is hard to follow in prose or a table. Mermaid uses the `neutral` theme in light mode and the `dark` theme in dark mode. Give every diagram `accTitle` and `accDescr`, and keep the point the diagram makes in the surrounding prose as well. |
+| Tables | Use for mappings and comparisons, with the default Infima table styling. Tables are not restyled for phones and scroll sideways when they are too wide, so keep columns few and cell text short. |
+| News and analysis | The blog listing and posts use the standard page, table, and admonition styles. No hero images, per-post illustrations, or promotional banners; posts share the site's social card. |
 
 ## Homepage Visual Pattern
 
@@ -86,11 +86,13 @@ The homepage should keep the sister-site visual pattern while reflecting the sup
 
 Do not let the homepage look like a TCG, GlobalPlatform, or 10 best practices microsite.
 
-## Iconography And Illustrations
+## Diagrams And Illustrations
 
-- Prefer simple line or flat-vector assets.
-- Use primary cyan as an accent rather than the whole illustration.
-- Avoid decorative icons that imply certification, legal authority, or endorsement.
+- Keep diagrams and illustrations functional, clean, and low-noise. Every visual should clarify a flow, a relationship between parties, or a decision boundary that is hard to follow in prose or a table.
+- Draw diagrams in Mermaid. Mermaid uses the `neutral` theme in light mode and the `dark` theme in dark mode, so diagrams stay legible in both color schemes. Prefer a straight chain without return arrows where the content allows, because loops make Mermaid place nodes out of reading order.
+- Give every diagram `accTitle` and `accDescr`, and keep the point the diagram makes in the surrounding prose, so the page still works for screen readers and on narrow screens where wide diagrams scale down.
+- For icons and illustrations, prefer simple line or flat-vector assets, with Primary Cyan as an accent rather than filling the whole graphic.
+- Avoid decorative stock art, and icons, seals, or badges that imply certification, legal authority, compliance approval, or endorsement.
 - When using letter or number markers in cards, keep them consistent with the existing homepage style.
 
 ## Writing And Naming
@@ -99,6 +101,7 @@ Follow `style-guide.md` for editorial voice. Key brand reminders:
 
 - Use "Supply Chain Security Handbook" for the project name.
 - Use "supply chain security" as the public noun phrase when referring to the discipline generally.
+- Keep naming vendor-neutral and standards-body-neutral: avoid sub-brands or phrasing that imply endorsement by a regulator, a standards body such as TCG or GlobalPlatform, or a commercial supplier.
 - Prefer "evidence-backed assurance", "lifecycle assurance", "practical guidance", and "technology-aware mappings".
 - Avoid "evidence hub", "10 best practices microsite", and any phrasing that implies a standards body owns the whole problem.
 - Treat technology options as implementation or verification options, not mandates.
@@ -130,11 +133,11 @@ For repository documentation, use relative markdown links where possible, for ex
 | Asset | Target | Format |
 |---|---|---|
 | Favicon | Browser icon | SVG source, export PNG only if required by a platform. |
-| Social card | OpenGraph preview | SVG source at `static/img/social-card.svg`; export PNG if a platform does not support SVG previews. |
+| Social card | OpenGraph preview | Edit the SVG source at `static/img/social-card.svg`, then export `static/img/social-card.png` at exactly `1200 × 630`, because most social and chat platforms, including LinkedIn, X, Facebook, and Slack, do not render SVG previews. Export from a browser with the Inter font loaded, as the SVG names Inter and other renderers substitute a fallback font and ignore its group opacity. |
 | Slide title mark | Presentation use | SVG logo or source illustration, with clear spacing and no distortion. |
 
 ## Governance
 
-- Treat `brand-guidelines.md`, `style-guide.md`, `navigation-structure.md`, and `purpose-and-positioning.md` as the root editorial guidance set.
+- Treat `brand-guidelines.md`, `style-guide.md`, `navigation-structure.md`, `purpose-and-positioning.md`, and `entry-page-seo-strategy.md` as the root editorial guidance set: mission, audience, and sister-site boundaries in [purpose-and-positioning.md](purpose-and-positioning.md); routes, sidebars, and linking in [navigation-structure.md](navigation-structure.md); voice, language, sourcing, and page metadata in [style-guide.md](style-guide.md); entry pages in [entry-page-seo-strategy.md](entry-page-seo-strategy.md).
 - Major visual identity changes should be reviewed alongside `src/css/custom.css`, `src/pages/index.module.css`, `static/img/`, and `docusaurus.config.ts`.
 - Keep brand guidance practical. Do not add visual rules that the site does not actually implement.

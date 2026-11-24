@@ -2,7 +2,7 @@
 title: Supply Chain Security Toolkit
 sidebar_label: Overview
 sidebar_position: 1
-description: "Use supply chain security checklists, supplier security questions, evidence templates, worked examples, and references to request, review, package, and retain assurance evidence."
+description: "Use supply chain security checklists, supplier questions, evidence templates, worked examples, and references to request, review, and retain evidence."
 ---
 
 Use this toolkit to turn supply chain security guidance into supplier questions, evidence requests, review decisions, and reusable assurance records.

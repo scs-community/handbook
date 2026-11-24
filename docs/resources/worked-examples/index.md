@@ -2,7 +2,7 @@
 title: Supply Chain Security Worked Examples
 sidebar_label: Overview
 sidebar_position: 1
-description: "Learn from worked examples that show what stronger supply chain security evidence looks like in supplier, product, update, vulnerability, and component scenarios."
+description: "Learn from worked examples of stronger supply chain security evidence in supplier, product, update, vulnerability, and component scenarios."
 ---
 
 Worked examples are the proof layer for the toolkit. They show what stronger evidence looks like in realistic supplier, product, update, vulnerability, and component scenarios.

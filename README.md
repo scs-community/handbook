@@ -12,10 +12,10 @@ The Supply Chain Security Handbook is built with [Docusaurus 3](https://docusaur
 
 Read these root documents before changing structure, prose, or styling, and the last one before running a review:
 
-- [Purpose & Positioning](./purpose-and-positioning.md) — Mission, visitor promise, audience, reader modes, and non-goals
-- [Navigation Structure](./navigation-structure.md) — Top-level navigation, sidebars, sitemap, homepage routing, and footer
-- [Style Guide](./style-guide.md) — Voice, page model, evidence and standards language, sourcing rules, content quality tests, and news posts
-- [Brand Guidelines](./brand-guidelines.md) — Visual identity, logo assets, colors, typography, UI components, and diagram guidance
+- [Purpose & Positioning](./purpose-and-positioning.md) — Mission, visitor promise, audience, content model, sister-site boundaries, news scope, and non-goals
+- [Navigation Structure](./navigation-structure.md) — Top-level navigation, route policy, URL conventions and stability, sitemap, homepage routing, footer, and where new pages belong
+- [Style Guide](./style-guide.md) — Voice, language and terminology, page patterns, evidence and standards language, attribution, sourcing, page metadata, quality tests, and news posts
+- [Brand Guidelines](./brand-guidelines.md) — Visual identity, logo assets, colors, typography, UI components, diagrams and illustrations, and asset export notes
 - [Entry Page SEO Strategy](./entry-page-seo-strategy.md) — Which pages must work for cold visitors arriving from search, AI answer engines, and shared links, and how to keep them useful
 - [Periodic Review](./periodic-review.md) — The monthly full-site review run from Claude Code with `/goal`: what it checks, how blocked sources are handled, and the report it leaves under `reviews/`
 
