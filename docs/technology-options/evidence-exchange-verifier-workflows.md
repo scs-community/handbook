@@ -8,6 +8,25 @@ Evidence exchange and verifier workflows move evidence between producers, verifi
 
 This option area is useful when the assurance decision depends not only on the artifact, but also on who receives it, how it is verified, what policy is applied, and what result is given to the relying party.
 
+## How evidence moves through the workflow
+
+A typical workflow has five steps. The relying party asks the producer for evidence. The evidence travels through an exchange path to a verifier. The verifier appraises it against policy, reference values, and trust anchors. It returns a result to the relying party, which makes and records a decision. Each step can fail on its own, which is why the options below are about more than file transfer.
+
+```mermaid
+flowchart LR
+    accTitle: Evidence exchange and verifier workflow
+    accDescr: A relying party requests evidence from an evidence producer. The evidence travels through an exchange path such as a portal, API, or repository to a verifier. The verifier appraises it against verifier policy, reference values, and trust anchors, and returns an appraisal result to the relying party. The relying party accepts, rejects, or records an exception, and the evidence, result, and decision are retained for audit and later re-verification.
+
+    Q[Relying party<br/>requests evidence] --> P[Evidence producer<br/>supplier, device, or product team]
+    P -->|evidence| X[Exchange path<br/>portal, API, or repository]
+    X --> V[Verifier]
+    I[Verifier policy, reference values,<br/>and trust anchors] -.->|appraisal inputs| V
+    V -->|appraisal result| D[Relying party decides<br/>accept, reject, or exception]
+    D --> R[(Retained records<br/>evidence, result, decision<br/>for audit and re-verification)]
+```
+
+A failure at any step can make the decision unsafe even when the evidence itself is sound. Missing or stale evidence, a path that loses integrity or context, an unclear or outdated verifier policy, and a result the relying party cannot interpret are all examples. Retained records let a later review check what was appraised, under which policy, and why the decision was made.
+
 ## What this option area is for
 
 Evidence exchange and verifier workflows may support:

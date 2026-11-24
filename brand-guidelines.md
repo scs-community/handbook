@@ -71,6 +71,7 @@ Load fonts through the Docusaurus `stylesheets` setting or self-hosted equivalen
 | Cards | Use cards for reader routes, decisions, practice areas, technology-option roles, and resource tools. Keep copy short. |
 | Code blocks | Use Source Code Pro and the configured Docusaurus code styling. |
 | Tables | Use for mappings and comparisons. Keep columns readable on mobile. |
+| Diagrams | Use Mermaid only where a flow or set of relationships is hard to follow in prose or a table. Mermaid uses the `neutral` theme in light mode and the `dark` theme in dark mode. Give every diagram `accTitle` and `accDescr`, and keep the point the diagram makes in the surrounding prose as well. |
 
 ## Homepage Visual Pattern
 
