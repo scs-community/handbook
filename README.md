@@ -50,7 +50,7 @@ npm run typecheck
 The site is deployed to GitHub Pages using GitHub Actions.
 
 - **Live Site**: [https://supplychainsecurityhandbook.com](https://supplychainsecurityhandbook.com)
-- **Trigger**: Any push to the `main` branch automatically triggers deployment
+- **Trigger**: Any push to the `main` branch automatically triggers deployment; pull requests run the same typecheck and build without deploying
 - **Workflow**: See [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) for the deployment configuration
 - **Process**: Build -> Deploy to GitHub Pages -> Live in a few minutes
 
