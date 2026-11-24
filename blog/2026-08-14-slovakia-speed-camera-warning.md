@@ -5,7 +5,7 @@ tags: [procurement, supplier-assurance, component-visibility, evidence]
 description: "Slovakia's NBU warned about road speed-camera products after finding origin, interface, and remote-access risks. What evidence should buyers demand first?"
 ---
 
-On 14 August 2026, Slovakia's National Security Authority (Národný bezpečnostný úrad, NBU) published a warning about a significant cyber threat involving several types of road speed meters with cameras. The warning is dated 13 August 2026 and was issued under Slovakia's cybersecurity act (Act No. 69/2018).
+On August 14, 2026, Slovakia's National Security Authority (Národný bezpečnostný úrad, NBU) published a warning about a significant cyber threat involving several types of road speed meters with cameras. The warning is dated August 13, 2026, and was issued under Slovakia's cybersecurity act (Act No. 69/2018).
 
 The warning names three product lines. These are NERO R-ONE road speed meters, with SODASUS of the Republic of Cyprus listed as manufacturer, and two Cordon-series vehicle speed meters, with Simicon of the Russian Federation and NEROline of the Republic of Croatia listed as manufacturers. NBU says it carried out the security analysis at the request of the Slovak Ministry of the Interior. It also says its analysis of a loaned sample of the NERO R-ONE identified several security risks.
 
@@ -27,7 +27,7 @@ The useful question is not "is this supplier trustworthy?" It is "what evidence 
 
 :::info[Primary source]
 
-**[Varovanie pred rizikami cestných meradiel (Warning about the risks of road measuring devices), ref. 07175/2026/NCKB-001](https://www.nbu.gov.sk/data/att/4096.pdf)** — Národný bezpečnostný úrad (National Security Authority of the Slovak Republic), 14 August 2026
+**[Varovanie pred rizikami cestných meradiel (Warning about the risks of road measuring devices), ref. 07175/2026/NCKB-001](https://www.nbu.gov.sk/data/att/4096.pdf)** — Národný bezpečnostný úrad (National Security Authority of the Slovak Republic), August 14, 2026
 
 :::
 
@@ -68,7 +68,7 @@ Mapping NBU's risk categories to evidence gives a starting request list. This ma
 
 | NBU risk category | Evidence a buyer can request |
 |---|---|
-| Actual origin of hardware and software | Named manufacturers for the main hardware assemblies and firmware, sub-tier supplier declarations, and records of any rebranding, white-labelling, or reseller path. |
+| Actual origin of hardware and software | Named manufacturers for the main hardware assemblies and firmware, sub-tier supplier declarations, and records of any rebranding, white-labeling, or reseller path. |
 | Documented vs observed communication interfaces | A complete interface declaration covering wired, wireless, cellular, and debug interfaces, plus each interface's default state and how to disable it. |
 | Preconfigured remote access and management | A description of every vendor remote-access or management channel: who operates it, where it connects, how the buyer can see and control it, and how to turn it off. |
 | Declared vs actually used software | A firmware and software manifest bound to the delivered version, an SBOM or xBOM for that version, and a way to check the installed build against the manifest. |

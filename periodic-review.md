@@ -21,7 +21,7 @@ This guide covers how the handbook is kept accurate, current, and useful. Once a
 
 ## Rules This Review Applies
 
-The [style guide](./style-guide.md) already covers sourcing, date format (`D Month YYYY`), news post scope, and [updates and corrections](./style-guide.md#updates-and-corrections) to posts. The review also applies these rules:
+The [style guide](./style-guide.md) already covers sourcing, date format (`Month D, YYYY`), news post scope, and [updates and corrections](./style-guide.md#updates-and-corrections) to posts. The review also applies these rules:
 
 - **Same change**: When a development changes something the handbook states, the news post (if one is warranted) and every affected doc page change in the same run and the same commit. A post never announces a change that the reference pages do not yet reflect.
 - **Posts are snapshots**: News posts are not rechecked as current. Where a later development supersedes what a post reported, add an update note as the style guide describes. Do not rewrite the post body.
@@ -46,7 +46,7 @@ Check the watchlist for anything issued since the run date of the last report in
 
 The watchlist has three parts.
 
-**Derived from the pages.** Each run, list every publisher whose document is cited in `docs/`. On 24 November 2026 this included:
+**Derived from the pages.** Each run, list every publisher whose document is cited in `docs/`. On November 24, 2026, this included:
 
 - the European Commission and EUR-Lex (the CRA and NIS2);
 - NIST and the NIST CSRC (SP 800-161, SSDF);
@@ -112,7 +112,7 @@ grep -rnoE "https?://[^][)(<>\"' \`]+" docs \
   | sort
 ```
 
-On 24 November 2026 this listed 144 sources.
+On November 24, 2026, this listed 144 sources.
 
 Fetch each source and confirm two things:
 

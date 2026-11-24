@@ -65,9 +65,9 @@ Use these dates for planning, not as legal advice:
 | 2024-10-17 | Member State [transposition deadline](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2555#art_41). |
 | 2024-10-18 | Date from which Member States must [apply](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2555#art_41) their national NIS2 measures. |
 
-In practice, NIS2 obligations apply through each Member State's transposition law, so check national transposition status. On 8 July 2026, the European Commission [referred Ireland, Spain, France, and the Netherlands](https://digital-strategy.ec.europa.eu/en/news/commission-refers-ireland-spain-france-and-netherlands-court-justice-failing-transpose-rules) to the Court of Justice of the European Union for failing to notify full transposition.
+In practice, NIS2 obligations apply through each Member State's transposition law, so check national transposition status. On July 8, 2026, the European Commission [referred Ireland, Spain, France, and the Netherlands](https://digital-strategy.ec.europa.eu/en/news/commission-refers-ireland-spain-france-and-netherlands-court-justice-failing-transpose-rules) to the Court of Justice of the European Union for failing to notify full transposition.
 
-On 20 January 2026, the Commission [proposed targeted NIS2 amendments](https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act) (COM(2026) 13). It has not been adopted, so it does not change current obligations.
+On January 20, 2026, the Commission [proposed targeted NIS2 amendments](https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act) (COM(2026) 13). It has not been adopted, so it does not change current obligations.
 
 ## Relationship to other standards and drivers
 

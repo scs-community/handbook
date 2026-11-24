@@ -5,13 +5,13 @@ tags: [software-supply-chain, dependency-risk, release-integrity, evidence, supp
 description: "A malicious Nx Console VS Code extension, delivered by auto-update, shows why developer tools that touch build credentials need supply-chain evidence."
 ---
 
-On 28 May 2026, CISA published an alert on supply-chain compromises affecting Nx Console and GitHub repositories. CISA says threat actors used a prior compromise of Nx developer systems to reach a GitHub employee's device through a poisoned third-party VS Code extension, leading to unauthorized access to and exfiltration of internal GitHub repositories. CISA identifies the malicious build as Nx Console 18.95.0, says it was distributed through VS Code's automatic update mechanism, and states that CVE-2026-48027 was assigned and added to its Known Exploited Vulnerabilities (KEV) Catalog.
+On May 28, 2026, CISA published an alert on supply-chain compromises affecting Nx Console and GitHub repositories. CISA says threat actors used a prior compromise of Nx developer systems to reach a GitHub employee's device through a poisoned third-party VS Code extension, leading to unauthorized access to and exfiltration of internal GitHub repositories. CISA identifies the malicious build as Nx Console 18.95.0, says it was distributed through VS Code's automatic update mechanism, and states that CVE-2026-48027 was assigned and added to its Known Exploited Vulnerabilities (KEV) Catalog.
 
-Nx's postmortem, published on 21 May 2026, says the malicious version was published on 18 May 2026 by an attacker using a legitimate Nx contributor's stolen credentials. The Nx advisory (GHSA-c9j4-9m59-847w) gives exposure windows of 12:30 to 12:48 UTC on the Visual Studio Marketplace and 12:33 to 13:09 UTC on Open VSX. Nx states that the compromise "was scoped entirely to the Nx Console VSCode extension" and that the Nx CLI, `@nx/*` plugins and Nx Cloud were not affected.
+Nx's postmortem, published on May 21, 2026, says the malicious version was published on May 18, 2026, by an attacker using a legitimate Nx contributor's stolen credentials. The Nx advisory (GHSA-c9j4-9m59-847w) gives exposure windows of 12:30 to 12:48 UTC on the Visual Studio Marketplace and 12:33 to 13:09 UTC on Open VSX. Nx states that the compromise "was scoped entirely to the Nx Console VSCode extension" and that the Nx CLI, `@nx/*` plugins and Nx Cloud were not affected.
 
 {/* truncate */}
 
-The Nx postmortem traces the stolen credential to 11 May, when a contributor ran `pnpm install` in an external repository and pulled a malicious `@tanstack/zod-adapter` version from the [TanStack npm compromise](/blog/2026/05/11/tanstack-npm-compromise). The malware took the contributor's GitHub CLI OAuth token. Nx also notes that the repository's `.npmrc` set a seven-day `minimum-release-age`, but the pinned pnpm version predated support for that setting and ignored it.
+The Nx postmortem traces the stolen credential to May 11, when a contributor ran `pnpm install` in an external repository and pulled a malicious `@tanstack/zod-adapter` version from the [TanStack npm compromise](/blog/2026/05/11/tanstack-npm-compromise). The malware took the contributor's GitHub CLI OAuth token. Nx also notes that the repository's `.npmrc` set a seven-day `minimum-release-age`, but the pinned pnpm version predated support for that setting and ignored it.
 
 The chain therefore ran from one package compromise, through a developer's machine and an IDE extension release, to a second organization's developer device. At the extension step, CISA says systems could receive the malicious build through auto-update without a manual install. Nx advises that anyone who had Nx Console installed with auto-update enabled during the window should treat the machine as potentially compromised.
 
@@ -19,9 +19,9 @@ The useful question is not "which libraries ship in our product?" It is "which t
 
 :::info[Primary source]
 
-**[Supply Chain Compromises Impact Nx Console and GitHub Repositories](https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories)** — CISA, 28 May 2026
+**[Supply Chain Compromises Impact Nx Console and GitHub Repositories](https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories)** — CISA, May 28, 2026
 
-See also the [Nx postmortem](https://nx.dev/blog/nx-console-v18-95-0-postmortem) (Nx, 21 May 2026), the [Nx Console advisory GHSA-c9j4-9m59-847w](https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w) (18 May 2026), and [GitHub's investigation update](https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/) (20 May 2026, updated 26 May 2026).
+See also the [Nx postmortem](https://nx.dev/blog/nx-console-v18-95-0-postmortem) (Nx, May 21, 2026), the [Nx Console advisory GHSA-c9j4-9m59-847w](https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w) (May 18, 2026), and [GitHub's investigation update](https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/) (May 20, 2026, updated May 26, 2026).
 
 :::
 
@@ -29,7 +29,7 @@ See also the [Nx postmortem](https://nx.dev/blog/nx-console-v18-95-0-postmortem)
 
 :::info[What to do next]
 
-Identify developer machines that had Nx Console installed with auto-update enabled on 18 May 2026. A current version check is not enough, because those machines may have updated past 18.95.0 since; check them for the indicators of compromise in the Nx advisory and follow its remediation steps. Then pick one build or release credential and list every tool that can reach it, including IDE extensions, CLIs with stored tokens, package managers and CI actions, with how each one is updated.
+Identify developer machines that had Nx Console installed with auto-update enabled on May 18, 2026. A current version check is not enough, because those machines may have updated past 18.95.0 since; check them for the indicators of compromise in the Nx advisory and follow its remediation steps. Then pick one build or release credential and list every tool that can reach it, including IDE extensions, CLIs with stored tokens, package managers and CI actions, with how each one is updated.
 
 :::
 
@@ -55,7 +55,7 @@ The sources describe a chain of trust in tools that sit outside most product com
 - **A publish path without independent approval.** The Nx advisory says: "Previously a single member of our organization was able to release a new version of Nx Console without manual approval."
 - **Automatic delivery.** CISA says the malicious build was distributed through VS Code's automatic update mechanism, so systems could receive it without a manual install.
 
-According to the Nx advisory, the payload harvested credentials from disk and memory, including Vault, npm, AWS and GitHub tokens, 1Password vault contents if a session was active, private keys and other filesystem secrets, and attempted `sudoers` injection on Linux for persistence. GitHub says it contained a compromise of an employee device on 18 May involving a poisoned VS Code extension published by a third party; CISA's alert is what connects that compromise to Nx Console.
+According to the Nx advisory, the payload harvested credentials from disk and memory, including Vault, npm, AWS and GitHub tokens, 1Password vault contents if a session was active, private keys and other filesystem secrets, and attempted `sudoers` injection on Linux for persistence. GitHub says it contained a compromise of an employee device on May 18 involving a poisoned VS Code extension published by a third party; CISA's alert is what connects that compromise to Nx Console.
 
 The [Software and Update-Chain Compromise](/standards-threats/threats/software-update-chain-compromise/) page covers update paths that deliver unexpected artifacts, which is what an extension auto-update did here.
 

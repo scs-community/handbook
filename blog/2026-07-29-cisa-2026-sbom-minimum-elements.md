@@ -5,7 +5,7 @@ tags: [sbom, component-visibility, procurement, transparency, evidence]
 description: "CISA and partners updated the SBOM minimum elements, giving buyers a named baseline to request and check SBOMs against, without treating SBOMs as proof of security."
 ---
 
-On 29 July 2026, CISA and 17 US and international partner organizations published **2026 Minimum Elements for a Software Bill of Materials (SBOM)**. The document "updates and replaces" the minimum elements published by the National Telecommunications and Information Administration (NTIA) in 2021. It was revised after comments on a draft released on 22 August 2025.
+On July 29, 2026, CISA and 17 US and international partner organizations published **2026 Minimum Elements for a Software Bill of Materials (SBOM)**. The document "updates and replaces" the minimum elements published by the National Telecommunications and Information Administration (NTIA) in 2021. It was revised after comments on a draft released on August 22, 2025.
 
 The 2026 baseline has 17 data fields, split into SBOM Metadata and Component Data, plus six practices and processes. The authors list ten new elements. They also say the minimum elements "apply to SBOMs for all software, including open source software, AI software, and SaaS".
 
@@ -19,7 +19,7 @@ The useful question is not "Can you provide an SBOM?" It is "Does this SBOM meet
 
 :::info[Primary source]
 
-**[2026 Minimum Elements for a Software Bill of Materials (SBOM)](https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom)** — CISA and partners, 29 July 2026
+**[2026 Minimum Elements for a Software Bill of Materials (SBOM)](https://www.cisa.gov/resources-tools/resources/2026-minimum-elements-software-bill-materials-sbom)** — CISA and partners, July 29, 2026
 
 :::
 
@@ -74,7 +74,7 @@ Most of the new metadata describes the SBOM itself: who produced it, how, from w
 | Component Hash Value and Component Hash Algorithm | Whether a listed executable artifact matches the one delivered. |
 | Explicitly Identifying Unknown Information | Whether missing data is unknown to the author or deliberately withheld. |
 
-These fields can help move an SBOM from a produced artifact towards a verifiable one. The baseline also says that "Each software version or update should have an associated SBOM," and that a revised SBOM should be issued when an error is corrected. Read together, these points can support version-bound acceptance rather than a one-off submission.
+These fields can help move an SBOM from a produced artifact toward a verifiable one. The baseline also says that "Each software version or update should have an associated SBOM," and that a revised SBOM should be issued when an error is corrected. Read together, these points can support version-bound acceptance rather than a one-off submission.
 
 The [Evidence Maturity Model](/resources/evidence-maturity-model/) can help you decide whether a delivered SBOM is a produced artifact or a verifiable one.
 

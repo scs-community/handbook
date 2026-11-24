@@ -2,10 +2,10 @@
 title: "CRA Reporting Obligations Apply: Evidence for the First 24 Hours"
 authors: [scs_community]
 tags: [vulnerability-response, standards, evidence, component-visibility, supplier-assurance]
-description: "CRA reporting for manufacturers applies from 11 September 2026, so 24-hour deadlines depend on component, triage, and supplier evidence that already exists."
+description: "CRA reporting for manufacturers applies from September 11, 2026, so 24-hour deadlines depend on component, triage, and supplier evidence that already exists."
 ---
 
-On 11 September 2026, reporting obligations under the EU Cyber Resilience Act (CRA) began to apply to manufacturers. ENISA announced the same day that it had deployed the initial operating capability of the CRA Single Reporting Platform (SRP). In ENISA's words, "From today, 11 September 2026, manufacturers are required to report" actively exploited vulnerabilities and severe incidents that affect the security of products with digital elements.
+On September 11, 2026, reporting obligations under the EU Cyber Resilience Act (CRA) began to apply to manufacturers. ENISA announced the same day that it had deployed the initial operating capability of the CRA Single Reporting Platform (SRP). In ENISA's words, "From today, 11 September 2026, manufacturers are required to report" actively exploited vulnerabilities and severe incidents that affect the security of products with digital elements.
 
 ENISA says it developed, operates and maintains the platform, and that the SRP "allows users to report once and communicate the relevant information to all appropriate authorities."
 
@@ -19,7 +19,7 @@ The useful question is not "can we file a report on the SRP?" It is "when we bec
 
 :::info[Primary source]
 
-**[The CRA Single Reporting Platform is launched](https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched)** — ENISA, 11 September 2026
+**[The CRA Single Reporting Platform is launched](https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched)** — ENISA, September 11, 2026
 
 :::
 
@@ -102,9 +102,9 @@ ENISA describes how a notification is routed: the CSIRT "designated as a coordin
 
 Reporting once instead of to each authority separately removes friction from the reporting step, but not the work behind the report. The platform receives what the manufacturer knows. Whether that knowledge is accurate, scoped to the right products and versions, and supported by retained records still depends on the manufacturer's own evidence.
 
-ENISA also notes that, under Article 24(3) of the CRA, these reporting obligations will apply from 11 December 2027 to open-source software stewards "to the extent that they are involved in the development of products with digital elements."
+ENISA also notes that, under Article 24(3) of the CRA, these reporting obligations will apply from December 11, 2027, to open-source software stewards "to the extent that they are involved in the development of products with digital elements."
 
-The handbook's [EU Cyber Resilience Act](/standards-threats/standards-regulations/eu-cyber-resilience-act/) page places the 11 September 2026 reporting date alongside the wider CRA timeline and maps vulnerability handling to evidence.
+The handbook's [EU Cyber Resilience Act](/standards-threats/standards-regulations/eu-cyber-resilience-act/) page places the September 11, 2026, reporting date alongside the wider CRA timeline and maps vulnerability handling to evidence.
 
 ---
 

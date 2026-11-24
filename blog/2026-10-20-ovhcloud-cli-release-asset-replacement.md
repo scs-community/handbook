@@ -5,19 +5,19 @@ tags: [software-supply-chain, release-integrity, dependency-risk, supplier-assur
 description: "Malicious binaries replaced existing OVHcloud CLI releases while source and build stayed clean, showing why release immutability and hash checks matter."
 ---
 
-On 20 October 2026, OVHcloud published a security advisory for its `ovhcloud-cli` project. It says that on 19 October 2026 "a compromised OVHcloud's GitHub developer account was used to replace several existing assets releases with malicious binaries," affecting releases v0.11.0 to v0.15.0 between 14:47 and 16:21 (UTC+2). The advisory reports about 250 downloads in that window and says "source code and build chain are not affected."
+On October 20, 2026, OVHcloud published a security advisory for its `ovhcloud-cli` project. It says that on October 19, 2026, "a compromised OVHcloud's GitHub developer account was used to replace several existing assets releases with malicious binaries," affecting releases v0.11.0 to v0.15.0 between 14:47 and 16:21 (UTC+2). The advisory reports about 250 downloads in that window and says "source code and build chain are not affected."
 
 OVHcloud gives the main cause as a repository that "was not appropriately configured to ensure release immutability." It says the configuration was corrected and applied to every repository, and that a clean v0.16.0 was released with a signed tag the same evening.
 
 {/* truncate */}
 
-Most release-integrity checks look at how an artifact was built: the source, the pipeline, the signing step. This incident left all of those intact. The attacker did not publish a new version; they swapped the files behind versions that already existed. A team that had reviewed v0.15.0 and pinned to it by version number would have downloaded something different on the afternoon of 19 October without any version change to notice.
+Most release-integrity checks look at how an artifact was built: the source, the pipeline, the signing step. This incident left all of those intact. The attacker did not publish a new version; they swapped the files behind versions that already existed. A team that had reviewed v0.15.0 and pinned to it by version number would have downloaded something different on the afternoon of October 19 without any version change to notice.
 
 The useful question is not "was this release built from reviewed source?" It is "can the files behind an approved release change after we approve it, and would we detect it if they did?"
 
 :::info[Primary source]
 
-**[ovhcloud-cli security incident - October 19th, 2026 (GHSA-862f-55f5-vmvw)](https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw)** — OVHcloud, 20 October 2026
+**[ovhcloud-cli security incident - October 19th, 2026 (GHSA-862f-55f5-vmvw)](https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw)** — OVHcloud, October 20, 2026
 
 :::
 

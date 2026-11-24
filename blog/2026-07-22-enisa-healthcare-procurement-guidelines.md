@@ -5,9 +5,9 @@ tags: [procurement, supplier-assurance, evidence, vulnerability-response]
 description: "ENISA's 2026 healthcare procurement guidelines show how supply-chain expectations become supplier obligations across plan, source, and manage phases."
 ---
 
-On 22 July 2026, ENISA published **Procurement guidelines for the cybersecurity of hospitals and healthcare providers**. The document says the European Commission's action plan on the cybersecurity of hospitals and healthcare providers, launched in January 2025, called for updated procurement guidelines that build on ENISA's 2020 guidelines.
+On July 22, 2026, ENISA published **Procurement guidelines for the cybersecurity of hospitals and healthcare providers**. The document says the European Commission's action plan on the cybersecurity of hospitals and healthcare providers, launched in January 2025, called for updated procurement guidelines that build on ENISA's 2020 guidelines.
 
-The guidelines organise cybersecurity measures into general measures and three procurement phases: plan, source, and manage. Each plan, source, and manage measure is marked as "recommended" or "nice-to-have" for specific procurement types, such as medical devices, clinical information systems, cloud services, and network equipment.
+The guidelines organize cybersecurity measures into general measures and three procurement phases: plan, source, and manage. Each plan, source, and manage measure is marked as "recommended" or "nice-to-have" for specific procurement types, such as medical devices, clinical information systems, cloud services, and network equipment.
 
 {/* truncate */}
 
@@ -17,7 +17,7 @@ Procurement is usually the last point where a buyer can ask for evidence before 
 
 :::info[Primary source]
 
-**[Procurement guidelines for the cybersecurity of hospitals and healthcare providers](https://www.enisa.europa.eu/publications/procurement-guidelines-for-the-cybersecurity-of-hospitals-and-healthcare-providers)** — ENISA, 22 July 2026
+**[Procurement guidelines for the cybersecurity of hospitals and healthcare providers](https://www.enisa.europa.eu/publications/procurement-guidelines-for-the-cybersecurity-of-hospitals-and-healthcare-providers)** — ENISA, July 22, 2026
 
 :::
 

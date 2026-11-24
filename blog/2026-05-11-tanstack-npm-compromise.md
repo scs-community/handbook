@@ -5,15 +5,15 @@ tags: [npm, software-supply-chain, release-integrity, evidence, supplier-assuran
 description: "Malicious TanStack npm releases came from TanStack's own trusted-publisher pipeline, showing why build identity is not release authorization."
 ---
 
-On 11 May 2026, between 19:20 and 19:26 UTC, an attacker published 84 malicious versions across 42 `@tanstack/*` npm packages. TanStack's postmortem, published the same day, says the attacker chained three weaknesses: a `pull_request_target` "Pwn Request" workflow, GitHub Actions cache poisoning across the fork-to-base trust boundary, and extraction of an OIDC token from the GitHub Actions runner's memory.
+On May 11, 2026, between 19:20 and 19:26 UTC, an attacker published 84 malicious versions across 42 `@tanstack/*` npm packages. TanStack's postmortem, published the same day, says the attacker chained three weaknesses: a `pull_request_target` "Pwn Request" workflow, GitHub Actions cache poisoning across the fork-to-base trust boundary, and extraction of an OIDC token from the GitHub Actions runner's memory.
 
 The publishes were authenticated through the legitimate GitHub Actions OIDC trusted-publisher binding for the `TanStack/router` release workflow. TanStack states that no npm tokens were stolen and that the publish workflow itself was not modified. An external researcher at StepSecurity opened tracking issue #7383 at 19:46 UTC, and the advisory is GHSA-g7cv-rxg3-hmpx (CVE-2026-45321).
 
 {/* truncate */}
 
-:::note[Updated 24 November 2026]
+:::note[Updated November 24, 2026]
 
-On 8 July 2026, GitHub announced that npm v12 is generally available and that dependency lifecycle scripts (`preinstall`, `install`, `postinstall`) no longer run by default unless explicitly allowed. See the [GitHub changelog](https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation). The analysis below is written as of 11 May 2026.
+On July 8, 2026, GitHub announced that npm v12 is generally available and that dependency lifecycle scripts (`preinstall`, `install`, `postinstall`) no longer run by default unless explicitly allowed. See the [GitHub changelog](https://github.blog/changelog/2026-07-08-npm-install-time-security-and-gat-bypass2fa-deprecation). The analysis below is written as of May 11, 2026.
 
 :::
 
@@ -25,7 +25,7 @@ The useful question is not "did this package come from the expected pipeline?" I
 
 :::info[Primary source]
 
-**[Postmortem: TanStack npm supply-chain compromise](https://tanstack.com/blog/npm-supply-chain-compromise-postmortem)** — TanStack (Tanner Linsley), 11 May 2026
+**[Postmortem: TanStack npm supply-chain compromise](https://tanstack.com/blog/npm-supply-chain-compromise-postmortem)** — TanStack (Tanner Linsley), May 11, 2026
 
 See also the [GitHub Security Advisory GHSA-g7cv-rxg3-hmpx](https://github.com/advisories/GHSA-g7cv-rxg3-hmpx) and the [tracking issue TanStack/router#7383](https://github.com/TanStack/router/issues/7383).
 
@@ -35,7 +35,7 @@ See also the [GitHub Security Advisory GHSA-g7cv-rxg3-hmpx](https://github.com/a
 
 :::info[What to do next]
 
-Check whether any affected `@tanstack/*` version was installed in a developer, CI or production environment on 11 May 2026. Then list every workflow in your own release repositories that can mint a publish or signing credential, and record which triggers, caches and steps can reach it.
+Check whether any affected `@tanstack/*` version was installed in a developer, CI or production environment on May 11, 2026. Then list every workflow in your own release repositories that can mint a publish or signing credential, and record which triggers, caches and steps can reach it.
 
 :::
 
@@ -112,7 +112,7 @@ TanStack learned of the compromise from a third party; the postmortem lists "no 
 
 For consumers, retain:
 
-- which builds, environments and hosts installed an affected version on 11 May 2026;
+- which builds, environments and hosts installed an affected version on May 11, 2026;
 - which credentials were reachable from those hosts, and rotation decisions;
 - the clean lockfile and fixed versions used for reinstall.
 

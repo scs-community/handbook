@@ -5,9 +5,9 @@ tags: [software-supply-chain, release-integrity, dependency-risk, evidence, supp
 description: "LiteLLM v1.107.0 was built from a lookalike fork and approved with stolen tokens, showing why release gates need independent approvers and source binding."
 ---
 
-On 23 October 2026, LiteLLM published a root cause analysis of the compromise of its v1.107.0 release, which it describes as the canonical account of the incident. On 21 October 2026, LiteLLM's own release pipeline, after a production approval given with a stolen token, built `litellm==1.107.0` from an attacker's fork commit, signed it and published it to PyPI, with compromised container images on Docker Hub and GHCR. LiteLLM's incident page says "The official v1.107.0 source tag in GitHub does not contain the malicious files" and that the artifacts were built from an attacker-controlled repository.
+On October 23, 2026, LiteLLM published a root cause analysis of the compromise of its v1.107.0 release, which it describes as the canonical account of the incident. On October 21, 2026, LiteLLM's own release pipeline, after a production approval given with a stolen token, built `litellm==1.107.0` from an attacker's fork commit, signed it and published it to PyPI, with compromised container images on Docker Hub and GHCR. LiteLLM's incident page says "The official v1.107.0 source tag in GitHub does not contain the malicious files" and that the artifacts were built from an attacker-controlled repository.
 
-According to the analysis, the chain began on 27 May 2026, when an administrative key for an internal LiteLLM platform was committed to a public repository. The file was removed about three hours later, but "Because of human error, nobody followed through on revoking the administrative key". On 10 October, the attacker used the key to obtain a GitHub organization owner's GitHub CLI OAuth token, then used workflows to exfiltrate tokens belonging to two other maintainers. On 21 October, the attacker changed the release workflow so it could build from a fork, ran it against a lookalike repository, `Berri-AI/litellm`, and approved the production gate with a second maintainer's stolen token.
+According to the analysis, the chain began on May 27, 2026, when an administrative key for an internal LiteLLM platform was committed to a public repository. The file was removed about three hours later, but "Because of human error, nobody followed through on revoking the administrative key". On October 10, the attacker used the key to obtain a GitHub organization owner's GitHub CLI OAuth token, then used workflows to exfiltrate tokens belonging to two other maintainers. On October 21, the attacker changed the release workflow so it could build from a fork, ran it against a lookalike repository, `Berri-AI/litellm`, and approved the production gate with a second maintainer's stolen token.
 
 {/* truncate */}
 
@@ -19,9 +19,9 @@ The useful question is not "does our release require approval?" It is "could one
 
 :::info[Primary source]
 
-**[The attack chain behind the v1.107.0 LiteLLM release](https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain)** — LiteLLM, 23 October 2026
+**[The attack chain behind the v1.107.0 LiteLLM release](https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain)** — LiteLLM, October 23, 2026
 
-See also LiteLLM's [incident page and remediation steps](https://docs.litellm.ai/blog/security-incident-oct-21-2026) (21 October 2026) and Microsoft Security's [analysis of the payload](https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/) (23 October 2026).
+See also LiteLLM's [incident page and remediation steps](https://docs.litellm.ai/blog/security-incident-oct-21-2026) (October 21, 2026) and Microsoft Security's [analysis of the payload](https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/) (October 23, 2026).
 
 :::
 
@@ -29,7 +29,7 @@ See also LiteLLM's [incident page and remediation steps](https://docs.litellm.ai
 
 :::info[What to do next]
 
-Check whether `litellm==1.107.0` or the affected images ran anywhere in your environments on 21 October 2026, and follow LiteLLM's remediation steps if so. Then, for one release pipeline you own, write down every identity that can trigger, change or approve a release, and note which of them could be compromised together.
+Check whether `litellm==1.107.0` or the affected images ran anywhere in your environments on October 21, 2026, and follow LiteLLM's remediation steps if so. Then, for one release pipeline you own, write down every identity that can trigger, change or approve a release, and note which of them could be compromised together.
 
 :::
 
@@ -51,9 +51,9 @@ Check whether `litellm==1.107.0` or the affected images ran anywhere in your env
 The analysis describes a release process with branch protection, a source-owner binding and a two-person gate. Each was bypassed through an identity it trusted:
 
 - **Unrevoked exposed key.** The administrative key stayed valid for more than four months after it was exposed. LiteLLM writes that the incident "has provided a strong illustration of the risks associated with failing to rotate a potentially exposed key."
-- **Owner-level token.** The token obtained on 10 October was a GitHub CLI OAuth token belonging to an organization owner. LiteLLM writes: "From this point on, the threat actor had owner capabilities over our GitHub organization." That token was used to disable branch protection and force-push the workflow change.
+- **Owner-level token.** The token obtained on October 10 was a GitHub CLI OAuth token belonging to an organization owner. LiteLLM writes: "From this point on, the threat actor had owner capabilities over our GitHub organization." That token was used to disable branch protection and force-push the workflow change.
 - **Source binding that could be edited.** The release workflows previously "checked out their source with `BerriAI` hardcoded as the repository owner". The attacker's commit added an input that accepted any owner, and the staging run used a commit that existed only on the lookalike fork.
-- **Approval by a stolen identity.** The production gate was approved with a second maintainer's token, which had been exfiltrated through a CI workflow on 10 October.
+- **Approval by a stolen identity.** The production gate was approved with a second maintainer's token, which had been exfiltrated through a CI workflow on October 10.
 
 After publication, a third maintainer's stolen token was used to delete the staging and production run records. LiteLLM says the organization audit log still recorded the protection overrides, and token hashes in the audit log tie the stolen tokens to the approval and the deletions.
 
@@ -98,7 +98,7 @@ A weak answer like this can be true and still miss the failure this incident sho
 
 ## What consumers should retain
 
-LiteLLM's incident page lists the affected PyPI wheels and Docker Hub and GHCR tags with their windows on 21 October 2026, and remediation steps including rebuilding environments, removing named startup files and rotating every credential the host could reach. Microsoft's analysis states that "Removing the package or a release tag is not sufficient recovery." For consumers, retain:
+LiteLLM's incident page lists the affected PyPI wheels and Docker Hub and GHCR tags with their windows on October 21, 2026, and remediation steps including rebuilding environments, removing named startup files and rotating every credential the host could reach. Microsoft's analysis states that "Removing the package or a release tag is not sufficient recovery." For consumers, retain:
 
 - which environments installed `litellm==1.107.0` or ran the affected image digests, and when;
 - the startup-file and process checks performed, and their results;

@@ -2,10 +2,10 @@
 title: "Secure Boot Certificate Expiry: A Trust Anchor Rotation Is a Supply-Chain Event"
 authors: [scs_community]
 tags: [firmware, release-integrity, supplier-assurance, procurement, evidence]
-description: "Microsoft's 2011 Secure Boot certificates begin expiring on 24 June 2026, showing why buyers need evidence of how device trust anchors will be rotated."
+description: "Microsoft's 2011 Secure Boot certificates begin expiring on June 24, 2026, showing why buyers need evidence of how device trust anchors will be rotated."
 ---
 
-On 24 June 2026, the Microsoft Corporation KEK CA 2011 certificate expires. It is the first of three Microsoft Secure Boot certificate authorities from 2011 to reach its expiration date this year. According to Microsoft, the Microsoft UEFI CA 2011, which signs third-party boot loaders and option ROMs, expires on 27 June 2026. The Microsoft Windows Production PCA 2011 expires on 19 October 2026.
+On June 24, 2026, the Microsoft Corporation KEK CA 2011 certificate expires. It is the first of three Microsoft Secure Boot certificate authorities from 2011 to reach its expiration date this year. According to Microsoft, the Microsoft UEFI CA 2011, which signs third-party boot loaders and option ROMs, expires on June 27, 2026. The Microsoft Windows Production PCA 2011 expires on October 19, 2026.
 
 Microsoft is replacing them with 2023 certificate authorities and says that "Both UEFI Secure Boot DB and KEK need to be updated with the corresponding new 2023 certificate versions." Microsoft also says some devices may need an OEM firmware update to apply the new certificates correctly.
 
@@ -17,9 +17,9 @@ The useful question is not "Does this device support Secure Boot?" It is "Who wi
 
 :::info[Primary source]
 
-**[Windows Secure Boot certificate expiration and CA updates](https://support.microsoft.com/help/5062710)** — Microsoft, 26 June 2025, with certificate table updated 18 May 2026
+**[Windows Secure Boot certificate expiration and CA updates](https://support.microsoft.com/help/5062710)** — Microsoft, June 26, 2025, with certificate table updated May 18, 2026
 
-**[When Secure Boot certificates expire on Windows devices](https://support.microsoft.com/en-US/servicing/os/secure-boot/2026/02/when-secure-boot-certificates-expire-on-windows-devices)** — Microsoft, 10 February 2026
+**[When Secure Boot certificates expire on Windows devices](https://support.microsoft.com/en-US/servicing/os/secure-boot/2026/02/when-secure-boot-certificates-expire-on-windows-devices)** — Microsoft, February 10, 2026
 
 :::
 

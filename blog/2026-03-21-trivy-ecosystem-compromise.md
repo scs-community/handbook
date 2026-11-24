@@ -5,15 +5,15 @@ tags: [software-supply-chain, release-integrity, dependency-risk, vulnerability-
 description: "Force-pushed Trivy action tags and a malicious v0.69.4 release show why CI security tools need pinned, verified releases and complete credential rotation."
 ---
 
-On 21 March 2026, the Trivy maintainers at Aqua Security published advisory GHSA-69fq-xp46-6x23 (CVE-2026-33634), rated critical. It states that "On March 19, 2026, a threat actor used compromised credentials to publish a malicious Trivy v0.69.4 release," force-pushed 76 of 77 version tags in `aquasecurity/trivy-action` to credential-stealing malware, and replaced all 7 tags in `aquasecurity/setup-trivy` with malicious commits. A maintainer announcement in the Trivy repository, "Trivy Security incident 2026-03-19", was posted on 20 March 2026.
+On March 21, 2026, the Trivy maintainers at Aqua Security published advisory GHSA-69fq-xp46-6x23 (CVE-2026-33634), rated critical. It states that "On March 19, 2026, a threat actor used compromised credentials to publish a malicious Trivy v0.69.4 release," force-pushed 76 of 77 version tags in `aquasecurity/trivy-action` to credential-stealing malware, and replaced all 7 tags in `aquasecurity/setup-trivy` with malicious commits. A maintainer announcement in the Trivy repository, "Trivy Security incident 2026-03-19", was posted on March 20, 2026.
 
-The advisory describes the root cause as the continuation of an incident first disclosed on 1 March, after which "credential rotation was performed but was not atomic (not all credentials were revoked simultaneously)." The advisory says the attacker could have used a still-valid token to exfiltrate newly rotated secrets during that window.
+The advisory describes the root cause as the continuation of an incident first disclosed on March 1, after which "credential rotation was performed but was not atomic (not all credentials were revoked simultaneously)." The advisory says the attacker could have used a still-valid token to exfiltrate newly rotated secrets during that window.
 
 {/* truncate */}
 
-:::note[Updated 24 November 2026]
+:::note[Updated November 24, 2026]
 
-The advisory was later updated to add malicious Trivy v0.69.5 and v0.69.6 images, which it says were pushed directly to Docker Hub on 22 March 2026 using separately compromised Docker Hub credentials, with no matching GitHub tags or releases. The advisory as revised (last updated 30 March 2026) also gives exposure windows on 19 and 20 March (UTC) of about 3 hours for the v0.69.4 binaries and images, about 12 hours for `trivy-action`, and about 4 hours for `setup-trivy`. It notes that pinning `trivy-action` to a commit from before 9 April 2025 could still pull a malicious `setup-trivy`, and that the malware could create a public `tpcp-docs` repository on a victim's account to hold stolen data, so finding one is a sign of compromise. See the [advisory](https://github.com/advisories/GHSA-69fq-xp46-6x23). The analysis below is written as of 21 March 2026.
+The advisory was later updated to add malicious Trivy v0.69.5 and v0.69.6 images, which it says were pushed directly to Docker Hub on March 22, 2026, using separately compromised Docker Hub credentials, with no matching GitHub tags or releases. The advisory as revised (last updated March 30, 2026) also gives exposure windows on March 19 and 20 (UTC) of about 3 hours for the v0.69.4 binaries and images, about 12 hours for `trivy-action`, and about 4 hours for `setup-trivy`. It notes that pinning `trivy-action` to a commit from before April 9, 2025, could still pull a malicious `setup-trivy`, and that the malware could create a public `tpcp-docs` repository on a victim's account to hold stolen data, so finding one is a sign of compromise. See the [advisory](https://github.com/advisories/GHSA-69fq-xp46-6x23). The analysis below is written as of March 21, 2026.
 
 :::
 
@@ -25,9 +25,9 @@ The useful question is not "do we use a reputable security tool?" It is "what ex
 
 :::info[Primary source]
 
-**[Trivy ecosystem supply chain was briefly compromised (GHSA-69fq-xp46-6x23, CVE-2026-33634)](https://github.com/advisories/GHSA-69fq-xp46-6x23)** — Aqua Security Trivy maintainers, 21 March 2026
+**[Trivy ecosystem supply chain was briefly compromised (GHSA-69fq-xp46-6x23, CVE-2026-33634)](https://github.com/advisories/GHSA-69fq-xp46-6x23)** — Aqua Security Trivy maintainers, March 21, 2026
 
-See also the maintainer announcement [aquasecurity/trivy discussion #10425](https://github.com/aquasecurity/trivy/discussions/10425), 20 March 2026.
+See also the maintainer announcement [aquasecurity/trivy discussion #10425](https://github.com/aquasecurity/trivy/discussions/10425), March 20, 2026.
 
 :::
 
@@ -35,7 +35,7 @@ See also the maintainer announcement [aquasecurity/trivy discussion #10425](http
 
 :::info[What to do next]
 
-Search your workflow files for `aquasecurity/trivy-action` and `aquasecurity/setup-trivy`, and check run logs from 19 and 20 March 2026. Where an affected version ran, follow the advisory and treat every secret the pipeline could reach as exposed. Then list every third-party action in your release workflows that is referenced by a tag rather than a full commit SHA.
+Search your workflow files for `aquasecurity/trivy-action` and `aquasecurity/setup-trivy`, and check run logs from March 19 and 20, 2026. Where an affected version ran, follow the advisory and treat every secret the pipeline could reach as exposed. Then list every third-party action in your release workflows that is referenced by a tag rather than a full commit SHA.
 
 :::
 
@@ -58,7 +58,7 @@ The advisory describes several distinct failures:
 
 - **Mutable release references.** Version tags in `trivy-action` and `setup-trivy` were force-pushed to malicious commits. A workflow using `@0.34.0` or similar ran whatever the tag pointed to at the time.
 - **Release pipeline abuse.** For v0.69.4, the advisory says the attacker pushed a commit that swapped the `actions/checkout` reference to an imposter commit, added `--skip=validate` to the goreleaser step to bypass binary validation, and tagged the commit to trigger the release pipeline. The malicious code was never on `main`.
-- **Incomplete credential rotation.** The advisory links the 19 March attack to an earlier compromise disclosed on 1 March and to rotation that "was not atomic."
+- **Incomplete credential rotation.** The advisory links the March 19 attack to an earlier compromise disclosed on March 1 and to rotation that "was not atomic."
 
 The advisory also shows what held. It says v0.69.3 "is protected by GitHub's immutable releases feature (enabled March 3, before v0.69.3 was published)," that v0.69.2 can be verified through Sigstore signatures, and that images referenced by digest were not affected. Its guidance is to "Pin GitHub Actions to full, immutable commit SHA hashes, don't use mutable version tags."
 

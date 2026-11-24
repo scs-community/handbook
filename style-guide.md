@@ -34,7 +34,7 @@ Avoid:
 - **Connected, not staccato**: Join related points into sentences that show how they relate, using *so*, *because*, *but*, *which*, *if*, and *while*, rather than a run of short declaratives that each start with their subject. Vary sentence length, keep colons for introducing a list or an example, and give each paragraph one idea.
   - *Avoid*: `"Ask for the SBOM. Check the version. Store the result."` → *Prefer*: `"Ask for the SBOM for the exact version you are accepting, so the result you store can be traced to that release."`
 - **Acronyms**: Spell out abbreviations on first use on a page, for example *Software Bill of Materials (SBOM)*, *Remote Attestation Procedures (RATS)*, or *Cyber Resilience Act (CRA)*, unless the short form is clearer in a heading or table and is explained immediately in text or in the [Glossary](docs/resources/glossary.md).
-- **Dates**: Write dates as `D Month YYYY` in prose (*21 March 2026*). Use ISO 8601 (`2026-03-21`) only in front matter, file names, and compact reference tables where dates must sort.
+- **Dates**: Write dates in US long format, `Month D, YYYY`, in prose (*March 21, 2026*), with a comma after the year when the sentence continues (*On March 21, 2026, the maintainers...*). Leave dates inside direct quotes as the source wrote them. Use ISO 8601 (`2026-03-21`) only in front matter, file names, and compact reference tables where dates must sort.
 
 ### Preferred Domain Terms
 
@@ -225,7 +225,7 @@ description: "One sentence stating the event and why it matters for supply-chain
 
 Use this order. Separate the sections after the opening callouts with `---`.
 
-1. **Factual lede**, in one or two short paragraphs: what happened, who published or reported it, and when (for example, "31 March 2026"). State only what the source says.
+1. **Factual lede**, in one or two short paragraphs: what happened, who published or reported it, and when (for example, "March 31, 2026"). State only what the source says.
 2. `{/* truncate */}`
 3. **Handbook framing**, in one to three paragraphs: why this matters for supply-chain assurance. End by restating the event as a decision or evidence question ("The useful question is not X. It is Y.").
 4. **Primary source callout**, with exactly this label:
@@ -233,7 +233,7 @@ Use this order. Separate the sections after the opening callouts with `---`.
    ```md
    :::info[Primary source]
 
-   **[Source title](https://...)** — Publisher, D Month YYYY
+   **[Source title](https://...)** — Publisher, Month D, YYYY
 
    :::
    ```
@@ -274,7 +274,7 @@ End each analysis section with one sentence that links to the most relevant hand
   ```
 
 - Use public handbook URLs such as `/practices-controls/...`, never `/docs/...`.
-- Write dates as `D Month YYYY`.
+- Write dates as `Month D, YYYY`.
 - Use sentence case for headings inside posts.
 - Fictional examples must be clearly illustrative. Do not name real suppliers as weak examples.
 
@@ -283,7 +283,7 @@ End each analysis section with one sentence that links to the most relevant hand
 If facts change after publication, such as affected versions, attribution, or a revised source, do not silently rewrite the post. Add a note directly after the truncate marker:
 
 ```md
-:::note[Updated D Month YYYY]
+:::note[Updated Month D, YYYY]
 
 What changed, with a link to the updated source.
 

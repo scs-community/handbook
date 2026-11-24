@@ -5,7 +5,7 @@ tags: [software-supply-chain, npm, dependency-risk, release-integrity, vulnerabi
 description: "A compromised Axios npm release shows why dependency trust needs release, provenance, update, and incident evidence."
 ---
 
-On 31 March 2026, Google Threat Intelligence reported a software supply-chain attack against the widely used `axios` npm package. The attacker introduced a malicious dependency, `plain-crypto-js`, into `axios` npm releases `1.14.1` and `0.30.4`.
+On March 31, 2026, Google Threat Intelligence reported a software supply-chain attack against the widely used `axios` npm package. The attacker introduced a malicious dependency, `plain-crypto-js`, into `axios` npm releases `1.14.1` and `0.30.4`.
 
 The malicious dependency used a `postinstall` hook to deploy the cross-platform WAVESHAPER.V2 backdoor across Windows, macOS, and Linux. Google attributed the activity to a North Korea-nexus actor tracked as UNC1069.
 
@@ -17,7 +17,7 @@ For product and supplier-assurance teams, the useful retrospective question is n
 
 :::info[Primary source]
 
-**[North Korea-Nexus Threat Actor Compromises Widely Used Axios NPM Package in Supply Chain Attack](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package)** — Google Threat Intelligence Group, 31 March 2026
+**[North Korea-Nexus Threat Actor Compromises Widely Used Axios NPM Package in Supply Chain Attack](https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package)** — Google Threat Intelligence Group, March 31, 2026
 
 :::
 

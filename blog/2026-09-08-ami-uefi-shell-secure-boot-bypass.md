@@ -5,7 +5,7 @@ tags: [firmware, vulnerability-response, supplier-assurance, component-visibilit
 description: "CERT/CC VU#718077 shows how a UEFI Shell in SPI flash can bypass Secure Boot, and why firmware supplier, version, and vendor status need evidence."
 ---
 
-On 8 September 2026, the CERT Coordination Center (CERT/CC) published Vulnerability Note VU#718077, "UEFI Shell module embedded in SPI Flash can be used to bypass Secure Boot". The note says that when the UEFI Shell is included in SPI flash, an attacker able to modify UEFI boot configuration may create multiple boot option entries and bypass controls intended to stop the Shell launching while Secure Boot is enabled. The Shell's memory commands and startup scripting could then be used to overwrite Secure Boot-related memory values and run unauthorized code before the operating system loads. CERT/CC credits Stas Lyakhov of Eclypsium with the report.
+On September 8, 2026, the CERT Coordination Center (CERT/CC) published Vulnerability Note VU#718077, "UEFI Shell module embedded in SPI Flash can be used to bypass Secure Boot". The note says that when the UEFI Shell is included in SPI flash, an attacker able to modify UEFI boot configuration may create multiple boot option entries and bypass controls intended to stop the Shell launching while Secure Boot is enabled. The Shell's memory commands and startup scripting could then be used to overwrite Secure Boot-related memory values and run unauthorized code before the operating system loads. CERT/CC credits Stas Lyakhov of Eclypsium with the report.
 
 The note lists three CVE identifiers: CVE-2026-20293, CVE-2026-33197 and CVE-2026-6485. The same day, AMI published advisory AMI-SA-2026001 for CVE-2026-33197, rating it CVSS 4.0 8.7 (`CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H`), CWE-184, with fix version `AptioV_5.044`.
 
@@ -13,13 +13,13 @@ The note lists three CVE identifiers: CVE-2026-20293, CVE-2026-33197 and CVE-202
 
 The firmware in a server, workstation or appliance is rarely written by the company whose name is on the box. CERT/CC notes that many OEM and independent BIOS vendor (IBV) firmware images include the UEFI Shell for service and support purposes. A choice made by one layer, such as keeping a diagnostic shell in flash, passes down to every product built on it.
 
-The vendor table shows how unevenly that inherited risk was understood at publication. CERT/CC notified most of the 22 listed vendors on 8 April 2026. Five months later, 16 had not provided a statement and were listed as Unknown.
+The vendor table shows how unevenly that inherited risk was understood at publication. CERT/CC notified most of the 22 listed vendors on April 8, 2026. Five months later, 16 had not provided a statement and were listed as Unknown.
 
 The useful question is not "is my vendor on the affected list?" It is whether each layer in your firmware supply chain can say which firmware supplier and version a product carries, whether it is affected under the relevant identifier, and when a fix will reach the installed base.
 
 :::info[Primary source]
 
-**[VU#718077: UEFI Shell module embedded in SPI Flash can be used to bypass Secure Boot](https://kb.cert.org/vuls/id/718077)** — CERT Coordination Center, 8 September 2026
+**[VU#718077: UEFI Shell module embedded in SPI Flash can be used to bypass Secure Boot](https://kb.cert.org/vuls/id/718077)** — CERT Coordination Center, September 8, 2026
 
 :::
 
@@ -52,7 +52,7 @@ A Secure Boot bypass in platform firmware passes through several hands before it
 open-source reference code -> independent BIOS vendor -> motherboard or OEM firmware -> product -> buyer
 ```
 
-VU#718077 shows each of these layers. CERT/CC describes the UEFI Shell as part of the open-source TianoCore EDK II reference implementation. AMI states that it is affected. GIGABYTE's statement, dated 8 July 2026, confirms a vulnerability in the AMI Aptio UEFI BDS module: a logic error in the Shell boot-option removal process. GIGABYTE says it integrated AMI's patch into its BIOS build pipeline and verified that the updated module removes all matching entries, with a BIOS update scheduled for public release before 14 July 2026.
+VU#718077 shows each of these layers. CERT/CC describes the UEFI Shell as part of the open-source TianoCore EDK II reference implementation. AMI states that it is affected. GIGABYTE's statement, dated July 8, 2026, confirms a vulnerability in the AMI Aptio UEFI BDS module: a logic error in the Shell boot-option removal process. GIGABYTE says it integrated AMI's patch into its BIOS build pipeline and verified that the updated module removes all matching entries, with a BIOS update scheduled for public release before July 14, 2026.
 
 Insyde's statement says the issue is based on a vulnerability in the upstream TianoCore codebase, and that most devices shipping with Insyde BIOS are not affected because they do not include the Shell in code areas approved to run unsigned during Secure Boot. A subset of customers who chose to include it may be.
 
@@ -62,7 +62,7 @@ None of these statements is about the buyer's product. The answer depends on whi
 
 ## What the vendor table does and does not tell you
 
-As published on 8 September 2026, the table showed this overall vendor status:
+As published on September 8, 2026, the table showed this overall vendor status:
 
 | Status | Vendors |
 |---|---|

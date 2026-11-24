@@ -19,7 +19,7 @@ The useful assurance question is not "Do we have an AI SBOM?" It is "Can this ar
 
 :::info[Primary source]
 
-**[Software Bill of Materials for AI - Minimum Elements](https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements)** — CISA and G7 partners, 12 May 2026
+**[Software Bill of Materials for AI - Minimum Elements](https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements)** — CISA and G7 partners, May 12, 2026
 
 :::
 

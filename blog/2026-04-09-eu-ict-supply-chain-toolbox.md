@@ -5,7 +5,7 @@ tags: [nis2, supplier-assurance, procurement, cscrm, evidence]
 description: "The EU ICT Supply Chain Security Toolbox makes supplier-risk governance more concrete by tying supplier criticality, dependencies, and mitigation decisions to retained evidence."
 ---
 
-On 13 February 2026, the NIS Cooperation Group adopted the **EU ICT Supply Chain Security Toolbox**, developed by Member States with support from the European Commission and ENISA.
+On February 13, 2026, the NIS Cooperation Group adopted the **EU ICT Supply Chain Security Toolbox**, developed by Member States with support from the European Commission and ENISA.
 
 The European Commission describes the toolbox as a horizontal, common, non-binding approach for identifying, assessing, and mitigating cybersecurity risks in ICT supply chains. It recommends measures such as critical-supplier assessment, multi-vendor strategies, and reducing dependencies on high-risk suppliers.
 
@@ -17,7 +17,7 @@ For this handbook, the toolbox is most useful as a supplier-assurance design pro
 
 :::info[Primary source]
 
-**[ICT supply chain security: EU adopts a toolbox to mitigate risks](https://digital-strategy.ec.europa.eu/en/news/ict-supply-chain-security-eu-adopts-toolbox-mitigate-risks)** — European Commission, 13 February 2026
+**[ICT supply chain security: EU adopts a toolbox to mitigate risks](https://digital-strategy.ec.europa.eu/en/news/ict-supply-chain-security-eu-adopts-toolbox-mitigate-risks)** — European Commission, February 13, 2026
 
 :::
 
