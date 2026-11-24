@@ -62,7 +62,7 @@ SPDM evidence depends on the implemented protocol version, requester and respond
 
 ### Software Bill of Materials (SBOM) / xBOM distribution
 
-[CRA Annex I Part II (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)<br/>
+[CRA Annex I Part II (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#anx_I)<br/>
 [NIS2 Art. 21 § 2(d)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32022L2555#art_21)
 
 Software Bill of Materials (SBOM) and broader xBOM distribution workflows move transparency artifacts between suppliers, buyers, operators, customers, and auditors. In this handbook, distribution matters because a useful artifact must reach the right relying party with scope, version, freshness, and interpretation intact.

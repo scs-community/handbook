@@ -35,7 +35,7 @@ They are commonly relevant to [Secure Development and Release Governance](../pra
 
 ### Code, firmware, update, and evidence signing
 
-[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)<br/>
+[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#anx_I)<br/>
 [SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=19)
 
 Signing can protect the integrity and origin of code, firmware, update packages, evidence records, and verifier results. In this handbook, a signature is useful when the verifier can connect it to the right signing authority, approval policy, artifact scope, and lifecycle decision.
@@ -53,7 +53,7 @@ Signing assurance depends on the concrete format, key type, certificate profile,
 ### Key management and hardware-backed key protection
 
 [SSDF PS.2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=19)<br/>
-[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)
+[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#anx_I)
 
 Key management and hardware-backed key protection control how sensitive keys are generated, stored, used, rotated, revoked, and retired. In this handbook, key protection supports assurance only when key use is governed, logged, and tied to the relevant release, update, identity, or evidence workflow.
 

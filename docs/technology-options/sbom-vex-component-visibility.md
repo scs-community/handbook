@@ -46,7 +46,7 @@ They are commonly relevant to [Software Component and Vulnerability Management](
 
 ### Software Bill of Materials (SBOM) / xBOM
 
-[CRA Annex I Part II (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)<br/>
+[CRA Annex I Part II (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#anx_I)<br/>
 [SSDF PW.4](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf#page=21)
 
 A Software Bill of Materials (SBOM) describes software components, while broader xBOM approaches may describe firmware, hardware, cryptographic assets, services, or other component types. In this handbook, BOM-style artifacts are transparency inputs, not proof that the listed components are safe, authentic, or acceptable.

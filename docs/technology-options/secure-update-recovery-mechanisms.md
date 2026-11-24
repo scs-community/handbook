@@ -46,7 +46,7 @@ They are commonly relevant to [Secure Updates and Lifecycle Monitoring](../pract
 
 ### Signed and authorized updates
 
-[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)<br/>
+[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#anx_I)<br/>
 [EN 304 623 § 5.5](https://www.etsi.org/deliver/etsi_en/304600_304699/304623/00.01.03_20/en_304623v000103ev.pdf#page=40)
 
 Signed and authorized update mechanisms help recipients verify that an update package came from an expected authority and has not changed unexpectedly. In this handbook, signed updates support assurance only when they are connected to release approval, eligibility checks, deployment evidence, and exception handling.
@@ -63,7 +63,7 @@ Update mechanisms may be implemented through product-specific firmware update sy
 
 ### Update eligibility checks
 
-[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120)
+[CRA Annex I Part II (7)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120#anx_I)
 
 Update eligibility checks decide whether a product, component, device, or platform should receive, apply, or continue using a specific update. In this handbook, eligibility evidence matters because the same update may be appropriate for one product state and unsafe or unsupported for another.
 
