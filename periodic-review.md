@@ -31,7 +31,7 @@ A run answers six questions in order. The report has one section for each.
 
 ### 1. What Is New?
 
-Check the watchlist for anything issued since the last report, or, for the first run, since 1 July 2026, the date on the current review lines. Look for:
+Check the watchlist for anything issued since the last report, or, for the first run, since 1 January 2026. Look for:
 
 - new or revised publications;
 - drafts that became final;
