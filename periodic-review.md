@@ -25,6 +25,7 @@ The [style guide](./style-guide.md) already covers sourcing, date format (`D Mon
 
 - **Same change**: When a development changes something the handbook states, the news post (if one is warranted) and every affected doc page change in the same run and the same commit. A post never announces a change that the reference pages do not yet reflect.
 - **Posts are snapshots**: News posts are not rechecked as current. Where a later development supersedes what a post reported, add an update note as the style guide describes. Do not rewrite the post body.
+- **Check whether a post's source was revised**: Advisories and incident reports often change after publication. Before writing a post, check when its primary source was last updated. If it was updated after the post's source date and the original text cannot be recovered, put any detail that may have been added later in the dated update note, not the body.
 - **Reference pages do not depend on posts**: Doc pages hold the lasting guidance and cite primary sources. They may route to `/blog/`, but they should not cite an individual post as the source for a claim.
 - **No review dates on pages**: Pages do not say when they were last reviewed or checked (see [Sourcing Rules](./style-guide.md#sourcing-rules)). The report is the record of what was checked and when. Remove any such text a run finds.
 
@@ -34,7 +35,7 @@ A run answers six questions in order. The report has one section for each.
 
 ### 1. What Is New?
 
-Check the watchlist for anything issued since the last report, or, for the first run, since 1 January 2026. Look for:
+Check the watchlist for anything issued since the run date of the last report in `reviews/`. Look for:
 
 - new or revised publications;
 - drafts that became final;
@@ -89,6 +90,8 @@ The watchlist has three parts.
 
 Treat aggregator coverage as a lead to a primary source, never as a source.
 
+Record every watchlist body in the report, one row each: what was checked and found, or could not verify with the reason. A body with no row counts as not checked, and the run is not complete until every body has a row.
+
 For each development, decide whether it changes anything the handbook states or should state.
 
 - **If it does**: Make every page change in the same run. If it also meets the style guide's tests for a news post, write the post.
@@ -116,7 +119,11 @@ Fetch each source and confirm two things:
 - It is the document cited.
 - What the citing pages say about it still holds, including title, version, status, publication or revision date, and any dates, obligations, or positions quoted.
 
-A landing page that shows status, version, and date is usually enough. Read the full text only where a page quotes or paraphrases it. For vendor product pages cited as technology examples, confirm that the product and the capability attributed to it still exist. Do not assess the product.
+A landing page that shows status, version, and date is usually enough. Read the full text only where a page quotes or paraphrases it.
+
+Check every deep link as well as the document. Where a citation names a clause, control, or article and links to a page or anchor (for example `#page=172` or `#art_13`), open that page or anchor and confirm it shows the cited clause. PDF `#page=` anchors count the file's pages, not the printed page numbers; in NIST SP 800-161 the file page is the printed page plus 14, and in the SSDF it is the printed page plus 9. EU regulations on EUR-Lex use `#art_N` for articles and `#anx_I` style anchors for annexes.
+
+For vendor product pages cited as technology examples, confirm that the product and the capability attributed to it still exist. Do not assess the product. Vendor product URLs change often, so when a link is replaced, prefer the vendor's stable product-family or category page to a single part number.
 
 Give each source one status:
 
@@ -127,6 +134,8 @@ Give each source one status:
 | **Replaced** | The URL is gone or now points elsewhere. The citation now points to the issuing body's own current copy. |
 | **Withdrawn** | The issuer has withdrawn or retired the document with no successor. The citing claims have been rewritten or removed, not just relinked. |
 | **Could not verify** | Not fetched this run. The reason is recorded: blocked, timed out, or no official copy found. |
+
+Status describes the source, not the handbook's citation of it. When the source has not changed but a citing page was wrong (for example a deep link to the wrong page, or a wrong clause number), the status is **Confirmed**, and the note starts with "Citation corrected" and says what changed.
 
 ### 3. Is It Still Current?
 
@@ -182,6 +191,14 @@ Apply dependency updates and keep each one only if both checks still pass:
 
 Record every update kept and reverted, with the reason for each revert, and any advisory that remains with why it could not be fixed.
 
+## Before Committing
+
+The lead checks the subagents' work before anything is committed:
+
+1. **Verify what subagents introduced.** Every date, version, edition, status, or quotation a subagent added or changed is checked against its source by the lead or a second agent. Subagents can mix up facts between similar sources, such as the dates of two publications from the same issuer.
+2. **Independent review of the diff.** A fresh agent that has not seen the run's reasoning reads the whole diff of `docs/` and `blog/` against the maintainer guides and this guide, and reports errors, inconsistencies between pages, and rule breaches. The run fixes what it confirms and records the rest in the report.
+3. **Report counts.** The report's summary is written once, from the final state, as a single table of counts.
+
 ## Fetching Sources
 
 Some publishers block automated requests, and which ones do varies by run and by network. EUR-Lex, NIST, ETSI, and the IEC webstore together account for most cited URLs, so a block from any of them affects many pages.
@@ -194,38 +211,50 @@ Some publishers block automated requests, and which ones do varies by run and by
   - a page whose title is not the cited document.
 
   Do not search the page body for words such as *captcha*, because pages that loaded correctly can contain them.
-- **Use the issuer's own alternative route**: Some issuers offer another official route to the same facts, such as a publication listing, a CELEX or ELI record on EUR-Lex, a DOI record, the NIST CSRC publication page, or an IETF Datatracker page. Confirming through such a route counts. A third-party copy, cache, or archive does not.
+- **Use the issuer's own alternative route**: Some issuers offer another official route to the same facts, such as a publication listing, a DOI record, the NIST CSRC publication page, or an IETF Datatracker page. Confirming through such a route counts. A third-party copy, cache, or archive does not. EUR-Lex often refuses automated requests; the Publications Office, which runs EUR-Lex, serves the same texts at `https://publications.europa.eu/resource/celex/<CELEX number>`, and that counts as the issuer's own route.
+- **Start with a plain first pass**: Before any agent reads sources, fetch every URL on the source list once, one request at a time with a pause between requests, and record the HTTP status, the final URL after redirects, and the page title. This shows redirects, `404`s, and blocked sites cheaply, so agents can spend their effort on content checks and hard cases. For example, with the source list saved as `sources.tsv`:
+
+  ```bash
+  while IFS=$'\t' read -r url pages; do
+    printf '%s\t' "$url"
+    curl -sSL -m 30 -o page.html -w '%{http_code}\t%{url_effective}\t' "$url"
+    title=$(grep -oiE '<title[^>]*>[^<]*' page.html | head -1 | sed -E 's/<title[^>]*>//')
+    printf '%s\n' "$title"
+    sleep 1.5
+  done < sources.tsv > first-pass.tsv
+  ```
 - **Paywalled standards**: For standards sold through a webstore (IEC, ISO), the publication page's edition, date, and status are the facts to confirm. Do not try to obtain the full text.
-- **Hand-check afterwards**: After the goal finishes, a maintainer opens each could-not-verify source in a browser. Claude records the result in the report as confirmed, updated, replaced, or withdrawn, with "checked by hand" in its note. Anything still unverified stays so.
+- **Hand-check afterwards**: After the goal finishes, Claude opens each could-not-verify source in a Chrome tab for the maintainer, listing vendor product pages first, because a page that looks blocked to automated requests is often gone or moved. With the maintainer's tabs open, Claude reads each page and records the result in the report as confirmed, updated, replaced, or withdrawn, with "checked by hand" in its note, and fixes any links that turn out to be broken. Anything still unverified stays so.
 - **A failed fetch is not evidence**: A source that cannot be fetched may still be correct, so the run never rewords or removes a claim only because its source could not be checked. The page stays as it is. The run changes a claim only when the source itself, a hand-check, or another official source from the same issuer shows that the claim is wrong, out of date, or withdrawn.
 - **Escalate what stays unverified**: List any source that could not be verified in two consecutive reports at the top of the next report, with the claim it supports. Look for another official copy from the same issuer. If none can be fetched, the source stays on the hand-check list until a maintainer checks it. Do not add a "last confirmed" date to the page.
 
 ## Running the Review
 
 1. Start Claude Code in the repository on an up-to-date `main`, in auto mode, so that permission prompts do not stop the run.
-2. Paste the goal below, replacing `YYYY-MM` with the year and month of the run.
-3. When the goal ends, read the closing summary and the report. Then hand-check the could-not-verify sources, and ask Claude to record the results in the report.
+2. Paste the goal below as it is. The run takes the year and month from today's date.
+3. When the goal ends, read the closing summary and the report. Then ask Claude to open the could-not-verify sources in Chrome, check them in your browser, and let Claude record the results and fix what is broken.
 4. Review the diff and the decisions, checking each flagged obligation change against its source. Revert any decision you disagree with, then push the branch and open a pull request yourself.
 
 ### The Goal
 
 ```text
-/goal The YYYY-MM periodic review in periodic-review.md is complete. Steps: (1) Create branch review/YYYY-MM from main before any edit. (2) Create reviews/YYYY-MM.md with the sections in periodic-review.md and fill each section as you work, so the report is the record if the session compacts or resumes. (3) Build the source list with the command in periodic-review.md and give every listed source exactly one status (confirmed, updated, replaced, withdrawn, or could not verify with a reason), fetching politely and never bypassing bot protection. (4) Check the watchlist in periodic-review.md for developments since the last report. (5) Review every page under docs/, split by sidebar section across subagents if useful; fix what is wrong, out of date, or inconsistent, make the relevance changes you judge necessary under the guide that owns each, record every decision with its reason, and list every change to a legal or regulatory obligation or date, and every guide edit, separately. (6) Write any news posts and update notes that new developments need, following style-guide.md. (7) Apply dependency updates as periodic-review.md describes, reverting any that fail. Run npm run typecheck and npm run build, and fix failures. (8) Confirm the current branch is review/YYYY-MM, then commit all changes. Do not push. Done when your final message, in one turn, shows: the branch name; the number of sources listed and the count for each status; doc pages reviewed out of the total; the number of new developments, page changes, flagged obligation changes, posts, relevance decisions, and dependency updates kept and reverted; both commands with exit code 0 from this session; and the commit hash. Stop and report what remains if not done after 40 turns.
+/goal This month's periodic review in periodic-review.md is complete, where YYYY-MM below is the year and month of today's date. Steps: (1) Create branch review/YYYY-MM from main before any edit. (2) Create reviews/YYYY-MM.md with the sections in periodic-review.md and fill each as you work, so the report is the record if the session compacts or resumes. (3) Build the source list with the command in periodic-review.md, run the plain first pass, and give every listed source exactly one status (confirmed, updated, replaced, withdrawn, or could not verify with a reason), checking deep links as well as documents, fetching politely and never bypassing bot protection. (4) Check every watchlist body in periodic-review.md for developments since the last report, with one report row per body. (5) Review every page under docs/, split by sidebar section across subagents if useful, each owning its own files; fix what is wrong, out of date, or inconsistent, make the relevance changes you judge necessary under the guide that owns each, record every decision with its reason, and list every change to a legal or regulatory obligation or date, and every guide edit, separately. (6) Write any news posts and update notes that new developments need, following style-guide.md. (7) Apply dependency updates as periodic-review.md describes, reverting any that fail. (8) Do the Before Committing checks: verify what subagents introduced, have a fresh agent review the diff, and fix what it confirms. Then run npm run typecheck and npm run build, and fix failures. (9) Confirm the current branch is review/YYYY-MM, then commit all changes. Do not push. Done when your final message, in one turn, shows: the branch name; the number of sources listed and the count for each status; watchlist bodies checked out of the total; doc pages reviewed out of the total; the number of new developments, page changes, flagged obligation changes, guide edits, posts, relevance decisions, and dependency updates kept and reverted; the independent review's findings and what was done about each; both commands with exit code 0 from this session; and the commit hash. Stop and report what remains if not done after 40 turns.
 ```
 
-The goal stays under the 4,000-character limit. The evaluator that decides whether a goal is met reads only the conversation, not files, so the final message must show the evidence itself. The first run used an earlier version of this goal that left relevance changes as proposals; this version has not been run yet. Adjust it here after its first run.
+The goal stays under the 4,000-character limit. The evaluator that decides whether a goal is met reads only the conversation, not files, so the final message must show the evidence itself. The first run (November 2026) used an earlier version of this goal; this version adds the lessons from that run and has not been run yet. Adjust it here after its first run.
 
 ## The Report
 
 Each run writes `reviews/YYYY-MM.md`, which is the review log. The report is not part of the site, because Docusaurus builds only `docs/`, `blog/`, and `src/pages/`, and nothing on the site links to it. The report contains these items, in order:
 
-1. The run date, the branch, the commit, and the closing summary counts.
+1. The run date, the branch, and one table of summary counts written from the final state. The commit hash goes in the closing message, not the report, so the report does not need a follow-up commit.
 2. Any sources that could not be verified in the previous report as well as this one.
 3. The changes to legal or regulatory obligations and dates, each with its source, for the reviewer to check.
 4. The changes to maintainer guides, each with its reason.
 5. One section for each of the six questions. Sources go in a table of URL, citing pages, status, and note. Pages are listed by sidebar section.
 6. The relevance decisions, each with what was considered, what was decided, the reason, the source, and the pages changed.
 7. The dependency updates kept and reverted, and any advisories that remain.
-8. The hand-check results, added after the goal ends.
+8. The independent review's findings and what was done about each.
+9. The hand-check results, added after the goal ends.
 
 Never rewrite an earlier report. Correct it in the next one.
