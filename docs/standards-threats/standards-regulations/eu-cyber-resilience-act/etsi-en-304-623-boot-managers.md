@@ -10,7 +10,7 @@ For this handbook, the useful question is not only whether a boot manager implem
 
 :::info[Source status]
 
-This page is based on draft ETSI EN 304 623 V0.1.3, dated June 2026, and the public ETSI work item context available at the time of review. The draft states that it was submitted for the combined Public Enquiry and Vote phase of ETSI's Standardisation Request deliverable Approval Procedure (SRdAP), and it may change before publication or citation as a harmonized standard. On 24 November 2026, the ETSI work item showed the status "Draft Review after PE" (19 November 2026), with V0.1.3 still the latest version. It was last reviewed against the linked official ETSI sources on 24 November 2026. This page is an interpretive supply chain security mapping, not legal or conformity assessment advice.
+This page is based on draft ETSI EN 304 623 V0.1.3, dated June 2026, and the public ETSI work item. The draft states that it was submitted for the combined Public Enquiry and Vote phase of ETSI's Standardisation Request deliverable Approval Procedure (SRdAP), and it may change before publication or citation as a harmonized standard. The ETSI work item has been at the status "Draft Review after PE" since 19 November 2026, and V0.1.3 is the latest version. This page is an interpretive supply chain security mapping, not legal or conformity assessment advice.
 
 :::
 

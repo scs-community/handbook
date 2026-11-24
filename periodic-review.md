@@ -23,7 +23,7 @@ The [style guide](./style-guide.md) already covers sourcing, date format (`D Mon
 - **Same change**: When a development changes something the handbook states, the news post (if one is warranted) and every affected doc page change in the same run and the same commit. A post never announces a change that the reference pages do not yet reflect.
 - **Posts are snapshots**: News posts are not rechecked as current. Where a later development supersedes what a post reported, add an update note as the style guide describes. Do not rewrite the post body.
 - **Reference pages do not depend on posts**: Doc pages hold the lasting guidance and cite primary sources. They may route to `/blog/`, but they should not cite an individual post as the source for a claim.
-- **Review lines**: Each page under `docs/standards-threats/standards-regulations/` carries a sentence saying when it was last reviewed against its official sources. The run updates that date only when every source the page cites is confirmed, updated, or replaced in this run. Otherwise the page keeps its earlier date. Write the date as `D Month YYYY`.
+- **No review dates on pages**: Pages do not say when they were last reviewed or checked (see [Sourcing Rules](./style-guide.md#sourcing-rules)). The report is the record of what was checked and when. Remove any such text a run finds.
 
 ## What a Run Covers
 
@@ -132,9 +132,8 @@ Read every page for text that time alone has made wrong:
 - deadlines, application dates, comment periods, and expected publication dates that are now in the past;
 - words such as *recently*, *new*, *upcoming*, *this year*, *next year*, *currently*, *draft*, and *expected* that no longer hold at the run date;
 - dates in the worked examples, the evidence package template, and the evidence maturity model that are presented as still to come but are now past;
-- threat pages that describe an incident or technique as current when it has since been resolved or superseded.
-
-Update the review lines on the standards pages as described in [Rules This Review Applies](#rules-this-review-applies). Add a review line to any standards page that lacks one.
+- threat pages that describe an incident or technique as current when it has since been resolved or superseded;
+- "last reviewed", "last checked", "as of [date]" and similar text, which the style guide does not allow on reference pages. Remove it, and restate the status it qualified in the present tense.
 
 ### 4. Is It Consistent?
 
@@ -184,7 +183,7 @@ Some publishers block automated requests, and which ones do varies by run and by
 - **Use the issuer's own alternative route**: Some issuers offer another official route to the same facts, such as a publication listing, a CELEX or ELI record on EUR-Lex, a DOI record, the NIST CSRC publication page, or an IETF Datatracker page. Confirming through such a route counts. A third-party copy, cache, or archive does not.
 - **Paywalled standards**: For standards sold through a webstore (IEC, ISO), the publication page's edition, date, and status are the facts to confirm. Do not try to obtain the full text.
 - **Hand-check afterwards**: After the goal finishes, a maintainer opens each could-not-verify source in a browser. Claude records the result in the report as confirmed, updated, replaced, or withdrawn, with "checked by hand" in its note. Anything still unverified stays so.
-- **Escalate what stays unverified**: List any source that could not be verified in two consecutive reports at the top of the next report. Look for another official copy from the same issuer. If none can be checked, add "last confirmed on [date]" next to the claim on the page, so that the handbook never presents an unchecked claim as current.
+- **Escalate what stays unverified**: List any source that could not be verified in two consecutive reports at the top of the next report. Look for another official copy from the same issuer. If none can be checked, add a proposal to reword the claim so that it no longer depends on that source, or to remove it. Do not add a "last confirmed" date to the page.
 
 ## Running the Review
 

@@ -13,7 +13,7 @@ This page focuses only on the parts of SSDF that drive supply chain security con
 
 :::info[Source status]
 
-This page is based on NIST SP 800-218, SSDF Version 1.1 final, and was last reviewed against the official NIST publication page on 24 November 2026. NIST has also published SP 800-218 Rev. 1 / SSDF Version 1.2 as an initial public draft. Treat draft material as informative unless a customer, procurement requirement, or mapping explicitly calls for it.
+This page is based on NIST SP 800-218, SSDF Version 1.1 final. NIST has also published SP 800-218 Rev. 1 / SSDF Version 1.2 as an initial public draft. Treat draft material as informative unless a customer, procurement requirement, or mapping explicitly calls for it.
 
 :::
 

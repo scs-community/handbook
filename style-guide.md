@@ -85,6 +85,7 @@ This style guide governs editorial voice and content structure. The brand guide 
 - Avoid saying a standard requires something unless the source clearly says so.
 - Include publication date or version where relevant.
 - Keep further reading curated, not exhaustive.
+- Do not add "last reviewed", "last checked", "last updated", or "as of [date]" text to reference pages. Such dates go stale while the page stays the same, and they suggest the page is only reliable up to that date. The [periodic review](periodic-review.md) keeps pages current, and its reports in `reviews/` record what was checked and when. State current status in the present tense ("is a draft", "has not been adopted"). Dates of events are fine, such as when a document was published, a proposal was made, or an obligation applies. News posts are different, because they are dated snapshots by design (see [Updates And Corrections](#updates-and-corrections)).
 
 ## Content Quality Tests
 

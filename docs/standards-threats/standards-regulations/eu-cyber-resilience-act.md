@@ -15,7 +15,7 @@ This page focuses only on the parts of CRA that drive supply chain security cont
 
 :::info[Source status]
 
-This page is based on Regulation (EU) 2024/2847 and related European Commission CRA guidance listed below. It was last reviewed against the linked official sources on 24 November 2026. It interprets supply chain security implications for this handbook and is not a complete legal compliance guide.
+This page is based on Regulation (EU) 2024/2847 and related European Commission CRA guidance listed below. It interprets supply chain security implications for this handbook and is not a complete legal compliance guide.
 
 :::
 
