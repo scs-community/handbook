@@ -65,10 +65,24 @@ const config: Config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/blog/tags/**', '/blog/archive/**', '/blog/authors/**'],
+          ignorePatterns: ['/search/**', '/blog/tags/**', '/blog/archive/**', '/blog/authors/**'],
           filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        indexDocs: true,
+        // Blog posts are dated snapshots, so site search stays on the reference pages.
+        indexBlog: false,
+        docsRouteBasePath: '/',
+      },
     ],
   ],
 

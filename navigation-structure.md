@@ -12,6 +12,8 @@ The top navigation should stay restrained. The site title/logo acts as the home 
 4. Resources
 5. GitHub
 
+The search box that `@easyops-cn/docusaurus-search-local` adds to the navbar is not a navigation item. It indexes the handbook pages only, not blog posts, because posts are dated snapshots. The `/search/` results page is kept out of the sitemap and marked `noindex`.
+
 Do not put the 10 Best Practices page or individual practice pages in top navigation. Practices live inside Practices & Controls because they describe recurring operating activities. The 10 Best Practices page belongs inside Practices & Controls as the synthesis and anchor page.
 
 Do not use standards-body names as top-level navigation labels. Topics such as TCG, GlobalPlatform, attestation, SBOM, TPM, DICE, and TEE should appear inside standards and threats, practices and controls, technology-options, or resources pages.
